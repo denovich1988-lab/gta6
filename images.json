@@ -1,0 +1,15 @@
+{
+  "_note": "Original illustrations generated for this site. scripts/fetch-images.mjs downloads any that are missing from assets/img and converts them to WebP.",
+  "base": "https://assets.animx.ai/gen/a8600779-0fcc-4dd3-88c6-21688f0415da/",
+  "images": {
+    "hero": { "id": "78d84f03-2eb8-461f-b86c-068fdbff81b0", "alt": "Illustration of a neon beach city skyline at sunset seen from the water" },
+    "vice-city": { "id": "358dc77a-d303-4f44-b15f-2037824d0a10", "alt": "Illustration of a neon-lit art deco street at night with a parked convertible" },
+    "keys": { "id": "f80b5459-d6d5-46ba-8bc9-6e523b3f21af", "alt": "Illustration of tropical islands linked by a long bridge over turquoise water" },
+    "grassrivers": { "id": "c5a08bfc-6c48-4a6c-bc6b-61630e293c66", "alt": "Illustration of an airboat crossing a swamp at dusk with an alligator in the foreground" },
+    "port": { "id": "f839aaae-9255-4a8a-affc-5a43785e6326", "alt": "Illustration of a faded coastal town with motels and a pier at twilight" },
+    "ambrosia": { "id": "85248da1-7852-476b-84bc-758ad5cd2511", "alt": "Illustration of an industrial town with a sugar refinery and cane fields at sunset" },
+    "kalaga": { "id": "09ddf23c-edfc-4884-bd91-11bb01cad772", "alt": "Illustration of forested hills and a river in a national park at dawn" },
+    "cars": { "id": "33f4c7eb-6c97-4ad5-bb30-72281b38e927", "alt": "Illustration of a supercar, a muscle car and a motorcycle on a beach road at sunset" }
+  },
+  "sections": { "missions": "vice-city", "map": "keys", "characters": "port", "vehicles": "cars", "weapons": "ambrosia", "cheats": "grassrivers", "buying": "hero", "pc": "kalaga", "online": "vice-city", "news": "hero" }
+}

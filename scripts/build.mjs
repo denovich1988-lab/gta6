@@ -20,6 +20,10 @@ const fill = (t) => String(t).replaceAll('{{SITE}}', site.name).replaceAll('{{UR
 const marked = new Marked();
 const secName = (k) => site.sections[k]?.name || k;
 
+const IMG = fs.existsSync(path.join(ROOT, 'images.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'images.json'), 'utf8')) : { images: {}, sections: {} };
+const hasImg = (n) => n && fs.existsSync(path.join(ROOT, 'assets', 'img', `${n}.webp`));
+const img = (n, cls, eager = false) => hasImg(n) ? `<img class="${cls}" src="/assets/img/${n}-800.webp" srcset="/assets/img/${n}-800.webp 800w, /assets/img/${n}.webp 1600w" sizes="${cls.includes('hero') || cls.includes('banner') ? '100vw' : '(max-width: 640px) 100vw, 380px'}" width="1600" height="900" alt="${esc(IMG.images[n]?.alt || '')}" ${eager ? 'fetchpriority="high"' : 'loading="lazy" decoding="async"'}>` : '';
+const secImg = (k) => IMG.sections[k];
 const ORG_ID = `${SITE_URL}/#organization`;
 const WEB_ID = `${SITE_URL}/#website`;
 const OG = `${SITE_URL}/assets/og.png`;
@@ -123,7 +127,7 @@ ${body.replace('<!--CRUMBS-->', crumbsNav(crumbs))}
 }
 
 const STATUS = { confirmed: 'Confirmed', partly: 'Partly confirmed', unconfirmed: 'Not confirmed yet', live: 'Updated from launch' };
-const card = (g) => `<li class="card"><a href="/${g.section}/${g.slug}/"><span class="card__sec">${esc(secName(g.section))}</span><h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="card__meta">Updated ${fmtDate(g.updated)}</span></a></li>`;
+const card = (g) => `<li class="card"><a href="/${g.section}/${g.slug}/">${img(g.image || secImg(g.section), 'card__img')}<span class="card__body"><span class="card__sec">${esc(secName(g.section))}</span><h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="card__meta">Updated ${fmtDate(g.updated)}</span></span></a></li>`;
 const itemList = (name, items) => ({ '@type': 'ItemList', name, numberOfItems: items.length, itemListElement: items.slice(0, 100).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}/${g.section}/${g.slug}/`, name: g.title })) });
 
 function guidePage(g, guides) {
@@ -142,6 +146,7 @@ function guidePage(g, guides) {
       <div><dt>By</dt><dd><a href="/about/">${esc(site.name)} team</a></dd></div>
     </dl>
   </header>
+  ${hasImg(g.image || secImg(g.section)) ? `<div class="wrap"><figure class="banner">${img(g.image || secImg(g.section), 'banner__img', true)}<figcaption>Illustration by ${esc(site.name)}, not a screenshot from the game.</figcaption></figure></div>` : ''}
   <div class="wrap guide__body">
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">Quick answer</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
     <div class="prose">${g.html}</div>
@@ -196,18 +201,19 @@ function home(guides) {
     { q: `Is ${site.name} an official Rockstar site?`, a: `No. ${site.name} is an independent fan site. We are not affiliated with Rockstar Games or Take-Two Interactive.` },
   ];
   const body = `
-<section class="hero">
-  <div class="wrap">
+<section class="hero hero--home${hasImg('hero') ? ' hero--img' : ''}">
+  ${img('hero', 'hero__bg', true)}
+  <div class="wrap hero__content">
     <p class="hero__kicker">Unofficial GTA 6 guide</p>
     <h1>GTA 6 missions, map and walkthroughs</h1>
     <p class="lede">${esc(site.description)}</p>
     <div class="hero__cta"><a class="btn" href="/missions/">Mission walkthroughs</a><a class="btn btn--ghost" href="/map/">Explore the map</a></div>
   </div>
-  <div class="horizon" aria-hidden="true"></div>
+  ${hasImg('hero') ? '' : '<div class="horizon" aria-hidden="true"></div>'}
 </section>
 <section class="wrap sections" aria-labelledby="sec-h">
   <h2 id="sec-h">Browse the guide</h2>
-  <ul class="tiles">${Object.entries(site.sections).map(([k, s]) => `<li><a class="tile" href="/${k}/"><span class="tile__name">${esc(s.name)}</span><span class="tile__count">${((n) => `${n} guide${n === 1 ? '' : 's'}`)(guides.filter((g) => g.section === k).length)}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
+  <ul class="tiles">${Object.entries(site.sections).map(([k, s]) => `<li><a class="tile" href="/${k}/">${img(secImg(k), 'tile__img')}<span class="tile__name">${esc(s.name)}</span><span class="tile__count">${((n) => `${n} guide${n === 1 ? '' : 's'}`)(guides.filter((g) => g.section === k).length)}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
 </section>
 ${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">Start here</h2><ul class="cards">${featured.map(card).join('')}</ul></section>` : ''}
 <section class="wrap more" aria-labelledby="new-h"><h2 id="new-h">Latest guides</h2><ul class="cards">${guides.slice(0, 12).map(card).join('')}</ul><p class="all"><a class="btn btn--ghost" href="/guides/">All ${guides.length} guides</a></p></section>

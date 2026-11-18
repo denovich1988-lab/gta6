@@ -160,3 +160,28 @@ h1, h2, h3 { font-family: var(--display); font-weight: 800; text-transform: uppe
   .foot__grid { grid-template-columns: 1fr 1fr; } .foot__grid > div { grid-column: 1 / -1; }
   .btn { flex: 1; justify-content: center; }
 }
+
+/* ---------- illustrations ---------- */
+.hero--img { padding: 0; min-height: min(78vh, 720px); display: flex; align-items: flex-end; }
+.hero__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero--img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,15,38,.15) 0%, rgba(20,15,38,.55) 45%, var(--night) 100%), linear-gradient(90deg, rgba(20,15,38,.75), transparent 70%); }
+.hero--img .hero__content { position: relative; z-index: 1; padding-block: clamp(120px, 20vh, 220px) clamp(36px, 6vw, 64px); }
+.hero--img h1 { text-shadow: 0 2px 30px rgba(20,15,38,.6); }
+.hero--img .lede { color: var(--sand); }
+.tile { position: relative; overflow: hidden; padding: 0; gap: 0; }
+.tile__img { width: 100%; height: 120px; object-fit: cover; display: block; transition: transform .4s ease; }
+.tile:hover .tile__img, .card a:hover .card__img { transform: scale(1.05); }
+.tile__name { padding: 14px 16px 0; } .tile__count { padding: 2px 16px 0; } .tile__desc { padding: 4px 16px 16px; }
+.tile:not(:has(img)) { padding-top: 6px; }
+.card a { padding: 0; overflow: hidden; gap: 0; }
+.card__img { width: 100%; aspect-ratio: 16 / 8; height: auto; object-fit: cover; display: block; transition: transform .4s ease; }
+.card__body { display: flex; flex-direction: column; gap: 8px; padding: 18px 20px 20px; flex: 1; }
+.banner { margin: 28px 0 0; }
+.banner__img { width: 100%; height: auto; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 18px; display: block; border: 1px solid var(--line); }
+.banner figcaption { margin-top: 8px; font-size: 13.5px; color: var(--sand-3); }
+.sections h2, .more h2 { display: flex; align-items: center; gap: 14px; }
+.sections h2::before, .more h2::before { content: ""; width: 10px; height: 34px; border-radius: 3px; background: linear-gradient(var(--orange), var(--pink)); }
+.card a, .tile { box-shadow: 0 10px 30px -18px rgba(0,0,0,.8); }
+@media (prefers-reduced-motion: reduce) { .tile__img, .card__img { transition: none; } }
+@media (max-width: 640px) { .tile__img { height: 84px; } .tile__name { font-size: 22px; padding: 10px 12px 0; } .tile__count { padding: 2px 12px 12px; } .banner__img { aspect-ratio: 16 / 9; border-radius: 12px; } .hero--img { min-height: 68vh; } }
+.tile { display: flex; flex-direction: column; }
