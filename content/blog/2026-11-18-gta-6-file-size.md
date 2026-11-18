@@ -2,6 +2,7 @@
 title: "GTA 6 File Size: How Many GB on PS5 and Xbox"
 seoTitle: "GTA 6 File Size: 212 GB on PS5, 210 GB on Xbox"
 description: "GTA 6 needs up to 212 GB of free space. Here is the file size on PS5 and Xbox Series X|S, why boxed copies still download, and how to make room."
+image: g-file-size
 date: 2026-11-18
 status: confirmed
 summary:

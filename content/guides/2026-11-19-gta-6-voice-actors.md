@@ -2,6 +2,7 @@
 title: "GTA 6 Voice Actors: Who Plays Lucia and Jason"
 seoTitle: "GTA 6 Voice Actors and Cast: Lucia and Jason"
 description: "GTA 6 voice actors confirmed so far: Manni L. Perez plays Lucia Caminos. Here is what is known about Jason Duval and the rest of the cast."
+image: g-voice-actors
 section: characters
 date: 2026-11-19
 status: partly

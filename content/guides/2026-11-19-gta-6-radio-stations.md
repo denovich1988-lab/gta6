@@ -2,6 +2,7 @@
 title: "GTA 6 Radio Stations: Every Station, Host and Genre"
 seoTitle: "GTA VI Radio Stations: Full List, Hosts and Genres"
 description: "The GTA VI radio stations confirmed so far: Flash FM, Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber 106.6 and Dirty South Classics, with hosts."
+image: g-radio-stations
 section: news
 date: 2026-11-19
 status: partly

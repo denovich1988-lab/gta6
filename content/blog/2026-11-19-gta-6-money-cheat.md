@@ -2,6 +2,7 @@
 title: "GTA 6 Money Cheat: The $250,000 Code and How to Unlock It"
 seoTitle: "GTA 6 Money Cheat: $250,000 Code for PS5 and Xbox"
 description: "The GTA 6 money cheat gives $250,000: Up, Right, Down, Left, Up, Left, Down, Right. How to unlock it, how to enter it and what it switches off."
+image: g-money-cheat
 date: 2026-11-19
 status: partly
 summary:

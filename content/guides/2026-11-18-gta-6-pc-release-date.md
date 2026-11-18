@@ -2,6 +2,7 @@
 title: "GTA 6 PC Release Date: What Is Confirmed"
 seoTitle: "GTA 6 PC Release Date: Will GTA 6 Be on PC?"
 description: "GTA 6 is not on PC at launch. Here is what Rockstar and Take-Two have said, how long earlier PC ports took, and what to expect for system requirements."
+image: g-pc-release-date
 section: pc
 date: 2026-11-18
 status: unconfirmed

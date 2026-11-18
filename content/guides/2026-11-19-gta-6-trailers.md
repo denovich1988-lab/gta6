@@ -2,6 +2,7 @@
 title: "GTA 6 Trailers: Trailer 1, Trailer 2 and the Extended Look"
 seoTitle: "GTA 6 Trailer 3 and Every Official Trailer"
 description: "Every official GTA 6 trailer in order: Trailer 1, Trailer 2 and the 2026 Extended Look that took the place of Trailer 3, with dates and what each showed."
+image: g-trailers
 section: news
 date: 2026-11-19
 status: confirmed

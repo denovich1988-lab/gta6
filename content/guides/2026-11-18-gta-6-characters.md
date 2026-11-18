@@ -2,6 +2,7 @@
 title: "GTA 6 Characters: Every Confirmed Name"
 seoTitle: "GTA 6 Characters: Full Confirmed Cast List"
 description: "All GTA 6 characters confirmed by Rockstar: protagonists Jason Duval and Lucia Caminos, plus Cal Hampton, Boobie Ike, Raul Bautista and more."
+image: g-characters
 section: characters
 date: 2026-11-18
 status: confirmed

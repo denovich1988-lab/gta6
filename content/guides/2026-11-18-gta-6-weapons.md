@@ -2,6 +2,7 @@
 title: "GTA 6 Weapons: What Is Confirmed"
 seoTitle: "GTA 6 Weapons and Guns: Confirmed List"
 description: "What is known about GTA 6 weapons and guns before launch, and how our verified weapons list will work."
+image: g-weapons
 section: weapons
 date: 2026-11-18
 status: partly

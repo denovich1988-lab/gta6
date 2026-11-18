@@ -2,6 +2,7 @@
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
 description: "The GTA 6 mission list in story order, with a walkthrough for each mission as we verify it. Here is how the list works and what is known so far."
+image: g-mission-list
 section: missions
 date: 2026-11-18
 status: live

@@ -2,6 +2,7 @@
 title: "GTA 6 Age Rating: ESRB M, PEGI 18 and What It Means"
 seoTitle: "GTA 6 Age Rating: How Old to Play (ESRB, PEGI)"
 description: "GTA 6 is rated M for Mature 17+ by the ESRB and PEGI 18 in Europe. The content descriptors, ratings by region and what parents should know."
+image: g-age-rating
 section: buying
 date: 2026-11-19
 status: confirmed

@@ -3,6 +3,7 @@ title: "Port Gellhorn in GTA 6: Location Guide"
 seoTitle: "Port Gellhorn GTA 6: Location and What Is There"
 description: "Port Gellhorn in GTA 6 is a faded coastal town on Leonida's forgotten coast. Where it is, what Rockstar has shown and what to do there."
 slug: port-gellhorn-gta-6
+image: g-port-gellhorn
 section: map
 date: 2026-11-19
 status: partly

@@ -2,6 +2,7 @@
 title: "GTA 6 Ultimate Edition: What You Get for $99.99"
 seoTitle: "GTA 6 Ultimate Edition: Contents and Price"
 description: "The GTA 6 Ultimate Edition costs $99.99 and adds 16 extra in-game items to the full game. What is included, and whether it is worth the extra $20."
+image: g-ultimate-edition
 section: buying
 date: 2026-11-19
 status: confirmed

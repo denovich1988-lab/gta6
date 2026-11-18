@@ -2,6 +2,7 @@
 title: "GTA 6 Price and Editions: Standard vs Ultimate"
 seoTitle: "GTA 6 Price: Standard vs Ultimate Edition Compared"
 description: "How much GTA 6 costs, what the Ultimate Edition adds, and what the Vintage Vice City pre-order bonus includes."
+image: g-price-editions
 section: buying
 date: 2026-11-18
 status: confirmed

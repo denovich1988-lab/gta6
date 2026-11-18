@@ -2,6 +2,7 @@
 title: "GTA 6 Pre-Order Bonus: Vintage Vice City Pack"
 seoTitle: "GTA 6 Pre-Order Bonus: Vintage Vice City Pack"
 description: "The GTA 6 pre-order bonus is the Vintage Vice City Pack: a '55 Vapid Stanier, a garage, outfits and a weapon pattern. Who gets it and the deadline."
+image: g-vintage-vice-city-pack
 section: buying
 date: 2026-11-19
 status: confirmed

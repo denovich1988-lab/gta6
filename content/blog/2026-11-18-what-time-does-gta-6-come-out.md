@@ -2,6 +2,7 @@
 title: "What Time Does GTA 6 Come Out? Launch and Pre-Load Times"
 seoTitle: "What Time Does GTA 6 Come Out? Launch Times"
 description: "GTA 6 unlocks at midnight local time on November 19, 2026 on PS5 and Xbox Series X|S. Launch times by region, pre-load times and what to do first."
+image: g-what-time-does-come-out
 date: 2026-11-18
 status: confirmed
 summary:

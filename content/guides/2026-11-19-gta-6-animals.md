@@ -2,6 +2,7 @@
 title: "GTA 6 Animals: Wildlife Confirmed in Leonida"
 seoTitle: "GTA 6 Animals: Every Confirmed Wildlife Species"
 description: "GTA 6 animals confirmed so far: more than 170 species in Leonida, including alligators, flamingos, manatees, sharks, deer and over 60 kinds of birds."
+image: g-animals
 section: map
 date: 2026-11-19
 status: partly

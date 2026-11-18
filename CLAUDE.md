@@ -25,9 +25,11 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
 - Interface texts are in `i18n/ui.json`. Language list is in `site.config.json` → `languages`.
 
 ## Illustrations (Animx, at most 10 a day)
-- Generate an image only when a new guide or post really needs its own picture (a new mission, location, vehicle class or topic that no existing image fits). Otherwise the section image is used automatically. Hard limit: 10 generated images per day in total.
-- Use the Animx connector (`generate_image`, 16:9, then `get_generation` until it is ready). Style: stylised digital illustration, dusk/neon Florida mood matching the site. Never depict Rockstar characters, logos, box art, real people or anything that imitates a screenshot.
-- Add it to `images.json` → `images` as `"short-name": { "id": "<generation id>", "alt": "Illustration of …" }` (the file URL is `base` + id + `/output.png`; if Animx returns a different URL pattern, skip the image) and set `image: short-name` in the English front matter. CI downloads and converts it on push. Translations reuse it.
+- Every page gets its own picture; a picture is never reused on another page or section (owner's rule). Pages without their own picture show a styled placeholder automatically, never another page's image.
+- Each day generate pictures for the new pages, up to 10 in total (guides first, then blog posts). Pages over the limit keep the placeholder and get a picture on a later day, oldest first.
+- Use the Animx connector (`generate_image`, aspectRatio 16:9; at most 8 can render at once). Style: "Stylised cinematic digital painting", dusk/neon Florida mood, pink orange and teal palette, "no text, no logos". Each prompt must describe a different scene from every existing one (check the `alt` texts in `images.json`).
+- Never depict Jason, Lucia or any other Rockstar character, real people, recognisable faces, Rockstar logos, box art, or anything that imitates a screenshot. Places, vehicles, objects and anonymous small silhouettes only.
+- Add it to `images.json` → `images` as `"g-short-name": { "id": "<generation id>", "alt": "Illustration of …" }` (the file URL is `base` + id + `/output.png`; if Animx returns a different URL pattern, skip the image) and set `image: g-short-name` in the English front matter. CI downloads and converts it on push. Translations reuse it.
 
 ## Cheats and codes
 - A cheat code goes on `gta-6-cheats` only when at least two independent sources show the same inputs (or Rockstar publishes it). List the unlock condition too. Keep `status: partly` until codes are tested in the released game. Add newly published codes each day and bump `updated`.

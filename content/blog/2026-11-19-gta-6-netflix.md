@@ -2,6 +2,7 @@
 title: "GTA 6 on Netflix: What the Extended Look Is"
 seoTitle: "GTA 6 Netflix: Extended Look Explained"
 description: "Why people search for GTA 6 on Netflix: the Extended Look gameplay video premiered there on August 27, 2026. What it is and where to watch it now."
+image: g-netflix
 date: 2026-11-19
 status: confirmed
 summary:

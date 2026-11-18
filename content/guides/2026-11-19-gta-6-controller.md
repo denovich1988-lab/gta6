@@ -2,6 +2,7 @@
 title: "GTA 6 Controller: Limited Edition PS5 DualSense"
 seoTitle: "GTA 6 Controller: PS5 DualSense Price and Bundle"
 description: "The GTA 6 controller is a limited edition PS5 DualSense in black or white for $84.99. Price by region, where to buy it, and whether a PS5 bundle exists."
+image: g-controller
 section: buying
 date: 2026-11-19
 status: confirmed

@@ -33,6 +33,162 @@
     "cars": {
       "id": "33f4c7eb-6c97-4ad5-bb30-72281b38e927",
       "alt": "Illustration of a supercar, a muscle car and a motorcycle on a beach road at sunset"
+    },
+    "g-what-time-does-come-out": {
+      "id": "4a659fee-86b2-4f69-a92e-6e6eec5459ef",
+      "alt": "Illustration of a retro digital clock at midnight above a neon beach city"
+    },
+    "g-file-size": {
+      "id": "96d90059-0aed-49f6-8f49-6d632ceccb65",
+      "alt": "Illustration of a game console beside glowing stacks of storage drives"
+    },
+    "g-60-fps": {
+      "id": "1731ee2e-95d1-4517-bb4d-406401cc92ee",
+      "alt": "Illustration of a sports car with light trails on a coastal highway at night"
+    },
+    "g-budget": {
+      "id": "77f9d49c-df04-4490-af15-9071988ef33c",
+      "alt": "Illustration of a studio desk with storyboards, city plans and banknotes"
+    },
+    "g-delays": {
+      "id": "47515e3c-aeb5-4228-b8ea-f8f147b9fb5e",
+      "alt": "Illustration of calendar pages blowing across a beach at sunset"
+    },
+    "g-money-cheat": {
+      "id": "1b318051-9812-4dad-8c4c-333c9e501917",
+      "alt": "Illustration of a briefcase of cash on a convertible under neon light"
+    },
+    "g-netflix": {
+      "id": "42bb4a2f-4714-442d-ad61-c90668d5be25",
+      "alt": "Illustration of a dark living room lit by a large TV screen"
+    },
+    "g-cars": {
+      "id": "76a1111b-de8b-4955-9e9b-693bb58c3d71",
+      "alt": "Illustration of muscle cars and sports cars in a beachfront parking lot at dusk"
+    },
+    "sec-online": {
+      "id": "6868d2a3-efe9-46d2-8e12-587973f22198",
+      "alt": "Illustration of a night car meet in a beachfront parking lot"
+    },
+    "g-characters": {
+      "id": "86de2666-0cdb-449d-af07-b85b369e4bc6",
+      "alt": "Illustration of a busy beach boardwalk crowd at sunset"
+    },
+    "g-cheats": {
+      "id": "32522714-4c2e-42b9-ab7d-65d01f7d9ce9",
+      "alt": "Illustration of a glowing game controller directional pad"
+    },
+    "g-crossplay": {
+      "id": "11141fba-db8a-4bdd-b097-4aa7da81e5db",
+      "alt": "Illustration of two game controllers on a sofa linked by a ribbon of light"
+    },
+    "g-jason-duval": {
+      "id": "c12f6e8f-12d9-4ad8-868f-281c0c29cc2e",
+      "alt": "Illustration of a stilt house, pickup truck and fishing boat in the Keys at sunset"
+    },
+    "g-lucia-caminos": {
+      "id": "eb7d1648-9710-49fe-80a1-a30ba3afb2c8",
+      "alt": "Illustration of an open prison gate onto a palm-lined road at dawn"
+    },
+    "g-map": {
+      "id": "c64df7d2-1822-40ce-acef-b7049606adca",
+      "alt": "Illustration of a paper road map of a tropical state on a car dashboard at sunset"
+    },
+    "g-mission-list": {
+      "id": "d2897d84-0cbd-49d1-87dc-8cfcb3de24a7",
+      "alt": "Illustration of a corkboard with photos and red string in a dim garage"
+    },
+    "g-online": {
+      "id": "a3a112db-bd56-49a0-bf3c-cbeb4eddc09f",
+      "alt": "Illustration of friends with glowing phones on a rooftop above a neon city"
+    },
+    "g-pc-release-date": {
+      "id": "dc2264a6-66e0-468b-a6de-1a2640d7f8c0",
+      "alt": "Illustration of a glowing gaming PC by a window over a tropical city at night"
+    },
+    "g-price-editions": {
+      "id": "9db075d6-eda3-4e5f-ba35-0b86a6b128dc",
+      "alt": "Illustration of a convenience store counter with game boxes under neon light"
+    },
+    "g-release-date": {
+      "id": "491b5ddc-a3bc-4a54-b2e5-9bf0880b5ad4",
+      "alt": "Illustration of a midnight queue outside a neon game shop"
+    },
+    "g-weapons": {
+      "id": "5ccc8536-66da-456c-8fcc-6b394c9ca02d",
+      "alt": "Illustration of an indoor shooting range lane with targets"
+    },
+    "g-age-rating": {
+      "id": "719ca095-a7a6-4405-bd1a-9ed76b2e28e1",
+      "alt": "Illustration of a living room TV showing a padlock symbol above a game console"
+    },
+    "g-animals": {
+      "id": "002dba3c-fdaf-485a-9691-2c9ea2f87529",
+      "alt": "Illustration of an alligator, flamingos and pelicans in a swamp at sunset"
+    },
+    "g-controller": {
+      "id": "036a218c-13f8-4484-9a40-9ae79abb60f2",
+      "alt": "Illustration of a white game controller on a beach towel beside a pool at dusk"
+    },
+    "g-gameplay": {
+      "id": "01b78677-1528-4964-a1fb-66f213052302",
+      "alt": "Illustration of a speedboat racing through a city canal at sunset"
+    },
+    "g-physical-copy": {
+      "id": "398ac970-6d17-44ca-bc31-870234a36bb2",
+      "alt": "Illustration of a gift-wrapped box and a code card on a table"
+    },
+    "g-platforms": {
+      "id": "668f6eac-f678-46e7-81ac-d777cce64dba",
+      "alt": "Illustration of two game consoles on a TV cabinet under neon light"
+    },
+    "g-radio-stations": {
+      "id": "e33992cb-7a8f-49e4-9663-1deb3f195c0c",
+      "alt": "Illustration of a glowing car radio on a coastal road at night"
+    },
+    "g-story-length": {
+      "id": "a374214e-5cc4-4097-9721-81bdd7f68f67",
+      "alt": "Illustration of an hourglass on a dashboard facing a long highway at sunset"
+    },
+    "g-trailers": {
+      "id": "7aadb5b6-5776-45df-ab11-bc423cef5448",
+      "alt": "Illustration of a drive-in movie theatre at dusk"
+    },
+    "g-ultimate-edition": {
+      "id": "8beedbc9-1d59-4ad6-b576-373e2b3d4fa2",
+      "alt": "Illustration of a luxury garage with a gold-trimmed convertible under neon"
+    },
+    "g-vice-city": {
+      "id": "a822b5f1-814e-48fb-b3f5-76136c562297",
+      "alt": "Illustration of a neon art-deco beach city seen from above at night"
+    },
+    "g-vintage-vice-city-pack": {
+      "id": "f1a71b9d-e1ce-43aa-a1f1-6e14a1fe224e",
+      "alt": "Illustration of a two-tone 1950s sedan outside a pastel art-deco garage"
+    },
+    "g-voice-actors": {
+      "id": "90017306-edb8-41ae-af50-86372a2d3536",
+      "alt": "Illustration of an empty recording booth with a studio microphone"
+    },
+    "g-wanted-level": {
+      "id": "2a3c29b9-6e92-4cb1-9ae2-c9d39e08c2c3",
+      "alt": "Illustration of police cars and a helicopter searchlight on a palm-lined boulevard"
+    },
+    "g-port-gellhorn": {
+      "id": "706793f8-8767-4af5-aa10-9f4a8ba1103a",
+      "alt": "Illustration of a faded coastal town with a motel, pier and race track at twilight"
+    },
+    "sec-buying": {
+      "id": "42449cb3-fd72-4710-bb6b-47bad7ceb0dd",
+      "alt": "Illustration of a neon-lit game shop window at night"
+    },
+    "sec-news": {
+      "id": "7c61f836-eed0-4afb-a259-5263dcfd84f3",
+      "alt": "Illustration of an empty retro TV news studio with a sunset city backdrop"
+    },
+    "sec-blog": {
+      "id": "1ac5c95b-c34b-45c7-a58c-f75863c53423",
+      "alt": "Illustration of a desk with a laptop by a balcony over a neon beach at dusk"
     }
   },
   "sections": {
@@ -42,10 +198,10 @@
     "vehicles": "cars",
     "weapons": "ambrosia",
     "cheats": "grassrivers",
-    "buying": "hero",
+    "buying": "sec-buying",
     "pc": "kalaga",
-    "online": "vice-city",
-    "news": "hero",
-    "blog": "vice-city"
+    "online": "sec-online",
+    "news": "sec-news",
+    "blog": "sec-blog"
   }
 }

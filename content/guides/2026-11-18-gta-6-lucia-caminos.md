@@ -2,6 +2,7 @@
 title: "Lucia Caminos in GTA 6: Everything Confirmed"
 seoTitle: "GTA 6 Lucia Caminos: Backstory and What We Know"
 description: "Who Lucia Caminos is in GTA 6: her backstory, her relationship with Jason, why she was in prison and what Rockstar has confirmed about her."
+image: g-lucia-caminos
 section: characters
 date: 2026-11-18
 status: confirmed

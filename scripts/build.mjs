@@ -189,7 +189,6 @@ ${body.replace('<!--CRUMBS-->', crumbsNav(c, crumbs))}
     <div><p class="logo logo--small"><span class="logo__sun" aria-hidden="true"></span>${esc(site.name)}</p><p class="foot__about">${esc(c.t('tagline'))}</p></div>
     <nav aria-label="${esc(c.t('footGuides'))}"><p class="foot__h">${esc(c.t('footGuides'))}</p>${secs.map(([k, s]) => `<a href="${c.P}/${k}/">${esc(s.name)}</a>`).join('')}</nav>
     <nav aria-label="${esc(c.t('footSite'))}"><p class="foot__h">${esc(c.t('footSite'))}</p><a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a>${LEGAL.map((s) => `<a href="${pageUrl(c, s)}">${esc(c.t(`legal_${s}`))}</a>`).join('')}<a href="${c.P}/rss.xml">RSS</a></nav>
-    ${CTX.length > 1 ? `<nav aria-label="${esc(c.t('language'))}"><p class="foot__h">${esc(c.t('language'))}</p>${langLinks}</nav>` : ''}
   </div>
   <div class="wrap"><p class="foot__copy">© ${new Date().getFullYear()} ${esc(site.name)}. ${esc(c.t('copyright'))}</p></div>
 </footer>
@@ -200,7 +199,8 @@ ${site.gtmId ? `<div class="consent" data-consent hidden role="region" aria-labe
 </html>`;
 }
 
-const card = (c, g) => `<li class="card"><a href="${c.P}/${g.section}/${g.slug}/">${img(g.image || secImg(g.section), 'card__img')}<span class="card__body"><span class="card__sec">${esc(c.secName(g.section))}</span><h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="card__meta">${esc(c.t('updated'))} ${c.fmtDate(g.updated)}</span></span></a></li>`;
+const ph = (c, g) => `<span class="card__img card__ph card__ph--${g.section}" aria-hidden="true"><span>${esc(c.secName(g.section))}</span></span>`;
+const card = (c, g) => `<li class="card"><a href="${c.P}/${g.section}/${g.slug}/">${hasImg(g.image) ? img(g.image, 'card__img') : ph(c, g)}<span class="card__body"><span class="card__sec">${esc(c.secName(g.section))}</span><h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="card__meta">${esc(c.t('updated'))} ${c.fmtDate(g.updated)}</span></span></a></li>`;
 const itemList = (c, name, items) => ({ '@type': 'ItemList', name, numberOfItems: items.length, itemListElement: items.slice(0, 100).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE_URL}${c.P}/${g.section}/${g.slug}/`, name: g.title })) });
 // Links written as /section/slug/ in a translated text point to the translated page when it exists.
 const localize = (c, html) => (c.en ? html : html.replace(/href="(\/[^"#?]*)(#[^"]*)?"/g, (m, p, h = '') => (HAS[c.L].has(p) ? `href="${c.P}${p}${h}"` : m)));
@@ -237,7 +237,7 @@ function guidePage(c, g) {
       <div><dt>${esc(c.t('by'))}</dt><dd><a href="${pageUrl(c, 'about')}">${esc(c.t('team'))}</a></dd></div>
     </dl>
   </header>
-  ${hasImg(g.image || secImg(g.section)) ? `<div class="wrap"><figure class="banner">${img(g.image || secImg(g.section), 'banner__img', true)}<figcaption>${esc(c.t('caption'))}</figcaption></figure></div>` : ''}
+  ${hasImg(g.image) ? `<div class="wrap"><figure class="banner">${img(g.image, 'banner__img', true)}<figcaption>${esc(c.t('caption'))}</figcaption></figure></div>` : ''}
   <div class="wrap guide__body">
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">${esc(c.t('quick'))}</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
     ${tocHtml(c, T.items)}
@@ -280,6 +280,13 @@ function addList(c, { base, h1, lede, list, title, description, crumbName, intro
   }
 }
 
+const leads = (c) => {
+  const pick = ['gta-6-jason-duval', 'gta-6-lucia-caminos'].map((x) => c.guides.find((g) => g.slug === x)).filter(Boolean);
+  if (pick.length < 2) return '';
+  const who = c.ui.leads || UI.en.leads;
+  return `<section class="wrap leads" aria-labelledby="leads-h"><h2 id="leads-h">${esc(c.t('leadsH'))}</h2><div class="leads__grid">${pick.map((g, i) => `<a class="lead lead--${i ? 'b' : 'a'}" href="${c.P}/${g.section}/${g.slug}/">${hasImg(g.image) ? img(g.image, 'lead__img') : ''}<span class="lead__body"><span class="lead__name">${esc(who[i].name)}</span><span class="lead__line">${esc(who[i].line)}</span><span class="lead__more">${esc(c.t('leadsMore'))}</span></span></a>`).join('')}</div></section>`;
+};
+
 function home(c) {
   const featured = (site.featured || []).map((slug) => c.guides.find((g) => g.slug === slug)).filter(Boolean);
   const faq = (Array.isArray(c.ui.homeFaq) ? c.ui.homeFaq : UI.en.homeFaq).map((f) => ({ q: fill(f.q), a: fill(f.a) }));
@@ -301,6 +308,7 @@ function home(c) {
   <h2 id="sec-h">${esc(c.t('browse'))}</h2>
   <ul class="tiles">${Object.entries(c.sections).map(([k, s]) => `<li><a class="tile" href="${c.P}/${k}/">${img(secImg(k), 'tile__img')}<span class="tile__name">${esc(s.name)}</span><span class="tile__count">${esc(c.count(k, c.guides.filter((g) => g.section === k).length))}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
 </section>
+${leads(c)}
 ${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">${esc(c.t('startHere'))}</h2><ul class="cards">${featured.map((g) => card(c, g)).join('')}</ul></section>` : ''}
 <section class="wrap more" aria-labelledby="new-h"><h2 id="new-h">${esc(c.t('latest'))}</h2><ul class="cards">${c.guides.slice(0, 12).map((g) => card(c, g)).join('')}</ul><p class="all"><a class="btn btn--ghost" href="${c.P}/guides/">${esc(c.t('allGuides'))}</a></p></section>
 <div class="wrap">${faqHtml(c, faq)}</div>`;

@@ -2,6 +2,7 @@
 title: "GTA 6 Release Date and Delay History"
 seoTitle: "GTA 6 Release Date: November 19, 2026 and Delays"
 description: "GTA 6 releases on November 19, 2026 for PS5 and Xbox Series X|S. Here is the full timeline of announcements, trailers and delays."
+image: g-release-date
 section: news
 date: 2026-11-18
 status: confirmed

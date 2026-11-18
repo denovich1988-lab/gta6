@@ -272,12 +272,40 @@ h1, h2, h3 { font-family: var(--display); font-weight: 800; text-transform: uppe
   .foot__grid { gap: 20px 12px; }
   .foot__grid nav { gap: 0; }
   .foot__grid nav a { display: flex; align-items: center; min-height: 44px; }
-  .foot__grid nav:last-child:not(:nth-child(3)) { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; column-gap: 12px; }
-  .foot__grid nav:last-child:not(:nth-child(3)) .foot__h { grid-column: 1 / -1; }
   .foot__copy { font-size: 13px; margin-top: 18px; }
   .logo { min-height: 44px; display: inline-flex; align-items: center; }
   /* cookie notice: smaller footprint */
   .consent { gap: 10px; padding: 12px 14px calc(12px + env(safe-area-inset-bottom)); font-size: 14px; }
   .consent .btn { min-height: 42px; font-size: 15px; }
   .to-top { right: 12px; width: 44px; height: 44px; }
+}
+
+/* ---------- placeholder when a page has no picture of its own ---------- */
+.card__ph { display: flex; align-items: flex-end; aspect-ratio: 16 / 8; padding: 14px 18px; background: radial-gradient(120% 90% at 85% 10%, rgba(255,162,74,.55), transparent 55%), linear-gradient(150deg, #2a1d52, #140f26 70%); font: 800 22px/1 var(--display); text-transform: uppercase; color: rgba(253,241,227,.82); letter-spacing: .02em; }
+.card__ph--cheats, .card__ph--weapons { background: radial-gradient(120% 90% at 85% 10%, rgba(255,95,162,.55), transparent 55%), linear-gradient(150deg, #2a1d52, #140f26 70%); }
+.card__ph--map, .card__ph--vehicles, .card__ph--online { background: radial-gradient(120% 90% at 85% 10%, rgba(63,224,207,.45), transparent 55%), linear-gradient(150deg, #22284f, #140f26 70%); }
+
+/* ---------- the two leads on the home page ---------- */
+.leads { margin-top: 56px; }
+.leads__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.lead { position: relative; display: flex; align-items: flex-end; min-height: 340px; border-radius: 18px; overflow: hidden; text-decoration: none; border: 1px solid var(--line); background: var(--dusk); }
+.lead__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
+.lead::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 25%, rgba(20,15,38,.92) 85%); }
+.lead--a { box-shadow: inset 0 -4px 0 var(--teal); }
+.lead--b { box-shadow: inset 0 -4px 0 var(--pink); }
+.lead__body { position: relative; z-index: 1; display: grid; gap: 6px; padding: 22px; }
+.lead__name { font: 800 clamp(36px, 4.5vw, 56px)/0.95 var(--display); text-transform: uppercase; color: var(--sand); }
+.lead--a .lead__name { color: var(--teal); } .lead--b .lead__name { color: var(--pink); }
+.lead__line { color: var(--sand); max-width: 34ch; }
+.lead__more { color: var(--sand-2); font-weight: 700; font-size: 15px; }
+.lead:hover .lead__img { transform: scale(1.04); }
+.lead:hover { color: inherit; border-color: var(--orange); }
+@media (prefers-reduced-motion: reduce) { .lead__img { transition: none; } }
+@media (max-width: 640px) {
+  .card__ph { width: 112px; flex: 0 0 112px; aspect-ratio: auto; padding: 8px; font-size: 13px; }
+  .leads { margin-top: 40px; }
+  .leads__grid { grid-template-columns: 1fr; gap: 10px; }
+  .lead { min-height: 220px; }
+  .lead__body { padding: 16px; }
+  .lead__name { font-size: 36px; }
 }

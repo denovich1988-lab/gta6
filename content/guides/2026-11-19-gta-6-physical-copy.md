@@ -2,6 +2,7 @@
 title: "GTA 6 Physical Copy: Is There a Disc?"
 seoTitle: "GTA 6 Physical Copy: No Disc, Code in the Box"
 description: "The GTA 6 physical copy has no disc. The box contains a download code for the Standard Edition. What that means for storage, resale and gifting."
+image: g-physical-copy
 section: buying
 date: 2026-11-19
 status: confirmed

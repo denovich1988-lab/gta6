@@ -2,6 +2,7 @@
 title: "Jason Duval in GTA 6: Everything Confirmed"
 seoTitle: "GTA 6 Jason Duval: Backstory and What We Know"
 description: "Who Jason Duval is in GTA 6: his Army past, his work for drug runners in the Leonida Keys, his friends and his relationship with Lucia."
+image: g-jason-duval
 section: characters
 date: 2026-11-18
 status: confirmed

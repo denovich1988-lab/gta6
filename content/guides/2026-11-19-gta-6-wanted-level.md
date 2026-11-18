@@ -2,6 +2,7 @@
 title: "GTA 6 Wanted Level Explained: Six Stars and Heat"
 seoTitle: "GTA 6 Wanted Level: Six Stars, Heat and Police"
 description: "How the GTA 6 wanted level works: six stars, red heat icons that show what the police know, hot areas, and how to lose the cops in Leonida."
+image: g-wanted-level
 section: missions
 date: 2026-11-19
 status: partly

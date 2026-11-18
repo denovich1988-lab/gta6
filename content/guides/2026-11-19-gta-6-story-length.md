@@ -2,6 +2,7 @@
 title: "How Long Is GTA 6? Story Length and Missions"
 seoTitle: "How Long Is GTA 6 Story Mode? Hours to Beat"
 description: "How long is GTA 6 story mode? A Rockstar studio head took about 80 hours with some optional goals. What that number means and how it compares to GTA 5."
+image: g-story-length
 section: missions
 date: 2026-11-19
 status: partly

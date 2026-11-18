@@ -2,6 +2,7 @@
 title: "Vice City in GTA 6: Districts and What to Expect"
 seoTitle: "GTA 6 Vice City Map: The City Explained"
 description: "Vice City returns in GTA 6 as the main city of Leonida. What Rockstar has confirmed about its beaches, nightlife, businesses and place on the map."
+image: g-vice-city
 section: map
 date: 2026-11-19
 status: partly

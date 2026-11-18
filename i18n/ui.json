@@ -72,7 +72,19 @@
    }
   ],
   "toc": "On this page",
-  "top": "Back to top"
+  "top": "Back to top",
+  "leadsH": "The two leads",
+  "leadsMore": "Read the profile",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "A former soldier working for drug runners in the Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Fresh out of prison and set on a better life with Jason."
+   }
+  ]
  },
  "es": {
   "skip": "Saltar al contenido",
@@ -204,7 +216,19 @@
    }
   ],
   "toc": "En esta página",
-  "top": "Volver arriba"
+  "top": "Volver arriba",
+  "leadsH": "Los dos protagonistas",
+  "leadsMore": "Ver el perfil",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Exsoldado que trabaja para narcotraficantes en los Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Recién salida de la cárcel y decidida a tener una vida mejor con Jason."
+   }
+  ]
  },
  "pt": {
   "skip": "Ir para o conteúdo",
@@ -336,7 +360,19 @@
    }
   ],
   "toc": "Nesta página",
-  "top": "Voltar ao topo"
+  "top": "Voltar ao topo",
+  "leadsH": "Os dois protagonistas",
+  "leadsMore": "Ver o perfil",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Ex-soldado que trabalha para traficantes em Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Recém-saída da prisão e decidida a ter uma vida melhor com Jason."
+   }
+  ]
  },
  "ru": {
   "skip": "Перейти к содержанию",
@@ -468,7 +504,19 @@
    }
   ],
   "toc": "Содержание",
-  "top": "Наверх"
+  "top": "Наверх",
+  "leadsH": "Двое главных героев",
+  "leadsMore": "Подробнее о герое",
+  "leads": [
+   {
+    "name": "Джейсон Дюваль",
+    "line": "Бывший военный, работает на наркокурьеров в Леонида-Кис."
+   },
+   {
+    "name": "Лусия Каминос",
+    "line": "Только что вышла из тюрьмы и хочет новой жизни с Джейсоном."
+   }
+  ]
  },
  "fr": {
   "skip": "Aller au contenu",
@@ -600,7 +648,19 @@
    }
   ],
   "toc": "Sur cette page",
-  "top": "Retour en haut"
+  "top": "Retour en haut",
+  "leadsH": "Les deux héros",
+  "leadsMore": "Voir la fiche",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Ancien soldat qui travaille pour des trafiquants dans les Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Tout juste sortie de prison, décidée à vivre mieux avec Jason."
+   }
+  ]
  },
  "de": {
   "skip": "Zum Inhalt springen",
@@ -732,7 +792,19 @@
    }
   ],
   "toc": "Auf dieser Seite",
-  "top": "Nach oben"
+  "top": "Nach oben",
+  "leadsH": "Die beiden Hauptfiguren",
+  "leadsMore": "Zum Profil",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Ex-Soldat, der für Drogenschmuggler in den Leonida Keys arbeitet."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Gerade aus dem Gefängnis und entschlossen, mit Jason neu anzufangen."
+   }
+  ]
  },
  "pl": {
   "skip": "Przejdź do treści",
@@ -864,7 +936,19 @@
    }
   ],
   "toc": "Na tej stronie",
-  "top": "Do góry"
+  "top": "Do góry",
+  "leadsH": "Dwoje bohaterów",
+  "leadsMore": "Zobacz profil",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Były żołnierz, który pracuje dla przemytników w Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Właśnie wyszła z więzienia i chce lepszego życia z Jasonem."
+   }
+  ]
  },
  "it": {
   "skip": "Vai al contenuto",
@@ -996,6 +1080,18 @@
    }
   ],
   "toc": "In questa pagina",
-  "top": "Torna su"
+  "top": "Torna su",
+  "leadsH": "I due protagonisti",
+  "leadsMore": "Leggi la scheda",
+  "leads": [
+   {
+    "name": "Jason Duval",
+    "line": "Ex soldato che lavora per i trafficanti delle Leonida Keys."
+   },
+   {
+    "name": "Lucia Caminos",
+    "line": "Appena uscita di prigione, decisa a costruire una vita migliore con Jason."
+   }
+  ]
  }
 }

@@ -2,6 +2,7 @@
 title: "GTA 6 Crossplay: PS5 and Xbox Explained"
 seoTitle: "Is GTA 6 Crossplay? PS5 and Xbox Cross-Platform"
 description: "GTA 6 has no crossplay at launch because it launches as a single-player game. Here is what is known about cross-platform play and cross-progression."
+image: g-crossplay
 section: online
 date: 2026-11-18
 status: unconfirmed

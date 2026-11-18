@@ -2,6 +2,7 @@
 title: "GTA 6 Gameplay: What the Extended Look Showed"
 seoTitle: "GTA 6 Gameplay: Extended Look Features Explained"
 description: "GTA 6 gameplay from the official Extended Look: six wanted stars, a heat system, new car theft, activities, a real race track and 30 FPS on consoles."
+image: g-gameplay
 section: news
 date: 2026-11-19
 status: confirmed
