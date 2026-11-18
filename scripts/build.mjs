@@ -46,7 +46,7 @@ function load(dir, required) {
       title: data.title, description: fill(data.description),
       date: data.date ? iso(data.date) : '', updated: iso(data.updated || data.date || today()),
       summary: data.summary || [], faq: (data.faq || []).map((f) => ({ q: fill(f.q), a: fill(f.a) })), sources: data.sources || [],
-      words, minutes: Math.max(1, Math.round(words / 220)), html: marked.parse(body),
+      words, minutes: Math.max(1, Math.round(words / 220)), html: marked.parse(body).replace(/<a href="(https?:\/\/[^"]+)"/g, (m, u) => (u.startsWith(SITE_URL) ? m : `<a href="${u}" rel="nofollow noopener" target="_blank"`)),
     };
   });
 }
@@ -226,7 +226,7 @@ function guidePage(c, g) {
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">${esc(c.t('quick'))}</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
     <div class="prose">${localize(c, g.html)}</div>
     ${faqHtml(c, g.faq)}
-    ${g.sources.length ? `<section class="sources"><h2>${esc(c.t('sources'))}</h2><ul>${g.sources.map((s) => `<li><a href="${esc(s.url)}" rel="noopener">${esc(s.name)}</a></li>`).join('')}</ul></section>` : ''}
+    ${g.sources.length ? `<section class="sources"><h2>${esc(c.t('sources'))}</h2><ul>${g.sources.map((s) => `<li><a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.name)}</a></li>`).join('')}</ul></section>` : ''}
   </div>
 </article>
 ${related.length ? `<section class="wrap more"><h2>${esc(c.t(g.isBlog ? 'readNext' : 'related'))}</h2><ul class="cards">${related.map((x) => card(c, x)).join('')}</ul></section>` : ''}`;
