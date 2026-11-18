@@ -68,5 +68,56 @@
     "gta-6-characters",
     "gta-6-price-editions"
   ],
-  "indexNowKey": "95b85ab6d24c3d4abd03ccd17a675bb0"
+  "indexNowKey": "95b85ab6d24c3d4abd03ccd17a675bb0",
+  "gtmId": "GTM-5R5GJLCB",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "locale": "en_US",
+      "date": "en-US"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "locale": "es_ES",
+      "date": "es"
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "locale": "pt_BR",
+      "date": "pt-BR"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "locale": "ru_RU",
+      "date": "ru"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "locale": "fr_FR",
+      "date": "fr"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "locale": "de_DE",
+      "date": "de"
+    },
+    {
+      "code": "pl",
+      "name": "Polski",
+      "locale": "pl_PL",
+      "date": "pl"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "locale": "it_IT",
+      "date": "it"
+    }
+  ]
 }

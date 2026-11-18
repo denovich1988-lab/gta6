@@ -10,7 +10,9 @@ for root, _, files in os.walk('dist'):
         d = html.unescape(re.search(r'<meta name="description" content="(.*?)"', s).group(1))
         if len(t) > 62: issues.append(f'{path}: title {len(t)} chars: {t}')
         if not 50 <= len(d) <= 165: issues.append(f'{path}: description {len(d)} chars')
-        titles.setdefault(t, []).append(path); descs.setdefault(d, []).append(path)
+        lg = re.search(r'<html lang="([a-z-]+)"', s).group(1)
+        titles.setdefault((lg, t), []).append(path); descs.setdefault((lg, d), []).append(path)
+        if lg != 'en' and f'hreflang="{lg}"' not in s: issues.append(f'{path}: no hreflang for its own language')
         h1 = re.findall(r'<h1[\s>]', s)
         if len(h1) != 1: issues.append(f'{path}: {len(h1)} h1 tags')
         levels = [int(x) for x in re.findall(r'<h([1-6])[\s>]', s)]
@@ -26,7 +28,7 @@ for root, _, files in os.walk('dist'):
             except Exception as e: issues.append(f'{path}: bad JSON-LD {e}')
         if 'rel="canonical"' not in s: issues.append(f'{path}: no canonical')
 for t, ps in titles.items():
-    if len(ps) > 1: issues.append(f'duplicate title "{t}" on {len(ps)} pages')
+    if len(ps) > 1: issues.append(f'duplicate title "{t}" on {ps}')
 for d, ps in descs.items():
     if len(ps) > 1: issues.append(f'duplicate description on {ps}')
 # sitemap: valid XML, every prompt/blog/static page listed, every URL exists
