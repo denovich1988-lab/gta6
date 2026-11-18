@@ -1,0 +1,87 @@
+name: Build site
+
+# Builds the site and publishes the finished files to the "site" branch.
+# The server pulls that branch every few minutes (see server/cloud-config.yaml),
+# so no SSH keys or passwords are needed anywhere.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Rebuild every morning so prompts dated "today" appear even without a new push.
+  schedule:
+    - cron: "10 1 * * *" # 06:10 Tashkent
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: build
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: SEO checks (titles, descriptions, headings, schema)
+        run: python3 scripts/check-seo.py
+
+      - name: Publish to the "site" branch
+        run: |
+          cd dist
+          git init -q -b site
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Site build from ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" site
+          echo "Published $(find . -name index.html | wc -l) pages to the site branch"
+
+
+  indexnow:
+    needs: build
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: indexnow
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: site
+      - uses: actions/checkout@v4
+        with:
+          path: main
+          sparse-checkout: site.config.json
+          sparse-checkout-cone-mode: false
+      - name: Notify search engines (IndexNow) about new and updated pages
+        continue-on-error: true
+        run: |
+          sleep 330  # the server pulls the new build every 5 minutes
+          python3 - <<'PY'
+          import json, re, urllib.request, datetime, zoneinfo
+          cfg = json.load(open('main/site.config.json'))
+          host = cfg['url'].split('//')[1].strip('/')
+          today = datetime.datetime.now(zoneinfo.ZoneInfo('Asia/Tashkent')).date().isoformat()
+          xml = open('sitemap.xml').read()
+          urls = [loc for loc, mod in re.findall(r'<loc>(.*?)</loc><lastmod>(.*?)</lastmod>', xml) if mod >= today]
+          if not urls:
+              print('Nothing new to submit'); raise SystemExit
+          body = json.dumps({'host': host, 'key': cfg['indexNowKey'], 'keyLocation': f"https://{host}/{cfg['indexNowKey']}.txt", 'urlList': urls[:10000]}).encode()
+          req = urllib.request.Request('https://api.indexnow.org/indexnow', data=body, headers={'Content-Type': 'application/json; charset=utf-8'})
+          try:
+              r = urllib.request.urlopen(req, timeout=30); print('IndexNow:', r.status, len(urls), 'URLs')
+          except Exception as e:
+              print('IndexNow error (not fatal):', e)
+          PY

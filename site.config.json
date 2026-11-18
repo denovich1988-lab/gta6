@@ -1,0 +1,66 @@
+{
+  "name": "Leonida Guide",
+  "tagline": "GTA 6 mission walkthroughs, map and guides.",
+  "description": "An independent GTA 6 guide: mission walkthroughs, the Leonida map, characters, cars, weapons, cheats, editions and PC news. Confirmed facts only, updated daily.",
+  "url": "https://example.com",
+  "email": "contact@example.com",
+  "language": "en",
+  "sections": {
+    "missions": {
+      "name": "Missions",
+      "title": "GTA 6 Missions: Walkthroughs and Mission List",
+      "description": "Step-by-step GTA 6 mission walkthroughs, the full mission list in story order, and tips for the hard parts."
+    },
+    "map": {
+      "name": "Map",
+      "title": "GTA 6 Map and Locations",
+      "description": "The GTA 6 map explained: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga."
+    },
+    "characters": {
+      "name": "Characters",
+      "title": "GTA 6 Characters",
+      "description": "Every confirmed GTA 6 character: Jason Duval, Lucia Caminos and the supporting cast of Leonida."
+    },
+    "vehicles": {
+      "name": "Cars",
+      "title": "GTA 6 Cars and Vehicles",
+      "description": "GTA 6 cars, bikes, boats and other vehicles: what is confirmed and where to find them."
+    },
+    "weapons": {
+      "name": "Weapons",
+      "title": "GTA 6 Weapons and Gear",
+      "description": "GTA 6 weapons and equipment: what is confirmed, how the loadout works and how to get them."
+    },
+    "cheats": {
+      "name": "Cheats",
+      "title": "GTA 6 Cheats and Secrets",
+      "description": "GTA 6 cheat codes, secrets and money tips, verified before we publish them."
+    },
+    "buying": {
+      "name": "Editions",
+      "title": "GTA 6 Price, Editions and Pre-Order Bonuses",
+      "description": "GTA 6 price, Standard vs Ultimate Edition, pre-order bonuses and platform details."
+    },
+    "pc": {
+      "name": "PC",
+      "title": "GTA 6 on PC",
+      "description": "GTA 6 PC release date status, system requirements and what Rockstar has said."
+    },
+    "online": {
+      "name": "Online",
+      "title": "GTA 6 Online and Multiplayer",
+      "description": "GTA 6 online, multiplayer and crossplay: what is confirmed for launch and after."
+    },
+    "news": {
+      "name": "News",
+      "title": "GTA 6 News and Release Info",
+      "description": "GTA 6 release date, delays, trailers and the latest confirmed news."
+    }
+  },
+  "featured": [
+    "gta-6-mission-list",
+    "gta-6-map",
+    "gta-6-characters",
+    "gta-6-price-editions"
+  ]
+}
