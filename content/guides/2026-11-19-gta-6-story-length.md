@@ -9,15 +9,17 @@ status: partly
 summary:
   - "The only figure from Rockstar is about 80 hours, from one studio head's own playthrough."
   - "That run included optional goals, so it is not a story-only time."
-  - "Rockstar has not published a mission count."
+  - "Launch guides report 91 main story missions."
 faq:
   - q: "How long is GTA 6 story mode?"
     a: "About 80 hours, going by the playthrough of Rockstar North co-studio head Rob Nelson, which included some optional goals."
   - q: "How many missions are in GTA 6?"
-    a: "Rockstar has not said. We are building the list as missions are verified in the game."
+    a: "Launch guides report 91 main story missions. Rockstar has not published a count; we are building the list as missions are verified."
   - q: "Is GTA 6 longer than GTA 5?"
     a: "Yes, by a wide margin. GTA 5's main story takes about 32 hours."
 sources:
+  - { name: "PC Gamer: GTA 6 cheats list", url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/" }
+  - { name: "GameRiv: all confirmed GTA 6 cheats", url: "https://gameriv.com/all-confirmed-gta-6-cheats/" }
   - { name: "Dexerto: how long is GTA 6", url: "https://www.dexerto.com/wikis/gta-6/time-to-beat/" }
   - { name: "Stevivor: how long is GTA 6", url: "https://stevivor.com/guides/how-long-is-gta-6/" }
   - { name: "Esports.gg: GTA 6 story length explained", url: "https://esports.gg/guides/grand-theft-auto-6/how-long-does-it-take-to-beat-gta-6-story-length-explained/" }
@@ -41,7 +43,7 @@ related: [gta-6-mission-list, gta-6-gameplay]
 
 ## How many missions are there?
 
-Rockstar has not published a number. Counts shared before launch are estimates. Our [GTA 6 mission list](/missions/gta-6-mission-list/) grows as each mission is verified, and it will give the real total.
+Several launch guides report **91 main story missions**, the number you must finish before cheats unlock. Rockstar itself has not published a count. Our [GTA 6 mission list](/missions/gta-6-mission-list/) grows as each mission is verified, and it will give the real total.
 
 ## Planning your playthrough
 
