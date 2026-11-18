@@ -55,6 +55,11 @@
       "name": "News",
       "title": "GTA 6 News and Release Info",
       "description": "GTA 6 release date, delays, trailers and the latest confirmed news."
+    },
+    "blog": {
+      "name": "Blog",
+      "title": "GTA 6 Blog: News, Answers and Explainers",
+      "description": "Short, sourced articles that answer the questions players search for: launch times, file size, platforms, money and what changed this week."
     }
   },
   "featured": [

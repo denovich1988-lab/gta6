@@ -19,6 +19,7 @@ const write = (rel, html) => { const f = path.join(DIST, rel); fs.mkdirSync(path
 const fill = (t) => String(t).replaceAll('{{SITE}}', site.name).replaceAll('{{URL}}', SITE_URL).replaceAll('{{EMAIL}}', site.email);
 const marked = new Marked();
 const secName = (k) => site.sections[k]?.name || k;
+const noun = (k, n) => `${n} ${k === 'blog' ? 'post' : 'guide'}${n === 1 ? '' : 's'}`;
 
 const IMG = fs.existsSync(path.join(ROOT, 'images.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'images.json'), 'utf8')) : { images: {}, sections: {} };
 const hasImg = (n) => n && fs.existsSync(path.join(ROOT, 'assets', 'img', `${n}.webp`));
@@ -154,11 +155,11 @@ function guidePage(g, guides) {
     ${g.sources.length ? `<section class="sources"><h2>Sources</h2><ul>${g.sources.map((s) => `<li><a href="${esc(s.url)}" rel="noopener">${esc(s.name)}</a></li>`).join('')}</ul></section>` : ''}
   </div>
 </article>
-${related.length ? `<section class="wrap more"><h2>Related guides</h2><ul class="cards">${related.map(card).join('')}</ul></section>` : ''}`;
+${related.length ? `<section class="wrap more"><h2>${g.section === 'blog' ? 'Read next' : 'Related guides'}</h2><ul class="cards">${related.map(card).join('')}</ul></section>` : ''}`;
   return layout({
     title: g.seoTitle || g.title, description: g.description, pathname: `/${g.section}/${g.slug}/`, ogType: 'article', published: g.date, modified: g.updated,
     crumbs: [[secName(g.section), `/${g.section}/`], [g.title, `/${g.section}/${g.slug}/`]], body,
-    jsonLd: [{ '@type': 'Article', '@id': `${url}#article`, headline: g.title, description: g.description, abstract: g.summary.join(' '), datePublished: g.date, dateModified: g.updated, url, mainEntityOfPage: url, image: OG, author: { '@type': 'Organization', '@id': ORG_ID, name: `${site.name} team`, url: `${SITE_URL}/about/` }, publisher: { '@id': ORG_ID }, about: GAME, articleSection: secName(g.section), wordCount: g.words, inLanguage: 'en', isAccessibleForFree: true }, faqSchema(g.faq)],
+    jsonLd: [{ '@type': g.section === 'blog' ? 'BlogPosting' : 'Article', '@id': `${url}#article`, headline: g.title, description: g.description, abstract: g.summary.join(' '), datePublished: g.date, dateModified: g.updated, url, mainEntityOfPage: url, image: OG, author: { '@type': 'Organization', '@id': ORG_ID, name: `${site.name} team`, url: `${SITE_URL}/about/` }, publisher: { '@id': ORG_ID }, about: GAME, articleSection: secName(g.section), wordCount: g.words, inLanguage: 'en', isAccessibleForFree: true }, faqSchema(g.faq)],
   });
 }
 
@@ -168,7 +169,7 @@ function pager(base, page, total) {
   return `<nav class="paging" aria-label="Pages">${page > 1 ? `<a href="${href(page - 1)}" rel="prev">Newer</a>` : ''}<span>Page ${page} of ${total}</span>${page < total ? `<a href="${href(page + 1)}" rel="next">Older</a>` : ''}</nav>`;
 }
 
-function listPages({ base, h1, lede, list, title, description, crumbs, intro = '' }) {
+function listPages({ base, h1, lede, list, title, description, crumbs, intro = '', kind = '' }) {
   const total = Math.max(1, Math.ceil(list.length / PER_PAGE));
   const out = [];
   for (let p = 1; p <= total; p++) {
@@ -182,7 +183,7 @@ function listPages({ base, h1, lede, list, title, description, crumbs, intro = '
 </section>
 <section class="wrap list" aria-labelledby="list-h">
   ${p === 1 && intro ? `<div class="prose intro">${intro}</div>` : ''}
-  <h2 id="list-h" class="list__h">${list.length} guide${list.length === 1 ? '' : 's'}</h2>
+  <h2 id="list-h" class="list__h">${noun(kind, list.length)}</h2>
   ${slice.length ? `<ul class="cards">${slice.map(card).join('')}</ul>` : '<p class="empty">The first guides for this section are being written. Check back soon.</p>'}
   ${pager(base, p, total)}
 </section>`;
@@ -213,7 +214,7 @@ function home(guides) {
 </section>
 <section class="wrap sections" aria-labelledby="sec-h">
   <h2 id="sec-h">Browse the guide</h2>
-  <ul class="tiles">${Object.entries(site.sections).map(([k, s]) => `<li><a class="tile" href="/${k}/">${img(secImg(k), 'tile__img')}<span class="tile__name">${esc(s.name)}</span><span class="tile__count">${((n) => `${n} guide${n === 1 ? '' : 's'}`)(guides.filter((g) => g.section === k).length)}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
+  <ul class="tiles">${Object.entries(site.sections).map(([k, s]) => `<li><a class="tile" href="/${k}/">${img(secImg(k), 'tile__img')}<span class="tile__name">${esc(s.name)}</span><span class="tile__count">${noun(k, guides.filter((g) => g.section === k).length)}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
 </section>
 ${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">Start here</h2><ul class="cards">${featured.map(card).join('')}</ul></section>` : ''}
 <section class="wrap more" aria-labelledby="new-h"><h2 id="new-h">Latest guides</h2><ul class="cards">${guides.slice(0, 12).map(card).join('')}</ul><p class="all"><a class="btn btn--ghost" href="/guides/">All ${guides.length} guides</a></p></section>
@@ -228,7 +229,7 @@ function staticPage(pg) {
 
 // ---------- build ----------
 const t = today();
-const guides = load('guides', ['title', 'description', 'section', 'date']).filter((g) => !g.draft && g.date <= t).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
+const guides = [...load('guides', ['title', 'description', 'section', 'date']), ...load('blog', ['title', 'description', 'date']).map((p) => ({ ...p, section: 'blog' }))].filter((g) => !g.draft && g.date <= t).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
 const pages = load('pages', ['title', 'description', 'updated']);
 const seen = new Set();
 for (const g of guides) {
@@ -245,7 +246,7 @@ write('index.html', home(guides));
 for (const g of guides) write(`${g.section}/${g.slug}/index.html`, guidePage(g, guides));
 for (const [k, s] of Object.entries(site.sections)) {
   const hub = guides.find((g) => g.section === k && g.hub);
-  for (const [f, h] of listPages({ base: `/${k}/`, h1: s.title, lede: s.description, list: guides.filter((g) => g.section === k), title: s.title, description: s.description, crumbs: [[s.name, `/${k}/`]], intro: hub ? `<p>New here? Start with <a href="/${k}/${hub.slug}/">${esc(hub.title)}</a>.</p>` : '' })) write(f, h);
+  for (const [f, h] of listPages({ base: `/${k}/`, h1: s.title, lede: s.description, list: guides.filter((g) => g.section === k), title: s.title, description: s.description, crumbs: [[s.name, `/${k}/`]], kind: k, intro: hub ? `<p>New here? Start with <a href="/${k}/${hub.slug}/">${esc(hub.title)}</a>.</p>` : '' })) write(f, h);
 }
 for (const [f, h] of listPages({ base: '/guides/', h1: 'All GTA 6 guides', lede: 'Every guide on the site, most recently updated first.', list: guides, title: 'All GTA 6 Guides and Walkthroughs', description: 'Browse every GTA 6 guide: missions, map, characters, cars, weapons, cheats, editions, PC and online.', crumbs: [['All guides', '/guides/']] })) write(f, h);
 for (const pg of pages) write(`${pg.slug}/index.html`, staticPage(pg));
