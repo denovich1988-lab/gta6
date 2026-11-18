@@ -278,6 +278,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 800; text-transform: uppe
   .consent { gap: 10px; padding: 12px 14px calc(12px + env(safe-area-inset-bottom)); font-size: 14px; }
   .consent .btn { min-height: 42px; font-size: 15px; }
   .to-top { right: 12px; width: 44px; height: 44px; }
+  .dpad { gap: 3px; flex-wrap: nowrap; }
+  .dpad i { width: auto; flex: 1 1 0; max-width: 30px; min-width: 0; height: 30px; font-size: 15px; }
 }
 
 /* ---------- placeholder when a page has no picture of its own ---------- */
