@@ -70,7 +70,9 @@
     "q": "Is {{SITE}} an official Rockstar site?",
     "a": "No. {{SITE}} is an independent fan site. We are not affiliated with Rockstar Games or Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "On this page",
+  "top": "Back to top"
  },
  "es": {
   "skip": "Saltar al contenido",
@@ -200,7 +202,9 @@
     "q": "¿{{SITE}} es un sitio oficial de Rockstar?",
     "a": "No. {{SITE}} es un sitio de fans independiente, sin relación con Rockstar Games ni Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "En esta página",
+  "top": "Volver arriba"
  },
  "pt": {
   "skip": "Ir para o conteúdo",
@@ -330,7 +334,9 @@
     "q": "O {{SITE}} é um site oficial da Rockstar?",
     "a": "Não. O {{SITE}} é um site de fãs independente, sem ligação com a Rockstar Games ou a Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "Nesta página",
+  "top": "Voltar ao topo"
  },
  "ru": {
   "skip": "Перейти к содержанию",
@@ -460,7 +466,9 @@
     "q": "{{SITE}} — официальный сайт Rockstar?",
     "a": "Нет. {{SITE}} — независимый фан-сайт, не связанный с Rockstar Games и Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "Содержание",
+  "top": "Наверх"
  },
  "fr": {
   "skip": "Aller au contenu",
@@ -590,7 +598,9 @@
     "q": "{{SITE}} est-il un site officiel de Rockstar ?",
     "a": "Non. {{SITE}} est un site de fans indépendant, sans lien avec Rockstar Games ni Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "Sur cette page",
+  "top": "Retour en haut"
  },
  "de": {
   "skip": "Zum Inhalt springen",
@@ -720,7 +730,9 @@
     "q": "Ist {{SITE}} eine offizielle Rockstar-Seite?",
     "a": "Nein. {{SITE}} ist eine unabhängige Fanseite ohne Verbindung zu Rockstar Games oder Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "Auf dieser Seite",
+  "top": "Nach oben"
  },
  "pl": {
   "skip": "Przejdź do treści",
@@ -850,7 +862,9 @@
     "q": "Czy {{SITE}} to oficjalna strona Rockstar?",
     "a": "Nie. {{SITE}} to niezależna strona fanowska, niezwiązana z Rockstar Games ani Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "Na tej stronie",
+  "top": "Do góry"
  },
  "it": {
   "skip": "Vai al contenuto",
@@ -980,6 +994,8 @@
     "q": "{{SITE}} è un sito ufficiale di Rockstar?",
     "a": "No. {{SITE}} è un sito di fan indipendente, non affiliato a Rockstar Games o Take-Two Interactive."
    }
-  ]
+  ],
+  "toc": "In questa pagina",
+  "top": "Torna su"
  }
 }

@@ -194,6 +194,7 @@ ${body.replace('<!--CRUMBS-->', crumbsNav(c, crumbs))}
   <div class="wrap"><p class="foot__copy">© ${new Date().getFullYear()} ${esc(site.name)}. ${esc(c.t('copyright'))}</p></div>
 </footer>
 ${site.gtmId ? `<div class="consent" data-consent hidden role="region" aria-label="Cookies"><p>${esc(c.t('consentText'))} <a href="${pageUrl(c, 'privacy')}">${esc(c.t('legal_privacy'))}</a></p><div class="consent__actions"><button class="btn btn--ghost" type="button" data-consent-no>${esc(c.t('decline'))}</button><button class="btn" type="button" data-consent-yes>${esc(c.t('accept'))}</button></div></div>` : ''}
+<a class="to-top" href="#main" data-to-top hidden aria-label="${esc(c.t('top'))}"><span aria-hidden="true"></span></a>
 <script src="/assets/app.js?v=${BUILD_ID}" defer></script>
 </body>
 </html>`;
@@ -204,12 +205,27 @@ const itemList = (c, name, items) => ({ '@type': 'ItemList', name, numberOfItems
 // Links written as /section/slug/ in a translated text point to the translated page when it exists.
 const localize = (c, html) => (c.en ? html : html.replace(/href="(\/[^"#?]*)(#[^"]*)?"/g, (m, p, h = '') => (HAS[c.L].has(p) ? `href="${c.P}${p}${h}"` : m)));
 
+// Give every H2 in a text an id and build an "On this page" list from them (shown when there are 3+ sections).
+function withToc(html) {
+  const used = new Set(); const items = [];
+  const out = html.replace(/<h2>(.*?)<\/h2>/g, (m, inner) => {
+    const text = inner.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"');
+    let id = text.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) || `s${items.length + 1}`;
+    while (used.has(id)) id += '-2';
+    used.add(id); items.push([id, text]);
+    return `<h2 id="${id}">${inner}</h2>`;
+  });
+  return { html: out, items };
+}
+const tocHtml = (c, items) => items.length >= 3 ? `<details class="toc"><summary>${esc(c.t('toc'))} <span class="toc__n">${items.length}</span></summary><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('')}</ol></details>` : '';
+
 function guidePage(c, g) {
   const rel = `/${g.section}/${g.slug}/`;
   const url = SITE_URL + c.P + rel;
+  const T = withToc(g.html);
   const related = c.guides.filter((x) => x.slug !== g.slug && (x.section === g.section || (g.related || []).includes(x.slug))).slice(0, 4);
   const body = `
-<article class="guide">
+<article class="guide" data-section="${g.section}">
   <header class="wrap guide__head">
     <!--CRUMBS-->
     <h1>${esc(g.title)}</h1>
@@ -224,7 +240,8 @@ function guidePage(c, g) {
   ${hasImg(g.image || secImg(g.section)) ? `<div class="wrap"><figure class="banner">${img(g.image || secImg(g.section), 'banner__img', true)}<figcaption>${esc(c.t('caption'))}</figcaption></figure></div>` : ''}
   <div class="wrap guide__body">
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">${esc(c.t('quick'))}</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
-    <div class="prose">${localize(c, g.html)}</div>
+    ${tocHtml(c, T.items)}
+    <div class="prose">${localize(c, T.html)}</div>
     ${faqHtml(c, g.faq)}
   </div>
 </article>

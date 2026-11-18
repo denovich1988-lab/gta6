@@ -45,3 +45,32 @@ document.addEventListener('click', (e) => { document.querySelectorAll('details.l
   box.querySelector('[data-consent-yes]').addEventListener('click', () => choose(true));
   box.querySelector('[data-consent-no]').addEventListener('click', () => choose(false));
 })();
+
+// D-pad codes: show the button sequence as arrows under the text (all site languages)
+(() => {
+  const W = { up: '↑', arriba: '↑', cima: '↑', 'вверх': '↑', haut: '↑', oben: '↑', 'góra': '↑', su: '↑',
+    down: '↓', abajo: '↓', baixo: '↓', 'вниз': '↓', bas: '↓', unten: '↓', 'dół': '↓', 'giù': '↓',
+    left: '←', izquierda: '←', esquerda: '←', 'влево': '←', gauche: '←', links: '←', lewo: '←', sinistra: '←',
+    right: '→', derecha: '→', direita: '→', 'вправо': '→', droite: '→', rechts: '→', prawo: '→', destra: '→' };
+  document.querySelectorAll('.prose td, .prose li').forEach((el) => {
+    if (el.children.length && !(el.children.length === 1 && el.firstElementChild.tagName === 'STRONG')) return;
+    const words = el.textContent.split(':').pop().trim().replace(/\.$/, '').split(/\s*,\s*/);
+    if (words.length < 5) return;
+    const arrows = words.map((w) => W[w.toLowerCase()]);
+    if (arrows.some((a) => !a)) return;
+    const row = document.createElement('span');
+    row.className = 'dpad'; row.setAttribute('aria-hidden', 'true');
+    row.innerHTML = arrows.map((a) => `<i>${a}</i>`).join('');
+    el.appendChild(row);
+  });
+})();
+// Back to top
+(() => {
+  const b = document.querySelector('[data-to-top]');
+  if (!b) return;
+  let shown = false;
+  const check = () => { const s = scrollY > 1400; if (s !== shown) { shown = s; b.hidden = !s; } };
+  addEventListener('scroll', check, { passive: true });
+  b.addEventListener('click', (e) => { e.preventDefault(); scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); });
+})();
+// Menu button shows an X while the menu is open (state is on aria-expanded)
