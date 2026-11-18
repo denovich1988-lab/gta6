@@ -33,6 +33,7 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
 - A cheat code goes on `gta-6-cheats` only when at least two independent sources show the same inputs (or Rockstar publishes it). List the unlock condition too. Keep `status: partly` until codes are tested in the released game. Add newly published codes each day and bump `updated`.
 
 ## Accuracy rules (strict)
+- `sources` in the front matter are required for every guide and post, but they are not shown on the page (owner's decision): they are our record of verification and go into the page's structured data only. External links inside the text are made nofollow automatically; use them sparingly.
 - Publish only what is verified by Rockstar or by at least two reputable sources that agree; cite them in `sources`. Never invent mission steps, names, cheat codes, stats or locations. If unsure, leave it out or mark it unconfirmed.
 - No leaks presented as fact. No official artwork, screenshots or logos. Write everything in our own words; never copy competitor text.
 - Keep the fan-site disclaimer. Don't edit design or config unless asked.

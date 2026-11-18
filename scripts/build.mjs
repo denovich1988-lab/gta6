@@ -226,7 +226,6 @@ function guidePage(c, g) {
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">${esc(c.t('quick'))}</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
     <div class="prose">${localize(c, g.html)}</div>
     ${faqHtml(c, g.faq)}
-    ${g.sources.length ? `<section class="sources"><h2>${esc(c.t('sources'))}</h2><ul>${g.sources.map((s) => `<li><a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.name)}</a></li>`).join('')}</ul></section>` : ''}
   </div>
 </article>
 ${related.length ? `<section class="wrap more"><h2>${esc(c.t(g.isBlog ? 'readNext' : 'related'))}</h2><ul class="cards">${related.map((x) => card(c, x)).join('')}</ul></section>` : ''}`;
