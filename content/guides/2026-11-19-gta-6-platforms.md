@@ -4,6 +4,7 @@ seoTitle: "Will GTA 6 Be on PS4? Platforms Explained"
 description: "GTA 6 is on PS5 and Xbox Series X|S only. It is not on PS4, Xbox One, Nintendo Switch 2 or PC. What each supported console offers."
 image: g-platforms
 section: buying
+updated: 2026-11-19
 date: 2026-11-19
 status: confirmed
 summary:
@@ -37,7 +38,7 @@ related: [gta-6-pc-release-date, gta-6-price-editions, gta-6-controller]
 | Xbox Series X | Yes | 30 FPS target |
 | Xbox Series S | Yes | 30 FPS target, at a lower resolution |
 | PlayStation 4 | No | Not supported |
-| Xbox One | No | Not supported |
+| Xbox One | No | No native version; Microsoft says Xbox Cloud Gaming can stream it at Series S settings |
 | Nintendo Switch 2 | No | Nothing announced |
 | PC | No | Nothing announced; see [GTA 6 on PC](/pc/gta-6-pc-release-date/) |
 

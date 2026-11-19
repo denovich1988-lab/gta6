@@ -217,12 +217,35 @@ function withToc(html) {
   });
   return { html: out, items };
 }
+// One YouTube video per page, only for blog posts and news guides. Front matter:
+// video: { id: "<11-char id>", title: "...", channel: "...", date: YYYY-MM-DD, description: "..." }
+// Put <!--VIDEO--> in the body where it should go; otherwise it goes before the second H2.
+// The page loads only a thumbnail; the youtube-nocookie player loads when the reader presses play.
+function checkVideo(g) {
+  if (!g.video) return;
+  if (!(g.isBlog || g.section === 'news')) throw new Error(`${g.slug}: video is allowed only in blog posts and news`);
+  const v = g.video;
+  if (!/^[A-Za-z0-9_-]{11}$/.test(v.id || '')) throw new Error(`${g.slug}: video.id must be an 11-character YouTube id`);
+  for (const k of ['title', 'channel', 'date']) if (!v[k]) throw new Error(`${g.slug}: video.${k} is required`);
+}
+const videoDate = (v) => (v.date instanceof Date ? v.date.toISOString().slice(0, 10) : String(v.date));
+const videoHtml = (c, v) => `<figure class="yt"><a class="yt__play" href="https://www.youtube.com/watch?v=${v.id}" data-yt="${v.id}" target="_blank" rel="nofollow noopener" aria-label="${esc(c.t('playVideo'))}: ${esc(v.title)}"><img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" width="480" height="360" loading="lazy" decoding="async" alt="${esc(v.title)}"><span class="yt__btn" aria-hidden="true"></span></a><figcaption>${esc(v.title)} <span class="muted">· ${esc(v.channel)} · YouTube</span></figcaption></figure>`;
+function withVideo(c, g, html) {
+  if (!g.video) return html;
+  const block = videoHtml(c, g.video);
+  if (html.includes('<!--VIDEO-->')) return html.replace(/(<p>)?<!--VIDEO-->(<\/p>)?/, block);
+  let n = 0;
+  const out = html.replace(/<h2[ >]/g, (m) => (++n === 2 ? block + m : m));
+  return n >= 2 ? out : html + block;
+}
+const videoSchema = (g, url) => g.video ? { '@type': 'VideoObject', name: g.video.title, description: g.video.description || g.video.title, thumbnailUrl: `https://i.ytimg.com/vi/${g.video.id}/hqdefault.jpg`, uploadDate: videoDate(g.video), embedUrl: `https://www.youtube-nocookie.com/embed/${g.video.id}`, contentUrl: `https://www.youtube.com/watch?v=${g.video.id}`, publisher: { '@type': 'Organization', name: g.video.channel }, isPartOf: { '@id': `${url}#article` } } : null;
 const tocHtml = (c, items) => items.length >= 3 ? `<details class="toc"><summary>${esc(c.t('toc'))} <span class="toc__n">${items.length}</span></summary><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('')}</ol></details>` : '';
 
 function guidePage(c, g) {
   const rel = `/${g.section}/${g.slug}/`;
   const url = SITE_URL + c.P + rel;
-  const T = withToc(g.html);
+  checkVideo(g);
+  const T = withToc(withVideo(c, g, g.html));
   const related = c.guides.filter((x) => x.slug !== g.slug && (x.section === g.section || (g.related || []).includes(x.slug))).slice(0, 4);
   const body = `
 <article class="guide" data-section="${g.section}">
@@ -249,7 +272,7 @@ ${related.length ? `<section class="wrap more"><h2>${esc(c.t(g.isBlog ? 'readNex
   return layout(c, {
     title: g.seoTitle || g.title, description: g.description, rel, ogType: 'article', published: g.date, modified: g.updated,
     crumbs: [[c.secName(g.section), `${c.P}/${g.section}/`], [g.title, c.P + rel]], body,
-    jsonLd: [{ '@type': g.isBlog ? 'BlogPosting' : 'Article', '@id': `${url}#article`, headline: g.title, description: g.description, abstract: g.summary.join(' '), datePublished: g.date, dateModified: g.updated, url, mainEntityOfPage: url, image: hasImg(g.image) ? `${SITE_URL}/assets/img/${g.image}.webp` : OG, author: { '@type': 'Organization', '@id': ORG_ID, name: site.name, url: `${SITE_URL}/about/` }, publisher: { '@id': ORG_ID }, about: GAME, articleSection: c.secName(g.section), wordCount: g.words, inLanguage: c.L, isAccessibleForFree: true, citation: g.sources.map((s) => s.url) }, faqSchema(g.faq)],
+    jsonLd: [{ '@type': g.isBlog ? 'BlogPosting' : 'Article', '@id': `${url}#article`, headline: g.title, description: g.description, abstract: g.summary.join(' '), datePublished: g.date, dateModified: g.updated, url, mainEntityOfPage: url, image: hasImg(g.image) ? `${SITE_URL}/assets/img/${g.image}.webp` : OG, author: { '@type': 'Organization', '@id': ORG_ID, name: site.name, url: `${SITE_URL}/about/` }, publisher: { '@id': ORG_ID }, about: GAME, articleSection: c.secName(g.section), wordCount: g.words, inLanguage: c.L, isAccessibleForFree: true, citation: g.sources.map((s) => s.url) }, faqSchema(g.faq), videoSchema(g, url)].filter(Boolean),
   });
 }
 

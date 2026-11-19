@@ -26,6 +26,7 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
   7. A short verdict or "what this means for you".
   8. "What we will add to this page" (future updates) as the last section.
   The FAQ (3 questions from real search queries) and the summary box are rendered automatically from front matter — don't repeat them in the body.
+- **YouTube video (owner's rule):** a blog post or a `news` guide may embed at most one YouTube video, only when it helps the reader (official trailers, Rockstar or platform-holder videos first). Never in other guide sections. Add to front matter `video: { id: "<11-char id>", title, channel, date: YYYY-MM-DD, description }` and put `<!--VIDEO-->` in the body where it belongs (otherwise it goes before the second H2). Use only a video whose id, title and channel you found in search results; never guess an id. The build renders a click-to-play thumbnail (youtube-nocookie) and VideoObject schema, and fails if `video` is used elsewhere.
 - 6–12 internal links to existing guides and posts (check the exact `/section/slug/` URL of each). Check `content/blog` and `content/guides` first: no repeated topics. Commit: `Add blog post: <title>`.
 - Each day also expand the 2 oldest blog posts that are still under 1,000 words to this structure (keep slug and facts, add verified sections, bump `updated`). Check word counts with: `for f in content/blog/*.md; do echo "$(sed -n '/^---$/,/^---$/!p' $f | wc -w) $f"; done | sort -n`.
 

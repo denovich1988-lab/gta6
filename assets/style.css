@@ -311,3 +311,13 @@ h1, h2, h3 { font-family: var(--display); font-weight: 800; text-transform: uppe
   .lead__body { padding: 16px; }
   .lead__name { font-size: 36px; }
 }
+
+/* YouTube video (blog and news only): thumbnail first, player loads on press */
+.yt{margin:1.6em 0}
+.yt__play,.yt iframe{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:12px;overflow:hidden;background:#000}
+.yt__play img{width:100%;height:100%;object-fit:cover;opacity:.88;transition:opacity .2s}
+.yt__play:hover img,.yt__play:focus-visible img{opacity:1}
+.yt__btn{position:absolute;left:50%;top:50%;width:72px;height:50px;margin:-25px 0 0 -36px;border-radius:14px;background:#e62117;box-shadow:0 6px 24px rgba(0,0,0,.45)}
+.yt__btn::after{content:"";position:absolute;left:29px;top:15px;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
+.yt figcaption{margin-top:.5em;font-size:.9rem}
+@media (max-width:640px){.yt__play,.yt iframe{border-radius:8px}.yt__btn{transform:scale(.85)}}

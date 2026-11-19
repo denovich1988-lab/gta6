@@ -74,3 +74,18 @@ document.addEventListener('click', (e) => { document.querySelectorAll('details.l
   b.addEventListener('click', (e) => { e.preventDefault(); scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); });
 })();
 // Menu button shows an X while the menu is open (state is on aria-expanded)
+
+// YouTube: swap the thumbnail for the privacy-enhanced player on press.
+document.addEventListener('click', (e) => {
+  const a = e.target.closest && e.target.closest('a[data-yt]');
+  if (!a) return;
+  e.preventDefault();
+  const f = document.createElement('iframe');
+  f.src = `https://www.youtube-nocookie.com/embed/${a.dataset.yt}?autoplay=1&rel=0&playsinline=1`;
+  f.title = a.getAttribute('aria-label') || 'YouTube video';
+  f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  f.allowFullscreen = true;
+  f.loading = 'lazy';
+  f.referrerPolicy = 'strict-origin-when-cross-origin';
+  a.replaceWith(f);
+});

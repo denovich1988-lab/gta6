@@ -64,7 +64,8 @@ Check each in Ahrefs before writing; write only from verified gameplay.
 - [ ] gta 6 best cars / fastest car, best weapons, how to get <vehicle>
 - [ ] gta 6 shooting range medals, workouts, races (each unlocks a cheat)
 - [x] gta 6 guide 100, how to play gta 6 100 → `missions/gta-6-beginners-guide`
-- [ ] gta 6 strategy guide 100, best console for gta 6 150
+- [ ] gta 6 strategy guide 100
+- [x] best console for gta 6 150 → blog/best-console-for-gta-6
 - [x] gta 6 reviews; gta 6 metacritic; gta 6 review score (blog, launch day) → `blog/gta-6-reviews`
 - [ ] gta 6 strangers and freaks; gta 6 gang operations; gta 6 robberies (stores, jewelry, bank vaults); how to switch characters in gta 6; how to save in gta 6
 
