@@ -229,6 +229,18 @@
     "g-map-size": {
       "id": "979e5ee0-00a9-45d9-a7d3-c489fdc2c67f",
       "alt": "Illustration of two paper maps of different sizes on a table with a ruler and compass"
+    },
+    "g-new-features": {
+      "id": "e987dfa9-1163-4ad3-85e2-35490e5eff22",
+      "alt": "Illustration of a hillside city and a neon beach city joined by a glowing highway"
+    },
+    "g-reviews": {
+      "id": "73a8a0b5-d7d5-4bf8-8721-c337c78df3a4",
+      "alt": "Illustration of magazines and a tablet with five stars on a café table at dusk"
+    },
+    "g-development-time": {
+      "id": "117fe75c-4526-4180-b60d-474f23b02419",
+      "alt": "Illustration of an empty game studio at night with wireframe city blocks on screens"
     }
   },
   "sections": {

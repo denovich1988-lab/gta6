@@ -2,6 +2,7 @@
 title: "GTA 6 vs GTA 5: 14 New Features That Change How You Play"
 seoTitle: "GTA 6 New Features: 14 Biggest Changes From GTA 5"
 description: "The biggest new features in GTA 6 compared with GTA 5: two leads, six wanted stars and heat, a map twice as big, banking, 80 challenges, cheats and more."
+image: g-new-features
 date: 2026-11-19
 status: confirmed
 summary:

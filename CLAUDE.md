@@ -36,9 +36,9 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
 - `node scripts/i18n-missing.mjs [lang]` lists files that still need a translation. When an English file is revised (new `updated` date), update its translations too.
 - Interface texts are in `i18n/ui.json`. Language list is in `site.config.json` → `languages`.
 
-## Illustrations (Animx, at most 10 a day)
+## Illustrations (Animx, at most 15 a day)
 - Every page gets its own picture; a picture is never reused on another page or section (owner's rule). Pages without their own picture show a styled placeholder automatically, never another page's image.
-- Each day generate pictures for the new pages, up to 10 in total (guides first, then blog posts). Pages over the limit keep the placeholder and get a picture on a later day, oldest first.
+- Each day generate pictures for the new pages, up to 15 in total (owner raised the limit from 10 on 2026-11-19; guides first, then blog posts, then older pages still on the placeholder). Pages over the limit keep the placeholder and get a picture on a later day, oldest first.
 - Use the Animx connector (`generate_image`, aspectRatio 16:9; at most 8 can render at once). Style: "Stylised cinematic digital painting", dusk/neon Florida mood, pink orange and teal palette, "no text, no logos". Each prompt must describe a different scene from every existing one (check the `alt` texts in `images.json`).
 - Never depict Jason, Lucia or any other Rockstar character, real people, recognisable faces, Rockstar logos, box art, or anything that imitates a screenshot. Places, vehicles, objects and anonymous small silhouettes only.
 - Add it to `images.json` → `images` as `"g-short-name": { "id": "<generation id>", "alt": "Illustration of …" }` (the file URL is `base` + id + `/output.png`; if Animx returns a different URL pattern, skip the image) and set `image: g-short-name` in the English front matter. CI downloads and converts it on push. Translations reuse it.

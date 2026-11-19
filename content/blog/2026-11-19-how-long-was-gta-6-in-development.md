@@ -2,6 +2,7 @@
 title: "How Long Has GTA 6 Been in Development?"
 seoTitle: "How Long Has GTA 6 Been in Development? Timeline"
 description: "GTA 6 was in development for about 11 years, counting from early work in 2015. Most of the team joined after 2018. The verified timeline and team size."
+image: g-development-time
 date: 2026-11-19
 status: partly
 summary:

@@ -2,6 +2,7 @@
 title: "GTA 6 Reviews: Scores, Metacritic and What Critics Say"
 seoTitle: "GTA 6 Reviews: Metacritic Score and Critic Verdicts"
 description: "GTA 6 reviews are in: 99 on Metacritic from about 150 critics on launch day. Scores from major outlets, common praise and the few complaints."
+image: g-reviews
 date: 2026-11-19
 status: live
 summary:
