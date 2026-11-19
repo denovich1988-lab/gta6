@@ -23,12 +23,12 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 - [x] gta 6 controller — 9.1k/15; gta vi dualsense controller 4.6k; gta 6 ps5 controller 1.5k; ps5 gta 6 bundle 1.5k/19 → `buying/gta-6-controller`
 - [ ] gta 6 cover — 8.5k/0; gta 6 cover girl 6.6k/0; gta 6 logo 3.2k/6
 - [x] gta 6 budget — 10k/15; how much did gta 6 cost to make 3.1k/0; gta 6 development cost 1.8k/2 (blog) → `blog/gta-6-budget`
-- [ ] how long has gta 6 been in development — 4.1k/0; when did gta 6 start development 2.2k/1; gta 6 dev team 1.5k/1 (blog)
+- [x] how long has gta 6 been in development — 4.1k/0; when did gta 6 start development 2.2k/1; gta 6 dev team 1.5k/1 (blog) → `blog/how-long-was-gta-6-in-development`
 - [x] gta 6 physical copy — 3.8k/0; gta 6 no disc 3.6k/1; will gta 6 have a disc 1.2k/21; gta 6 disc 2.3k (blog) → `buying/gta-6-physical-copy`
 - [x] gta 6 voice actors — 2.4k/3; who plays jason in gta 6 700/0 → `characters/gta-6-voice-actors`
 - [ ] gta 6 pc requirements — 2.8k/1; gta 6 system requirements 1.9k/0; gta 6 system requirements pc 2k/2
 - [x] will gta 6 be on ps4 — 2.8k/2; will gta 6 be on xbox series s 1.9k/0; will gta 6 be on switch 2 2k/12; gta 6 xbox 2.4k/7; what consoles will gta 6 be on 1.3k (blog) → `buying/gta-6-platforms`
-- [ ] gta 6 map vs gta 5 — 2.7k/1; gta 6 map size 1.7k/13; how big is gta 6 1.3k/0
+- [x] gta 6 map vs gta 5 — 2.7k/1; gta 6 map size 1.7k/13; how big is gta 6 1.3k/0 → `map/gta-6-map-size`
 - [ ] gta 6 cars — 1.5k/2 (published hub); next: gta 6 car list 350/5, gta 6 motorcycles 250/0, gta 6 planes 250/0, gta 6 trucks 250/2, gta 6 boats 150/0, gta 6 train 350/1
 - [x] gta 6 animals — 1k/0 → `map/gta-6-animals`
 - [ ] gta 6 guns — 1k/5; gta 6 weapons 400/3 (published hub; add per-weapon pages after launch)
@@ -52,13 +52,21 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 
 Check each in Ahrefs before writing; write only from verified gameplay.
 
-- gta 6 walkthrough 60; gta 6 mission 80; gta 6 first mission 100; what is the first mission in gta 6 40 → one page per mission: "gta 6 <mission name> walkthrough"
-- gta 6 money 150/0; how to make money in gta 6; gta 6 money cheat
-- gta 6 collectibles (watches, flamingo cards and others reported in cheat unlocks), gta 6 stunt jumps, gta 6 challenges
-- gta 6 trophy guide / achievements, gta 6 100% completion
-- gta 6 best cars / fastest car, best weapons, how to get <vehicle>
-- gta 6 shooting range medals, workouts, races (each unlocks a cheat)
-- gta 6 guide 100, gta 6 strategy guide 100, how to play gta 6 100, best console for gta 6 150
+- [x] gta 6 first mission 100; what is the first mission in gta 6 40; gta 6 prologue walkthrough → `missions/gta-6-prologue-walkthrough`
+- [x] gta 6 gone fishing walkthrough → `missions/gta-6-gone-fishing-walkthrough`
+- [x] gta 6 gear up walkthrough → `missions/gta-6-gear-up-walkthrough`
+- [ ] gta 6 walkthrough 60; gta 6 mission 80 → one page per mission: "gta 6 <mission name> walkthrough". Next in story order (names verified in PowerPyx + GTABase): Lab Fees, Just a Scratch, Unwanted Attention, Pipework, Hey Arnold!, Island Dreams, Feng Shui, Coming Home, Clean Up After Donnie, Buck Me, Down to Earth
+- [x] gta 6 money 150/0; how to make money in gta 6 → `cheats/how-to-make-money-in-gta-6`; gta 6 money cheat → `blog/gta-6-money-cheat`
+- [x] gta 6 collectibles (hub) → `map/gta-6-collectibles`
+- [ ] per-type collectible pages: gta 6 collectible cards, cocaine flamingos, watches, WAiNK scans, No Flusher tags; gta 6 stunt jumps
+- [x] gta 6 challenges → `missions/gta-6-challenges`
+- [x] gta 6 trophy guide / achievements → `missions/gta-6-trophies`; gta 6 100% completion → `missions/gta-6-100-completion`
+- [ ] gta 6 best cars / fastest car, best weapons, how to get <vehicle>
+- [ ] gta 6 shooting range medals, workouts, races (each unlocks a cheat)
+- [x] gta 6 guide 100, how to play gta 6 100 → `missions/gta-6-beginners-guide`
+- [ ] gta 6 strategy guide 100, best console for gta 6 150
+- [x] gta 6 reviews; gta 6 metacritic; gta 6 review score (blog, launch day) → `blog/gta-6-reviews`
+- [ ] gta 6 strangers and freaks; gta 6 gang operations; gta 6 robberies (stores, jewelry, bank vaults); how to switch characters in gta 6; how to save in gta 6
 
 ## Do not target
 

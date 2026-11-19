@@ -189,6 +189,46 @@
     "sec-blog": {
       "id": "1ac5c95b-c34b-45c7-a58c-f75863c53423",
       "alt": "Illustration of a desk with a laptop by a balcony over a neon beach at dusk"
+    },
+    "g-prologue-walkthrough": {
+      "id": "6f0c44b0-a5ae-4711-85d4-ecba7df5cded",
+      "alt": "Illustration of an empty prison cell block corridor lit by dawn light through a barred window"
+    },
+    "g-gone-fishing-walkthrough": {
+      "id": "125b4007-f515-4d54-823c-c5508bed5759",
+      "alt": "Illustration of a fishing boat at a wooden marina dock with a seaplane behind it at sunrise"
+    },
+    "g-gear-up-walkthrough": {
+      "id": "8c4bd54c-f900-47ef-96b8-96c6ecd955a4",
+      "alt": "Illustration of a roadside gun shop in a strip mall at dusk with a pickup truck outside"
+    },
+    "g-trophies": {
+      "id": "371f2ee3-99b3-4a58-97d7-9b2cf4aa38aa",
+      "alt": "Illustration of gold, silver and bronze trophy cups on a shelf in a beach house at sunset"
+    },
+    "g-100-completion": {
+      "id": "cc92f264-ff0b-463b-9aaf-a77bc6f10ac7",
+      "alt": "Illustration of a checklist clipboard and pen on a car hood above a tropical coastline"
+    },
+    "g-collectibles": {
+      "id": "9756acef-596f-46e5-8c4c-fd3d42b90a97",
+      "alt": "Illustration of wristwatches, trading cards and a pink lawn flamingo on a beach market table"
+    },
+    "g-challenges": {
+      "id": "b0d20c6f-8314-4ff7-a56b-ba2a61779511",
+      "alt": "Illustration of an outdoor beach gym with weight benches and a basketball hoop at dusk"
+    },
+    "g-how-to-make-money": {
+      "id": "0f754a92-06d8-4f48-9312-bfccb80a46b2",
+      "alt": "Illustration of a neon-lit pawn shop window with jewelry and guitars at night"
+    },
+    "g-beginners-guide": {
+      "id": "82d58759-5683-410e-8f50-625a00b54a2b",
+      "alt": "Illustration of a beach bungalow porch with a duffel bag, keys and a phone in the morning"
+    },
+    "g-map-size": {
+      "id": "979e5ee0-00a9-45d9-a7d3-c489fdc2c67f",
+      "alt": "Illustration of two paper maps of different sizes on a table with a ruler and compass"
     }
   },
   "sections": {
