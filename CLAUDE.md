@@ -13,9 +13,21 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
 - When the Ahrefs connector is available, check the competitors' new keywords about once a week (gtabase.com, tracker.gg/gta6, matching terms for "gta 6") and add rows, especially post-launch ones: mission names, collectibles, money, challenges, trophies.
 
 ## Blog — 2 posts every morning (same daily task)
-- File: `content/blog/YYYY-MM-DD-slug.md`, URL `/blog/<slug>/`. Front matter: `title`, `seoTitle` (≤60 chars, with the keyword), `description` (70–160 chars), `date`, `status`, `summary` (3 facts), `faq` (3 q/a), `sources` (2+), `related` slugs. No `section` (the build sets it).
-- Blog = answers to question keywords and news explainers (file size, launch times, platforms, delays, budget, sales, patches). Guides = lasting reference pages (missions, map, cheats, vehicles, weapons). Don't cover the same keyword in both.
-- 500–1100 words, answer in the first sentence, a table or numbered steps where it helps, 2–4 internal links. Check `content/blog` and `content/guides` first: no repeated topics. Commit: `Add blog post: <title>`.
+- File: `content/blog/YYYY-MM-DD-slug.md`, URL `/blog/<slug>/`. Front matter: `title`, `seoTitle` (≤60 chars, with the keyword), `description` (70–160 chars), `date`, `status`, `summary` (3 facts), `faq` (3 q/a), `sources` (3+), `related` slugs. No `section` (the build sets it).
+- Blog = answers to question keywords, comparisons and news explainers (launch, platforms, delays, budget, sales, patches, "GTA 6 vs …", "best …", "everything new in …"). Guides = lasting reference pages (missions, map, cheats, vehicles, weapons). Don't cover the same keyword in both.
+- **Long-form (owner's rule): 1,500–2,500 words.** Competitor answer pages (Dexerto, Game Rant, GamesRadar) are 300–700 words with one table; we win by being the most complete, best-structured page for the query, never by padding. Every section must add a fact, a comparison or a practical tip. Reference post: `content/blog/2026-11-19-gta-6-new-features.md`.
+- **Structure every post like this:**
+  1. Bold first sentence that answers the query with the target keyword, then 2–3 sentences of context and what the reader will get.
+  2. One line on how the facts were checked ("confirmed by Rockstar or two independent guides").
+  3. An "at a glance" table (comparison, numbers, timeline or by platform).
+  4. 6–14 H2 sections. Each: the fact, then **Why it matters** or **Tip** in bold, then an internal link to the deeper guide. Use numbered H2s only for real lists/rankings.
+  5. A "What is not confirmed" or "What it does not have (yet)" section, when relevant.
+  6. A practical section: numbered steps, a checklist or "what to do first".
+  7. A short verdict or "what this means for you".
+  8. "What we will add to this page" (future updates) as the last section.
+  The FAQ (3 questions from real search queries) and the summary box are rendered automatically from front matter — don't repeat them in the body.
+- 6–12 internal links to existing guides and posts (check the exact `/section/slug/` URL of each). Check `content/blog` and `content/guides` first: no repeated topics. Commit: `Add blog post: <title>`.
+- Each day also expand the 2 oldest blog posts that are still under 1,000 words to this structure (keep slug and facts, add verified sections, bump `updated`). Check word counts with: `for f in content/blog/*.md; do echo "$(sed -n '/^---$/,/^---$/!p' $f | wc -w) $f"; done | sort -n`.
 
 ## Languages
 - English is the source (`content/guides`, `content/blog`, `content/pages`, URLs without a prefix). Translations live in `content/i18n/<lang>/{guides,blog,pages}/<same file name>.md` for `es pt ru fr de pl it` and are published under `/<lang>/…` with the same slug. The build adds hreflang, the language switcher and sitemap alternates automatically; a page appears in a language only when its translation file exists.

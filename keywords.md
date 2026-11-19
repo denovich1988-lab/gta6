@@ -38,7 +38,7 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 - [x] what time does gta 6 come out — 700; gta 6 new zealand launch time 2k; gta 6 countdown 1.9k/0 → `blog/what-time-does-gta-6-come-out`
 - [x] gta 6 netflix — 2.9k (verify what this is before writing) → `blog/gta-6-netflix`
 - [ ] gta 6 police — 350/0; gta 6 strip club 6.6k/0 (only as a neutral location/feature guide if verified in game)
-- [ ] gta 6 confirmed features — 400/12; gta 6 new features 350/8; gta 6 features 700/13
+- [x] gta 6 confirmed features — 400/12; gta 6 new features 350/8; gta 6 features 700/13 → `blog/gta-6-new-features`
 - [ ] port gellhorn gta 6 — 600/0; gta 6 vice city map 250/28; gta 6 cities 200/1; gta 6 grassrivers location 50 (one page per region)
 - [x] how old do you have to be to play gta 6 — 300/0 (age rating) → `buying/gta-6-age-rating`
 - [ ] how much money has gta 6 made — 1.4k; how many copies of gta 6 sold 1k; gta 6 pre order sales 3.2k/1 (blog, only official Take-Two figures)
