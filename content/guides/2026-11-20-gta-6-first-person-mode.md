@@ -22,6 +22,7 @@ sources:
   - { name: "Insider Gaming: Can you switch to first-person in GTA 6?", url: "https://insider-gaming.com/how-to-switch-to-first-person-gta-6/" }
   - { name: "GamerFuzion: GTA 6 first-person mode, there isn't one", url: "https://www.gamerfuzion.com/gta-6-first-person-mode-how-to-l2-r3/" }
 related: [gta-6-beginners-guide, gta-6-gameplay, gta-6-weapons, gta-6-controller]
+image: g-first-person-mode
 ---
 
 **GTA 6 does not have a full first-person mode: you cannot walk, run or fight through the character's eyes as you can in GTA 5.** What it has instead is a set of limited first-person views that most players never find. This page explains each one, the buttons for PS5 and Xbox, and what is still unknown.

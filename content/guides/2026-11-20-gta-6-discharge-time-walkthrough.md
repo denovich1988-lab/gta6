@@ -23,6 +23,7 @@ sources:
   - { name: "VGC: GTA 6 Discharge Time mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-discharge-time-mission-walkthrough/" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-home-sweet-home-walkthrough, gta-6-whats-in-the-bag-walkthrough, gta-6-tourist-trap-walkthrough]
+image: g-discharge-time-walkthrough
 ---
 
 **This GTA 6 Discharge Time walkthrough covers the final mission of Chapter 1: Lucia finds Jason in Vice City Hospital, the people hunting them arrive, and the two shoot their way out in a wheelchair and an ambulance.** It starts the moment [Home Sweet Home](/missions/gta-6-home-sweet-home-walkthrough/) ends, so you cannot prepare for it separately.

@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Clear Skies mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-clear-skies-mission-walkthrough/" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-down-to-earth-walkthrough, gta-6-day-release-walkthrough, gta-6-swamped-walkthrough]
+image: g-clear-skies-walkthrough
 ---
 
 **This GTA 6 Clear Skies walkthrough covers Donnie's job in the air: an escort flight over the ocean, a deal at a swamp airstrip that goes wrong, a rescue through several buildings and a motorbike escape.** PowerPyx lists it as "Clear Skies (Join Donnie On A Job)". It is the biggest gunfight of Chapter 1 so far.

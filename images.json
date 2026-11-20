@@ -305,6 +305,82 @@
     "g-down-to-earth-walkthrough": {
       "id": "0820e22d-7822-4d31-8289-4b137475e863",
       "alt": "Illustration of a seaplane touching down on a turquoise bay at sunset near mangrove islands"
+    },
+    "g-update": {
+      "id": "a30fb022-7873-4172-a943-d045b74a0dbf",
+      "alt": "Illustration of rooftop satellite dishes glowing above a coastal city at dusk"
+    },
+    "g-switch-characters": {
+      "id": "68da6d95-db6f-4aa6-b0fb-6efc7e812185",
+      "alt": "Illustration of two sets of car keys and two phones on a neon-lit bar counter"
+    },
+    "g-ambulance-chaser-walkthrough": {
+      "id": "c67d4fb2-ff9b-4382-bd47-830dc04c8125",
+      "alt": "Illustration of a parked ambulance beside a burning dumpster in a back alley at dusk"
+    },
+    "g-change-clothes-and-hair": {
+      "id": "b7f99146-43c8-47e9-91fb-3e5720cde00d",
+      "alt": "Illustration of an empty retro barbershop with clothes racks and neon street light"
+    },
+    "g-clear-skies-walkthrough": {
+      "id": "4c95cb0a-057e-4920-8a0d-d04c2459a07e",
+      "alt": "Illustration of a swamp airstrip with a twin-engine plane and a windsock at sunset"
+    },
+    "g-day-release-walkthrough": {
+      "id": "0262483e-4b7e-4d9b-82b8-c31b4e879d63",
+      "alt": "Illustration of a white yacht anchored off a glowing city skyline at dusk"
+    },
+    "g-discharge-time-walkthrough": {
+      "id": "0872418c-204e-4faf-9955-44339b94b0d5",
+      "alt": "Illustration of a lone car's taillights on an empty causeway over dark water at night"
+    },
+    "g-don-gone-walkthrough": {
+      "id": "bd162755-99ee-4434-8ac8-c4c32d32982e",
+      "alt": "Illustration of a rusty camper trailer with string lights in a palmetto clearing at dusk"
+    },
+    "g-fast-travel": {
+      "id": "b812895f-4917-4d1e-85bd-9fc6a3362b9e",
+      "alt": "Illustration of a yellow taxi waiting on a neon-lit beachfront boulevard at night"
+    },
+    "g-first-person-mode": {
+      "id": "e98c5d10-883d-4ef6-a6b2-021ebc199b47",
+      "alt": "Illustration of the view over motorcycle handlebars down a coastal road at sunset"
+    },
+    "g-home-sweet-home-walkthrough": {
+      "id": "4f6b1a6a-da71-4d9c-b61e-a147b9fb393a",
+      "alt": "Illustration of a police roadblock with flashing lights on a suburban street at night"
+    },
+    "g-how-to-save": {
+      "id": "2e25a6ea-0329-429e-9fbe-5d0998c0c6cc",
+      "alt": "Illustration of a quiet motel room with a bedside lamp and neon glow through the blinds"
+    },
+    "g-jasons-house-projects": {
+      "id": "538314d0-3383-4ec7-95d4-1f91bcab710f",
+      "alt": "Illustration of a sun-faded bungalow with a toolbox, paint cans and a ladder on the porch"
+    },
+    "g-recalibration-walkthrough": {
+      "id": "80a24d54-fc73-4424-92d2-b190bbb0c2b2",
+      "alt": "Illustration of a small skiff tied to a weathered dock on a calm bay at sunrise"
+    },
+    "g-replay-missions": {
+      "id": "758e6879-1552-40f2-a009-e5fea496ecdd",
+      "alt": "Illustration of a row of glowing arcade cabinets in a dark beach bar"
+    },
+    "g-strangers-and-freaks": {
+      "id": "4a04d0c2-41f0-4872-80b2-4bb1ae43e1c5",
+      "alt": "Illustration of a giant fiberglass flamingo statue beside an empty road at dusk"
+    },
+    "g-swamped-walkthrough": {
+      "id": "740dc871-5c63-4d49-bbc6-4e2a7ad69514",
+      "alt": "Illustration of a swamp fishing camp with canoes and a kingfisher at dusk"
+    },
+    "g-tourist-trap-walkthrough": {
+      "id": "ace0963f-78d9-424f-a5f1-b6a9a8b8351a",
+      "alt": "Illustration of pastel souvenir shops on a seaside promenade at night"
+    },
+    "g-whats-in-the-bag-walkthrough": {
+      "id": "0851a109-0fca-4347-aa73-d22941aba5c2",
+      "alt": "Illustration of a metal briefcase on the hood of a car in an empty lot at night"
     }
   },
   "sections": {

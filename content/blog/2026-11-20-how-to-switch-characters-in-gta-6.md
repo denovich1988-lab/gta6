@@ -25,6 +25,7 @@ sources:
   - { name: "PowerPyx: GTA 6 Tourist Trap (Take Up Mattia's Offer) walkthrough", url: "https://www.powerpyx.com/gta-6-tourist-trap-take-up-mattias-offer-walkthrough/" }
   - { name: "PowerPyx: GTA 6 Day Release (Meet Mattia & Kat) walkthrough", url: "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/" }
 related: [gta-6-jason-duval, gta-6-lucia-caminos, gta-6-beginners-guide, gta-6-tourist-trap-walkthrough]
+image: g-switch-characters
 ---
 
 **To switch characters in GTA 6, hold Right on the D-pad and tap R1 on PS5 or RB on Xbox Series X|S, but the option only works once the story unlocks it in Chapter 2.** Until then the game decides who you play. That catches out a lot of people coming from GTA 5, where you could jump between three characters within the first couple of hours. This guide covers the controls, the exact points in Chapter 1 where you do play as Lucia, why the portrait is sometimes greyed out, and what to finish before the game takes Jason away for a while.

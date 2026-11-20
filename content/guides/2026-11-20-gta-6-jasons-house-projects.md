@@ -21,6 +21,7 @@ sources:
   - { name: "Playnews: Projets de la maison de Jason GTA 6", url: "https://www.playnews.gg/guides/projets-de-la-maison-de-jason-gta-6-comment-tous-les-reparer-avant-de-recuperer-lucia" }
   - { name: "Beebom: How to save your game in GTA 6", url: "https://beebom.com/how-to-save-game-gta-6/" }
 related: [gta-6-coming-home-walkthrough, gta-6-jason-duval, gta-6-how-to-save, gta-6-mission-list]
+image: g-jasons-house-projects
 ---
 
 **Jason's house in GTA 6 has four repair projects, and all four have to be finished before Lucia is released from prison.** They take a few minutes, cost nothing that either guide mentions, and decide how the relationship between the two leads starts. Miss the window and they are gone for the rest of the game.

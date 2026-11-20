@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Swamped mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-swamped-mission-walkthrough/" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-clear-skies-walkthrough, gta-6-don-gone-walkthrough, gta-6-clean-up-after-donnie-walkthrough]
+image: g-swamped-walkthrough
 ---
 
 **This GTA 6 Swamped walkthrough covers Brian's attempt to settle things with the Kingfishers: the drive to their camp, the ambush, a helicopter pursuit over the swamp and a jump between boats to rescue Lori.** PowerPyx lists it as "Swamped (Meet Brian)". This page describes a major story event in the step-by-step section, so skip to the objectives if you want to avoid it.

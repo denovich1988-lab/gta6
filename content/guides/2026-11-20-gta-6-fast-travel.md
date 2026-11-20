@@ -21,6 +21,7 @@ sources:
   - { name: "PowerPyx: GTA 6 how to fast travel", url: "https://www.powerpyx.com/gta-6-how-to-fast-travel/" }
   - { name: "Beebom: Does GTA 6 have fast travel?", url: "https://beebom.com/gta-6-fast-travel-explained/" }
 related: [gta-6-map, gta-6-beginners-guide, gta-6-buck-me-walkthrough, gta-6-map-size]
+image: g-fast-travel
 ---
 
 **GTA 6 fast travel is done by ordering a ride on your phone and paying to skip it: there is no map teleport, but a $100 skip gets you anywhere a car can reach.** With a [map about twice the size of GTA 5's](/map/gta-6-map-size/), you will use it a lot. Here is how each method works, what it costs and when it opens up.

@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Tourist Trap mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-tourist-trap-mission-walkthrough/" }
   - { name: "VGC: Read this before finishing Chapter 1 of GTA 6", url: "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/" }
 related: [gta-6-mission-list, gta-6-recalibration-walkthrough, gta-6-home-sweet-home-walkthrough, gta-6-lucia-caminos]
+image: g-tourist-trap-walkthrough
 ---
 
 **This GTA 6 Tourist Trap walkthrough starts with a warning: this mission is the point of no return for Chapter 1.** PowerPyx lists it as "Tourist Trap (Take Up Mattia's Offer)". It, [Home Sweet Home](/missions/gta-6-home-sweet-home-walkthrough/) and Discharge Time play one after another, and you do not get the open world back until Chapter 2. The steps below include the story turn that causes that, so read the preparation section first.

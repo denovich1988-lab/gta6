@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Home Sweet Home mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-home-sweet-home-mission-walkthrough/" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-tourist-trap-walkthrough, gta-6-lucia-caminos, gta-6-wanted-level]
+image: g-home-sweet-home-walkthrough
 ---
 
 **This GTA 6 Home Sweet Home walkthrough covers the second of Chapter 1's three closing missions: Lucia alone at Jason's house, two intruders, a fire and a police search of Key Lento to slip through.** It is short and mostly about stealth. It starts automatically after [Tourist Trap](/missions/gta-6-tourist-trap-walkthrough/), so there is nothing to prepare.

@@ -21,6 +21,7 @@ sources:
   - { name: "GTABase: Ambulance Chaser mission guide", url: "https://www.gtabase.com/gta-6/missions/ambulance-chaser" }
   - { name: "VGC: GTA 6 Ambulance Chaser mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-ambulance-chaser-mission-walkthrough/" }
 related: [gta-6-mission-list, gta-6-whats-in-the-bag-walkthrough, gta-6-discharge-time-walkthrough, gta-6-wanted-level]
+image: g-ambulance-chaser-walkthrough
 ---
 
 **This GTA 6 Ambulance Chaser walkthrough covers Lucia's first job in Chapter 2: the ambulance from the hospital escape is hidden near the motel, somebody else has found it, and it has to burn.** PowerPyx lists it as "Ambulance Chaser (Move the Ambulance)". It is a short chase with one decision at the end.

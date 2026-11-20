@@ -23,6 +23,7 @@ sources:
   - { name: "PowerPyx: GTA 6 how to save", url: "https://www.powerpyx.com/gta-6-how-to-save/" }
   - { name: "Beebom: How to save your game in GTA 6", url: "https://beebom.com/how-to-save-game-gta-6/" }
 related: [gta-6-beginners-guide, gta-6-replay-missions, gta-6-cheats, gta-6-mission-list]
+image: g-how-to-save
 ---
 
 **To save in GTA 6, pause the game, open the Game section and choose Save Game: you get 15 manual slots and can save anywhere in free roam.** Because [missions cannot be replayed](/missions/gta-6-replay-missions/), your saves are the only way back to an earlier point, so it pays to use the slots with a plan.

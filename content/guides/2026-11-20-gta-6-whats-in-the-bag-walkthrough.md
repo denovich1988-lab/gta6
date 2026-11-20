@@ -21,6 +21,7 @@ sources:
   - { name: "GTABase: What's in the Bag? mission guide", url: "https://www.gtabase.com/gta-6/missions/whats-in-the-bag" }
   - { name: "VGC: GTA 6 What's In The Bag? mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-whats-in-the-bag-walkthrough/" }
 related: [gta-6-mission-list, gta-6-discharge-time-walkthrough, gta-6-ambulance-chaser-walkthrough, gta-6-lucia-caminos]
+image: g-whats-in-the-bag-walkthrough
 ---
 
 **This GTA 6 What's in the Bag? walkthrough covers the opening mission of Chapter 2, a short scene in a motel room where Lucia finally looks at what she and Jason nearly died for.** It takes a couple of minutes, but it matters: it is where Chapter 1's trophy unlocks and where the open world comes back.

@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: GTA 6 Strangers & Freaks missions list and guide", url: "https://www.gtabase.com/gta-6/strangers-missions/" }
   - { name: "PowerPyx: GTA 6 is there mission replay?", url: "https://www.powerpyx.com/gta-6-is-there-mission-replay/" }
 related: [gta-6-mission-list, gta-6-100-completion, gta-6-trophies, gta-6-replay-missions]
+image: g-strangers-and-freaks
 ---
 
 **GTA 6 Strangers and Freaks are the optional side missions given by characters you meet around Leonida, and there are more than 35 of them spread over the first four chapters.** This page lists every one that appears on both major lists, GTABase and PowerPyx, with the giver, who can play it and the chapter. Where the two disagree, we say so. The status is "partly confirmed" because neither list gives rewards, and a few details differ.

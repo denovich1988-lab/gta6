@@ -23,6 +23,7 @@ sources:
   - { name: "VGC: GTA 6 Day Release mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-day-release-mission-walkthrough/" }
   - { name: "VGC: How to change characters in GTA 6", url: "https://www.videogameschronicle.com/guide/how-to-change-characters-in-gta-6" }
 related: [gta-6-mission-list, gta-6-down-to-earth-walkthrough, gta-6-clear-skies-walkthrough, gta-6-lucia-caminos]
+image: g-day-release-walkthrough
 ---
 
 **This GTA 6 Day Release walkthrough covers the long social mission with Mattia and Kat: a speedboat to a yacht, a jet ski race, a drive through Vice City at night and a club.** PowerPyx lists it as "Day Release (Meet Mattia & Kat)". It is the first time you play as Lucia since the Prologue, and almost every choice in it affects the relationship rather than success or failure.

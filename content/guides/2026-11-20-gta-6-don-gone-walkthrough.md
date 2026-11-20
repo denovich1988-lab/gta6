@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Don Gone mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-don-gone-mission-walkthrough/" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-swamped-walkthrough, gta-6-recalibration-walkthrough, gta-6-weapons]
+image: g-don-gone-walkthrough
 ---
 
 **This GTA 6 Don Gone walkthrough lists every item you need in Donnie's trailer, what to do about the three men waiting outside, and the one thing you can miss for good: a unique pistol in the trunk.** PowerPyx lists it as "Don Gone (Head to Donnie's Trailer)". It follows directly from the events of [Swamped](/missions/gta-6-swamped-walkthrough/).

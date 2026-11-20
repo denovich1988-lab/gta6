@@ -22,6 +22,7 @@ sources:
   - { name: "PPE.pl: GTA 6 outfits and wardrobe guide", url: "https://www.ppe.pl/poradniki/432031/gta-6-stroje-garderoba-ubrania-jak-sie-przebierac-i-zmieniac-stroj.html" }
   - { name: "Gfinity: GTA 6 character customization guide", url: "https://www.gfinityesports.com/article/gta-6-character-customization-guide-clothes-hair-tattoos-and-more" }
 related: [gta-6-jason-duval, gta-6-lucia-caminos, gta-6-wanted-level, gta-6-vintage-vice-city-pack]
+image: g-change-clothes-and-hair
 ---
 
 **To change clothes in GTA 6, use the wardrobe at your safehouse; to change hair, visit a barber or stylist.** Clothing is more than cosmetic in this game, because your outfit is part of what the police use to recognise you. This page covers where to change, how saved outfits work, and what is different for Jason and Lucia.

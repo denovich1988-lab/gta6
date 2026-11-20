@@ -22,6 +22,7 @@ sources:
   - { name: "Insider Gaming: GTA 6 doesn't allow you to replay story missions", url: "https://insider-gaming.com/gta-6-doesnt-allow-you-to-replay-story-missions/" }
   - { name: "KeenGamer: How to save in GTA 6", url: "https://www.keengamer.com/articles/guides/how-to-save-in-gta-6-manual-saves-autosave-and-safehouses/" }
 related: [gta-6-mission-list, gta-6-how-to-save, gta-6-100-completion, gta-6-story-length]
+image: g-replay-missions
 ---
 
 **No, you cannot replay missions in GTA 6: there is no replay menu, no chapter select and no medal system.** That is a real change from GTA 5, where any finished mission could be restarted from the pause menu. The only way to see a mission again is a manual save from before it, so it is worth setting up your saves properly from the first hour.

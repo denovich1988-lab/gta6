@@ -21,6 +21,7 @@ sources:
   - { name: "VGC: GTA 6 Recalibration mission walkthrough", url: "https://www.videogameschronicle.com/guide/gta-6-recalibration-mission-walkthrough/" }
   - { name: "VGC: Read this before finishing Chapter 1 of GTA 6", url: "https://www.videogameschronicle.com/guide/gta-6-chapter-1-warning-read-this-before-finishing-chapter-1-of-gta-6/" }
 related: [gta-6-mission-list, gta-6-don-gone-walkthrough, gta-6-tourist-trap-walkthrough, gta-6-gone-fishing-walkthrough]
+image: g-recalibration-walkthrough
 ---
 
 **This GTA 6 Recalibration walkthrough covers the calm before the end of Chapter 1: a beer run, a fishing trip with Cal, a barbecue, and the checklist to finish before you start the next mission.** PowerPyx lists it as "Recalibration (Talk to Lucia)". Nothing here can go badly wrong, but what comes straight after it can cost you money and free roam.
