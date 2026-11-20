@@ -55,7 +55,7 @@ Check each in Ahrefs before writing; write only from verified gameplay.
 - [x] gta 6 first mission 100; what is the first mission in gta 6 40; gta 6 prologue walkthrough → `missions/gta-6-prologue-walkthrough`
 - [x] gta 6 gone fishing walkthrough → `missions/gta-6-gone-fishing-walkthrough`
 - [x] gta 6 gear up walkthrough → `missions/gta-6-gear-up-walkthrough`
-- [ ] gta 6 walkthrough 60; gta 6 mission 80 → one page per mission: "gta 6 <mission name> walkthrough". Published 2026-11-20: `missions/gta-6-lab-fees-walkthrough`, `gta-6-just-a-scratch-walkthrough`, `gta-6-unwanted-attention-walkthrough`, `gta-6-pipework-walkthrough`, `gta-6-hey-arnold-walkthrough`, `gta-6-island-dreams-walkthrough`, `gta-6-feng-shui-walkthrough`, `gta-6-coming-home-walkthrough`. Next in story order (names verified in PowerPyx + VGC): Clean Up After Donnie, Buck Me, Down to Earth, Day Release, Clear Skies, Swamped, Don Gone, Recalibration, Tourist Trap, Home Sweet Home, Discharge Time, then Chapter 2 (What's in the Bag?)
+- [ ] gta 6 walkthrough 60; gta 6 mission 80 → one page per mission: "gta 6 <mission name> walkthrough". Published 2026-11-20: `missions/gta-6-lab-fees-walkthrough`, `gta-6-just-a-scratch-walkthrough`, `gta-6-unwanted-attention-walkthrough`, `gta-6-pipework-walkthrough`, `gta-6-hey-arnold-walkthrough`, `gta-6-island-dreams-walkthrough`, `gta-6-feng-shui-walkthrough`, `gta-6-coming-home-walkthrough`. Published 2026-11-20 (second run): `gta-6-clean-up-after-donnie-walkthrough`, `gta-6-buck-me-walkthrough`, `gta-6-down-to-earth-walkthrough`, `gta-6-day-release-walkthrough`, `gta-6-clear-skies-walkthrough`, `gta-6-swamped-walkthrough`, `gta-6-don-gone-walkthrough`, `gta-6-recalibration-walkthrough`, `gta-6-tourist-trap-walkthrough`, `gta-6-home-sweet-home-walkthrough`. Next in story order (names verified in PowerPyx + VGC): Discharge Time, then Chapter 2 (What's in the Bag?, Ambulance Chaser per VGC). PowerPyx also lists Building a Life (between Clear Skies and Swamped) and optional tasks (Deposit Cash Into BuckMe, Clock Out, Donnie's Lost Drugs): cover only when a second source describes them
 - [x] gta 6 money 150/0; how to make money in gta 6 → `cheats/how-to-make-money-in-gta-6`; gta 6 money cheat → `blog/gta-6-money-cheat`
 - [x] gta 6 collectibles (hub) → `map/gta-6-collectibles`
 - [ ] per-type collectible pages: gta 6 collectible cards, cocaine flamingos, watches, WAiNK scans, No Flusher tags; gta 6 stunt jumps
@@ -67,7 +67,9 @@ Check each in Ahrefs before writing; write only from verified gameplay.
 - [ ] gta 6 strategy guide 100
 - [x] best console for gta 6 150 → blog/best-console-for-gta-6
 - [x] gta 6 reviews; gta 6 metacritic; gta 6 review score (blog, launch day) → `blog/gta-6-reviews`
-- [ ] gta 6 strangers and freaks; gta 6 gang operations; gta 6 robberies (stores, jewelry, bank vaults); how to switch characters in gta 6; how to save in gta 6
+- [ ] gta 6 strangers and freaks; gta 6 gang operations; gta 6 robberies (stores, jewelry, bank vaults); how to save in gta 6
+- [x] how to switch characters in gta 6; gta 6 switch characters 10 → `blog/how-to-switch-characters-in-gta-6`
+- [x] gta 6 update — 700/5 (Ahrefs 2026-11-20); gta 6 patch notes; gta 6 day one patch → `blog/gta-6-update` (add a row per title update; add Rockstar patch notes when published)
 
 ## Do not target
 

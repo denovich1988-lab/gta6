@@ -1,7 +1,7 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 11 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 21 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 22 are listed below, with walkthroughs for the first 11.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 22 are listed below, with walkthroughs for the first 21.
 
 ## How the mission list works
 
@@ -72,23 +72,25 @@ The story is split into a Prologue and numbered chapters. The missions below are
 | 9 | Island Dreams | [Island Dreams walkthrough](/missions/gta-6-island-dreams-walkthrough/) |
 | 10 | Feng Shui | [Feng Shui walkthrough](/missions/gta-6-feng-shui-walkthrough/) |
 | 11 | Coming Home | [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/) |
-| 12 | Clean Up After Donnie | Coming soon |
-| 13 | Buck Me | Coming soon |
-| 14 | Down to Earth | Coming soon |
-| 15 | Day Release | Coming soon |
-| 16 | Clear Skies | Coming soon |
-| 17 | Swamped | Coming soon |
-| 18 | Don Gone | Coming soon |
-| 19 | Recalibration | Coming soon |
-| 20 | Tourist Trap | Coming soon |
-| 21 | Home Sweet Home | Coming soon |
+| 12 | Clean Up After Donnie | [Clean Up After Donnie walkthrough](/missions/gta-6-clean-up-after-donnie-walkthrough/) |
+| 13 | Buck Me | [Buck Me walkthrough](/missions/gta-6-buck-me-walkthrough/) |
+| 14 | Down to Earth | [Down to Earth walkthrough](/missions/gta-6-down-to-earth-walkthrough/) |
+| 15 | Day Release | [Day Release walkthrough](/missions/gta-6-day-release-walkthrough/) |
+| 16 | Clear Skies | [Clear Skies walkthrough](/missions/gta-6-clear-skies-walkthrough/) |
+| 17 | Swamped | [Swamped walkthrough](/missions/gta-6-swamped-walkthrough/) |
+| 18 | Don Gone | [Don Gone walkthrough](/missions/gta-6-don-gone-walkthrough/) |
+| 19 | Recalibration | [Recalibration walkthrough](/missions/gta-6-recalibration-walkthrough/) |
+| 20 | Tourist Trap | [Tourist Trap walkthrough](/missions/gta-6-tourist-trap-walkthrough/) |
+| 21 | Home Sweet Home | [Home Sweet Home walkthrough](/missions/gta-6-home-sweet-home-walkthrough/) |
 | 22 | Discharge Time | Coming soon |
 
-Both PowerPyx and VGC end Chapter 1 with Discharge Time. The two guides swap a few neighbours (Lab Fees and Just a Scratch, Buck Me and Clean Up After Donnie, Day Release and Clear Skies), and several early missions can be played in any order, so the numbers are a guide to the order rather than a fixed count. PowerPyx also lists optional and missable tasks between these missions; we cover the ones before Lucia's release in the [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/).
+Both PowerPyx and VGC end Chapter 1 with Discharge Time. The two guides swap a few neighbours (Lab Fees and Just a Scratch, Buck Me and Clean Up After Donnie, Day Release and Clear Skies), and several early missions can be played in any order, so the numbers are a guide to the order rather than a fixed count. PowerPyx also lists optional and missable tasks between these missions; we cover the ones before Lucia's release in the [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/). Between Clear Skies and Swamped, PowerPyx counts a short scene at the house, Building a Life, as its own mission; VGC folds it into Clear Skies.
+
+**Point of no return:** Tourist Trap, Home Sweet Home and Discharge Time play back to back, and free roam does not return until Chapter 2. Read the checklist in the [Recalibration walkthrough](/missions/gta-6-recalibration-walkthrough/) before you start [Tourist Trap](/missions/gta-6-tourist-trap-walkthrough/).
 
 ### Chapter 2 and later
 
-PowerPyx divides the story into five chapters. Chapter 2 opens with What's in the Bag?, which VGC lists as well. We add each later mission to this list once a second walkthrough confirms its name and place in the order.
+PowerPyx divides the story into five chapters. Chapter 2 opens with What's in the Bag?, which VGC lists as well. Switching between the two leads unlocks during Chapter 2: see [how to switch characters in GTA 6](/blog/how-to-switch-characters-in-gta-6/). We add each later mission to this list once a second walkthrough confirms its name and place in the order.
 
 ## More help
 
