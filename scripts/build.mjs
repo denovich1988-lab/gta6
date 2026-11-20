@@ -116,6 +116,8 @@ const googleTag = () => (site.gtmId ? `<script>
   gtag('js', new Date());
 </script>` : '');
 
+const adsenseTag = () => (site.adsenseClient ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsenseClient}" crossorigin="anonymous"></script>` : '');
+
 function layout(c, { title, description, rel, body, crumbs = [], jsonLd = [], ogType = 'website', published = '', modified = '', noindex = false }) {
   const full = titleTag(c, title);
   const desc = description || c.t('siteDescription');
@@ -134,6 +136,7 @@ function layout(c, { title, description, rel, body, crumbs = [], jsonLd = [], og
 <html lang="${c.L}" data-p="${c.P}">
 <head>
 ${googleTag()}
+${adsenseTag()}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(full)}</title>
@@ -382,6 +385,7 @@ const smEntry = (r) => {
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${REG.filter((r) => !r.rel.includes('/page/')).map(smEntry).join('\n')}\n</urlset>`);
 
 const BOTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-SearchBot', 'Claude-User', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Applebot-Extended', 'Bingbot', 'meta-externalagent', 'Amazonbot', 'DuckAssistBot', 'MistralAI-User', 'CCBot'];
+if (site.adsenseClient) write('ads.txt', `google.com, ${site.adsenseClient.replace('ca-', '')}, DIRECT, f08c47fec0942fa0\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /404.html\n\n${BOTS.map((b) => `User-agent: ${b}\nAllow: /`).join('\n\n')}\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
 
 const llmsHead = `# ${site.name}\n\n> ${site.description}\n\n${site.name} is an independent, unofficial fan guide to Grand Theft Auto VI (GTA 6). Each page states whether its information is confirmed by Rockstar Games, lists its sources and shows the date it was last updated. Content may be quoted with a link to the page.\n\nLanguages: ${CTX.map((c) => `[${c.lang.name}](${SITE_URL}${c.P}/)`).join(', ')}.\n`;
