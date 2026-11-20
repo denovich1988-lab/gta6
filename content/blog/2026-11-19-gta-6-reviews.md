@@ -4,6 +4,7 @@ seoTitle: "GTA 6 Reviews: Metacritic Score and Critic Verdicts"
 description: "GTA 6 reviews are in: 99 on Metacritic from about 150 critics on launch day. Scores from major outlets, common praise and the few complaints."
 image: g-reviews
 date: 2026-11-19
+updated: 2026-11-21
 status: live
 summary:
   - "GTA 6 holds a Metacritic score of 99 as of November 19, 2026, with no mixed or negative reviews."
@@ -28,7 +29,9 @@ sources:
 related: [gta-6-60-fps, gta-6-story-length, gta-6-file-size, gta-6-price-editions]
 ---
 
-**GTA 6 reviews are overwhelmingly positive: the game has a Metacritic score of 99 as of November 19, 2026.** Reviews went live on November 18, the day before launch. Scores move as more reviews arrive, so treat the numbers below as a launch-day snapshot.
+**GTA 6 reviews are overwhelmingly positive: the game has a Metacritic score of 99 as of November 19, 2026.** Reviews went live on November 18, the day before launch. This page collects the aggregate scores, what individual outlets gave it, the few low scores and their reasons, and how it ranks against the best-reviewed games ever. Scores move as more reviews arrive, so treat the numbers below as a launch-week snapshot.
+
+Every outlet score here appears on Metacritic or in at least two review round-ups. Verdicts are our paraphrases, not quotes.
 
 ## GTA 6 review score on Metacritic and OpenCritic
 
@@ -65,6 +68,10 @@ Each score above appears in at least two review round-ups or on Metacritic. The 
 - **Jason and Lucia.** Reviewers describe the two-lead story as more personal than earlier GTA games.
 - **Systems that connect.** Driving, traffic, police response and robberies are singled out for how they work together.
 - **Polish.** Several reviews note how finished the game feels for its size.
+- **Driving.** IGN's review, as summarised by TheGamer, singles out the car handling and traffic as the best in the series.
+- **Themes.** The New York Times review praises the story's depth, according to the same round-up.
+
+**Why it matters:** the praise is spread across systems, story and world, which is unusual. Most open-world games are reviewed as strong in one and weaker in the others. Our own summary of what changed is in [GTA 6's new features](/blog/gta-6-new-features/).
 
 ## What critics criticise
 
@@ -72,7 +79,47 @@ Complaints are few, and none of them pulled a major score below 9.
 
 - **30 FPS.** The game targets 30 FPS on every console, with no performance mode. See [GTA 6 60 FPS](/blog/gta-6-60-fps/).
 - **Minor performance dips.** VGC's review mentions them and says they do not spoil the game.
-- **No online mode at launch.** GTA 6 launched as a story game only.
+- **No online mode at launch.** GTA 6 launched as a story game only; see [GTA 6 online](/online/gta-6-online/).
+- **Length and pacing.** One top-score review on Metacritic says the story could lose a few hours, and ScreenHub found the opening slow.
+
+**Tip:** if the frame rate is your worry, the settings that make 30 FPS feel smoother are listed on our 60 FPS page, and assists for harder missions are in [GTA 6 difficulty settings](/blog/gta-6-difficulty-settings/).
+
+## The lowest scores, and why
+
+The spread is narrow, but it is not zero.
+
+| Outlet | Score | Reservation |
+|---|---|---|
+| TheSixthAxis | 9/10 | The lowest among the well-known outlets we saw |
+| The New York Times | 9/10 | Listed in TheGamer's round-up; praised the game's themes |
+| GameStar | 97 | Says the game meets and exceeds expectations |
+| ScreenHub | 80 | Calls large parts of it epic but says other sections are boring and too restricted, with a slow start |
+
+ScreenHub's 80 was the lowest score visible on Metacritic's page when we checked. An 80 still counts as a positive review on Metacritic, which is why the site showed no mixed or negative reviews.
+
+**Why it matters:** the criticisms that do exist are about pacing in the opening hours and about the frame rate, not about bugs or missing content. If you bounce off slow openings, give it until the world opens up in Chapter 2; see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+
+## How GTA 6 compares with other top-rated games
+
+| Game | Metascore |
+|---|---|
+| The Legend of Zelda: Ocarina of Time (1998) | 99 |
+| GTA 6 (2026) | 99 |
+| GTA 4 (2008) | 98 |
+| GTA 5 (2013) | 97 |
+| Red Dead Redemption 2 (2018) | 97 |
+| GTA 3 (2001) | 97 |
+| GTA: San Andreas and GTA: Vice City | 95 |
+
+Several headlines called GTA 6 the highest-rated game of all time. Strictly, it is tied: Ocarina of Time also holds a 99. VICE's round-up makes the case that GTA 6's 99 rests on far more reviews.
+
+**Why it matters:** "best ever" depends on how you break the tie. What is not in dispute is that no Rockstar game has scored higher.
+
+## User reviews
+
+Metacritic's page said user reviews would open at 12:00 pm Pacific time on November 20, the day after launch. Critic and user scores often differ for big releases, so we will add the user score once it has enough ratings to be meaningful, and we will not quote an early number.
+
+**Tip:** when user scores arrive, read a few of the middling reviews before the highest and lowest ones. They are usually the most informative about everyday annoyances.
 
 ## Is GTA 6 good?
 
@@ -84,4 +131,27 @@ By the reviews, yes. No critic listed on Metacritic gave it a mixed or negative 
 - **PS5 system update.** PlayStation Support said on November 17 that a PS5 system software update is required before playing GTA 6.
 - **PSN sign-in problems.** On November 18, hours before launch, outage trackers logged more than a thousand reports of PlayStation Network problems. Sony's status page later showed services restored. Neither Sony nor Rockstar linked it to GTA 6.
 
-We will update this page as scores change and when user reviews open. Prices are in [GTA 6 price and editions](/buying/gta-6-price-editions/).
+## What is not confirmed
+
+- **The final review count.** Metacritic's own page showed 151 in one place and 158 in another, and round-ups quote between 144 and 156.
+- **The user score.** Not open when this page was last checked.
+- **The lowest critic score overall.** Only a handful of the 150-plus reviews are visible without paging through the full list.
+- **Reviews of the Xbox version.** Almost all launch reviews were of the PS5 version; Metacritic listed 14 for Xbox Series X.
+
+## Should you buy it? A quick checklist
+
+1. You liked GTA 5 or Red Dead Redemption 2: yes, on the strength of these reviews.
+2. You need 60 FPS: wait, or accept 30. There is no performance mode.
+3. You only want online play: wait. There is no online mode yet.
+4. You are short of time: note the length, about 80 hours by one Rockstar developer's own playthrough.
+5. You are choosing an edition: compare them in [GTA 6 price and editions](/buying/gta-6-price-editions/).
+
+## What this means for you
+
+Reviews this uniform are rare, and they remove most of the risk from a $79.99 purchase. The remaining questions are personal ones: frame rate, time, and whether you were waiting for multiplayer. None of the critics found a broken game.
+
+## What we will add to this page
+
+- The Metacritic user score once it has settled.
+- OpenCritic's final average and recommendation rate.
+- Any notable re-reviews after patches.

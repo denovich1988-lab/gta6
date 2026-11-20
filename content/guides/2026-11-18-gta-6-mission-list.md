@@ -1,7 +1,7 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 34 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 44 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 34 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 44 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -116,7 +116,33 @@ PowerPyx and GTABase both list these as main missions between What's in the Bag?
 | Painkiller Supplier | Wait for Dunk's calls | [Painkiller Supplier walkthrough](/missions/gta-6-painkiller-supplier-walkthrough/) |
 | Behind on Payments | Pay Linda $900 | [Behind on Payments walkthrough](/missions/gta-6-behind-on-payments-walkthrough/) |
 
-Both guides list Slam Dunk, Breakfast Run and Coffee Break next. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+#### Later Chapter 2 missions
+
+PowerPyx and GTABase agree on these main missions and their order. VGC had not published walkthroughs for them when we last checked, so they are not numbered yet.
+
+| Mission | What it is | Walkthrough |
+|---|---|---|
+| Slam Dunk | Get painkillers with Dunk; shootout with the Kolts | [Slam Dunk walkthrough](/missions/gta-6-slam-dunk-walkthrough/) |
+| Breakfast Run | Store robbery spree with Jason | [Breakfast Run walkthrough](/missions/gta-6-breakfast-run-walkthrough/) |
+| Coffee Break | Unlocks character switching and four jobs | [Coffee Break walkthrough](/missions/gta-6-coffee-break-walkthrough/) |
+| Prepare for Vice City | Earn $15,000 | [Prepare for Vice City walkthrough](/missions/gta-6-prepare-for-vice-city-walkthrough/) |
+| Afternoon Delight | Rob the safe at Delights for Vicki | [Afternoon Delight walkthrough](/missions/gta-6-afternoon-delight-walkthrough/) |
+
+The chapter ends with Checking Out, which both guides describe as a point of no return: the Starlet Motel is no longer your home afterwards. Its walkthrough is next on our list.
+
+#### Optional Chapter 2 jobs
+
+These appear on the map after Coffee Break and can be done in any order. GTABase counts all of them towards 100%.
+
+| Mission | What it is | Walkthrough |
+|---|---|---|
+| Thrillbillies | Dirt bike race at the Mud Club; starts Billy's questline | [Thrillbillies walkthrough](/missions/gta-6-thrillbillies-walkthrough/) |
+| Twist Wrist, Smash, Grab | Armored truck job with Billy's crew | [Twist Wrist, Smash, Grab walkthrough](/missions/gta-6-twist-wrist-smash-grab-walkthrough/) |
+| Hit Avery Pawn | Pawn shop robbery | [Hit Avery Pawn walkthrough](/missions/gta-6-hit-avery-pawn-walkthrough/) |
+| Hit Kingpin Bowling | Raid on a gang-held bowling alley | [Hit Kingpin Bowling walkthrough](/missions/gta-6-hit-kingpin-bowling-walkthrough/) |
+| Impounded Vehicle | Take Lucia's car back from the impound | [Impounded Vehicle walkthrough](/missions/gta-6-impounded-vehicle-walkthrough/) |
+
+Chapter 3 begins with Welcome to Vice City. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
