@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Hit Avery Pawn mission guide", url: "https://www.gtabase.com/gta-6/missions/hit-avery-pawn" }
   - { name: "PowerPyx: GTA 6 Slam Dunk walkthrough", url: "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/" }
 related: [gta-6-mission-list, gta-6-coffee-break-walkthrough, gta-6-slam-dunk-walkthrough, gta-6-hit-kingpin-bowling-walkthrough, how-to-make-money-in-gta-6]
+image: g-hit-avery-pawn-walkthrough
 ---
 
 **This GTA 6 Hit Avery Pawn walkthrough shows how to empty the pawn shop in Port Gellhorn and get away with a full bag.** It is the first proper store robbery you plan yourself, and a tutorial for the loop that funds the rest of the chapter: threaten, grab, escape, fence.

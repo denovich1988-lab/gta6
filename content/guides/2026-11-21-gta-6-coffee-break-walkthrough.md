@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Coffee Break mission guide", url: "https://www.gtabase.com/gta-6/missions/coffee-break" }
   - { name: "GTABase: GTA 6 missions", url: "https://www.gtabase.com/gta-6/missions/" }
 related: [gta-6-mission-list, gta-6-breakfast-run-walkthrough, gta-6-thrillbillies-walkthrough, gta-6-hit-avery-pawn-walkthrough, gta-6-prepare-for-vice-city-walkthrough]
+image: g-coffee-break-walkthrough
 ---
 
 **This GTA 6 Coffee Break walkthrough is short, but the mission is the turning point of Chapter 2: it gives you both leads at once.** After a $2 coffee, Jason and Lucia agree to raise money for a move to Vice City, and the game unlocks character switching and a set of jobs to fund it.

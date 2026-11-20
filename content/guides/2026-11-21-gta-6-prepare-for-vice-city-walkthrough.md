@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Prepare for Vice City mission guide", url: "https://www.gtabase.com/gta-6/missions/prepare-for-vice-city" }
   - { name: "PowerPyx: GTA 6 Afternoon Delight (Rob Vicki's Boss) walkthrough", url: "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/" }
 related: [gta-6-mission-list, gta-6-coffee-break-walkthrough, gta-6-afternoon-delight-walkthrough, how-to-make-money-in-gta-6, gta-6-buck-me-walkthrough]
+image: g-prepare-for-vice-city-walkthrough
 ---
 
 **This GTA 6 Prepare for Vice City walkthrough is a money plan: the mission has one objective, and it is to have $15,000.** It sits in your list from Coffee Break until the end of Chapter 2 and is the first place where the story stops for players who are broke. The good news is that the jobs already on your map pay almost all of it.

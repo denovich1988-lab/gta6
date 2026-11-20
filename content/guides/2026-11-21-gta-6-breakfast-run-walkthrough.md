@@ -21,6 +21,7 @@ sources:
   - { name: "GTABase: Breakfast Run mission guide", url: "https://www.gtabase.com/gta-6/missions/breakfast-run" }
   - { name: "GTABase: GTA 6 missions", url: "https://www.gtabase.com/gta-6/missions/" }
 related: [gta-6-mission-list, gta-6-slam-dunk-walkthrough, gta-6-coffee-break-walkthrough, gta-6-take-care-of-jason-walkthrough, gta-6-wanted-level]
+image: g-breakfast-run-walkthrough
 ---
 
 **This GTA 6 Breakfast Run walkthrough covers the mission where Jason gets back on his feet and the couple go straight back to work.** It is a chain of quick store robberies that teaches the hold-up system you will use for money for the rest of the game. PowerPyx subtitles it Check on Jason.

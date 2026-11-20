@@ -21,6 +21,7 @@ sources:
   - { name: "GTABase: Impounded Vehicle mission guide", url: "https://www.gtabase.com/gta-6/missions/impounded-vehicle" }
   - { name: "PowerPyx: GTA 6 Coffee Break walkthrough", url: "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/" }
 related: [gta-6-mission-list, gta-6-coffee-break-walkthrough, gta-6-moses-walkthrough, gta-6-wanted-level, gta-6-cars]
+image: g-impounded-vehicle-walkthrough
 ---
 
 **This GTA 6 Impounded Vehicle walkthrough covers the quickest of the four jobs that follow Coffee Break: stealing Lucia's own car back from the police.** It takes a couple of minutes and teaches a rule that matters for the rest of the game, which is what happens to a registered car you abandon at a crime scene.

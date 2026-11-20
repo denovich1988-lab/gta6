@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Twist Wrist, Smash, Grab mission guide", url: "https://www.gtabase.com/gta-6/missions/twist-wrist-smash-grab" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-thrillbillies-walkthrough, gta-6-moses-walkthrough, gta-6-strangers-and-freaks, gta-6-prepare-for-vice-city-walkthrough]
+image: g-twist-wrist-smash-grab-walkthrough
 ---
 
 **This GTA 6 Twist Wrist, Smash, Grab walkthrough covers Billy's armored truck job, the best-paid optional mission of Chapter 2 for the time it takes.** The crew does the hard part. Your job is to stay on the bike, open the truck and carry the bag. PowerPyx lists it as Join Billy on a Job.

@@ -24,6 +24,7 @@ sources:
   - { name: "BGR: GTA 6 settings to change before you play", url: "https://www.bgr.com/2321008/gta-6-settings-you-need-to-change-before-playing/" }
   - { name: "PowerPyx: GTA 6 Slam Dunk walkthrough", url: "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/" }
 related: [gta-6-beginners-guide, gta-6-first-person-mode, gta-6-wanted-level, gta-6-how-to-save]
+image: g-difficulty-settings
 ---
 
 **GTA 6 difficulty settings do not include an easy, normal or hard mode: the game has one difficulty, and you adjust it with individual options instead.** Two of those options, Accessible Combat and Reduced Vehicle Damage, are easy mode in all but name. Others change how much the game helps you aim, how forgiving button prompts are and how mini-games play. This page lists every option that affects difficulty, where to find it and what to set if you are stuck.

@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Thrillbillies mission guide", url: "https://www.gtabase.com/gta-6/missions/thrillbillies" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-coffee-break-walkthrough, gta-6-twist-wrist-smash-grab-walkthrough, gta-6-strangers-and-freaks, gta-6-prepare-for-vice-city-walkthrough]
+image: g-thrillbillies-walkthrough
 ---
 
 **This GTA 6 Thrillbillies walkthrough explains how to get through the Mud Club race and start Billy's questline.** It is one of the four jobs that appear after Coffee Break, and the safest of them: no police, no shooting, and a cash prize that depends on where you finish. PowerPyx lists it as Check Out the Mud Club, the first of Billy's Strangers and Freaks missions.

@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Hit Kingpin Bowling mission guide", url: "https://www.gtabase.com/gta-6/missions/hit-kingpin-bowling" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
 related: [gta-6-mission-list, gta-6-coffee-break-walkthrough, gta-6-hit-avery-pawn-walkthrough, gta-6-trophies, gta-6-collectibles]
+image: g-hit-kingpin-bowling-walkthrough
 ---
 
 **This GTA 6 Hit Kingpin Bowling walkthrough lists what to buy before the raid and where each of the three key valuables is.** Unlike the pawn shop job, this one is a gunfight from the first step: the bowling alley belongs to the Kolts, and they do not hand anything over. It carries a bronze trophy, Let's Go Bowling.

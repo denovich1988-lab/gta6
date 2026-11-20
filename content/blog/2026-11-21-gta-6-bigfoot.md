@@ -23,6 +23,7 @@ sources:
   - { name: "Critical Hits: Grand Theft Auto 6, how to find Bigfoot", url: "https://criticalhits.com.br/dicas/grand-theft-auto-6-como-encontrar-o-pe-grande/" }
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 related: [gta-6-animals, gta-6-map, gta-6-strangers-and-freaks, gta-6-collectibles]
+image: g-bigfoot
 ---
 
 **The GTA 6 Bigfoot sighting is at Cottonmouth Lake, just below Hamlet, and you can drive there almost as soon as the game lets you roam.** Players found it on launch day. What you meet is brief and strange: a large hairy figure on the road, a chase you will lose, and a scene that ends before you get a proper look. This page explains where to go, what happens, what the game itself calls the creature, and which parts of the story are still reported by only one guide.

@@ -21,6 +21,7 @@ sources:
   - { name: "GTABase: Slam Dunk mission guide", url: "https://www.gtabase.com/gta-6/missions/slam-dunk" }
   - { name: "GTABase: GTA 6 missions", url: "https://www.gtabase.com/gta-6/missions/" }
 related: [gta-6-mission-list, gta-6-painkiller-supplier-walkthrough, gta-6-girls-trip-walkthrough, gta-6-breakfast-run-walkthrough, how-to-make-money-in-gta-6]
+image: g-slam-dunk-walkthrough
 ---
 
 **This GTA 6 Slam Dunk walkthrough covers the hardest fight of Chapter 2 so far: Lucia, Dunk and a retired doctor against the Kolts.** It closes the painkiller storyline that began in Girl's Trip. PowerPyx subtitles it Find Painkillers.

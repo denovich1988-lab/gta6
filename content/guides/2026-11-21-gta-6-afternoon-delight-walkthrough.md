@@ -23,6 +23,7 @@ sources:
   - { name: "GTABase: Afternoon Delight mission guide", url: "https://www.gtabase.com/gta-6/missions/afternoon-delight" }
   - { name: "GTABase: GTA 6 missions", url: "https://www.gtabase.com/gta-6/missions/" }
 related: [gta-6-mission-list, gta-6-prepare-for-vice-city-walkthrough, gta-6-girls-trip-walkthrough, gta-6-coffee-break-walkthrough, how-to-make-money-in-gta-6]
+image: g-afternoon-delight-walkthrough
 ---
 
 **This GTA 6 Afternoon Delight walkthrough covers the last job before the end of Chapter 2: Vicki wants her boss's safe emptied, and she pays $10,000 for it.** The mission has one real decision, and both branches lead to the same safe, the same shootout and the same money. PowerPyx subtitles it Rob Vicki's Boss.

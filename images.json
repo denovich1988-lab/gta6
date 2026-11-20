@@ -429,6 +429,54 @@
     "g-chapters": {
       "id": "e3784e65-8eca-4dff-a900-322636132ac5",
       "alt": "Illustration of an open book with five ribbon bookmarks on a sea wall facing a long bridge to a city"
+    },
+    "g-bigfoot": {
+      "id": "fd5d1b87-1792-47ac-8f3c-57ae9d6c4efa",
+      "alt": "Illustration of large strange footprints in the mud by a misty forest creek at dusk"
+    },
+    "g-difficulty-settings": {
+      "id": "fa26d338-db4b-4ec2-a112-e4b8688ac827",
+      "alt": "Illustration of traffic cones and a stopwatch in an empty parking lot at sunset"
+    },
+    "g-afternoon-delight-walkthrough": {
+      "id": "d0445ae9-895c-4412-b8b9-579d121d7ae3",
+      "alt": "Illustration of a penthouse office with an open wall safe and ocean views at sunset"
+    },
+    "g-breakfast-run-walkthrough": {
+      "id": "22718882-00b1-428d-b1af-d39c321335c5",
+      "alt": "Illustration of an empty roadside diner with booths and a cash register at dawn"
+    },
+    "g-coffee-break-walkthrough": {
+      "id": "de86fae2-d866-4528-b82e-147e49cd2c1d",
+      "alt": "Illustration of two paper coffee cups on a car dashboard at sunrise"
+    },
+    "g-hit-avery-pawn-walkthrough": {
+      "id": "e4d71232-41da-46e3-b22c-931c13d4411c",
+      "alt": "Illustration of glass display cases with watches and rings and guitars on the wall of a dim shop"
+    },
+    "g-hit-kingpin-bowling-walkthrough": {
+      "id": "76a8be6d-938b-4457-a08d-79bda56ad444",
+      "alt": "Illustration of an empty retro bowling alley with glowing neon lanes"
+    },
+    "g-impounded-vehicle-walkthrough": {
+      "id": "4a4dc748-5fe3-46f9-87f9-d6ce86941484",
+      "alt": "Illustration of a tow truck hauling a car along a wet neon-lit road at night"
+    },
+    "g-prepare-for-vice-city-walkthrough": {
+      "id": "42dceabc-a11a-464a-a6ad-6eea760ff128",
+      "alt": "Illustration of a jar of rolled dollar bills on a windowsill with a city skyline at dusk"
+    },
+    "g-slam-dunk-walkthrough": {
+      "id": "b7235779-9990-4c1b-b538-6b5271991c57",
+      "alt": "Illustration of a sleek private clinic with palm trees and a glowing entrance at night"
+    },
+    "g-thrillbillies-walkthrough": {
+      "id": "22965a22-0ad8-4f93-aea4-1de0baf88258",
+      "alt": "Illustration of a muddy dirt bike track with jumps in the countryside at sunset"
+    },
+    "g-twist-wrist-smash-grab-walkthrough": {
+      "id": "9f7f915b-989c-440a-8b01-7d89799e0550",
+      "alt": "Illustration of an armored truck parked on an empty highway shoulder at dusk"
     }
   },
   "sections": {
