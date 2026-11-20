@@ -21,12 +21,12 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 - [x] gta 6 trailer 3 — 32k/9; gta 6 trailer 2 9.1k/8; gta 6 trailer 21k/43 (one page: all trailers, dates, what each shows) → `news/gta-6-trailers`
 - [x] gta 6 delay — 31k/6; gta 6 delayed again 11k/1; did gta 6 get delayed again 10k/7; how many times has gta 6 been delayed 1.3k/3 (blog) → `blog/gta-6-delays`
 - [x] gta 6 controller — 9.1k/15; gta vi dualsense controller 4.6k; gta 6 ps5 controller 1.5k; ps5 gta 6 bundle 1.5k/19 → `buying/gta-6-controller`
-- [ ] gta 6 cover — 8.5k/0; gta 6 cover girl 6.6k/0; gta 6 logo 3.2k/6
+- [x] gta 6 cover — 8.5k/0; gta 6 cover girl 6.6k/0; gta 6 logo 3.2k/6 → `news/gta-6-cover`
 - [x] gta 6 budget — 10k/15; how much did gta 6 cost to make 3.1k/0; gta 6 development cost 1.8k/2 (blog) → `blog/gta-6-budget`
 - [x] how long has gta 6 been in development — 4.1k/0; when did gta 6 start development 2.2k/1; gta 6 dev team 1.5k/1 (blog) → `blog/how-long-was-gta-6-in-development`
 - [x] gta 6 physical copy — 3.8k/0; gta 6 no disc 3.6k/1; will gta 6 have a disc 1.2k/21; gta 6 disc 2.3k (blog) → `buying/gta-6-physical-copy`
 - [x] gta 6 voice actors — 2.4k/3; who plays jason in gta 6 700/0 → `characters/gta-6-voice-actors`
-- [ ] gta 6 pc requirements — 2.8k/1; gta 6 system requirements 1.9k/0; gta 6 system requirements pc 2k/2
+- [x] gta 6 pc requirements — 2.8k/1; gta 6 system requirements 1.9k/0; gta 6 system requirements pc 2k/2 → `pc/gta-6-pc-requirements`
 - [x] will gta 6 be on ps4 — 2.8k/2; will gta 6 be on xbox series s 1.9k/0; will gta 6 be on switch 2 2k/12; gta 6 xbox 2.4k/7; what consoles will gta 6 be on 1.3k (blog) → `buying/gta-6-platforms`
 - [x] gta 6 map vs gta 5 — 2.7k/1; gta 6 map size 1.7k/13; how big is gta 6 1.3k/0 → `map/gta-6-map-size`
 - [ ] gta 6 cars — 1.5k/2 (published hub); next: gta 6 car list 350/5, gta 6 motorcycles 250/0, gta 6 planes 250/0, gta 6 trucks 250/2, gta 6 boats 150/0, gta 6 train 350/1
@@ -34,14 +34,14 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 - [ ] gta 6 guns — 1k/5; gta 6 weapons 400/3 (published hub; add per-weapon pages after launch)
 - [x] how long is gta 6 story mode — 1.5k/1; how long to beat gta 6; how many missions will gta 6 have 200/1; gta 6 missions 600/0; gta 6 story mode 350/3 → `missions/gta-6-story-length`
 - [x] gta 6 pre order bonus — 1.5k/47; gta 6 deluxe edition 1.6k/26; gta 6 merch 1.5k/8 → `buying/gta-6-vintage-vice-city-pack, buying/gta-6-ultimate-edition`
-- [ ] gta 6 news today — 2.9k/2 (blog, weekly round-up)
+- [x] gta 6 news today — 2.9k/2 (blog, weekly round-up) → `blog/gta-6-news-today` (keep updating; new round-up each week)
 - [x] what time does gta 6 come out — 700; gta 6 new zealand launch time 2k; gta 6 countdown 1.9k/0 → `blog/what-time-does-gta-6-come-out`
 - [x] gta 6 netflix — 2.9k (verify what this is before writing) → `blog/gta-6-netflix`
 - [ ] gta 6 police — 350/0; gta 6 strip club 6.6k/0 (only as a neutral location/feature guide if verified in game)
 - [x] gta 6 confirmed features — 400/12; gta 6 new features 350/8; gta 6 features 700/13 → `blog/gta-6-new-features`
 - [ ] port gellhorn gta 6 — 600/0; gta 6 vice city map 250/28; gta 6 cities 200/1; gta 6 grassrivers location 50 (one page per region)
 - [x] how old do you have to be to play gta 6 — 300/0 (age rating) → `buying/gta-6-age-rating`
-- [ ] how much money has gta 6 made — 1.4k; how many copies of gta 6 sold 1k; gta 6 pre order sales 3.2k/1 (blog, only official Take-Two figures)
+- [x] how much money has gta 6 made — 1.4k; how many copies of gta 6 sold 1k; gta 6 pre order sales 3.2k/1 (blog, only official Take-Two figures) → `blog/how-much-money-has-gta-6-made` (no official figure yet: Sensor Tower estimates labelled as estimates; add Take-Two numbers when published)
 
 - [x] gta 6 graphics / 60 fps — 4.5k/0 → `blog/gta-6-60-fps`
 - [x] gta 6 wanted level (post-launch) → `missions/gta-6-wanted-level`
@@ -55,7 +55,7 @@ Check each in Ahrefs before writing; write only from verified gameplay.
 - [x] gta 6 first mission 100; what is the first mission in gta 6 40; gta 6 prologue walkthrough → `missions/gta-6-prologue-walkthrough`
 - [x] gta 6 gone fishing walkthrough → `missions/gta-6-gone-fishing-walkthrough`
 - [x] gta 6 gear up walkthrough → `missions/gta-6-gear-up-walkthrough`
-- [ ] gta 6 walkthrough 60; gta 6 mission 80 → one page per mission: "gta 6 <mission name> walkthrough". Next in story order (names verified in PowerPyx + GTABase): Lab Fees, Just a Scratch, Unwanted Attention, Pipework, Hey Arnold!, Island Dreams, Feng Shui, Coming Home, Clean Up After Donnie, Buck Me, Down to Earth
+- [ ] gta 6 walkthrough 60; gta 6 mission 80 → one page per mission: "gta 6 <mission name> walkthrough". Published 2026-11-20: `missions/gta-6-lab-fees-walkthrough`, `gta-6-just-a-scratch-walkthrough`, `gta-6-unwanted-attention-walkthrough`, `gta-6-pipework-walkthrough`, `gta-6-hey-arnold-walkthrough`, `gta-6-island-dreams-walkthrough`, `gta-6-feng-shui-walkthrough`, `gta-6-coming-home-walkthrough`. Next in story order (names verified in PowerPyx + VGC): Clean Up After Donnie, Buck Me, Down to Earth, Day Release, Clear Skies, Swamped, Don Gone, Recalibration, Tourist Trap, Home Sweet Home, Discharge Time, then Chapter 2 (What's in the Bag?)
 - [x] gta 6 money 150/0; how to make money in gta 6 → `cheats/how-to-make-money-in-gta-6`; gta 6 money cheat → `blog/gta-6-money-cheat`
 - [x] gta 6 collectibles (hub) → `map/gta-6-collectibles`
 - [ ] per-type collectible pages: gta 6 collectible cards, cocaine flamingos, watches, WAiNK scans, No Flusher tags; gta 6 stunt jumps

@@ -245,6 +245,54 @@
     "g-best-console": {
       "id": "91a6973b-465a-49c2-a0c3-cf42b81a8c1c",
       "alt": "Illustration of an electronics store window at dusk with two console boxes on lit pedestals"
+    },
+    "g-lab-fees-walkthrough": {
+      "id": "11007c72-a3b0-4e00-ad80-bbd57a8ec99e",
+      "alt": "Illustration of a row of island gift shops with a large whale statue by the road at dusk"
+    },
+    "g-just-a-scratch-walkthrough": {
+      "id": "7b40f00c-6131-4b2d-ad57-dce18be75809",
+      "alt": "Illustration of a roadside repair garage with a 1970s coupe and spray paint cans at dusk"
+    },
+    "g-unwanted-attention-walkthrough": {
+      "id": "2a45f71b-9cab-48d0-8348-0b7af3654bde",
+      "alt": "Illustration of a fenced impound lot at night with a red sports car hooked to a tow truck"
+    },
+    "g-pipework-walkthrough": {
+      "id": "580a32ed-7666-44f5-92e8-c8209270e181",
+      "alt": "Illustration of a kitchen sink with open cabinet, a plunger and a wrench in sunset light"
+    },
+    "g-hey-arnold-walkthrough": {
+      "id": "9bff9246-3a90-4c11-b606-c129d948b19d",
+      "alt": "Illustration of an abandoned radar dome on a mangrove island beyond a broken road bridge"
+    },
+    "g-island-dreams-walkthrough": {
+      "id": "face2f02-86e7-4aa8-b5c6-2de93d6b5617",
+      "alt": "Illustration of an underwater shipwreck with a treasure chest and a distant shark"
+    },
+    "g-feng-shui-walkthrough": {
+      "id": "c930e701-fbee-44df-a102-535281e8a612",
+      "alt": "Illustration of a beach house living room at night with a couch, retro TV and game console"
+    },
+    "g-coming-home-walkthrough": {
+      "id": "a88073cb-1755-48fc-89d9-8623634c206d",
+      "alt": "Illustration of a waterfront dive bar on stilts at night with an anchor-shaped neon sign"
+    },
+    "g-cover": {
+      "id": "5cdd644f-aaac-4f28-bee3-3d3575ae2819",
+      "alt": "Illustration of an artist's desk with a sheet of empty panels, brushes and pots of paint"
+    },
+    "g-pc-requirements": {
+      "id": "d261c013-36b6-4070-bc06-8262a1cabc37",
+      "alt": "Illustration of an open computer case and a graphics card on a workbench by a window"
+    },
+    "g-copies-sold": {
+      "id": "dfc0395e-66ef-4667-a801-0d58547ac7c8",
+      "alt": "Illustration of a warehouse loading dock at sunrise with pallets of boxes and a delivery truck"
+    },
+    "g-news-today": {
+      "id": "8b9b257d-1f31-4cde-9584-26416d7249fd",
+      "alt": "Illustration of a newspaper kiosk on a palm-lined sidewalk at dawn"
     }
   },
   "sections": {

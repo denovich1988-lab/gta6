@@ -1,15 +1,15 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and the first Chapter 1 missions, with a walkthrough for each mission as we verify it."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 11 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-19
+updated: 2026-11-20
 status: live
 hub: true
 summary:
-  - "GTA 6 opens with the Prologue, followed by Gone Fishing and Gear Up in Chapter 1."
+  - "GTA 6 opens with the Prologue; Chapter 1 runs from Gone Fishing to Discharge Time, and the story has five chapters."
   - "We add each mission to this list in story order once its name, objectives and steps are verified."
   - "Every walkthrough covers objectives, a step-by-step route, common fail points and optional goals."
 faq:
@@ -18,7 +18,7 @@ faq:
   - q: "Are the walkthroughs spoiler-free?"
     a: "Mission titles and steps are unavoidable in a walkthrough, but we keep story twists out of titles, summaries and the list on this page."
   - q: "Can you replay missions in GTA 6?"
-    a: "Rockstar has not confirmed mission replay for GTA 6. GTA 5 had it, so it is likely, but we will confirm it in the game before saying so."
+    a: "PowerPyx reports that GTA 6 has no mission replay and no mission medals. Rockstar has not commented, so keep a manual save before any mission you may want to play again."
 sources:
   - { name: "Rockstar Games: Grand Theft Auto VI official site", url: "https://www.rockstargames.com/VI" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 14 are listed below.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 22 are listed below, with walkthroughs for the first 11.
 
 ## How the mission list works
 
@@ -64,19 +64,31 @@ The story is split into a Prologue and numbered chapters. The missions below are
 |---|---|---|
 | 2 | Gone Fishing | [Gone Fishing walkthrough](/missions/gta-6-gone-fishing-walkthrough/) |
 | 3 | Gear Up | [Gear Up walkthrough](/missions/gta-6-gear-up-walkthrough/) |
-| 4 | Lab Fees | Coming soon |
-| 5 | Just a Scratch | Coming soon |
-| 6 | Unwanted Attention | Coming soon |
-| 7 | Pipework | Coming soon |
-| 8 | Hey Arnold! | Coming soon |
-| 9 | Island Dreams | Coming soon |
-| 10 | Feng Shui | Coming soon |
-| 11 | Coming Home | Coming soon |
+| 4 | Lab Fees | [Lab Fees walkthrough](/missions/gta-6-lab-fees-walkthrough/) |
+| 5 | Just a Scratch | [Just a Scratch walkthrough](/missions/gta-6-just-a-scratch-walkthrough/) |
+| 6 | Unwanted Attention | [Unwanted Attention walkthrough](/missions/gta-6-unwanted-attention-walkthrough/) |
+| 7 | Pipework | [Pipework walkthrough](/missions/gta-6-pipework-walkthrough/) |
+| 8 | Hey Arnold! | [Hey Arnold! walkthrough](/missions/gta-6-hey-arnold-walkthrough/) |
+| 9 | Island Dreams | [Island Dreams walkthrough](/missions/gta-6-island-dreams-walkthrough/) |
+| 10 | Feng Shui | [Feng Shui walkthrough](/missions/gta-6-feng-shui-walkthrough/) |
+| 11 | Coming Home | [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/) |
 | 12 | Clean Up After Donnie | Coming soon |
 | 13 | Buck Me | Coming soon |
 | 14 | Down to Earth | Coming soon |
+| 15 | Day Release | Coming soon |
+| 16 | Clear Skies | Coming soon |
+| 17 | Swamped | Coming soon |
+| 18 | Don Gone | Coming soon |
+| 19 | Recalibration | Coming soon |
+| 20 | Tourist Trap | Coming soon |
+| 21 | Home Sweet Home | Coming soon |
+| 22 | Discharge Time | Coming soon |
 
-Chapter 1 continues after these missions. We list the rest once two sources agree on their names and order.
+Both PowerPyx and VGC end Chapter 1 with Discharge Time. The two guides swap a few neighbours (Lab Fees and Just a Scratch, Buck Me and Clean Up After Donnie, Day Release and Clear Skies), and several early missions can be played in any order, so the numbers are a guide to the order rather than a fixed count. PowerPyx also lists optional and missable tasks between these missions; we cover the ones before Lucia's release in the [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/).
+
+### Chapter 2 and later
+
+PowerPyx divides the story into five chapters. Chapter 2 opens with What's in the Bag?, which VGC lists as well. We add each later mission to this list once a second walkthrough confirms its name and place in the order.
 
 ## More help
 
