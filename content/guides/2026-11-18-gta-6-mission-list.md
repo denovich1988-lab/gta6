@@ -1,7 +1,7 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 21 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 24 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
@@ -18,7 +18,7 @@ faq:
   - q: "Are the walkthroughs spoiler-free?"
     a: "Mission titles and steps are unavoidable in a walkthrough, but we keep story twists out of titles, summaries and the list on this page."
   - q: "Can you replay missions in GTA 6?"
-    a: "PowerPyx reports that GTA 6 has no mission replay and no mission medals. Rockstar has not commented, so keep a manual save before any mission you may want to play again."
+    a: "No. PowerPyx, Beebom and Insider Gaming all report that GTA 6 has no mission replay and no mission medals. Rockstar has not commented, so keep a manual save before any mission you may want to play again."
 sources:
   - { name: "Rockstar Games: Grand Theft Auto VI official site", url: "https://www.rockstargames.com/VI" }
   - { name: "PowerPyx: GTA 6 full walkthrough, all missions", url: "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/" }
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 22 are listed below, with walkthroughs for the first 21.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 24 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -82,7 +82,7 @@ The story is split into a Prologue and numbered chapters. The missions below are
 | 19 | Recalibration | [Recalibration walkthrough](/missions/gta-6-recalibration-walkthrough/) |
 | 20 | Tourist Trap | [Tourist Trap walkthrough](/missions/gta-6-tourist-trap-walkthrough/) |
 | 21 | Home Sweet Home | [Home Sweet Home walkthrough](/missions/gta-6-home-sweet-home-walkthrough/) |
-| 22 | Discharge Time | Coming soon |
+| 22 | Discharge Time | [Discharge Time walkthrough](/missions/gta-6-discharge-time-walkthrough/) |
 
 Both PowerPyx and VGC end Chapter 1 with Discharge Time. The two guides swap a few neighbours (Lab Fees and Just a Scratch, Buck Me and Clean Up After Donnie, Day Release and Clear Skies), and several early missions can be played in any order, so the numbers are a guide to the order rather than a fixed count. PowerPyx also lists optional and missable tasks between these missions; we cover the ones before Lucia's release in the [Coming Home walkthrough](/missions/gta-6-coming-home-walkthrough/). Between Clear Skies and Swamped, PowerPyx counts a short scene at the house, Building a Life, as its own mission; VGC folds it into Clear Skies.
 
@@ -90,7 +90,18 @@ Both PowerPyx and VGC end Chapter 1 with Discharge Time. The two guides swap a f
 
 ### Chapter 2 and later
 
-PowerPyx divides the story into five chapters. Chapter 2 opens with What's in the Bag?, which VGC lists as well. Switching between the two leads unlocks during Chapter 2: see [how to switch characters in GTA 6](/blog/how-to-switch-characters-in-gta-6/). We add each later mission to this list once a second walkthrough confirms its name and place in the order.
+PowerPyx divides the story into five chapters. Chapter 2 opens in a motel in Kelly County with Lucia as the playable lead.
+
+| # | Mission | Walkthrough |
+|---|---|---|
+| 23 | What's in the Bag? | [What's in the Bag? walkthrough](/missions/gta-6-whats-in-the-bag-walkthrough/) |
+| 24 | Ambulance Chaser | [Ambulance Chaser walkthrough](/missions/gta-6-ambulance-chaser-walkthrough/) |
+
+The numbers follow VGC's order, which matches the in-game story recap. PowerPyx and GTABase count optional tasks too, so their numbers for the same missions are higher. Switching between the two leads unlocks during Chapter 2: see [how to switch characters in GTA 6](/blog/how-to-switch-characters-in-gta-6/). We add each later mission to this list once a second walkthrough confirms its name and place in the order.
+
+## Side missions and basics
+
+Optional missions from characters around the map are listed in [GTA 6 Strangers and Freaks](/missions/gta-6-strangers-and-freaks/). Missions cannot be replayed, so read [can you replay missions in GTA 6](/missions/gta-6-replay-missions/) and [how to save](/missions/gta-6-how-to-save/) before you go far. In Chapter 1, [Jason's house projects](/missions/gta-6-jasons-house-projects/) close when Lucia is released.
 
 ## More help
 
