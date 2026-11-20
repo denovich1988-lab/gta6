@@ -381,6 +381,54 @@
     "g-whats-in-the-bag-walkthrough": {
       "id": "0851a109-0fca-4347-aa73-d22941aba5c2",
       "alt": "Illustration of a metal briefcase on the hood of a car in an empty lot at night"
+    },
+    "g-take-care-of-jason-walkthrough": {
+      "id": "5641a1e3-d250-4673-8249-995b3cacf696",
+      "alt": "Illustration of a motel room door at night with a takeaway bag and a first-aid kit on the doorstep"
+    },
+    "g-overnight-charges-walkthrough": {
+      "id": "4807c21b-49ff-4969-b8f0-1d667ee95741",
+      "alt": "Illustration of an old motel reception desk with a service bell, a rack of room keys and a wall map"
+    },
+    "g-just-moved-in-walkthrough": {
+      "id": "dffbc69a-166a-46f2-95ff-319204c776d0",
+      "alt": "Illustration of a gas station convenience store aisle at night with a shopping basket on the floor"
+    },
+    "g-girls-trip-walkthrough": {
+      "id": "4fb577e8-3741-4451-b578-5955b7a30806",
+      "alt": "Illustration of a self-service car wash bay at night with a half-raised shutter door"
+    },
+    "g-moses-walkthrough": {
+      "id": "5e507328-43d5-4f95-8fb7-40df47381c7a",
+      "alt": "Illustration of a garage paint booth with a freshly resprayed teal sedan and blank number plates on the wall"
+    },
+    "g-new-look-walkthrough": {
+      "id": "e7a76639-69ee-4fa0-b852-fbd7d717fb7d",
+      "alt": "Illustration of an empty small-town hair salon with styling chairs and round lit mirrors"
+    },
+    "g-how-do-i-look-walkthrough": {
+      "id": "51fcc51a-66cd-45d9-ab11-00c87b9c10a0",
+      "alt": "Illustration of a discount clothing store with crowded racks of bright shirts and a curtained fitting room"
+    },
+    "g-painkiller-supplier-walkthrough": {
+      "id": "d4960366-4b9e-4746-afb3-2a4ab8d3e978",
+      "alt": "Illustration of a phone ringing on a motel nightstand beside a lamp and a glass of water"
+    },
+    "g-daily-driver-walkthrough": {
+      "id": "5f73a16c-f240-4299-b9cd-58e91af6f436",
+      "alt": "Illustration of a white 1980s off-road jeep in a fenced scrap yard at dusk"
+    },
+    "g-behind-on-payments-walkthrough": {
+      "id": "a641468e-3c24-4219-b65a-772240b4b010",
+      "alt": "Illustration of a gold necklace, a stack of banknotes and a room key on a motel counter"
+    },
+    "g-romance": {
+      "id": "796e21b2-f413-4b32-a4ea-c6bf6d55a470",
+      "alt": "Illustration of a seaside minigolf course at sunset with two putters leaning on a bench"
+    },
+    "g-chapters": {
+      "id": "e3784e65-8eca-4dff-a900-322636132ac5",
+      "alt": "Illustration of an open book with five ribbon bookmarks on a sea wall facing a long bridge to a city"
     }
   },
   "sections": {

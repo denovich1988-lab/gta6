@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 24 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 34 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-20
+updated: 2026-11-21
 status: live
 hub: true
 summary:
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 24 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 34 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -96,8 +96,27 @@ PowerPyx divides the story into five chapters. Chapter 2 opens in a motel in Kel
 |---|---|---|
 | 23 | What's in the Bag? | [What's in the Bag? walkthrough](/missions/gta-6-whats-in-the-bag-walkthrough/) |
 | 24 | Ambulance Chaser | [Ambulance Chaser walkthrough](/missions/gta-6-ambulance-chaser-walkthrough/) |
+| 25 | Just Moved In | [Just Moved In walkthrough](/missions/gta-6-just-moved-in-walkthrough/) |
+| 26 | Girl's Trip | [Girl's Trip walkthrough](/missions/gta-6-girls-trip-walkthrough/) |
+| 27 | Moses | [Moses walkthrough](/missions/gta-6-moses-walkthrough/) |
+| 28 | Daily Driver | [Daily Driver walkthrough](/missions/gta-6-daily-driver-walkthrough/) |
 
 The numbers follow VGC's order, which matches the in-game story recap. PowerPyx and GTABase count optional tasks too, so their numbers for the same missions are higher. Switching between the two leads unlocks during Chapter 2: see [how to switch characters in GTA 6](/blog/how-to-switch-characters-in-gta-6/). We add each later mission to this list once a second walkthrough confirms its name and place in the order.
+
+#### Short Chapter 2 missions that VGC does not number
+
+PowerPyx and GTABase both list these as main missions between What's in the Bag? and Daily Driver. Most are a single step; VGC folds them into the missions above or leaves them out of its count. They are in PowerPyx's order.
+
+| Mission | What it is | Walkthrough |
+|---|---|---|
+| Take Care of Jason (Play Nurse) | Background mission: check on Jason through the chapter | [Take Care of Jason walkthrough](/missions/gta-6-take-care-of-jason-walkthrough/) |
+| Overnight Charges | Talk to Linda at the motel reception | [Overnight Charges walkthrough](/missions/gta-6-overnight-charges-walkthrough/) |
+| New Look | Change Lucia's hair | [New Look walkthrough](/missions/gta-6-new-look-walkthrough/) |
+| How Do I Look? | Buy Lucia an outfit | [How Do I Look? walkthrough](/missions/gta-6-how-do-i-look-walkthrough/) |
+| Painkiller Supplier | Wait for Dunk's calls | [Painkiller Supplier walkthrough](/missions/gta-6-painkiller-supplier-walkthrough/) |
+| Behind on Payments | Pay Linda $900 | [Behind on Payments walkthrough](/missions/gta-6-behind-on-payments-walkthrough/) |
+
+Both guides list Slam Dunk, Breakfast Run and Coffee Break next. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
