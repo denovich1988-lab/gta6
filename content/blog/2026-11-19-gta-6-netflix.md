@@ -26,6 +26,12 @@ sources:
   - { name: "GamesRadar+: Everything revealed from the GTA 6 Extended Look", url: "https://www.gamesradar.com/news/live/gta-6-extended-look-showcase-live-coverage-2026-everything-announced/" }
   - { name: "Rockstar Games: Grand Theft Auto VI official site", url: "https://www.rockstargames.com/VI" }
 related: [gta-6-trailers, gta-6-gameplay, gta-6-platforms, gta-6-wanted-level]
+video:
+  id: tJbzMqJGH4k
+  title: "Grand Theft Auto VI: An Extended Look"
+  channel: "Rockstar Games"
+  date: 2026-08-27
+  description: "Rockstar's 26-minute Extended Look, captured on PlayStation 5. It premiered on Netflix on August 27, 2026 and reached YouTube six hours later."
 ---
 
 **GTA 6 on Netflix is not the game: it is Grand Theft Auto VI: An Extended Look, a gameplay video that Rockstar premiered on Netflix on August 27, 2026, six hours before it went up everywhere else.** The game itself cannot be played or streamed through Netflix. This page explains what the Netflix title is, when and why it appeared there, what it shows, where to watch it now without a subscription, and why so many people still search for a GTA 6 Netflix series that does not exist.

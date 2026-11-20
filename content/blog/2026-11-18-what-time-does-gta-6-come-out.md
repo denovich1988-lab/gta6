@@ -27,6 +27,12 @@ sources:
   - { name: "Rockstar Newswire: Grand Theft Auto VI now available", url: "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available" }
   - { name: "Notebookcheck: GTA 6 unlock times", url: "https://www.notebookcheck.net/GTA-6-release-date-unlock-times-for-PS5-revealed-but-Xbox-pre-orders-may-have-advantage.1392350.0.html" }
 related: [gta-6-release-date, gta-6-price-editions, gta-6-file-size, gta-6-beginners-guide]
+video:
+  id: Qqzj-j4qk0E
+  title: "Grand Theft Auto VI - Launch Trailer"
+  channel: "PlayStation"
+  date: 2026-10-15
+  description: "The official 90-second launch trailer for Grand Theft Auto VI, published on October 15, 2026."
 ---
 
 **What time does GTA 6 come out? It came out at midnight local time on Thursday, November 19, 2026, and it is available now in every region.** The launch covered PlayStation 5 and Xbox Series X|S; there is no PC version. This page keeps the full timetable for reference: how the rolling midnight launch worked, when pre-loading opened, what happened on the night, and what to do before your first session if you are starting late.

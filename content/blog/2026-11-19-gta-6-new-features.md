@@ -31,6 +31,12 @@ sources:
   - { name: "Forbes: GTA 6 radio stations, hosts and songs", url: "https://www.forbes.com/sites/brianmazique/2026/10/08/lana-del-rey-learned-las-roads-from-gta---now-shes-a-radio-dj-in-gta-vi-alongside-bad-bunny-and-morgan-wallen/" }
   - { name: "Notebookcheck: GTA 6 console performance targets", url: "https://www.notebookcheck.net/Rockstar-reveals-GTA-6-console-performance-targets-and-PS5-Pro-upgrades.1447121.0.html" }
 related: [gta-6-map-size, gta-6-wanted-level, gta-6-beginners-guide, gta-6-challenges]
+video:
+  id: tJbzMqJGH4k
+  title: "Grand Theft Auto VI: An Extended Look"
+  channel: "Rockstar Games"
+  date: 2026-08-27
+  description: "Rockstar's 26-minute Extended Look with in-game PS5 footage of story missions, side activities and new systems."
 ---
 
 **GTA 6's new features change the basics you know from GTA 5**: who you play, how the police hunt you, what happens to your money, and how you unlock extras. Thirteen years separate the two games, and you notice it within the first hour. Below are the 14 changes that matter most in practice, what each one means for how you play, and what GTA 6 still does not have.

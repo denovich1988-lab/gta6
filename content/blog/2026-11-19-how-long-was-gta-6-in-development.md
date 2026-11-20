@@ -24,6 +24,12 @@ sources:
   - { name: "GamesRadar+: ex-Rockstar developer on GTA 6 production starting in 2018", url: "https://www.gamesradar.com/games/grand-theft-auto/dont-mind-the-12-year-wait-ex-rockstar-dev-suggests-gta-6-production-really-started-in-2018" }
   - { name: "Play Observatory: GTA VI making-of, Rockstar talks to Bloomberg", url: "https://playobservatory.com/news/gta-vi-bloomberg-making-of-rockstar-october-2026/" }
 related: [gta-6-delays, gta-6-budget, gta-6-release-date, gta-6-trailers]
+video:
+  id: QdBZY2fkU-0
+  title: "Grand Theft Auto VI Trailer 1"
+  channel: "Rockstar Games"
+  date: 2023-12-04
+  description: "The reveal trailer from December 4, 2023: the first official footage of GTA 6 after years of development."
 ---
 
 **GTA 6 has been in development for about 11 years, counting from the first work in 2015 to its release on November 19, 2026.** That is the longest answer. Most of the team only joined after 2018, so the main production took about eight years. Both numbers are right; they count different things.
