@@ -1,7 +1,7 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 44 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 54 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 44 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 54 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -127,8 +127,9 @@ PowerPyx and GTABase agree on these main missions and their order. VGC had not p
 | Coffee Break | Unlocks character switching and four jobs | [Coffee Break walkthrough](/missions/gta-6-coffee-break-walkthrough/) |
 | Prepare for Vice City | Earn $15,000 | [Prepare for Vice City walkthrough](/missions/gta-6-prepare-for-vice-city-walkthrough/) |
 | Afternoon Delight | Rob the safe at Delights for Vicki | [Afternoon Delight walkthrough](/missions/gta-6-afternoon-delight-walkthrough/) |
+| Checking Out | Chapter 2 finale: motel shootout, bike chase, drive to Vice City | [Checking Out walkthrough](/missions/gta-6-checking-out-walkthrough/) |
 
-The chapter ends with Checking Out, which both guides describe as a point of no return: the Starlet Motel is no longer your home afterwards. Its walkthrough is next on our list.
+**Point of no return:** both guides say starting Checking Out ends Chapter 2, and the Starlet Motel is no longer your home afterwards. Finish the optional jobs below first.
 
 #### Optional Chapter 2 jobs
 
@@ -142,7 +143,25 @@ These appear on the map after Coffee Break and can be done in any order. GTABase
 | Hit Kingpin Bowling | Raid on a gang-held bowling alley | [Hit Kingpin Bowling walkthrough](/missions/gta-6-hit-kingpin-bowling-walkthrough/) |
 | Impounded Vehicle | Take Lucia's car back from the impound | [Impounded Vehicle walkthrough](/missions/gta-6-impounded-vehicle-walkthrough/) |
 
-Chapter 3 begins with Welcome to Vice City. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+### Chapter 3
+
+Chapter 3 moves the story to Vice City. PowerPyx and GTABase agree on these missions; they are in PowerPyx's order, and GTABase places a few of them differently because several can be started in any order once Dealer's Choice is done.
+
+| Mission | You play as | What it is | Walkthrough |
+|---|---|---|---|
+| Welcome to Vice City | Both | Meet Dre'Quan and Boobie Ike; move into the Bayside apartment | [Welcome to Vice City walkthrough](/missions/gta-6-welcome-to-vice-city-walkthrough/) |
+| Dealer's Choice | Jason | Pickup and sale with Dre'Quan; Cut or Pure choice | [Dealer's Choice walkthrough](/missions/gta-6-dealers-choice-walkthrough/) |
+| Dubious Provenance | Both | Three-part statue mission in Capri | [Dubious Provenance walkthrough](/missions/gta-6-dubious-provenance-walkthrough/) |
+| Mami Knows Best | Lucia | Help Mia with a house in Hamlet | [Mami Knows Best walkthrough](/missions/gta-6-mami-knows-best-walkthrough/) |
+| Here, Kitty Kitty | Jason | Track down Charles for Tyrone | [Here, Kitty Kitty walkthrough](/missions/gta-6-here-kitty-kitty-walkthrough/) |
+| Boobie Time | Jason | Drive Boobie; Seashark chase; unlocks Yasmani | [Boobie Time walkthrough](/missions/gta-6-boobie-time-walkthrough/) |
+| Meet the Heders | Both | Dockyard container job; cut-off tool | [Meet the Heders walkthrough](/missions/gta-6-meet-the-heders-walkthrough/) |
+| Yasmani's Jewelry Jobs | Both | Three jewelry stores, three safe codes | [Yasmani's Jewelry Jobs walkthrough](/missions/gta-6-yasmanis-jewelry-jobs-walkthrough/) |
+| Car Service | Lucia | Steal a Schafter V12 for Raul | [Car Service walkthrough](/missions/gta-6-car-service-walkthrough/) |
+
+Both lists also show short entries here that have no walkthrough of their own yet: Send Money to Lorena, Encrypted Hard Drive and Send More Money to Lorena. GTABase labels Yasmani's Jewelry Jobs optional but required for 100%; PowerPyx counts it as a main mission.
+
+Next in both lists are Top Billing, First Impressions, Crosstown Traffic and Credit Check, followed by the setup missions for the chapter's finale, The Cartel Heist. That chain is explained in [GTA 6 heists](/blog/gta-6-heists/). For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
