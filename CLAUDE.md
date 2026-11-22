@@ -9,7 +9,7 @@ Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` a
 - One target keyword per page. Proven keywords (US volume/KD): gta 6 map 87k/34, gta 6 lucia 20k/2, gta vi radio stations 12k/4, gta 6 characters 7k/10, gta 6 online 5k/5, gta 6 jason 4.5k/21, gta 6 file size 3.7k/6, gta 6 crossplay 2.6k/0, gta 6 voice actors 2.4k/3, gta 6 system requirements 1.9k/0, gta 6 map size 1.7k/13, gta 6 cars 1.5k/2, will gta 6 have cheat codes 1.1k/0, gta 6 guns 1k/5, gta 6 animals 1k/0, gta 6 missions 600/0, port gellhorn gta 6 600/0. After launch: "gta 6 <mission name> walkthrough", "how to …", collectibles, money, trophies.
 
 ## Keyword plan
-- `keywords.md` is the content plan (Ahrefs data from competitors). Every new guide or blog post targets one unchecked group from it, top to bottom; put the target keyword in `seoTitle`, the H1, the first paragraph and one FAQ question, and use the secondary keywords in headings and FAQ. After publishing, tick the row and add the slug.
+- `keywords.md` is the content plan (Ahrefs data from competitors). Keywords with KD up to 50 are allowed (owner, 2026-11-22); prefer the lowest KD. Every new guide or blog post targets one unchecked group from it, top to bottom; put the target keyword in `seoTitle`, the H1, the first paragraph and one FAQ question, and use the secondary keywords in headings and FAQ. After publishing, tick the row and add the slug.
 - When the Ahrefs connector is available, check the competitors' new keywords about once a week (gtabase.com, tracker.gg/gta6, matching terms for "gta 6") and add rows, especially post-launch ones: mission names, collectibles, money, challenges, trophies.
 
 ## Blog — 2 posts every morning (same daily task)

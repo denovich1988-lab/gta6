@@ -83,7 +83,29 @@ Check each in Ahrefs before writing; write only from verified gameplay.
 - [x] gta 6 difficulty settings — 10; does gta 6 have difficulty settings; gta 6 easy mode; gta 6 aim assist → `blog/gta-6-difficulty-settings`
 - [x] gta 6 update — 700/5 (Ahrefs 2026-11-20); gta 6 patch notes; gta 6 day one patch → `blog/gta-6-update` (add a row per title update; add Rockstar patch notes when published)
 
+## Priority 3: added 2026-11-22 (Ahrefs pull, KD ≤ 50 allowed by the owner)
+
+Checked against existing pages: 83 of 102 high-volume "gta 6" queries are already covered. Ahrefs volumes are 12-month averages, so post-launch queries (missions, collectibles, money, trophies) barely show yet; keep using official sources and launch-week search demand for those, and recheck Ahrefs next week.
+
+- [ ] how old do you have to be to play gta 6 — 300/0; how old do you have to be to buy gta 6 80/0 (age ratings: ESRB, PEGI; official ratings only)
+- [ ] can you make real money in gta 6 — 300/0; gta 6 real money 70/0; gta 6 make real money 50/0 (explain in-game money vs Shark Cards/GTA+ only as officially announced; no scams)
+- [ ] gta 6 money — 150/0 (post-launch: verified ways to earn money in story mode)
+- [ ] gta 6 early access — 1.3k/0 (only what Rockstar or platform holders announced)
+- [ ] gta 6 mapping project — 4.6k/2 (fan project explainer; say clearly it is community work, not official)
+- [ ] strauss zelnick gta 6 — 1.1k/42 (what Take-Two's CEO said publicly, with dated sources only)
+- [ ] gta 6 hacker — 1.7k/23 (the 2022 leak and court case, from reputable news only; no leaked material)
+- [ ] gta 6 price confirmed — 13k/4 → add as a variant (H2/FAQ) to the existing price page
+- [ ] gta 6 preorder sales — 1.7k/10; gta 6 pre order sales 3.2k/5 → variant of the existing sales/pre-order page, or a new page if none exists
+- [ ] gta 6 production cost — 1.1k/6; how much money did rockstar spend on gta 6 100/5 → variant of the existing budget page
+- [ ] gta 6 pre order editions — 1k/0 → variant of the editions page
+- [ ] gta 6 nintendo switch 2 — 1.2k/3; will gta 6 be on switch 2 2k/12 → variant of the platforms page
+- [ ] what city is gta 6 based on — 900/0 → variant of the map/location page
+
 ## Do not target
+
+- Official screenshots, wallpapers, posters, artwork (gta 6 screenshots 6.5k, wallpaper 1.8k, poster 1.3k, artwork 800): we do not publish Rockstar artwork.
+- Pre-launch questions now outdated: is gta 6 cancelled, why is gta 6 taking so long, gta 6 countdown.
+- Leakers' predictions (e.g. tom henderson gta 6 predictions), nudity/sex queries, store/navigation queries (playstation store, best buy), other games (samson).
 
 - Leak, "nude", hacked-build and real-person keywords.
 - Pre-order keywords with KD above 55 (store pages own them).
