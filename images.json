@@ -525,6 +525,54 @@
     "g-heists": {
       "id": "996754aa-d920-4277-bdf6-04cdb2a74b77",
       "alt": "Illustration of a round bank vault door standing ajar in a marble lobby with a blueprint and duffel bags"
+    },
+    "g-first-impressions-walkthrough": {
+      "id": "cc096740-0485-4483-9ff2-0ac0b5d5774f",
+      "alt": "Illustration of a roll-up garage door with a glowing keypad panel on a palm-lined island driveway at dusk"
+    },
+    "g-crosstown-traffic-walkthrough": {
+      "id": "5d3dd502-f849-4a4b-a9b6-98e0a793e7a4",
+      "alt": "Illustration of an elevated metro train crossing a city river at sunset with two speedboats below"
+    },
+    "g-top-billing-walkthrough": {
+      "id": "f76e5cfd-7f95-4d1f-8a97-0d71c43e7f0a",
+      "alt": "Illustration of an empty nightclub stage with microphone stands and coloured spotlights in haze"
+    },
+    "g-credit-check-walkthrough": {
+      "id": "5d7e4480-22a5-49f7-98ca-4b3f53ea80d8",
+      "alt": "Illustration of two rubber masks and a small gadget on a planning room table under a city map"
+    },
+    "g-zorrusso-walkthrough": {
+      "id": "724ff537-43ae-4a66-995b-b0726e6d3835",
+      "alt": "Illustration of a low red supercar in a walled apartment parking garage at night"
+    },
+    "g-caught-slipping-walkthrough": {
+      "id": "3169cbd1-bcc0-4d8b-ab2e-a79f021c0ac5",
+      "alt": "Illustration of a self-storage corridor with orange roll-up doors and one open unit holding a duffel bag"
+    },
+    "g-ride-or-die-walkthrough": {
+      "id": "596f6c66-5973-43ed-8235-7b5671d23cea",
+      "alt": "Illustration of bright sneakers in an open shoebox on a glowing boutique display shelf"
+    },
+    "g-sinfrontera-national-bank-walkthrough": {
+      "id": "6bd80c93-95e5-4ee0-82e8-48b297fa785d",
+      "alt": "Illustration of a grand bank facade with stone steps, columns and bronze doors at dusk"
+    },
+    "g-security-expert-walkthrough": {
+      "id": "d8e44e80-6b25-4380-afc8-e03b10b62257",
+      "alt": "Illustration of a quiet suburban house at night with a sedan at the kerb and its trunk open"
+    },
+    "g-safe-word-walkthrough": {
+      "id": "72d32cf8-220e-479d-a68d-f3841f348f3f",
+      "alt": "Illustration of a pickup truck dragging a steel safe on a chain down a city street with sparks flying"
+    },
+    "g-ending": {
+      "id": "f403aa9f-4bbe-4b76-ad54-674a7b224765",
+      "alt": "Illustration of a lone car stopped on a long sea bridge at sunrise with a small plane overhead"
+    },
+    "g-easter-eggs": {
+      "id": "157ec6de-fd60-41f2-8ee4-833982271524",
+      "alt": "Illustration of a bird's nest with pastel eggs on top of a radio tower above a neon city at dusk"
     }
   },
   "sections": {

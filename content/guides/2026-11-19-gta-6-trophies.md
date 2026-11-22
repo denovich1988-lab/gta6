@@ -5,6 +5,7 @@ description: "GTA 6 trophy guide with the full list of 55 trophies and achieveme
 image: g-trophies
 section: missions
 date: 2026-11-19
+updated: 2026-11-22
 status: partly
 summary:
   - "GTA 6 has 55 trophies: 1 platinum, 2 gold, 6 silver and 46 bronze. On Xbox the list is worth 1,000G."
@@ -20,6 +21,8 @@ faq:
   - q: "What is the hardest GTA 6 trophy?"
     a: "A Long Road, the gold trophy for 100% completion. It needs far more than any other trophy, for example 300 stunts and 70 challenges."
 sources:
+  - { name: "GTAside: GTA 6 easter eggs and secrets", url: "https://gtaside.com/tips/gta6/easter-eggs/" }
+  - { name: "GameRiv: GTA 6 easter eggs", url: "https://gameriv.com/gta-6-easter-eggs/" }
   - { name: "PowerPyx: GTA 6 Trophy Guide & Roadmap", url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/" }
   - { name: "GamesRadar+: GTA 6 trophy and achievement list", url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/" }
   - { name: "GTABase: GTA 6 achievements and trophies list", url: "https://www.gtabase.com/articles/gta-6/gta-6-achievements-trophies-list-ps5-xbox-series" }
@@ -123,7 +126,7 @@ Six bronze trophies, worth 5G each on Xbox, have short riddle-like descriptions.
 | Let's Go Bowling | The description reads as a follow-through at the Kolt & Associates' bowling alley. Guides differ on what you must do there. |
 | Ten Pin | Seems to involve melee hits from a moving vehicle. Not confirmed. |
 | Bad Luck, I Guess | Requirement not confirmed. |
-| The Truth Is Out There | Requirement not confirmed. |
+| The Truth Is Out There | Reported by two guides (GameRiv, GTAside): awarded for the UFO abduction encounter near the Starlet Motel, east of Port Gellhorn. See [GTA 6 easter eggs](/blog/gta-6-easter-eggs/). |
 
 We will fill these in when two guides agree on the method.
 

@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 54 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 64 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-21
+updated: 2026-11-22
 status: live
 hub: true
 summary:
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 54 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 64 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -158,10 +158,22 @@ Chapter 3 moves the story to Vice City. PowerPyx and GTABase agree on these miss
 | Meet the Heders | Both | Dockyard container job; cut-off tool | [Meet the Heders walkthrough](/missions/gta-6-meet-the-heders-walkthrough/) |
 | Yasmani's Jewelry Jobs | Both | Three jewelry stores, three safe codes | [Yasmani's Jewelry Jobs walkthrough](/missions/gta-6-yasmanis-jewelry-jobs-walkthrough/) |
 | Car Service | Lucia | Steal a Schafter V12 for Raul | [Car Service walkthrough](/missions/gta-6-car-service-walkthrough/) |
+| Top Billing | Both | The Real Dimez' show; find Roxy at a house party | [Top Billing walkthrough](/missions/gta-6-top-billing-walkthrough/) |
+| First Impressions | Both | Getaway with Raul; garage code 2404 | [First Impressions walkthrough](/missions/gta-6-first-impressions-walkthrough/) |
+| Crosstown Traffic | Both | Metro and boat chase for a river shipment | [Crosstown Traffic walkthrough](/missions/gta-6-crosstown-traffic-walkthrough/) |
+| Credit Check | Both | Meet Raul's crew; rob three Fleeca banks | [Credit Check walkthrough](/missions/gta-6-credit-check-walkthrough/) |
+| Steal the Zorrusso for Randy | Either | Key Cloner; opens Randy's Wish List | [Steal the Zorrusso for Randy walkthrough](/missions/gta-6-steal-the-zorrusso-for-randy-walkthrough/) |
+| Ride or Die | Jason | Take DWNPLY's car with Dre'Quan | [Ride or Die walkthrough](/missions/gta-6-ride-or-die-walkthrough/) |
+| Sinfrontera National Bank | Both | Cartel Heist prep: scope out the bank | [Sinfrontera National Bank walkthrough](/missions/gta-6-sinfrontera-national-bank-walkthrough/) |
+| Security Expert | Both | Cartel Heist prep: bring Nicole to Raul | [Security Expert walkthrough](/missions/gta-6-security-expert-walkthrough/) |
+| Caught Slipping | Both | Burglary at the apartment; starts by itself | [Caught Slipping walkthrough](/missions/gta-6-caught-slipping-walkthrough/) |
+| Safe Word | Both | Cartel Heist prep: steal and crack a practice safe | [Safe Word walkthrough](/missions/gta-6-safe-word-walkthrough/) |
 
 Both lists also show short entries here that have no walkthrough of their own yet: Send Money to Lorena, Encrypted Hard Drive and Send More Money to Lorena. GTABase labels Yasmani's Jewelry Jobs optional but required for 100%; PowerPyx counts it as a main mission.
 
-Next in both lists are Top Billing, First Impressions, Crosstown Traffic and Credit Check, followed by the setup missions for the chapter's finale, The Cartel Heist. That chain is explained in [GTA 6 heists](/blog/gta-6-heists/). For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+Caught Slipping has no fixed place: it starts the next time you go home after Boobie Time and First Impressions, and the two lists number it differently. Company Property sits between Security Expert and Safe Word; its walkthrough will follow once we have compared a second guide.
+
+Still to come in both lists are the rest of the setup for the chapter's finale: The Missing Link, Hidden Charges and The Cartel Heist itself, along with Cooties, Bricked Up and South Leonida Real Estate. The heist chain is explained in [GTA 6 heists](/blog/gta-6-heists/). For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
