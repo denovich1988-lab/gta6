@@ -101,6 +101,21 @@ Checked against existing pages: 83 of 102 high-volume "gta 6" queries are alread
 - [ ] gta 6 nintendo switch 2 — 1.2k/3; will gta 6 be on switch 2 2k/12 → variant of the platforms page
 - [ ] what city is gta 6 based on — 900/0 → variant of the map/location page
 
+## Priority 4: added 2026-11-23 (weekly Ahrefs pull, Monday)
+
+Calls made: organic keywords for `gtabase.com/gta-6/` (prefix, US, KD ≤ 50, volume ≥ 100, top 20: returned no rows, so recheck next week with the whole domain filtered by "gta 6"), organic keywords for `tracker.gg/gta6` (11 rows) and matching terms for "gta 6", questions only (100 rows). Almost all question keywords are already covered by existing pages; volumes are still 12-month averages, so launch queries (missions, collectibles, safe codes) are under-counted. Second number in brackets is the latest monthly volume where Ahrefs gave one.
+
+- [ ] gta 6 safe codes — tracker.gg ranks #1 for "safe code" 350/7; one page listing every safe code confirmed by two guides (jewelry store codes, garage code 2404 and others already in our walkthroughs), with links to the missions
+- [ ] will franklin be in gta 6 — 700/0 (monthly 536); blog: returning characters and cameos, only what the released game shows per two sources; no leaks
+- [ ] what is gta 6 — 1.2k/0 (monthly 1.5k); blog explainer for newcomers: setting, leads, platforms, price, what you do; link to every hub
+- [ ] is gta 6 only on ps5 — 600/0 (monthly 1.3k); will gta 6 be on ps5 900/1; will gta 6 be on xbox one 600/10 → variants (H2/FAQ) for `buying/gta-6-platforms`
+- [ ] how much has rockstar made from gta 6 — 700/0; how much has gta 6 made so far 2.2k/0 → variants for `blog/how-much-money-has-gta-6-made`
+- [ ] how long have we been waiting for gta 6 — 100/0 → variant for `blog/how-long-was-gta-6-in-development`
+- [ ] how long will gta 6 story be — 900/1 (monthly 2.9k); how long is gta 6 story mode 1.5k/1 (monthly 4k) → refresh `missions/gta-6-story-length` with post-launch playtimes from two sources
+- [ ] who voices jason in gta 6 — 1.1k/21 (monthly 2.9k); who plays lucia in gta 6 800/0 (monthly 2.1k) → rising after launch; refresh `characters/gta-6-voice-actors` with the full credited cast
+- [ ] gta 6 car list — 350/5 (tracker.gg #5); cars in gta 6 450/0 → expand `vehicles/gta-6-cars` into a full post-launch list
+- Skipped as out of scope: release-date head terms (KD 38–48, outdated after launch), countdown queries, "is gta 6 cancelled", nudity queries, joke queries.
+
 ## Do not target
 
 - Official screenshots, wallpapers, posters, artwork (gta 6 screenshots 6.5k, wallpaper 1.8k, poster 1.3k, artwork 800): we do not publish Rockstar artwork.
