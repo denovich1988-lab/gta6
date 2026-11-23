@@ -573,6 +573,54 @@
     "g-easter-eggs": {
       "id": "157ec6de-fd60-41f2-8ee4-833982271524",
       "alt": "Illustration of a bird's nest with pastel eggs on top of a radio tower above a neon city at dusk"
+    },
+    "g-company-property": {
+      "id": "8ec2aadd-4675-44b7-95d1-ecc573e3bdf8",
+      "alt": "Illustration of a pickup truck loaded with wooden crates beside a hangar on a grass airfield with a cargo plane at dusk"
+    },
+    "g-missing-link": {
+      "id": "80820579-80e3-4bae-8b1f-907aace95b28",
+      "alt": "Illustration of a backyard pool at night with a loader crane hook hanging over the water and an alligator's eyes"
+    },
+    "g-cooties": {
+      "id": "0d2779db-ab5b-4559-bbe0-e98b21ba0b79",
+      "alt": "Illustration of a spray-painted lowrider on a night-time music video set with film lights and a baseball bat"
+    },
+    "g-bricked-up": {
+      "id": "3cfa6fc0-2758-4c14-bbd5-ca065354d3f0",
+      "alt": "Illustration of a dim apartment hallway with a red door, a red duffel bag and police lights at the window"
+    },
+    "g-hidden-charges": {
+      "id": "a0760686-f343-414f-8be6-54d3c201d6dc",
+      "alt": "Illustration of a skyscraper helipad at dusk with a cell tower, a backpack and a parachute pack"
+    },
+    "g-cartel-heist": {
+      "id": "0040648d-8d9d-4f62-8c19-6972c738fc44",
+      "alt": "Illustration of a roofless city bus speeding along an elevated freeway at sunset ahead of an armored truck"
+    },
+    "g-ocean-beach": {
+      "id": "e27e51b8-fafe-44af-9614-dcabfc47bbba",
+      "alt": "Illustration of a hotel suite balcony over the ocean at dusk with two champagne glasses on the rail"
+    },
+    "g-another-life": {
+      "id": "3dea080e-2493-4b66-8a7e-252dc411089b",
+      "alt": "Illustration of a small living room in morning light with a vintage radio and a crib down the hallway"
+    },
+    "g-pool-day": {
+      "id": "8fbce949-575d-46c4-8e6e-be7c8474cb2d",
+      "alt": "Illustration of a hotel pool with striped cabanas, a layered cocktail and an empty flamingo float at golden hour"
+    },
+    "g-company-cars": {
+      "id": "76295b95-9abb-47f0-bf3a-d6283d3f5339",
+      "alt": "Illustration of a glass car showroom at dusk with a red coupe on a turntable beside an SUV and a pickup"
+    },
+    "g-mapping-project": {
+      "id": "7f049062-3fd0-4b6f-b597-4ac9682ef12e",
+      "alt": "Illustration of a desk with a hand-drawn coastline map, pins, red string and a magnifying glass under neon light"
+    },
+    "g-early-access": {
+      "id": "78ef16ce-57bb-4777-8aac-dfc298f89b97",
+      "alt": "Illustration of an alarm clock just before midnight beside a game controller with a neon skyline in the window"
     }
   },
   "sections": {

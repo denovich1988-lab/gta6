@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 64 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 74 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-22
+updated: 2026-11-23
 status: live
 hub: true
 summary:
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 64 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 74 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -167,13 +167,34 @@ Chapter 3 moves the story to Vice City. PowerPyx and GTABase agree on these miss
 | Sinfrontera National Bank | Both | Cartel Heist prep: scope out the bank | [Sinfrontera National Bank walkthrough](/missions/gta-6-sinfrontera-national-bank-walkthrough/) |
 | Security Expert | Both | Cartel Heist prep: bring Nicole to Raul | [Security Expert walkthrough](/missions/gta-6-security-expert-walkthrough/) |
 | Caught Slipping | Both | Burglary at the apartment; starts by itself | [Caught Slipping walkthrough](/missions/gta-6-caught-slipping-walkthrough/) |
+| Company Property | Both | Cartel Heist prep: weapons pickup at an airfield; cargo decides your explosives | [Company Property walkthrough](/missions/gta-6-company-property-walkthrough/) |
 | Safe Word | Both | Cartel Heist prep: steal and crack a practice safe | [Safe Word walkthrough](/missions/gta-6-safe-word-walkthrough/) |
+| The Missing Link | Lucia, then Jason | Cartel Heist prep: meet Andrea in Watson Bay; Monty's 1992 Pistol | [The Missing Link walkthrough](/missions/gta-6-the-missing-link-walkthrough/) |
+| Cooties | Lucia | Music video shoot for Dre'Quan | [Cooties walkthrough](/missions/gta-6-cooties-walkthrough/) |
+| Hidden Charges | Both | Cartel Heist prep: plant up to three charges on cell towers | [Hidden Charges walkthrough](/missions/gta-6-hidden-charges-walkthrough/) |
+| Bricked Up | Both | Pickup for Boobie at Venture Apartments; red bag for $3,500 | [Bricked Up walkthrough](/missions/gta-6-bricked-up-walkthrough/) |
+| The Cartel Heist | Both | Chapter 3 finale: Sinfrontera National Bank, $120,000 | [The Cartel Heist walkthrough](/missions/gta-6-the-cartel-heist-walkthrough/) |
 
 Both lists also show short entries here that have no walkthrough of their own yet: Send Money to Lorena, Encrypted Hard Drive and Send More Money to Lorena. GTABase labels Yasmani's Jewelry Jobs optional but required for 100%; PowerPyx counts it as a main mission.
 
-Caught Slipping has no fixed place: it starts the next time you go home after Boobie Time and First Impressions, and the two lists number it differently. Company Property sits between Security Expert and Safe Word; its walkthrough will follow once we have compared a second guide.
+Caught Slipping has no fixed place: it starts the next time you go home after Boobie Time and First Impressions, and the two lists number it differently. The rows from Company Property onward are in PowerPyx's order; GTABase puts The Missing Link before Safe Word and Bricked Up before Hidden Charges.
 
-Still to come in both lists are the rest of the setup for the chapter's finale: The Missing Link, Hidden Charges and The Cartel Heist itself, along with Cooties, Bricked Up and South Leonida Real Estate. The heist chain is explained in [GTA 6 heists](/blog/gta-6-heists/). For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+Still without a walkthrough here: South Leonida Real Estate, a Lucia-only mission that PowerPyx places between Bricked Up and the heist, the short Heist Planning entry, and the optional missions Mall Rats and Brother to Brother. The heist chain is explained in [GTA 6 heists](/blog/gta-6-heists/).
+
+**Point of no return:** The Cartel Heist ends Chapter 3, and the next mission moves you out of the Bayside apartment for good. Finish what you want to do in Chapter 3 first.
+
+### Chapter 4
+
+Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and GTABase agree on these opening missions and their order.
+
+| Mission | You play as | What it is | Walkthrough |
+|---|---|---|---|
+| Ocean Beach | Both | Move into Room 701 at the Y Hotel; meet Valentina | [Ocean Beach walkthrough](/missions/gta-6-ocean-beach-walkthrough/) |
+| Another Life | Lucia | Short flashback; unlocks the BuckMe Black account | [Another Life walkthrough](/missions/gta-6-another-life-walkthrough/) |
+| Pool Day | Jason | Afternoon at the pool; Eddie Acosta's invitation | [Pool Day walkthrough](/missions/gta-6-pool-day-walkthrough/) |
+| Company Cars | Both | Pick a free car each at Status Auto Imports | [Company Cars walkthrough](/missions/gta-6-company-cars-walkthrough/) |
+
+Next in both lists are Lawyer Up, Heavy Lifting and Party Hard, followed by the long setup for the chapter's airport job, the VCIA Takedown. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
