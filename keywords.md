@@ -29,9 +29,9 @@ Mark a row `[x]` when its page is published (add the slug). Pick unchecked rows 
 - [x] gta 6 pc requirements — 2.8k/1; gta 6 system requirements 1.9k/0; gta 6 system requirements pc 2k/2 → `pc/gta-6-pc-requirements`
 - [x] will gta 6 be on ps4 — 2.8k/2; will gta 6 be on xbox series s 1.9k/0; will gta 6 be on switch 2 2k/12; gta 6 xbox 2.4k/7; what consoles will gta 6 be on 1.3k (blog) → `buying/gta-6-platforms`
 - [x] gta 6 map vs gta 5 — 2.7k/1; gta 6 map size 1.7k/13; how big is gta 6 1.3k/0 → `map/gta-6-map-size`
-- [ ] gta 6 cars — 1.5k/2 (published hub); next: gta 6 car list 350/5, gta 6 motorcycles 250/0, gta 6 planes 250/0, gta 6 trucks 250/2, gta 6 boats 150/0, gta 6 train 350/1
+- [x] gta 6 cars — 1.5k/2; gta 6 vehicles 600/2; gta 6 car list 250/5 → `vehicles/gta-6-cars` (expanded post-launch 2026-11-23: list by class, edition vehicles, registration). Done 2026-11-23: gta 6 motorcycles 100/0 (latest month 250) → `vehicles/gta-6-motorcycles`; gta 6 planes 70/0 (211) → `vehicles/gta-6-planes-helicopters`; gta 6 boats 60/0 (170) → `vehicles/gta-6-boats`. Still open: gta 6 trucks, gta 6 train
 - [x] gta 6 animals — 1k/0 → `map/gta-6-animals`
-- [ ] gta 6 guns — 1k/5; gta 6 weapons 400/3 (published hub; add per-weapon pages after launch)
+- [x] gta 6 guns — 600/5; gta 6 weapons 350/3 → `weapons/gta-6-weapons` (expanded 2026-11-23: full list with prices, best per class, 24 Ammu-Nation stores). gta 6 weapon wheel 200/1 (latest month 669) → `weapons/gta-6-weapon-wheel`
 - [x] how long is gta 6 story mode — 1.5k/1; how long to beat gta 6; how many missions will gta 6 have 200/1; gta 6 missions 600/0; gta 6 story mode 350/3 → `missions/gta-6-story-length`
 - [x] gta 6 pre order bonus — 1.5k/47; gta 6 deluxe edition 1.6k/26; gta 6 merch 1.5k/8 → `buying/gta-6-vintage-vice-city-pack, buying/gta-6-ultimate-edition`
 - [x] gta 6 news today — 2.9k/2 (blog, weekly round-up) → `blog/gta-6-news-today` (keep updating; new round-up each week)
@@ -105,7 +105,7 @@ Checked against existing pages: 83 of 102 high-volume "gta 6" queries are alread
 
 Calls made: organic keywords for `gtabase.com/gta-6/` (prefix, US, KD ≤ 50, volume ≥ 100, top 20: returned no rows, so recheck next week with the whole domain filtered by "gta 6"), organic keywords for `tracker.gg/gta6` (11 rows) and matching terms for "gta 6", questions only (100 rows). Almost all question keywords are already covered by existing pages; volumes are still 12-month averages, so launch queries (missions, collectibles, safe codes) are under-counted. Second number in brackets is the latest monthly volume where Ahrefs gave one.
 
-- [ ] gta 6 safe codes — tracker.gg ranks #1 for "safe code" 350/7; one page listing every safe code confirmed by two guides (jewelry store codes, garage code 2404 and others already in our walkthroughs), with links to the missions
+- [x] gta 6 safe codes → `cheats/gta-6-safe-codes` (2026-11-23) — tracker.gg ranks #1 for "safe code" 350/7; one page listing every safe code confirmed by two guides (jewelry store codes, garage code 2404 and others already in our walkthroughs), with links to the missions
 - [ ] will franklin be in gta 6 — 700/0 (monthly 536); blog: returning characters and cameos, only what the released game shows per two sources; no leaks
 - [ ] what is gta 6 — 1.2k/0 (monthly 1.5k); blog explainer for newcomers: setting, leads, platforms, price, what you do; link to every hub
 - [ ] is gta 6 only on ps5 — 600/0 (monthly 1.3k); will gta 6 be on ps5 900/1; will gta 6 be on xbox one 600/10 → variants (H2/FAQ) for `buying/gta-6-platforms`
@@ -113,7 +113,7 @@ Calls made: organic keywords for `gtabase.com/gta-6/` (prefix, US, KD ≤ 50, vo
 - [ ] how long have we been waiting for gta 6 — 100/0 → variant for `blog/how-long-was-gta-6-in-development`
 - [ ] how long will gta 6 story be — 900/1 (monthly 2.9k); how long is gta 6 story mode 1.5k/1 (monthly 4k) → refresh `missions/gta-6-story-length` with post-launch playtimes from two sources
 - [ ] who voices jason in gta 6 — 1.1k/21 (monthly 2.9k); who plays lucia in gta 6 800/0 (monthly 2.1k) → rising after launch; refresh `characters/gta-6-voice-actors` with the full credited cast
-- [ ] gta 6 car list — 350/5 (tracker.gg #5); cars in gta 6 450/0 → expand `vehicles/gta-6-cars` into a full post-launch list
+- [x] gta 6 car list — 350/5 (tracker.gg #5); cars in gta 6 450/0 → `vehicles/gta-6-cars` expanded 2026-11-23
 - Skipped as out of scope: release-date head terms (KD 38–48, outdated after launch), countdown queries, "is gta 6 cancelled", nudity queries, joke queries.
 
 ## Do not target
