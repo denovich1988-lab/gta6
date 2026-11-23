@@ -69,7 +69,7 @@ Les deux s'accordent sur un point : RydeMe n'est pas utilisable pendant les prem
 
 - La course est annulée si la voiture ne peut pas vous rejoindre (VGC). Marchez jusqu'à une route et recommandez.
 - Aucun guide ne décrit le voyage rapide pendant une mission ou avec un niveau de recherche. Partez du principe que vous devez être en exploration libre et sans la police aux trousses.
-- Les bus et les trains ne sont pas présentés comme du voyage rapide dans les guides que nous avons consultés.
+- Les bus, tramways et trains servent aussi de voyage rapide : montez, choisissez un arrêt et passez le trajet. Voir [train et métro de GTA 6](/vehicles/gta-6-train/).
 
 ## Astuces
 

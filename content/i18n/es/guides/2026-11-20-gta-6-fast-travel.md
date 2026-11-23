@@ -69,7 +69,7 @@ En lo que sí coinciden es en que no puedes usar RydeMe en las primeras misiones
 
 - El trayecto se cancela si el coche no puede llegar hasta ti (VGC). Ve hasta una carretera y vuelve a pedirlo.
 - Ninguna guía describe el viaje rápido durante una misión o con nivel de búsqueda. Da por hecho que tienes que estar en modo libre y sin la policía detrás.
-- Los autobuses y trenes no aparecen como viaje rápido en las guías que hemos consultado.
+- Los autobuses, tranvías y trenes también sirven como viaje rápido: sube, elige una parada y salta el trayecto. Consulta [tren y metro de GTA 6](/vehicles/gta-6-train/).
 
 ## Consejos
 

@@ -69,7 +69,7 @@ Os dois concordam que não dá para usar o RydeMe nas primeiras missões. Se o a
 
 - A corrida é cancelada se o carro não conseguir chegar até você (VGC). Vá até uma rua e peça de novo.
 - Nenhum guia descreve viagem rápida durante uma missão ou com nível de procurado. Conte com precisar estar em modo livre e longe da polícia.
-- Ônibus e trens não aparecem como viagem rápida nos guias que consultamos.
+- Ônibus, bondes e trens também funcionam como viagem rápida: embarque, escolha uma parada e pule o trajeto. Veja [trem e metrô do GTA 6](/vehicles/gta-6-train/).
 
 ## Dicas
 

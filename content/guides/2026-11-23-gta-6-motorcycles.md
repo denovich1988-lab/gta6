@@ -8,13 +8,13 @@ date: 2026-11-23
 status: partly
 summary:
   - "GTA 6 motorcycles include sport bikes (Carbon RS, Double-T, Alvino V1), dirt bikes (Sanchez, Manchez, Enduro) and cruisers (Avarus, Zombie Bobber, Nightblade)."
-  - "Your first free bike is the Highwayman Sanchez from the Chapter 2 mission Thrillbillies, and you can register it with Moses to keep it."
+  - "Your first free bike is the Highwayman Sanchez Billy gives you in the Chapter 2 mission Twist Wrist, Smash, Grab, and you can register it with Moses to keep it."
   - "After the story, cheats spawn the Maibatsu Sanchez, Nagasaki Carbon RS and Western Zombie Bobber."
 faq:
   - q: "What motorcycles are in GTA 6?"
     a: "Guides name sport bikes such as the Nagasaki Carbon RS, Dinka Double-T and Principe Alvino V1, dirt bikes such as the Maibatsu Sanchez and Manchez and the Dinka Enduro, the Pegassi Faggio scooter and cruisers such as the LCC Avarus and Western Nightblade."
   - q: "How do you get a motorcycle in GTA 6?"
-    a: "Steal one, rent a dirt bike at Roostere's Rentals during Thrillbillies, keep the Highwayman Sanchez from that mission, or spawn a bike with a cheat after the story. Register a bike with Moses to keep it."
+    a: "Steal one, rent a dirt bike at Roostere's Rentals during Thrillbillies, keep the Highwayman Sanchez from Twist Wrist, Smash, Grab, or spawn a bike with a cheat after the story. Register a bike with Moses to keep it."
   - q: "What is the fastest motorcycle in GTA 6?"
     a: "Rockstar has not published top speeds, and pre-launch rankings were estimates. We will name the fastest bike only after testing."
 sources:
@@ -25,9 +25,11 @@ sources:
   - { name: "PowerPyx: GTA 6 Steal Vehicles for Moses walkthrough", url: "https://www.powerpyx.com/?p=373053" }
   - { name: "PowerPyx: GTA 6 Thrillbillies (Check Out the Mud Club) walkthrough", url: "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/" }
   - { name: "GTABase: Thrillbillies mission guide", url: "https://www.gtabase.com/gta-6/missions/thrillbillies" }
+  - { name: "PowerPyx: GTA 6 Twist Wrist, Smash, Grab (Join Billy on a Job) walkthrough", url: "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/" }
+  - { name: "GTABase: Twist Wrist, Smash, Grab mission guide", url: "https://www.gtabase.com/gta-6/missions/twist-wrist-smash-grab" }
   - { name: "GameSpot: all GTA 6 cheats and how to unlock them", url: "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/" }
   - { name: "GTAside: GTA 6 vehicles list", url: "https://gtaside.com/games/gta6/vehicles/" }
-related: [gta-6-cars, gta-6-thrillbillies-walkthrough, gta-6-moses-walkthrough, gta-6-cheats, gta-6-boats, gta-6-planes-helicopters]
+related: [gta-6-cars, gta-6-thrillbillies-walkthrough, gta-6-twist-wrist-smash-grab-walkthrough, gta-6-moses-walkthrough, gta-6-cheats, gta-6-boats, gta-6-planes-helicopters]
 ---
 
 **GTA 6 motorcycles come in three families: sport bikes for speed, dirt bikes for the swamps and back roads, and cruisers for style.** This page lists every motorcycle that at least two launch guides name, then explains how to get one in story mode, which bikes the cheats spawn and how to keep a bike. Rockstar has not released an official list or top speeds, so the page is marked partly confirmed.
@@ -41,7 +43,7 @@ Facts here are confirmed by Rockstar or by at least two independent launch guide
 | Carbon RS | Nagasaki | Sport bike | Steal one; cheat after the story |
 | Double-T | Dinka | Sport bike | Steal one |
 | Alvino V1 | Principe | Sport bike | Steal one |
-| Sanchez | Maibatsu | Dirt bike | Thrillbillies (rent or keep); cheat |
+| Sanchez | Maibatsu | Dirt bike | Rent in Thrillbillies; Highwayman version in Twist Wrist, Smash, Grab; cheat |
 | Manchez | Maibatsu | Dirt bike | Rent during Thrillbillies |
 | Enduro | Dinka | Dirt bike | Edition vehicle |
 | Faggio | Pegassi | Scooter | Steal one |
@@ -69,7 +71,7 @@ The **Pegassi Faggio** is the city scooter. Cruisers include the **LCC Avarus** 
 
 ## Your first free motorcycle
 
-At the end of Thrillbillies, Billy turns up with a **Highwayman Sanchez** for you. Guides suggest parking it in a garage, such as the one in Port Gellhorn, and registering it at Moses' shop so it does not disappear. Read the [Moses walkthrough](/missions/gta-6-moses-walkthrough/) first if registration is not unlocked yet.
+In [Twist Wrist, Smash, Grab](/missions/gta-6-twist-wrist-smash-grab-walkthrough/), Billy's second Chapter 2 job, he turns up with a **Highwayman Sanchez** for the armored truck robbery. Guides suggest parking it in a garage, such as the one in Port Gellhorn, and registering it at Moses' shop so it does not disappear. Read the [Moses walkthrough](/missions/gta-6-moses-walkthrough/) first if registration is not unlocked yet.
 
 ## Motorcycle cheats
 

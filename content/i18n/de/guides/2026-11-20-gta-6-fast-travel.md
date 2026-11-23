@@ -69,7 +69,7 @@ Einig sind sich beide darin, dass du RydeMe in den ersten paar Missionen nicht n
 
 - Die Fahrt wird abgebrochen, wenn das Auto dich nicht erreichen kann (VGC). Geh zu einer Straße und bestell erneut.
 - Kein Guide beschreibt Schnellreisen während einer Mission oder mit Fahndungslevel. Geh davon aus, dass du im freien Spiel und die Polizei los sein musst.
-- Busse und Züge sind in den Guides, die wir geprüft haben, nicht als Schnellreise dokumentiert.
+- Busse, Straßenbahnen und Züge funktionieren ebenfalls als Schnellreise: einsteigen, Haltestelle wählen und die Fahrt überspringen. Siehe [Zug und Metro in GTA 6](/vehicles/gta-6-train/).
 
 ## Tipps
 

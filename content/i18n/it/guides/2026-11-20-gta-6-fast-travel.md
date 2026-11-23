@@ -69,7 +69,7 @@ Su una cosa sono d'accordo: nelle prime missioni non puoi usare RydeMe. Se l'app
 
 - La corsa viene annullata se l'auto non riesce a raggiungerti (VGC). Vai a piedi fino a una strada e ordina di nuovo.
 - Nessuna guida descrive il viaggio rapido durante una missione o con un livello di ricercato. Dai per scontato di dover essere in giro libero e senza la polizia alle calcagna.
-- Autobus e treni non risultano come viaggio rapido nelle guide che abbiamo controllato.
+- Anche autobus, tram e treni funzionano come viaggio rapido: sali, scegli una fermata e salta il tragitto. Vedi [treno e metro di GTA 6](/vehicles/gta-6-train/).
 
 ## Consigli
 

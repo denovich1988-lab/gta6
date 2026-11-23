@@ -5,6 +5,7 @@ description: "How to fast travel in GTA 6: call a taxi or use the RydeMe app on 
 section: map
 date: 2026-11-20
 status: confirmed
+updated: 2026-11-23
 summary:
   - "GTA 6 fast travel works through rides: order one on the phone, set a destination and pay $100 to skip straight there."
   - "The RydeMe app is the main method; PowerPyx also describes calling Paradise Taxi from your contacts early in Chapter 1."
@@ -78,7 +79,7 @@ What both agree on is that you cannot use RydeMe in the first few missions. If t
 
 - The ride is cancelled if the car cannot reach you (VGC). Walk to a road and order again.
 - No guide describes fast travel during a mission or with a wanted level. Assume you need to be in free roam and clear of the police.
-- Buses and trains are not documented as fast travel in the guides we checked.
+- Buses, trams and trains also work as fast travel: board, pick a stop and skip the ride. See [GTA 6 train and metro](/vehicles/gta-6-train/).
 
 ## Tips
 

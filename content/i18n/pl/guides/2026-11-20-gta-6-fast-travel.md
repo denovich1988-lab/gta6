@@ -69,7 +69,7 @@ Oba zgadzają się co do tego, że w pierwszych kilku misjach nie skorzystasz z 
 
 - Przejazd zostaje anulowany, jeśli samochód nie może do ciebie dojechać (VGC). Podejdź do drogi i zamów ponownie.
 - Żaden poradnik nie opisuje szybkiej podróży w trakcie misji ani z poziomem poszukiwań. Zakładaj, że musisz być w trybie swobodnej eksploracji i bez policji na ogonie.
-- Autobusy i pociągi nie są opisane jako szybka podróż w sprawdzonych przez nas poradnikach.
+- Autobusy, tramwaje i pociągi też działają jako szybka podróż: wsiądź, wybierz przystanek i pomiń przejazd. Zobacz [pociąg i metro w GTA 6](/vehicles/gta-6-train/).
 
 ## Porady
 
