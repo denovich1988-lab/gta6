@@ -1101,5 +1101,1310 @@
       }
     ],
     "playVideo": "Riproduci video"
+  },
+  "ja": {
+    "skip": "本文へスキップ",
+    "sectionsLabel": "セクション",
+    "menu": "メニュー",
+    "search": "ガイドを検索",
+    "noMatches": "見つかりませんでした。短い単語で試してください。",
+    "allGuides": "すべてのガイド",
+    "language": "言語",
+    "tagline": "GTA 6 のミッション攻略、マップ、ガイド。非公式のファンサイトです。",
+    "footGuides": "ガイド",
+    "footSite": "サイト",
+    "legal_about": "このサイトについて",
+    "legal_contact": "お問い合わせ",
+    "legal_privacy": "プライバシーポリシー",
+    "legal_terms": "利用規約",
+    "legal_disclaimer": "免責事項",
+    "copyright": "非公式のファンサイトであり、Rockstar Games および Take-Two Interactive とは関係がなく、承認も受けていません。Grand Theft Auto および GTA は各所有者の商標です。",
+    "consentText": "どのガイドが役立っているかを知るために分析用 Cookie を使います。広告はなく、データを販売することもありません。",
+    "accept": "同意する",
+    "decline": "拒否する",
+    "home": "ホーム",
+    "faq": "よくある質問",
+    "homeTitle": "GTA 6 攻略：ミッション、マップ、ウォークスルー",
+    "siteDescription": "GTA 6 の非公式攻略サイト。ミッション攻略、Leonida のマップ、キャラクター、車、武器、チート、エディション、PC 情報。確認済みの情報だけを毎日更新。",
+    "kicker": "GTA 6 非公式ガイド",
+    "homeH1": "GTA 6 のミッション、マップ、攻略",
+    "browse": "ガイドを見る",
+    "startHere": "まずはここから",
+    "latest": "最新のガイド",
+    "updated": "更新",
+    "status": "ステータス",
+    "status_confirmed": "確認済み",
+    "status_partly": "一部確認済み",
+    "status_unconfirmed": "未確認",
+    "status_live": "発売後の情報で更新",
+    "read": "読む",
+    "min": "分",
+    "by": "執筆",
+    "team": "{{SITE}} チーム",
+    "caption": "{{SITE}} によるイラストで、ゲームのスクリーンショットではありません。",
+    "quick": "結論",
+    "sources": "出典",
+    "related": "関連ガイド",
+    "readNext": "次に読む",
+    "pageN": "{n} ページ",
+    "newer": "新しい記事",
+    "older": "古い記事",
+    "startWith": "はじめての方はこちら",
+    "allH1": "GTA 6 のすべてのガイド",
+    "allLede": "サイト内のすべてのガイドを、更新が新しい順に掲載しています。",
+    "allTitle": "GTA 6 のすべてのガイドと攻略",
+    "allDescription": "GTA 6 のすべてのガイド：ミッション、マップ、キャラクター、車、武器、チート、エディション、PC、オンライン。",
+    "countGuides": "ガイド {n} 件",
+    "countPosts": "記事 {n} 件",
+    "homeFaq": [
+      {
+        "q": "GTA 6 とは？ 発売日はいつ？",
+        "a": "Grand Theft Auto VI は Rockstar Games のオープンワールド犯罪ゲームで、舞台は Leonida 州です。2026年11月19日に PlayStation 5 と Xbox Series X|S で発売されました。"
+      },
+      {
+        "q": "GTA 6 の主人公は誰？",
+        "a": "主人公は Jason Duval と Lucia Caminos の2人。Leonida 全体に広がる犯罪の陰謀に巻き込まれるカップルです。"
+      },
+      {
+        "q": "GTA 6 は PC で遊べる？",
+        "a": "発売時点では遊べません。Rockstar は PC 版も PC の発売日も発表していません。"
+      },
+      {
+        "q": "{{SITE}} は Rockstar の公式サイト？",
+        "a": "いいえ。{{SITE}} は独立したファンサイトで、Rockstar Games や Take-Two Interactive とは関係がありません。"
+      }
+    ],
+    "toc": "このページの内容",
+    "top": "ページの先頭へ",
+    "leadsH": "2人の主人公",
+    "leadsMore": "プロフィールを読む",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Leonida Keys で麻薬の運び屋のために働く元兵士。"
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "出所したばかりで、Jason とよりよい人生を目指している。"
+      }
+    ],
+    "playVideo": "動画を再生",
+    "sections": {
+      "missions": {
+        "name": "ミッション",
+        "title": "GTA 6 ミッション攻略とミッション一覧",
+        "description": "GTA 6 のミッションを手順ごとに攻略。ストーリー順の全ミッション一覧と難所のコツ。"
+      },
+      "map": {
+        "name": "マップ",
+        "title": "GTA 6 のマップと場所",
+        "description": "GTA 6 のマップ解説：Vice City、Leonida Keys、Grassrivers、Port Gellhorn、Ambrosia、Mount Kalaga。"
+      },
+      "characters": {
+        "name": "キャラクター",
+        "title": "GTA 6 のキャラクター",
+        "description": "確認済みの GTA 6 キャラクター：Jason Duval、Lucia Caminos、そして Leonida の登場人物たち。"
+      },
+      "vehicles": {
+        "name": "車",
+        "title": "GTA 6 の車と乗り物",
+        "description": "GTA 6 の車、バイク、ボートなどの乗り物：確認済みの情報と入手場所。"
+      },
+      "weapons": {
+        "name": "武器",
+        "title": "GTA 6 の武器と装備",
+        "description": "GTA 6 の武器と装備：確認済みの情報、ロードアウトの仕組み、入手方法。"
+      },
+      "cheats": {
+        "name": "チート",
+        "title": "GTA 6 のチートと秘密",
+        "description": "GTA 6 のチートコード、秘密、お金のコツ。公開前に確認しています。"
+      },
+      "buying": {
+        "name": "エディション",
+        "title": "GTA 6 の価格、エディション、予約特典",
+        "description": "GTA 6 の価格、Standard と Ultimate Edition の違い、予約特典、対応機種。"
+      },
+      "pc": {
+        "name": "PC",
+        "title": "PC 版 GTA 6",
+        "description": "GTA 6 の PC 版発売状況、必要スペック、Rockstar の発表内容。"
+      },
+      "online": {
+        "name": "オンライン",
+        "title": "GTA 6 オンラインとマルチプレイ",
+        "description": "GTA 6 のオンライン、マルチプレイ、クロスプレイ：発売時とその後に確認されている内容。"
+      },
+      "news": {
+        "name": "ニュース",
+        "title": "GTA 6 のニュースと発売情報",
+        "description": "GTA 6 の発売日、延期、トレーラー、最新の確認済みニュース。"
+      },
+      "blog": {
+        "name": "ブログ",
+        "title": "GTA 6 ブログ：ニュース、疑問への回答、解説",
+        "description": "プレイヤーがよく検索する疑問に出典付きで答える短い記事：発売時間、容量、対応機種、お金、今週の変更点。"
+      }
+    }
+  },
+  "ko": {
+    "skip": "본문으로 건너뛰기",
+    "sectionsLabel": "섹션",
+    "menu": "메뉴",
+    "search": "가이드 검색",
+    "noMatches": "결과가 없습니다. 더 짧은 단어로 검색해 보세요.",
+    "allGuides": "모든 가이드",
+    "language": "언어",
+    "tagline": "GTA 6 미션 공략, 지도, 가이드. 비공식 팬 사이트입니다.",
+    "footGuides": "가이드",
+    "footSite": "사이트",
+    "legal_about": "사이트 소개",
+    "legal_contact": "문의",
+    "legal_privacy": "개인정보 처리방침",
+    "legal_terms": "이용약관",
+    "legal_disclaimer": "면책 조항",
+    "copyright": "비공식 팬 사이트이며 Rockstar Games 및 Take-Two Interactive와 관련이 없고 승인을 받지 않았습니다. Grand Theft Auto와 GTA는 해당 소유자의 상표입니다.",
+    "consentText": "어떤 가이드가 유용한지 알기 위해 분석 쿠키를 사용합니다. 광고는 없고 데이터를 판매하지 않습니다.",
+    "accept": "동의",
+    "decline": "거부",
+    "home": "홈",
+    "faq": "자주 묻는 질문",
+    "homeTitle": "GTA 6 공략: 미션, 지도, 워크스루",
+    "siteDescription": "독립 GTA 6 공략 사이트: 미션 공략, Leonida 지도, 캐릭터, 자동차, 무기, 치트, 에디션, PC 소식. 확인된 정보만 매일 업데이트합니다.",
+    "kicker": "비공식 GTA 6 가이드",
+    "homeH1": "GTA 6 미션, 지도, 공략",
+    "browse": "가이드 둘러보기",
+    "startHere": "여기서 시작하세요",
+    "latest": "최신 가이드",
+    "updated": "업데이트",
+    "status": "상태",
+    "status_confirmed": "확인됨",
+    "status_partly": "일부 확인됨",
+    "status_unconfirmed": "아직 확인되지 않음",
+    "status_live": "출시 후 정보로 업데이트",
+    "read": "읽기",
+    "min": "분",
+    "by": "작성",
+    "team": "{{SITE}} 팀",
+    "caption": "{{SITE}}의 일러스트이며 게임 스크린샷이 아닙니다.",
+    "quick": "빠른 답변",
+    "sources": "출처",
+    "related": "관련 가이드",
+    "readNext": "다음 글",
+    "pageN": "{n}페이지",
+    "newer": "최신 글",
+    "older": "이전 글",
+    "startWith": "처음이신가요? 여기서 시작하세요",
+    "allH1": "모든 GTA 6 가이드",
+    "allLede": "사이트의 모든 가이드를 최근 업데이트 순으로 보여 줍니다.",
+    "allTitle": "모든 GTA 6 가이드와 공략",
+    "allDescription": "모든 GTA 6 가이드: 미션, 지도, 캐릭터, 자동차, 무기, 치트, 에디션, PC, 온라인.",
+    "countGuides": "가이드 {n}개",
+    "countPosts": "글 {n}개",
+    "homeFaq": [
+      {
+        "q": "GTA 6는 어떤 게임이고 언제 출시되나요?",
+        "a": "Grand Theft Auto VI는 Leonida 주를 배경으로 한 Rockstar Games의 오픈 월드 범죄 게임입니다. 2026년 11월 19일 PlayStation 5와 Xbox Series X|S로 출시되었습니다."
+      },
+      {
+        "q": "GTA 6의 주인공은 누구인가요?",
+        "a": "Leonida 전역의 범죄 음모에 휘말리는 커플 Jason Duval과 Lucia Caminos, 두 주인공으로 플레이합니다."
+      },
+      {
+        "q": "GTA 6는 PC로 나오나요?",
+        "a": "출시 시점에는 없습니다. Rockstar는 PC 버전이나 PC 출시일을 발표하지 않았습니다."
+      },
+      {
+        "q": "{{SITE}}는 Rockstar 공식 사이트인가요?",
+        "a": "아닙니다. {{SITE}}는 독립 팬 사이트이며 Rockstar Games나 Take-Two Interactive와 관련이 없습니다."
+      }
+    ],
+    "toc": "이 페이지의 내용",
+    "top": "맨 위로",
+    "leadsH": "두 주인공",
+    "leadsMore": "프로필 읽기",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Leonida Keys에서 마약 운반책 밑에서 일하는 전직 군인."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "막 출소해 Jason과 더 나은 삶을 꿈꾸는 인물."
+      }
+    ],
+    "playVideo": "동영상 재생",
+    "sections": {
+      "missions": {
+        "name": "미션",
+        "title": "GTA 6 미션 공략과 미션 목록",
+        "description": "GTA 6 미션 단계별 공략, 스토리 순서의 전체 미션 목록, 어려운 구간 팁."
+      },
+      "map": {
+        "name": "지도",
+        "title": "GTA 6 지도와 장소",
+        "description": "GTA 6 지도 해설: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga."
+      },
+      "characters": {
+        "name": "캐릭터",
+        "title": "GTA 6 캐릭터",
+        "description": "확인된 모든 GTA 6 캐릭터: Jason Duval, Lucia Caminos, 그리고 Leonida의 조연들."
+      },
+      "vehicles": {
+        "name": "자동차",
+        "title": "GTA 6 자동차와 탈것",
+        "description": "GTA 6의 자동차, 오토바이, 보트 등 탈것: 확인된 정보와 찾는 장소."
+      },
+      "weapons": {
+        "name": "무기",
+        "title": "GTA 6 무기와 장비",
+        "description": "GTA 6 무기와 장비: 확인된 정보, 로드아웃 방식, 얻는 방법."
+      },
+      "cheats": {
+        "name": "치트",
+        "title": "GTA 6 치트와 비밀",
+        "description": "GTA 6 치트 코드, 비밀, 돈 버는 팁. 게시 전에 확인합니다."
+      },
+      "buying": {
+        "name": "에디션",
+        "title": "GTA 6 가격, 에디션, 예약 특전",
+        "description": "GTA 6 가격, Standard와 Ultimate Edition 비교, 예약 특전과 플랫폼 정보."
+      },
+      "pc": {
+        "name": "PC",
+        "title": "PC판 GTA 6",
+        "description": "GTA 6 PC 출시 현황, 시스템 요구 사항, Rockstar의 발표 내용."
+      },
+      "online": {
+        "name": "온라인",
+        "title": "GTA 6 온라인과 멀티플레이",
+        "description": "GTA 6 온라인, 멀티플레이, 크로스플레이: 출시 시점과 이후 확인된 내용."
+      },
+      "news": {
+        "name": "뉴스",
+        "title": "GTA 6 뉴스와 출시 정보",
+        "description": "GTA 6 출시일, 연기, 트레일러와 최신 확인 뉴스."
+      },
+      "blog": {
+        "name": "블로그",
+        "title": "GTA 6 블로그: 뉴스, 답변, 해설",
+        "description": "플레이어가 자주 찾는 질문에 출처와 함께 답하는 짧은 글: 출시 시간, 용량, 플랫폼, 돈, 이번 주 변경 사항."
+      }
+    }
+  },
+  "zh": {
+    "skip": "跳到正文",
+    "sectionsLabel": "栏目",
+    "menu": "菜单",
+    "search": "搜索攻略",
+    "noMatches": "没有结果，请试试更短的词。",
+    "allGuides": "全部攻略",
+    "language": "语言",
+    "tagline": "GTA 6 任务攻略、地图和指南。独立的非官方粉丝网站。",
+    "footGuides": "攻略",
+    "footSite": "网站",
+    "legal_about": "关于我们",
+    "legal_contact": "联系我们",
+    "legal_privacy": "隐私政策",
+    "legal_terms": "使用条款",
+    "legal_disclaimer": "免责声明",
+    "copyright": "本站为非官方粉丝网站，与 Rockstar Games 和 Take-Two Interactive 无关，也未获其认可。Grand Theft Auto 和 GTA 是其所有者的商标。",
+    "consentText": "我们使用分析 Cookie 来了解哪些攻略有用。没有广告，也不出售数据。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "home": "首页",
+    "faq": "常见问题",
+    "homeTitle": "GTA 6 攻略：任务、地图和流程",
+    "siteDescription": "独立的 GTA 6 攻略站：任务流程、Leonida 地图、角色、载具、武器、作弊码、版本和 PC 消息。只发布已确认的信息，每日更新。",
+    "kicker": "非官方 GTA 6 攻略",
+    "homeH1": "GTA 6 任务、地图和攻略",
+    "browse": "浏览攻略",
+    "startHere": "从这里开始",
+    "latest": "最新攻略",
+    "updated": "更新于",
+    "status": "状态",
+    "status_confirmed": "已确认",
+    "status_partly": "部分确认",
+    "status_unconfirmed": "尚未确认",
+    "status_live": "已按发售后的信息更新",
+    "read": "阅读",
+    "min": "分钟",
+    "by": "作者",
+    "team": "{{SITE}} 团队",
+    "caption": "{{SITE}} 绘制的插图，并非游戏截图。",
+    "quick": "简要回答",
+    "sources": "来源",
+    "related": "相关攻略",
+    "readNext": "继续阅读",
+    "pageN": "第 {n} 页",
+    "newer": "较新",
+    "older": "较早",
+    "startWith": "新来的？从这里开始",
+    "allH1": "全部 GTA 6 攻略",
+    "allLede": "本站全部攻略，按最近更新排序。",
+    "allTitle": "全部 GTA 6 攻略与流程",
+    "allDescription": "浏览全部 GTA 6 攻略：任务、地图、角色、载具、武器、作弊码、版本、PC 和线上模式。",
+    "countGuides": "{n} 篇攻略",
+    "countPosts": "{n} 篇文章",
+    "homeFaq": [
+      {
+        "q": "GTA 6 是什么游戏？什么时候发售？",
+        "a": "Grand Theft Auto VI 是 Rockstar Games 的开放世界犯罪游戏，故事发生在 Leonida 州。游戏已于 2026 年 11 月 19 日在 PlayStation 5 和 Xbox Series X|S 上发售。"
+      },
+      {
+        "q": "GTA 6 的主角是谁？",
+        "a": "玩家扮演两位主角 Jason Duval 和 Lucia Caminos，这对情侣被卷入一场遍及 Leonida 的犯罪阴谋。"
+      },
+      {
+        "q": "GTA 6 有 PC 版吗？",
+        "a": "发售时没有。Rockstar 尚未公布 PC 版或 PC 版发售日期。"
+      },
+      {
+        "q": "{{SITE}} 是 Rockstar 官方网站吗？",
+        "a": "不是。{{SITE}} 是独立的粉丝网站，与 Rockstar Games 和 Take-Two Interactive 没有关系。"
+      }
+    ],
+    "toc": "本页内容",
+    "top": "回到顶部",
+    "leadsH": "两位主角",
+    "leadsMore": "查看介绍",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "在 Leonida Keys 为毒贩跑腿的前军人。"
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "刚刚出狱，想和 Jason 过上更好的生活。"
+      }
+    ],
+    "playVideo": "播放视频",
+    "sections": {
+      "missions": {
+        "name": "任务",
+        "title": "GTA 6 任务攻略与任务列表",
+        "description": "GTA 6 任务分步攻略、按剧情顺序排列的完整任务列表，以及难点技巧。"
+      },
+      "map": {
+        "name": "地图",
+        "title": "GTA 6 地图与地点",
+        "description": "GTA 6 地图解析：Vice City、Leonida Keys、Grassrivers、Port Gellhorn、Ambrosia 和 Mount Kalaga。"
+      },
+      "characters": {
+        "name": "角色",
+        "title": "GTA 6 角色",
+        "description": "所有已确认的 GTA 6 角色：Jason Duval、Lucia Caminos 以及 Leonida 的配角。"
+      },
+      "vehicles": {
+        "name": "载具",
+        "title": "GTA 6 汽车与载具",
+        "description": "GTA 6 的汽车、摩托车、船只等载具：已确认的信息以及在哪里找到它们。"
+      },
+      "weapons": {
+        "name": "武器",
+        "title": "GTA 6 武器与装备",
+        "description": "GTA 6 武器和装备：已确认的信息、武器配置方式以及获取方法。"
+      },
+      "cheats": {
+        "name": "作弊码",
+        "title": "GTA 6 作弊码与秘密",
+        "description": "GTA 6 作弊码、秘密和赚钱技巧，发布前均已核实。"
+      },
+      "buying": {
+        "name": "版本",
+        "title": "GTA 6 价格、版本与预购奖励",
+        "description": "GTA 6 价格、标准版与终极版对比、预购奖励和平台信息。"
+      },
+      "pc": {
+        "name": "PC",
+        "title": "GTA 6 PC 版",
+        "description": "GTA 6 PC 版发售情况、配置要求以及 Rockstar 的官方说法。"
+      },
+      "online": {
+        "name": "线上",
+        "title": "GTA 6 线上与多人模式",
+        "description": "GTA 6 线上、多人和跨平台联机：发售时及之后已确认的内容。"
+      },
+      "news": {
+        "name": "新闻",
+        "title": "GTA 6 新闻与发售信息",
+        "description": "GTA 6 发售日期、延期、预告片和最新的已确认新闻。"
+      },
+      "blog": {
+        "name": "博客",
+        "title": "GTA 6 博客：新闻、解答与解析",
+        "description": "用短文回答玩家常搜的问题并附来源：发售时间、容量、平台、赚钱和本周变化。"
+      }
+    }
+  },
+  "tr": {
+    "skip": "İçeriğe geç",
+    "sectionsLabel": "Bölümler",
+    "menu": "Menü",
+    "search": "Rehberlerde ara",
+    "noMatches": "Sonuç yok. Daha kısa bir kelime deneyin.",
+    "allGuides": "Tüm rehberler",
+    "language": "Dil",
+    "tagline": "GTA 6 görev çözümleri, harita ve rehberler. Bağımsız bir hayran sitesi.",
+    "footGuides": "Rehberler",
+    "footSite": "Site",
+    "legal_about": "Hakkımızda",
+    "legal_contact": "İletişim",
+    "legal_privacy": "Gizlilik politikası",
+    "legal_terms": "Kullanım şartları",
+    "legal_disclaimer": "Sorumluluk reddi",
+    "copyright": "Resmî olmayan bir hayran sitesidir; Rockstar Games veya Take-Two Interactive ile bağlantılı değildir ve onlar tarafından onaylanmamıştır. Grand Theft Auto ve GTA, sahiplerinin ticari markalarıdır.",
+    "consentText": "Hangi rehberlerin işe yaradığını görmek için analiz çerezleri kullanıyoruz. Reklam yok, veri satışı yok.",
+    "accept": "Kabul et",
+    "decline": "Reddet",
+    "home": "Ana sayfa",
+    "faq": "Sık sorulan sorular",
+    "homeTitle": "GTA 6 Rehberi: Görevler, Harita ve Çözümler",
+    "siteDescription": "Bağımsız GTA 6 rehberi: görev çözümleri, Leonida haritası, karakterler, arabalar, silahlar, hileler, sürümler ve PC haberleri. Yalnızca doğrulanmış bilgiler, her gün güncellenir.",
+    "kicker": "Resmî olmayan GTA 6 rehberi",
+    "homeH1": "GTA 6 görevleri, haritası ve çözümleri",
+    "browse": "Rehbere göz at",
+    "startHere": "Buradan başlayın",
+    "latest": "En yeni rehberler",
+    "updated": "Güncellendi",
+    "status": "Durum",
+    "status_confirmed": "Doğrulandı",
+    "status_partly": "Kısmen doğrulandı",
+    "status_unconfirmed": "Henüz doğrulanmadı",
+    "status_live": "Çıkış sonrası bilgilerle güncellendi",
+    "read": "Oku",
+    "min": "dk",
+    "by": "Yazar",
+    "team": "{{SITE}} ekibi",
+    "caption": "{{SITE}} tarafından hazırlanmış illüstrasyondur, oyundan ekran görüntüsü değildir.",
+    "quick": "Kısa cevap",
+    "sources": "Kaynaklar",
+    "related": "İlgili rehberler",
+    "readNext": "Sıradaki",
+    "pageN": "sayfa {n}",
+    "newer": "Daha yeni",
+    "older": "Daha eski",
+    "startWith": "Yeni misiniz? Buradan başlayın",
+    "allH1": "Tüm GTA 6 rehberleri",
+    "allLede": "Sitedeki tüm rehberler, en son güncellenen önce.",
+    "allTitle": "Tüm GTA 6 Rehberleri ve Çözümleri",
+    "allDescription": "Tüm GTA 6 rehberlerine göz atın: görevler, harita, karakterler, arabalar, silahlar, hileler, sürümler, PC ve çevrim içi.",
+    "countGuides": "{n} rehber",
+    "countPosts": "{n} yazı",
+    "homeFaq": [
+      {
+        "q": "GTA 6 nedir ve ne zaman çıkıyor?",
+        "a": "Grand Theft Auto VI, Rockstar Games'in Leonida eyaletinde geçen açık dünya suç oyunudur. 19 Kasım 2026'da PlayStation 5 ve Xbox Series X|S için çıktı."
+      },
+      {
+        "q": "GTA 6'nın ana karakterleri kimler?",
+        "a": "Leonida genelindeki bir suç komplosuna sürüklenen çift Jason Duval ve Lucia Caminos ile oynuyorsunuz."
+      },
+      {
+        "q": "GTA 6 PC'ye geliyor mu?",
+        "a": "Çıkışta gelmedi. Rockstar bir PC sürümü ya da PC çıkış tarihi duyurmadı."
+      },
+      {
+        "q": "{{SITE}} resmî bir Rockstar sitesi mi?",
+        "a": "Hayır. {{SITE}} bağımsız bir hayran sitesidir. Rockstar Games veya Take-Two Interactive ile bağlantımız yoktur."
+      }
+    ],
+    "toc": "Bu sayfada",
+    "top": "Başa dön",
+    "leadsH": "İki ana karakter",
+    "leadsMore": "Profili oku",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Leonida Keys'te uyuşturucu kaçakçıları için çalışan eski bir asker."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Hapisten yeni çıkmış, Jason ile daha iyi bir hayat kurmaya kararlı."
+      }
+    ],
+    "playVideo": "Videoyu oynat",
+    "sections": {
+      "missions": {
+        "name": "Görevler",
+        "title": "GTA 6 Görevleri: Çözümler ve Görev Listesi",
+        "description": "Adım adım GTA 6 görev çözümleri, hikâye sırasına göre tam görev listesi ve zor bölümler için ipuçları."
+      },
+      "map": {
+        "name": "Harita",
+        "title": "GTA 6 Haritası ve Konumlar",
+        "description": "GTA 6 haritası: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia ve Mount Kalaga."
+      },
+      "characters": {
+        "name": "Karakterler",
+        "title": "GTA 6 Karakterleri",
+        "description": "Doğrulanmış tüm GTA 6 karakterleri: Jason Duval, Lucia Caminos ve Leonida'nın yan karakterleri."
+      },
+      "vehicles": {
+        "name": "Arabalar",
+        "title": "GTA 6 Arabaları ve Araçları",
+        "description": "GTA 6 arabaları, motosikletleri, tekneleri ve diğer araçlar: doğrulananlar ve nerede bulunacakları."
+      },
+      "weapons": {
+        "name": "Silahlar",
+        "title": "GTA 6 Silahları ve Ekipmanı",
+        "description": "GTA 6 silahları ve ekipmanı: doğrulananlar, teçhizat sistemi ve nasıl elde edileceği."
+      },
+      "cheats": {
+        "name": "Hileler",
+        "title": "GTA 6 Hileleri ve Sırları",
+        "description": "GTA 6 hile kodları, sırlar ve para ipuçları; yayımlamadan önce doğrularız."
+      },
+      "buying": {
+        "name": "Sürümler",
+        "title": "GTA 6 Fiyatı, Sürümleri ve Ön Sipariş Bonusları",
+        "description": "GTA 6 fiyatı, Standard ve Ultimate Edition karşılaştırması, ön sipariş bonusları ve platform bilgileri."
+      },
+      "pc": {
+        "name": "PC",
+        "title": "PC'de GTA 6",
+        "description": "GTA 6 PC çıkış durumu, sistem gereksinimleri ve Rockstar'ın açıklamaları."
+      },
+      "online": {
+        "name": "Çevrim içi",
+        "title": "GTA 6 Çevrim İçi ve Çok Oyunculu",
+        "description": "GTA 6 çevrim içi, çok oyunculu ve çapraz platform: çıkışta ve sonrasında doğrulananlar."
+      },
+      "news": {
+        "name": "Haberler",
+        "title": "GTA 6 Haberleri ve Çıkış Bilgileri",
+        "description": "GTA 6 çıkış tarihi, ertelemeler, fragmanlar ve doğrulanmış son haberler."
+      },
+      "blog": {
+        "name": "Blog",
+        "title": "GTA 6 Blog: Haberler, Cevaplar ve Açıklamalar",
+        "description": "Oyuncuların aradığı sorulara kaynaklı kısa yazılar: çıkış saatleri, dosya boyutu, platformlar, para ve bu haftanın değişiklikleri."
+      }
+    }
+  },
+  "nl": {
+    "skip": "Naar de inhoud",
+    "sectionsLabel": "Rubrieken",
+    "menu": "Menu",
+    "search": "Gidsen zoeken",
+    "noMatches": "Geen resultaten. Probeer een korter woord.",
+    "allGuides": "Alle gidsen",
+    "language": "Taal",
+    "tagline": "GTA 6-missiewalkthroughs, kaart en gidsen. Onafhankelijke fansite.",
+    "footGuides": "Gidsen",
+    "footSite": "Site",
+    "legal_about": "Over ons",
+    "legal_contact": "Contact",
+    "legal_privacy": "Privacybeleid",
+    "legal_terms": "Gebruiksvoorwaarden",
+    "legal_disclaimer": "Disclaimer",
+    "copyright": "Een onofficiële fansite, niet verbonden aan of goedgekeurd door Rockstar Games of Take-Two Interactive. Grand Theft Auto en GTA zijn handelsmerken van hun eigenaren.",
+    "consentText": "We gebruiken analytische cookies om te zien welke gidsen nuttig zijn. Geen advertenties, geen verkoop van gegevens.",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "home": "Home",
+    "faq": "Veelgestelde vragen",
+    "homeTitle": "GTA 6-gids: missies, kaart en walkthroughs",
+    "siteDescription": "Een onafhankelijke GTA 6-gids: missiewalkthroughs, de kaart van Leonida, personages, auto's, wapens, cheats, edities en pc-nieuws. Alleen bevestigde feiten, dagelijks bijgewerkt.",
+    "kicker": "Onofficiële GTA 6-gids",
+    "homeH1": "GTA 6-missies, kaart en walkthroughs",
+    "browse": "Bekijk de gids",
+    "startHere": "Begin hier",
+    "latest": "Nieuwste gidsen",
+    "updated": "Bijgewerkt",
+    "status": "Status",
+    "status_confirmed": "Bevestigd",
+    "status_partly": "Deels bevestigd",
+    "status_unconfirmed": "Nog niet bevestigd",
+    "status_live": "Bijgewerkt na de release",
+    "read": "Lezen",
+    "min": "min",
+    "by": "Door",
+    "team": "{{SITE}}-team",
+    "caption": "Illustratie van {{SITE}}, geen screenshot uit de game.",
+    "quick": "Kort antwoord",
+    "sources": "Bronnen",
+    "related": "Gerelateerde gidsen",
+    "readNext": "Lees verder",
+    "pageN": "pagina {n}",
+    "newer": "Nieuwer",
+    "older": "Ouder",
+    "startWith": "Nieuw hier? Begin met",
+    "allH1": "Alle GTA 6-gidsen",
+    "allLede": "Alle gidsen op de site, meest recent bijgewerkt eerst.",
+    "allTitle": "Alle GTA 6-gidsen en walkthroughs",
+    "allDescription": "Bekijk alle GTA 6-gidsen: missies, kaart, personages, auto's, wapens, cheats, edities, pc en online.",
+    "countGuides": "{n} gidsen",
+    "countPosts": "{n} berichten",
+    "homeFaq": [
+      {
+        "q": "Wat is GTA 6 en wanneer komt het uit?",
+        "a": "Grand Theft Auto VI is de open-wereld misdaadgame van Rockstar Games in de staat Leonida. De game verscheen op 19 november 2026 voor PlayStation 5 en Xbox Series X|S."
+      },
+      {
+        "q": "Wie zijn de hoofdpersonages in GTA 6?",
+        "a": "Je speelt met twee hoofdpersonages, Jason Duval en Lucia Caminos, een stel dat in een criminele samenzwering in heel Leonida belandt."
+      },
+      {
+        "q": "Komt GTA 6 naar de pc?",
+        "a": "Niet bij de release. Rockstar heeft geen pc-versie of pc-releasedatum aangekondigd."
+      },
+      {
+        "q": "Is {{SITE}} een officiële Rockstar-site?",
+        "a": "Nee. {{SITE}} is een onafhankelijke fansite. We zijn niet verbonden aan Rockstar Games of Take-Two Interactive."
+      }
+    ],
+    "toc": "Op deze pagina",
+    "top": "Terug naar boven",
+    "leadsH": "De twee hoofdpersonages",
+    "leadsMore": "Lees het profiel",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Een oud-militair die voor drugssmokkelaars werkt in de Leonida Keys."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Net vrij uit de gevangenis en vastbesloten om met Jason een beter leven te krijgen."
+      }
+    ],
+    "playVideo": "Video afspelen",
+    "sections": {
+      "missions": {
+        "name": "Missies",
+        "title": "GTA 6-missies: walkthroughs en missielijst",
+        "description": "Stapsgewijze GTA 6-missiewalkthroughs, de volledige missielijst in verhaalvolgorde en tips voor de lastige stukken."
+      },
+      "map": {
+        "name": "Kaart",
+        "title": "GTA 6-kaart en locaties",
+        "description": "De GTA 6-kaart uitgelegd: Vice City, de Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia en Mount Kalaga."
+      },
+      "characters": {
+        "name": "Personages",
+        "title": "GTA 6-personages",
+        "description": "Alle bevestigde GTA 6-personages: Jason Duval, Lucia Caminos en de bijfiguren van Leonida."
+      },
+      "vehicles": {
+        "name": "Auto's",
+        "title": "GTA 6-auto's en voertuigen",
+        "description": "GTA 6-auto's, motoren, boten en andere voertuigen: wat bevestigd is en waar je ze vindt."
+      },
+      "weapons": {
+        "name": "Wapens",
+        "title": "GTA 6-wapens en uitrusting",
+        "description": "GTA 6-wapens en uitrusting: wat bevestigd is, hoe de loadout werkt en hoe je ze krijgt."
+      },
+      "cheats": {
+        "name": "Cheats",
+        "title": "GTA 6-cheats en geheimen",
+        "description": "GTA 6-cheatcodes, geheimen en geldtips, gecontroleerd voordat we ze publiceren."
+      },
+      "buying": {
+        "name": "Edities",
+        "title": "GTA 6-prijs, edities en pre-orderbonussen",
+        "description": "GTA 6-prijs, Standard vs Ultimate Edition, pre-orderbonussen en platforminformatie."
+      },
+      "pc": {
+        "name": "Pc",
+        "title": "GTA 6 op pc",
+        "description": "Status van de GTA 6-pc-release, systeemeisen en wat Rockstar heeft gezegd."
+      },
+      "online": {
+        "name": "Online",
+        "title": "GTA 6 online en multiplayer",
+        "description": "GTA 6 online, multiplayer en crossplay: wat bevestigd is voor de release en daarna."
+      },
+      "news": {
+        "name": "Nieuws",
+        "title": "GTA 6-nieuws en release-info",
+        "description": "GTA 6-releasedatum, uitstel, trailers en het laatste bevestigde nieuws."
+      },
+      "blog": {
+        "name": "Blog",
+        "title": "GTA 6-blog: nieuws, antwoorden en uitleg",
+        "description": "Korte artikelen met bronnen die antwoord geven op vragen van spelers: releasetijden, bestandsgrootte, platforms, geld en wat er deze week veranderde."
+      }
+    }
+  },
+  "uk": {
+    "skip": "Перейти до вмісту",
+    "sectionsLabel": "Розділи",
+    "menu": "Меню",
+    "search": "Пошук гайдів",
+    "noMatches": "Нічого не знайдено. Спробуйте коротше слово.",
+    "allGuides": "Усі гайди",
+    "language": "Мова",
+    "tagline": "Проходження місій GTA 6, мапа й гайди. Незалежний фанатський сайт.",
+    "footGuides": "Гайди",
+    "footSite": "Сайт",
+    "legal_about": "Про сайт",
+    "legal_contact": "Контакти",
+    "legal_privacy": "Політика конфіденційності",
+    "legal_terms": "Умови використання",
+    "legal_disclaimer": "Відмова від відповідальності",
+    "copyright": "Неофіційний фанатський сайт, не пов’язаний із Rockstar Games чи Take-Two Interactive і не схвалений ними. Grand Theft Auto і GTA — торговельні марки їхніх власників.",
+    "consentText": "Ми використовуємо аналітичні cookie, щоб бачити, які гайди корисні. Без реклами й продажу даних.",
+    "accept": "Прийняти",
+    "decline": "Відхилити",
+    "home": "Головна",
+    "faq": "Часті запитання",
+    "homeTitle": "Гайд по GTA 6: місії, мапа та проходження",
+    "siteDescription": "Незалежний гайд по GTA 6: проходження місій, мапа Leonida, персонажі, авто, зброя, чити, видання та новини про ПК. Лише підтверджені факти, оновлення щодня.",
+    "kicker": "Неофіційний гайд по GTA 6",
+    "homeH1": "Місії, мапа та проходження GTA 6",
+    "browse": "Переглянути гайд",
+    "startHere": "Почніть тут",
+    "latest": "Нові гайди",
+    "updated": "Оновлено",
+    "status": "Статус",
+    "status_confirmed": "Підтверджено",
+    "status_partly": "Частково підтверджено",
+    "status_unconfirmed": "Ще не підтверджено",
+    "status_live": "Оновлено після релізу",
+    "read": "Читати",
+    "min": "хв",
+    "by": "Автор",
+    "team": "Команда {{SITE}}",
+    "caption": "Ілюстрація {{SITE}}, а не скриншот із гри.",
+    "quick": "Коротка відповідь",
+    "sources": "Джерела",
+    "related": "Схожі гайди",
+    "readNext": "Читайте далі",
+    "pageN": "сторінка {n}",
+    "newer": "Новіші",
+    "older": "Старіші",
+    "startWith": "Уперше тут? Почніть із",
+    "allH1": "Усі гайди по GTA 6",
+    "allLede": "Усі гайди сайту, спочатку нещодавно оновлені.",
+    "allTitle": "Усі гайди та проходження GTA 6",
+    "allDescription": "Усі гайди по GTA 6: місії, мапа, персонажі, авто, зброя, чити, видання, ПК та онлайн.",
+    "countGuides": "гайдів: {n}",
+    "countPosts": "статей: {n}",
+    "homeFaq": [
+      {
+        "q": "Що таке GTA 6 і коли вона вийде?",
+        "a": "Grand Theft Auto VI — кримінальна гра з відкритим світом від Rockstar Games, дія якої відбувається в штаті Leonida. Вона вийшла 19 листопада 2026 року на PlayStation 5 і Xbox Series X|S."
+      },
+      {
+        "q": "Хто головні герої GTA 6?",
+        "a": "Ви граєте за двох героїв, Jason Duval і Lucia Caminos — пару, втягнуту в кримінальну змову по всій Leonida."
+      },
+      {
+        "q": "Чи є GTA 6 на ПК?",
+        "a": "На старті — ні. Rockstar не оголошувала ні ПК-версію, ні дату виходу на ПК."
+      },
+      {
+        "q": "{{SITE}} — офіційний сайт Rockstar?",
+        "a": "Ні. {{SITE}} — незалежний фанатський сайт. Ми не пов’язані з Rockstar Games чи Take-Two Interactive."
+      }
+    ],
+    "toc": "На цій сторінці",
+    "top": "Нагору",
+    "leadsH": "Двоє головних героїв",
+    "leadsMore": "Читати профіль",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Колишній військовий, який працює на наркокур’єрів у Leonida Keys."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Щойно вийшла з в’язниці й прагне кращого життя разом із Jason."
+      }
+    ],
+    "playVideo": "Відтворити відео",
+    "sections": {
+      "missions": {
+        "name": "Місії",
+        "title": "Місії GTA 6: проходження та список місій",
+        "description": "Покрокове проходження місій GTA 6, повний список у сюжетному порядку й поради для складних моментів."
+      },
+      "map": {
+        "name": "Мапа",
+        "title": "Мапа та локації GTA 6",
+        "description": "Мапа GTA 6: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia та Mount Kalaga."
+      },
+      "characters": {
+        "name": "Персонажі",
+        "title": "Персонажі GTA 6",
+        "description": "Усі підтверджені персонажі GTA 6: Jason Duval, Lucia Caminos та другорядні герої Leonida."
+      },
+      "vehicles": {
+        "name": "Авто",
+        "title": "Авто та транспорт у GTA 6",
+        "description": "Авто, мотоцикли, човни та інший транспорт у GTA 6: що підтверджено й де їх знайти."
+      },
+      "weapons": {
+        "name": "Зброя",
+        "title": "Зброя та спорядження GTA 6",
+        "description": "Зброя та спорядження GTA 6: що підтверджено, як працює набір зброї й як її отримати."
+      },
+      "cheats": {
+        "name": "Чити",
+        "title": "Чити й секрети GTA 6",
+        "description": "Чит-коди GTA 6, секрети й поради щодо грошей — перевіряємо перед публікацією."
+      },
+      "buying": {
+        "name": "Видання",
+        "title": "Ціна, видання та бонуси передзамовлення GTA 6",
+        "description": "Ціна GTA 6, порівняння Standard і Ultimate Edition, бонуси передзамовлення та платформи."
+      },
+      "pc": {
+        "name": "ПК",
+        "title": "GTA 6 на ПК",
+        "description": "Статус виходу GTA 6 на ПК, системні вимоги та заяви Rockstar."
+      },
+      "online": {
+        "name": "Онлайн",
+        "title": "GTA 6 онлайн і мультиплеєр",
+        "description": "GTA 6 онлайн, мультиплеєр і кросплей: що підтверджено на старті й пізніше."
+      },
+      "news": {
+        "name": "Новини",
+        "title": "Новини та дата виходу GTA 6",
+        "description": "Дата виходу GTA 6, перенесення, трейлери й останні підтверджені новини."
+      },
+      "blog": {
+        "name": "Блог",
+        "title": "Блог GTA 6: новини, відповіді й пояснення",
+        "description": "Короткі статті з джерелами про те, що шукають гравці: час виходу, розмір файлів, платформи, гроші й зміни цього тижня."
+      }
+    }
+  },
+  "cs": {
+    "skip": "Přeskočit na obsah",
+    "sectionsLabel": "Sekce",
+    "menu": "Menu",
+    "search": "Hledat návody",
+    "noMatches": "Nic nenalezeno. Zkuste kratší slovo.",
+    "allGuides": "Všechny návody",
+    "language": "Jazyk",
+    "tagline": "Návody na mise GTA 6, mapa a průvodci. Nezávislý fanouškovský web.",
+    "footGuides": "Návody",
+    "footSite": "Web",
+    "legal_about": "O webu",
+    "legal_contact": "Kontakt",
+    "legal_privacy": "Zásady ochrany soukromí",
+    "legal_terms": "Podmínky použití",
+    "legal_disclaimer": "Vyloučení odpovědnosti",
+    "copyright": "Neoficiální fanouškovský web, který není spojen s Rockstar Games ani Take-Two Interactive a není jimi schválen. Grand Theft Auto a GTA jsou ochranné známky svých vlastníků.",
+    "consentText": "Používáme analytické cookies, abychom viděli, které návody pomáhají. Žádné reklamy, žádný prodej dat.",
+    "accept": "Přijmout",
+    "decline": "Odmítnout",
+    "home": "Domů",
+    "faq": "Časté otázky",
+    "homeTitle": "Průvodce GTA 6: mise, mapa a návody",
+    "siteDescription": "Nezávislý průvodce GTA 6: návody na mise, mapa Leonidy, postavy, auta, zbraně, cheaty, edice a novinky o PC. Jen ověřená fakta, aktualizováno denně.",
+    "kicker": "Neoficiální průvodce GTA 6",
+    "homeH1": "Mise, mapa a návody GTA 6",
+    "browse": "Procházet průvodce",
+    "startHere": "Začněte zde",
+    "latest": "Nejnovější návody",
+    "updated": "Aktualizováno",
+    "status": "Stav",
+    "status_confirmed": "Potvrzeno",
+    "status_partly": "Částečně potvrzeno",
+    "status_unconfirmed": "Zatím nepotvrzeno",
+    "status_live": "Aktualizováno po vydání",
+    "read": "Číst",
+    "min": "min",
+    "by": "Autor",
+    "team": "Tým {{SITE}}",
+    "caption": "Ilustrace {{SITE}}, nejde o snímek ze hry.",
+    "quick": "Stručná odpověď",
+    "sources": "Zdroje",
+    "related": "Související návody",
+    "readNext": "Čtěte dál",
+    "pageN": "strana {n}",
+    "newer": "Novější",
+    "older": "Starší",
+    "startWith": "Jste tu poprvé? Začněte s",
+    "allH1": "Všechny návody na GTA 6",
+    "allLede": "Všechny návody na webu, nejnověji aktualizované jako první.",
+    "allTitle": "Všechny návody a průvodci GTA 6",
+    "allDescription": "Všechny návody na GTA 6: mise, mapa, postavy, auta, zbraně, cheaty, edice, PC a online.",
+    "countGuides": "návodů: {n}",
+    "countPosts": "článků: {n}",
+    "homeFaq": [
+      {
+        "q": "Co je GTA 6 a kdy vyjde?",
+        "a": "Grand Theft Auto VI je kriminální hra s otevřeným světem od Rockstar Games odehrávající se ve státě Leonida. Vyšla 19. listopadu 2026 na PlayStation 5 a Xbox Series X|S."
+      },
+      {
+        "q": "Kdo jsou hlavní postavy GTA 6?",
+        "a": "Hrajete za dva hrdiny, Jason Duval a Lucia Caminos — pár zatažený do kriminálního spiknutí napříč Leonidou."
+      },
+      {
+        "q": "Vyjde GTA 6 na PC?",
+        "a": "Při vydání ne. Rockstar neoznámil PC verzi ani datum vydání na PC."
+      },
+      {
+        "q": "Je {{SITE}} oficiální web Rockstaru?",
+        "a": "Ne. {{SITE}} je nezávislý fanouškovský web. Nejsme spojeni s Rockstar Games ani Take-Two Interactive."
+      }
+    ],
+    "toc": "Na této stránce",
+    "top": "Zpět nahoru",
+    "leadsH": "Dva hlavní hrdinové",
+    "leadsMore": "Přečíst profil",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Bývalý voják, který pracuje pro pašeráky drog v Leonida Keys."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Čerstvě propuštěná z vězení a odhodlaná žít s Jasonem lepší život."
+      }
+    ],
+    "playVideo": "Přehrát video",
+    "sections": {
+      "missions": {
+        "name": "Mise",
+        "title": "Mise GTA 6: návody a seznam misí",
+        "description": "Návody na mise GTA 6 krok za krokem, úplný seznam misí v pořadí příběhu a tipy na těžká místa."
+      },
+      "map": {
+        "name": "Mapa",
+        "title": "Mapa a lokace GTA 6",
+        "description": "Mapa GTA 6: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia a Mount Kalaga."
+      },
+      "characters": {
+        "name": "Postavy",
+        "title": "Postavy GTA 6",
+        "description": "Všechny potvrzené postavy GTA 6: Jason Duval, Lucia Caminos a vedlejší postavy Leonidy."
+      },
+      "vehicles": {
+        "name": "Auta",
+        "title": "Auta a vozidla v GTA 6",
+        "description": "Auta, motorky, lodě a další vozidla v GTA 6: co je potvrzené a kde je najít."
+      },
+      "weapons": {
+        "name": "Zbraně",
+        "title": "Zbraně a vybavení GTA 6",
+        "description": "Zbraně a vybavení v GTA 6: co je potvrzené, jak funguje výbava a jak je získat."
+      },
+      "cheats": {
+        "name": "Cheaty",
+        "title": "Cheaty a tajemství GTA 6",
+        "description": "Cheaty, tajemství a tipy na peníze v GTA 6, ověřené před zveřejněním."
+      },
+      "buying": {
+        "name": "Edice",
+        "title": "Cena, edice a bonusy za předobjednávku GTA 6",
+        "description": "Cena GTA 6, Standard vs Ultimate Edition, bonusy za předobjednávku a platformy."
+      },
+      "pc": {
+        "name": "PC",
+        "title": "GTA 6 na PC",
+        "description": "Stav vydání GTA 6 na PC, systémové požadavky a co řekl Rockstar."
+      },
+      "online": {
+        "name": "Online",
+        "title": "GTA 6 online a multiplayer",
+        "description": "GTA 6 online, multiplayer a crossplay: co je potvrzené při vydání i později."
+      },
+      "news": {
+        "name": "Novinky",
+        "title": "Novinky a datum vydání GTA 6",
+        "description": "Datum vydání GTA 6, odklady, trailery a nejnovější potvrzené zprávy."
+      },
+      "blog": {
+        "name": "Blog",
+        "title": "Blog GTA 6: novinky, odpovědi a vysvětlení",
+        "description": "Krátké články se zdroji na otázky hráčů: časy vydání, velikost hry, platformy, peníze a změny tohoto týdne."
+      }
+    }
+  },
+  "id": {
+    "skip": "Langsung ke konten",
+    "sectionsLabel": "Bagian",
+    "menu": "Menu",
+    "search": "Cari panduan",
+    "noMatches": "Tidak ditemukan. Coba kata yang lebih pendek.",
+    "allGuides": "Semua panduan",
+    "language": "Bahasa",
+    "tagline": "Panduan misi GTA 6, peta, dan tips. Situs penggemar independen.",
+    "footGuides": "Panduan",
+    "footSite": "Situs",
+    "legal_about": "Tentang",
+    "legal_contact": "Kontak",
+    "legal_privacy": "Kebijakan privasi",
+    "legal_terms": "Ketentuan penggunaan",
+    "legal_disclaimer": "Penafian",
+    "copyright": "Situs penggemar tidak resmi, tidak berafiliasi dengan atau didukung oleh Rockstar Games atau Take-Two Interactive. Grand Theft Auto dan GTA adalah merek dagang pemiliknya.",
+    "consentText": "Kami memakai cookie analitik untuk melihat panduan mana yang berguna. Tanpa iklan, tanpa menjual data.",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "home": "Beranda",
+    "faq": "Pertanyaan umum",
+    "homeTitle": "Panduan GTA 6: Misi, Peta, dan Walkthrough",
+    "siteDescription": "Panduan GTA 6 independen: walkthrough misi, peta Leonida, karakter, mobil, senjata, cheat, edisi, dan berita PC. Hanya fakta yang terkonfirmasi, diperbarui setiap hari.",
+    "kicker": "Panduan GTA 6 tidak resmi",
+    "homeH1": "Misi, peta, dan walkthrough GTA 6",
+    "browse": "Jelajahi panduan",
+    "startHere": "Mulai di sini",
+    "latest": "Panduan terbaru",
+    "updated": "Diperbarui",
+    "status": "Status",
+    "status_confirmed": "Terkonfirmasi",
+    "status_partly": "Sebagian terkonfirmasi",
+    "status_unconfirmed": "Belum terkonfirmasi",
+    "status_live": "Diperbarui setelah rilis",
+    "read": "Baca",
+    "min": "menit",
+    "by": "Oleh",
+    "team": "Tim {{SITE}}",
+    "caption": "Ilustrasi oleh {{SITE}}, bukan tangkapan layar dari game.",
+    "quick": "Jawaban singkat",
+    "sources": "Sumber",
+    "related": "Panduan terkait",
+    "readNext": "Baca selanjutnya",
+    "pageN": "halaman {n}",
+    "newer": "Lebih baru",
+    "older": "Lebih lama",
+    "startWith": "Baru di sini? Mulai dengan",
+    "allH1": "Semua panduan GTA 6",
+    "allLede": "Semua panduan di situs, yang terbaru diperbarui lebih dulu.",
+    "allTitle": "Semua Panduan dan Walkthrough GTA 6",
+    "allDescription": "Jelajahi semua panduan GTA 6: misi, peta, karakter, mobil, senjata, cheat, edisi, PC, dan online.",
+    "countGuides": "{n} panduan",
+    "countPosts": "{n} artikel",
+    "homeFaq": [
+      {
+        "q": "Apa itu GTA 6 dan kapan rilisnya?",
+        "a": "Grand Theft Auto VI adalah game kriminal dunia terbuka dari Rockstar Games yang berlatar di negara bagian Leonida. Game ini rilis pada 19 November 2026 untuk PlayStation 5 dan Xbox Series X|S."
+      },
+      {
+        "q": "Siapa karakter utama GTA 6?",
+        "a": "Anda bermain sebagai dua protagonis, Jason Duval dan Lucia Caminos, pasangan yang terseret dalam konspirasi kriminal di seluruh Leonida."
+      },
+      {
+        "q": "Apakah GTA 6 ada di PC?",
+        "a": "Belum saat rilis. Rockstar belum mengumumkan versi PC atau tanggal rilis PC."
+      },
+      {
+        "q": "Apakah {{SITE}} situs resmi Rockstar?",
+        "a": "Bukan. {{SITE}} adalah situs penggemar independen. Kami tidak berafiliasi dengan Rockstar Games atau Take-Two Interactive."
+      }
+    ],
+    "toc": "Di halaman ini",
+    "top": "Kembali ke atas",
+    "leadsH": "Dua tokoh utama",
+    "leadsMore": "Baca profil",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Mantan tentara yang bekerja untuk penyelundup narkoba di Leonida Keys."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Baru keluar penjara dan bertekad hidup lebih baik bersama Jason."
+      }
+    ],
+    "playVideo": "Putar video",
+    "sections": {
+      "missions": {
+        "name": "Misi",
+        "title": "Misi GTA 6: Walkthrough dan Daftar Misi",
+        "description": "Walkthrough misi GTA 6 langkah demi langkah, daftar misi lengkap sesuai urutan cerita, dan tips untuk bagian sulit."
+      },
+      "map": {
+        "name": "Peta",
+        "title": "Peta dan Lokasi GTA 6",
+        "description": "Penjelasan peta GTA 6: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, dan Mount Kalaga."
+      },
+      "characters": {
+        "name": "Karakter",
+        "title": "Karakter GTA 6",
+        "description": "Semua karakter GTA 6 yang terkonfirmasi: Jason Duval, Lucia Caminos, dan tokoh pendukung Leonida."
+      },
+      "vehicles": {
+        "name": "Mobil",
+        "title": "Mobil dan Kendaraan GTA 6",
+        "description": "Mobil, motor, kapal, dan kendaraan lain di GTA 6: yang terkonfirmasi dan tempat menemukannya."
+      },
+      "weapons": {
+        "name": "Senjata",
+        "title": "Senjata dan Perlengkapan GTA 6",
+        "description": "Senjata dan perlengkapan GTA 6: yang terkonfirmasi, cara kerja loadout, dan cara mendapatkannya."
+      },
+      "cheats": {
+        "name": "Cheat",
+        "title": "Cheat dan Rahasia GTA 6",
+        "description": "Kode cheat, rahasia, dan tips uang GTA 6, diperiksa sebelum dipublikasikan."
+      },
+      "buying": {
+        "name": "Edisi",
+        "title": "Harga, Edisi, dan Bonus Pre-Order GTA 6",
+        "description": "Harga GTA 6, Standard vs Ultimate Edition, bonus pre-order, dan info platform."
+      },
+      "pc": {
+        "name": "PC",
+        "title": "GTA 6 di PC",
+        "description": "Status rilis GTA 6 di PC, spesifikasi sistem, dan pernyataan Rockstar."
+      },
+      "online": {
+        "name": "Online",
+        "title": "GTA 6 Online dan Multiplayer",
+        "description": "GTA 6 online, multiplayer, dan crossplay: yang terkonfirmasi saat rilis dan setelahnya."
+      },
+      "news": {
+        "name": "Berita",
+        "title": "Berita dan Info Rilis GTA 6",
+        "description": "Tanggal rilis GTA 6, penundaan, trailer, dan berita terkonfirmasi terbaru."
+      },
+      "blog": {
+        "name": "Blog",
+        "title": "Blog GTA 6: Berita, Jawaban, dan Penjelasan",
+        "description": "Artikel singkat bersumber yang menjawab pertanyaan pemain: jam rilis, ukuran file, platform, uang, dan perubahan minggu ini."
+      }
+    }
+  },
+  "vi": {
+    "skip": "Chuyển đến nội dung",
+    "sectionsLabel": "Chuyên mục",
+    "menu": "Menu",
+    "search": "Tìm hướng dẫn",
+    "noMatches": "Không có kết quả. Hãy thử từ ngắn hơn.",
+    "allGuides": "Tất cả hướng dẫn",
+    "language": "Ngôn ngữ",
+    "tagline": "Hướng dẫn nhiệm vụ GTA 6, bản đồ và mẹo. Trang người hâm mộ độc lập.",
+    "footGuides": "Hướng dẫn",
+    "footSite": "Trang",
+    "legal_about": "Giới thiệu",
+    "legal_contact": "Liên hệ",
+    "legal_privacy": "Chính sách quyền riêng tư",
+    "legal_terms": "Điều khoản sử dụng",
+    "legal_disclaimer": "Tuyên bố miễn trừ",
+    "copyright": "Trang người hâm mộ không chính thức, không liên kết hay được Rockstar Games hoặc Take-Two Interactive bảo trợ. Grand Theft Auto và GTA là nhãn hiệu của chủ sở hữu.",
+    "consentText": "Chúng tôi dùng cookie phân tích để biết hướng dẫn nào hữu ích. Không quảng cáo, không bán dữ liệu.",
+    "accept": "Chấp nhận",
+    "decline": "Từ chối",
+    "home": "Trang chủ",
+    "faq": "Câu hỏi thường gặp",
+    "homeTitle": "Hướng dẫn GTA 6: Nhiệm vụ, Bản đồ và Walkthrough",
+    "siteDescription": "Hướng dẫn GTA 6 độc lập: walkthrough nhiệm vụ, bản đồ Leonida, nhân vật, xe, vũ khí, mã cheat, phiên bản và tin PC. Chỉ thông tin đã xác nhận, cập nhật hằng ngày.",
+    "kicker": "Hướng dẫn GTA 6 không chính thức",
+    "homeH1": "Nhiệm vụ, bản đồ và walkthrough GTA 6",
+    "browse": "Xem hướng dẫn",
+    "startHere": "Bắt đầu tại đây",
+    "latest": "Hướng dẫn mới nhất",
+    "updated": "Cập nhật",
+    "status": "Trạng thái",
+    "status_confirmed": "Đã xác nhận",
+    "status_partly": "Xác nhận một phần",
+    "status_unconfirmed": "Chưa xác nhận",
+    "status_live": "Cập nhật sau khi phát hành",
+    "read": "Đọc",
+    "min": "phút",
+    "by": "Tác giả",
+    "team": "Đội ngũ {{SITE}}",
+    "caption": "Hình minh họa của {{SITE}}, không phải ảnh chụp màn hình trong game.",
+    "quick": "Trả lời nhanh",
+    "sources": "Nguồn",
+    "related": "Hướng dẫn liên quan",
+    "readNext": "Đọc tiếp",
+    "pageN": "trang {n}",
+    "newer": "Mới hơn",
+    "older": "Cũ hơn",
+    "startWith": "Mới đến? Hãy bắt đầu với",
+    "allH1": "Tất cả hướng dẫn GTA 6",
+    "allLede": "Mọi hướng dẫn trên trang, mới cập nhật xếp trước.",
+    "allTitle": "Tất cả hướng dẫn và walkthrough GTA 6",
+    "allDescription": "Xem mọi hướng dẫn GTA 6: nhiệm vụ, bản đồ, nhân vật, xe, vũ khí, cheat, phiên bản, PC và online.",
+    "countGuides": "{n} hướng dẫn",
+    "countPosts": "{n} bài viết",
+    "homeFaq": [
+      {
+        "q": "GTA 6 là gì và khi nào ra mắt?",
+        "a": "Grand Theft Auto VI là game tội phạm thế giới mở của Rockstar Games, lấy bối cảnh bang Leonida. Game ra mắt ngày 19 tháng 11 năm 2026 trên PlayStation 5 và Xbox Series X|S."
+      },
+      {
+        "q": "Nhân vật chính của GTA 6 là ai?",
+        "a": "Bạn điều khiển hai nhân vật chính, Jason Duval và Lucia Caminos, một cặp đôi bị cuốn vào âm mưu tội phạm khắp Leonida."
+      },
+      {
+        "q": "GTA 6 có trên PC không?",
+        "a": "Không có khi ra mắt. Rockstar chưa công bố phiên bản PC hay ngày phát hành trên PC."
+      },
+      {
+        "q": "{{SITE}} có phải trang chính thức của Rockstar?",
+        "a": "Không. {{SITE}} là trang người hâm mộ độc lập. Chúng tôi không liên kết với Rockstar Games hay Take-Two Interactive."
+      }
+    ],
+    "toc": "Trong trang này",
+    "top": "Lên đầu trang",
+    "leadsH": "Hai nhân vật chính",
+    "leadsMore": "Đọc hồ sơ",
+    "leads": [
+      {
+        "name": "Jason Duval",
+        "line": "Cựu quân nhân làm việc cho bọn buôn ma túy ở Leonida Keys."
+      },
+      {
+        "name": "Lucia Caminos",
+        "line": "Vừa ra tù và quyết tâm sống cuộc đời tốt đẹp hơn cùng Jason."
+      }
+    ],
+    "playVideo": "Phát video",
+    "sections": {
+      "missions": {
+        "name": "Nhiệm vụ",
+        "title": "Nhiệm vụ GTA 6: Walkthrough và danh sách nhiệm vụ",
+        "description": "Walkthrough nhiệm vụ GTA 6 từng bước, danh sách đầy đủ theo thứ tự cốt truyện và mẹo cho đoạn khó."
+      },
+      "map": {
+        "name": "Bản đồ",
+        "title": "Bản đồ và địa điểm GTA 6",
+        "description": "Giải thích bản đồ GTA 6: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia và Mount Kalaga."
+      },
+      "characters": {
+        "name": "Nhân vật",
+        "title": "Nhân vật GTA 6",
+        "description": "Mọi nhân vật GTA 6 đã xác nhận: Jason Duval, Lucia Caminos và dàn nhân vật phụ của Leonida."
+      },
+      "vehicles": {
+        "name": "Xe",
+        "title": "Xe và phương tiện GTA 6",
+        "description": "Ô tô, xe máy, thuyền và phương tiện khác trong GTA 6: những gì đã xác nhận và nơi tìm."
+      },
+      "weapons": {
+        "name": "Vũ khí",
+        "title": "Vũ khí và trang bị GTA 6",
+        "description": "Vũ khí và trang bị GTA 6: những gì đã xác nhận, cách hoạt động của bộ trang bị và cách nhận."
+      },
+      "cheats": {
+        "name": "Cheat",
+        "title": "Mã cheat và bí mật GTA 6",
+        "description": "Mã cheat, bí mật và mẹo kiếm tiền GTA 6, được kiểm tra trước khi đăng."
+      },
+      "buying": {
+        "name": "Phiên bản",
+        "title": "Giá, phiên bản và quà đặt trước GTA 6",
+        "description": "Giá GTA 6, so sánh Standard và Ultimate Edition, quà đặt trước và thông tin nền tảng."
+      },
+      "pc": {
+        "name": "PC",
+        "title": "GTA 6 trên PC",
+        "description": "Tình trạng phát hành GTA 6 trên PC, cấu hình yêu cầu và phát biểu của Rockstar."
+      },
+      "online": {
+        "name": "Online",
+        "title": "GTA 6 online và chơi mạng",
+        "description": "GTA 6 online, chơi mạng và crossplay: những gì đã xác nhận khi ra mắt và sau đó."
+      },
+      "news": {
+        "name": "Tin tức",
+        "title": "Tin tức và thông tin phát hành GTA 6",
+        "description": "Ngày phát hành GTA 6, các lần hoãn, trailer và tin đã xác nhận mới nhất."
+      },
+      "blog": {
+        "name": "Blog",
+        "title": "Blog GTA 6: tin tức, giải đáp và phân tích",
+        "description": "Bài ngắn có nguồn trả lời câu hỏi người chơi hay tìm: giờ ra mắt, dung lượng, nền tảng, tiền và thay đổi trong tuần."
+      }
+    }
   }
 }

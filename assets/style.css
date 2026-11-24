@@ -321,3 +321,15 @@ h1, h2, h3 { font-family: var(--display); font-weight: 800; text-transform: uppe
 .yt__btn::after{content:"";position:absolute;left:29px;top:15px;border-style:solid;border-width:10px 0 10px 17px;border-color:transparent transparent transparent #fff}
 .yt figcaption{margin-top:.5em;font-size:.9rem}
 @media (max-width:640px){.yt__play,.yt iframe{border-radius:8px}.yt__btn{transform:scale(.85)}}
+
+/* Languages whose letters are not in the Latin display/body fonts: use whole system fonts instead of mixing glyphs */
+:lang(ru), :lang(uk), :lang(pl), :lang(cs), :lang(tr), :lang(vi) {
+  --display: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+:lang(ja) { --display: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, "Noto Sans JP", sans-serif; --body: var(--display); }
+:lang(ko) { --display: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; --body: var(--display); }
+:lang(zh) { --display: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; --body: var(--display); }
+:lang(ja) :is(h1, h2, h3), :lang(ko) :is(h1, h2, h3), :lang(zh) :is(h1, h2, h3), :lang(vi) :is(h1, h2, h3) { line-height: 1.25; letter-spacing: 0; }
+:lang(ja) body, :lang(zh) body { line-break: strict; word-break: normal; }
+:lang(ko) body { word-break: keep-all; }
