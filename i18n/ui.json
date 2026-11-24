@@ -1153,7 +1153,7 @@
     "allH1": "GTA 6 のすべてのガイド",
     "allLede": "サイト内のすべてのガイドを、更新が新しい順に掲載しています。",
     "allTitle": "GTA 6 のすべてのガイドと攻略",
-    "allDescription": "GTA 6 のすべてのガイド：ミッション、マップ、キャラクター、車、武器、チート、エディション、PC、オンライン。",
+    "allDescription": "GTA 6 のすべてのガイドを一覧で：ミッション攻略、マップ、キャラクター、車、武器、チート、エディション、PC、オンライン。更新が新しい順に並べています。",
     "countGuides": "ガイド {n} 件",
     "countPosts": "記事 {n} 件",
     "homeFaq": [
@@ -1193,7 +1193,7 @@
       "missions": {
         "name": "ミッション",
         "title": "GTA 6 ミッション攻略とミッション一覧",
-        "description": "GTA 6 のミッションを手順ごとに攻略。ストーリー順の全ミッション一覧と難所のコツ。"
+        "description": "GTA 6 のミッションを手順ごとに攻略。ストーリー順の全ミッション一覧、各ミッションの目的、失敗しやすいポイント、任意目標と報酬までまとめています。"
       },
       "map": {
         "name": "マップ",
@@ -1203,47 +1203,47 @@
       "characters": {
         "name": "キャラクター",
         "title": "GTA 6 のキャラクター",
-        "description": "確認済みの GTA 6 キャラクター：Jason Duval、Lucia Caminos、そして Leonida の登場人物たち。"
+        "description": "確認済みの GTA 6 キャラクター：主人公の Jason Duval と Lucia Caminos、そして Leonida の脇役たち。各人物の立ち位置と、公式に確認されている情報だけを紹介します。"
       },
       "vehicles": {
         "name": "車",
         "title": "GTA 6 の車と乗り物",
-        "description": "GTA 6 の車、バイク、ボートなどの乗り物：確認済みの情報と入手場所。"
+        "description": "GTA 6 の車、バイク、ボートなどの乗り物ガイド。公式に確認されている車種、ゲーム内での入手場所、カスタマイズや保管について分かっていることをまとめています。"
       },
       "weapons": {
         "name": "武器",
         "title": "GTA 6 の武器と装備",
-        "description": "GTA 6 の武器と装備：確認済みの情報、ロードアウトの仕組み、入手方法。"
+        "description": "GTA 6 の武器と装備のガイド。確認済みの武器、ロードアウトの仕組み、武器の入手方法と買える場所など、ゲームで確かめた情報を順次追加していきます。"
       },
       "cheats": {
         "name": "チート",
         "title": "GTA 6 のチートと秘密",
-        "description": "GTA 6 のチートコード、秘密、お金のコツ。公開前に確認しています。"
+        "description": "GTA 6 のチートコード、隠し要素、お金稼ぎのコツ。2つ以上の独立した情報源で同じ入力が確認できたものだけを、入力方法と解放条件つきで掲載します。"
       },
       "buying": {
         "name": "エディション",
         "title": "GTA 6 の価格、エディション、予約特典",
-        "description": "GTA 6 の価格、Standard と Ultimate Edition の違い、予約特典、対応機種。"
+        "description": "GTA 6 の価格、Standard Edition と Ultimate Edition の違い、予約特典、パッケージ版とダウンロード版、対応機種など、購入前に知っておきたい情報をまとめています。"
       },
       "pc": {
         "name": "PC",
         "title": "PC 版 GTA 6",
-        "description": "GTA 6 の PC 版発売状況、必要スペック、Rockstar の発表内容。"
+        "description": "PC 版 GTA 6 の発売状況、必要スペックについて分かっていること、Rockstar の公式発表の内容。PC 版が発表されるまでの確認済み情報だけを掲載します。"
       },
       "online": {
         "name": "オンライン",
         "title": "GTA 6 オンラインとマルチプレイ",
-        "description": "GTA 6 のオンライン、マルチプレイ、クロスプレイ：発売時とその後に確認されている内容。"
+        "description": "GTA 6 のオンライン、マルチプレイ、クロスプレイについて、発売時とその後に確認されている内容。GTA Online との関係や今後の予定もまとめています。"
       },
       "news": {
         "name": "ニュース",
         "title": "GTA 6 のニュースと発売情報",
-        "description": "GTA 6 の発売日、延期、トレーラー、最新の確認済みニュース。"
+        "description": "GTA 6 の最新ニュースと発売情報：発売日、延期の経緯、トレーラー、パッチ、公式発表。Rockstar または複数の信頼できる情報源で確認した内容だけを掲載します。"
       },
       "blog": {
         "name": "ブログ",
         "title": "GTA 6 ブログ：ニュース、疑問への回答、解説",
-        "description": "プレイヤーがよく検索する疑問に出典付きで答える短い記事：発売時間、容量、対応機種、お金、今週の変更点。"
+        "description": "プレイヤーがよく検索する GTA 6 の疑問に出典付きで答える記事：発売時間、ダウンロード容量、対応機種、お金の稼ぎ方、今週の変更点などを分かりやすく解説します。"
       }
     }
   },
@@ -1298,7 +1298,7 @@
     "allH1": "모든 GTA 6 가이드",
     "allLede": "사이트의 모든 가이드를 최근 업데이트 순으로 보여 줍니다.",
     "allTitle": "모든 GTA 6 가이드와 공략",
-    "allDescription": "모든 GTA 6 가이드: 미션, 지도, 캐릭터, 자동차, 무기, 치트, 에디션, PC, 온라인.",
+    "allDescription": "모든 GTA 6 가이드를 한곳에서: 미션 공략, 지도, 캐릭터, 자동차, 무기, 치트, 에디션, PC, 온라인. 최근에 업데이트된 순서로 정리했습니다.",
     "countGuides": "가이드 {n}개",
     "countPosts": "글 {n}개",
     "homeFaq": [
@@ -1338,7 +1338,7 @@
       "missions": {
         "name": "미션",
         "title": "GTA 6 미션 공략과 미션 목록",
-        "description": "GTA 6 미션 단계별 공략, 스토리 순서의 전체 미션 목록, 어려운 구간 팁."
+        "description": "GTA 6 미션 단계별 공략. 스토리 순서의 전체 미션 목록, 각 미션의 목표, 플레이어가 자주 실패하는 구간, 선택 목표와 보상까지 한곳에 정리했습니다."
       },
       "map": {
         "name": "지도",
@@ -1348,47 +1348,47 @@
       "characters": {
         "name": "캐릭터",
         "title": "GTA 6 캐릭터",
-        "description": "확인된 모든 GTA 6 캐릭터: Jason Duval, Lucia Caminos, 그리고 Leonida의 조연들."
+        "description": "확인된 모든 GTA 6 캐릭터: 주인공 Jason Duval과 Lucia Caminos, 그리고 Leonida의 조연들. 각 인물의 역할과 공식적으로 확인된 정보만 소개합니다."
       },
       "vehicles": {
         "name": "자동차",
         "title": "GTA 6 자동차와 탈것",
-        "description": "GTA 6의 자동차, 오토바이, 보트 등 탈것: 확인된 정보와 찾는 장소."
+        "description": "GTA 6 자동차, 오토바이, 보트 등 탈것 가이드. 공식적으로 확인된 차량, 게임 안에서 찾는 장소, 튜닝과 보관에 대해 알려진 내용을 정리했습니다."
       },
       "weapons": {
         "name": "무기",
         "title": "GTA 6 무기와 장비",
-        "description": "GTA 6 무기와 장비: 확인된 정보, 로드아웃 방식, 얻는 방법."
+        "description": "GTA 6 무기와 장비 가이드. 확인된 무기, 로드아웃 방식, 무기를 얻고 구매하는 방법 등 게임에서 직접 확인한 정보를 계속 추가합니다."
       },
       "cheats": {
         "name": "치트",
         "title": "GTA 6 치트와 비밀",
-        "description": "GTA 6 치트 코드, 비밀, 돈 버는 팁. 게시 전에 확인합니다."
+        "description": "GTA 6 치트 코드, 숨겨진 요소, 돈 버는 팁. 서로 다른 두 곳 이상의 출처에서 같은 입력이 확인된 코드만 입력 방법과 해금 조건과 함께 싣습니다."
       },
       "buying": {
         "name": "에디션",
         "title": "GTA 6 가격, 에디션, 예약 특전",
-        "description": "GTA 6 가격, Standard와 Ultimate Edition 비교, 예약 특전과 플랫폼 정보."
+        "description": "GTA 6 가격, Standard Edition과 Ultimate Edition 비교, 예약 특전, 패키지판과 다운로드판, 지원 플랫폼 등 구매 전에 알아야 할 정보를 정리했습니다."
       },
       "pc": {
         "name": "PC",
         "title": "PC판 GTA 6",
-        "description": "GTA 6 PC 출시 현황, 시스템 요구 사항, Rockstar의 발표 내용."
+        "description": "PC판 GTA 6 출시 현황, 시스템 요구 사항에 대해 알려진 내용, Rockstar의 공식 발표. PC 버전이 발표되기 전까지 확인된 정보만 싣습니다."
       },
       "online": {
         "name": "온라인",
         "title": "GTA 6 온라인과 멀티플레이",
-        "description": "GTA 6 온라인, 멀티플레이, 크로스플레이: 출시 시점과 이후 확인된 내용."
+        "description": "GTA 6 온라인, 멀티플레이, 크로스플레이에 대해 출시 시점과 이후 확인된 내용. GTA Online과의 관계와 앞으로의 계획도 함께 정리했습니다."
       },
       "news": {
         "name": "뉴스",
         "title": "GTA 6 뉴스와 출시 정보",
-        "description": "GTA 6 출시일, 연기, 트레일러와 최신 확인 뉴스."
+        "description": "GTA 6 최신 뉴스와 출시 정보: 출시일, 연기 과정, 트레일러, 패치, 공식 발표. Rockstar 또는 여러 신뢰할 수 있는 출처로 확인한 내용만 싣습니다."
       },
       "blog": {
         "name": "블로그",
         "title": "GTA 6 블로그: 뉴스, 답변, 해설",
-        "description": "플레이어가 자주 찾는 질문에 출처와 함께 답하는 짧은 글: 출시 시간, 용량, 플랫폼, 돈, 이번 주 변경 사항."
+        "description": "플레이어가 자주 검색하는 GTA 6 질문에 출처와 함께 답하는 글: 출시 시간, 다운로드 용량, 플랫폼, 돈 버는 법, 이번 주 변경 사항을 쉽게 설명합니다."
       }
     }
   },
@@ -1415,7 +1415,7 @@
     "home": "首页",
     "faq": "常见问题",
     "homeTitle": "GTA 6 攻略：任务、地图和流程",
-    "siteDescription": "独立的 GTA 6 攻略站：任务流程、Leonida 地图、角色、载具、武器、作弊码、版本和 PC 消息。只发布已确认的信息，每日更新。",
+    "siteDescription": "独立的 GTA 6 攻略站：任务流程、Leonida 地图、角色、载具、武器、作弊码、版本和 PC 消息。只发布已经确认的信息，每天更新，方便玩家查阅。",
     "kicker": "非官方 GTA 6 攻略",
     "homeH1": "GTA 6 任务、地图和攻略",
     "browse": "浏览攻略",
@@ -1443,7 +1443,7 @@
     "allH1": "全部 GTA 6 攻略",
     "allLede": "本站全部攻略，按最近更新排序。",
     "allTitle": "全部 GTA 6 攻略与流程",
-    "allDescription": "浏览全部 GTA 6 攻略：任务、地图、角色、载具、武器、作弊码、版本、PC 和线上模式。",
+    "allDescription": "浏览全部 GTA 6 攻略：任务流程、地图、角色、载具、武器、作弊码、版本、PC 和线上模式，按最近更新时间排序，方便查找需要的内容。内容持续更新，所有信息都经过核实。",
     "countGuides": "{n} 篇攻略",
     "countPosts": "{n} 篇文章",
     "homeFaq": [
@@ -1483,7 +1483,7 @@
       "missions": {
         "name": "任务",
         "title": "GTA 6 任务攻略与任务列表",
-        "description": "GTA 6 任务分步攻略、按剧情顺序排列的完整任务列表，以及难点技巧。"
+        "description": "GTA 6 任务分步攻略：按剧情顺序排列的完整任务列表、每个任务的目标、玩家容易失败的地方，以及可选目标和奖励，全部整理在这里，方便边玩边查。"
       },
       "map": {
         "name": "地图",
@@ -1493,47 +1493,47 @@
       "characters": {
         "name": "角色",
         "title": "GTA 6 角色",
-        "description": "所有已确认的 GTA 6 角色：Jason Duval、Lucia Caminos 以及 Leonida 的配角。"
+        "description": "所有已确认的 GTA 6 角色：两位主角 Jason Duval 和 Lucia Caminos，以及 Leonida 的各位配角。只介绍每个人物的身份和官方已确认的信息。"
       },
       "vehicles": {
         "name": "载具",
         "title": "GTA 6 汽车与载具",
-        "description": "GTA 6 的汽车、摩托车、船只等载具：已确认的信息以及在哪里找到它们。"
+        "description": "GTA 6 汽车、摩托车、船只等载具指南：官方已确认的车型、在游戏中哪里能找到它们，以及关于改装和存放已知的信息，发售后持续补充。内容持续更新，所有信息都经过核实。"
       },
       "weapons": {
         "name": "武器",
         "title": "GTA 6 武器与装备",
-        "description": "GTA 6 武器和装备：已确认的信息、武器配置方式以及获取方法。"
+        "description": "GTA 6 武器与装备指南：已确认的武器、武器配置的运作方式、获取和购买武器的方法。我们会把在游戏中核实过的信息陆续补充进来。内容持续更新，所有信息都经过核实。"
       },
       "cheats": {
         "name": "作弊码",
         "title": "GTA 6 作弊码与秘密",
-        "description": "GTA 6 作弊码、秘密和赚钱技巧，发布前均已核实。"
+        "description": "GTA 6 作弊码、隐藏要素和赚钱技巧。只有在至少两个独立来源中输入方式一致的作弊码才会收录，并注明输入方法和解锁条件。内容持续更新，所有信息都经过核实。"
       },
       "buying": {
         "name": "版本",
         "title": "GTA 6 价格、版本与预购奖励",
-        "description": "GTA 6 价格、标准版与终极版对比、预购奖励和平台信息。"
+        "description": "GTA 6 价格、标准版与终极版的区别、预购奖励、实体版与数字版、支持的平台等购买前需要了解的信息，全部整理在这个栏目里。内容持续更新，所有信息都经过核实。"
       },
       "pc": {
         "name": "PC",
         "title": "GTA 6 PC 版",
-        "description": "GTA 6 PC 版发售情况、配置要求以及 Rockstar 的官方说法。"
+        "description": "GTA 6 PC 版的发售情况、目前已知的配置要求，以及 Rockstar 的官方说法。在 PC 版正式公布之前，这里只收录已经确认的信息。"
       },
       "online": {
         "name": "线上",
         "title": "GTA 6 线上与多人模式",
-        "description": "GTA 6 线上、多人和跨平台联机：发售时及之后已确认的内容。"
+        "description": "GTA 6 线上模式、多人游戏和跨平台联机：发售时及之后已确认的内容，以及它与 GTA Online 的关系和后续计划，全部在这里汇总。内容持续更新，所有信息都经过核实。"
       },
       "news": {
         "name": "新闻",
         "title": "GTA 6 新闻与发售信息",
-        "description": "GTA 6 发售日期、延期、预告片和最新的已确认新闻。"
+        "description": "GTA 6 最新新闻与发售信息：发售日期、延期经过、预告片、补丁和官方公告。只收录经 Rockstar 或多个可靠来源确认的内容。内容持续更新，所有信息都经过核实。"
       },
       "blog": {
         "name": "博客",
         "title": "GTA 6 博客：新闻、解答与解析",
-        "description": "用短文回答玩家常搜的问题并附来源：发售时间、容量、平台、赚钱和本周变化。"
+        "description": "用附带来源的短文回答玩家常搜的 GTA 6 问题：发售时间、下载容量、支持平台、赚钱方法和本周的变化，讲得清楚、直接、好查。内容持续更新，所有信息都经过核实。"
       }
     }
   },
@@ -1560,7 +1560,7 @@
     "home": "Ana sayfa",
     "faq": "Sık sorulan sorular",
     "homeTitle": "GTA 6 Rehberi: Görevler, Harita ve Çözümler",
-    "siteDescription": "Bağımsız GTA 6 rehberi: görev çözümleri, Leonida haritası, karakterler, arabalar, silahlar, hileler, sürümler ve PC haberleri. Yalnızca doğrulanmış bilgiler, her gün güncellenir.",
+    "siteDescription": "Bağımsız GTA 6 rehberi: görev çözümleri, Leonida haritası, karakterler, arabalar, silahlar, hileler ve sürümler. Yalnızca doğrulanmış bilgiler.",
     "kicker": "Resmî olmayan GTA 6 rehberi",
     "homeH1": "GTA 6 görevleri, haritası ve çözümleri",
     "browse": "Rehbere göz at",
@@ -1705,7 +1705,7 @@
     "home": "Home",
     "faq": "Veelgestelde vragen",
     "homeTitle": "GTA 6-gids: missies, kaart en walkthroughs",
-    "siteDescription": "Een onafhankelijke GTA 6-gids: missiewalkthroughs, de kaart van Leonida, personages, auto's, wapens, cheats, edities en pc-nieuws. Alleen bevestigde feiten, dagelijks bijgewerkt.",
+    "siteDescription": "Onafhankelijke GTA 6-gids: missiewalkthroughs, de kaart van Leonida, personages, auto's, wapens, cheats en edities. Alleen bevestigde feiten.",
     "kicker": "Onofficiële GTA 6-gids",
     "homeH1": "GTA 6-missies, kaart en walkthroughs",
     "browse": "Bekijk de gids",
@@ -1953,7 +1953,7 @@
       "pc": {
         "name": "ПК",
         "title": "GTA 6 на ПК",
-        "description": "Статус виходу GTA 6 на ПК, системні вимоги та заяви Rockstar."
+        "description": "Статус виходу GTA 6 на ПК, системні вимоги та що про це сказала Rockstar."
       },
       "online": {
         "name": "Онлайн",
@@ -2088,7 +2088,7 @@
       "cheats": {
         "name": "Cheaty",
         "title": "Cheaty a tajemství GTA 6",
-        "description": "Cheaty, tajemství a tipy na peníze v GTA 6, ověřené před zveřejněním."
+        "description": "Cheaty, tajemství a tipy na peníze v GTA 6, které ověřujeme před zveřejněním."
       },
       "buying": {
         "name": "Edice",
@@ -2098,7 +2098,7 @@
       "pc": {
         "name": "PC",
         "title": "GTA 6 na PC",
-        "description": "Stav vydání GTA 6 na PC, systémové požadavky a co řekl Rockstar."
+        "description": "Stav vydání GTA 6 na PC, systémové požadavky a co k tomu zatím řekl Rockstar."
       },
       "online": {
         "name": "Online",
@@ -2108,7 +2108,7 @@
       "news": {
         "name": "Novinky",
         "title": "Novinky a datum vydání GTA 6",
-        "description": "Datum vydání GTA 6, odklady, trailery a nejnovější potvrzené zprávy."
+        "description": "Datum vydání GTA 6, odklady, trailery a nejnovější potvrzené zprávy ze hry."
       },
       "blog": {
         "name": "Blog",
@@ -2140,7 +2140,7 @@
     "home": "Beranda",
     "faq": "Pertanyaan umum",
     "homeTitle": "Panduan GTA 6: Misi, Peta, dan Walkthrough",
-    "siteDescription": "Panduan GTA 6 independen: walkthrough misi, peta Leonida, karakter, mobil, senjata, cheat, edisi, dan berita PC. Hanya fakta yang terkonfirmasi, diperbarui setiap hari.",
+    "siteDescription": "Panduan GTA 6 independen: walkthrough misi, peta Leonida, karakter, mobil, senjata, cheat, dan edisi. Hanya fakta terkonfirmasi, diperbarui harian.",
     "kicker": "Panduan GTA 6 tidak resmi",
     "homeH1": "Misi, peta, dan walkthrough GTA 6",
     "browse": "Jelajahi panduan",
