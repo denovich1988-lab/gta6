@@ -93,3 +93,27 @@ document.addEventListener('click', (e) => {
   f.referrerPolicy = 'strict-origin-when-cross-origin';
   a.replaceWith(f);
 });
+// Wiki A–Z: filter by text and category
+(() => {
+  const root = document.querySelector('[data-wiki]');
+  if (!root) return;
+  const q = root.querySelector('[data-wiki-q]');
+  const chips = [...root.querySelectorAll('[data-wiki-cat]')];
+  const none = root.querySelector('[data-wiki-none]');
+  let cat = '';
+  const run = () => {
+    const words = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    root.querySelectorAll('[data-wiki-group]').forEach((g) => {
+      let n = 0;
+      g.querySelectorAll('li').forEach((li) => {
+        const ok = (!cat || li.dataset.cat === cat) && words.every((w) => li.textContent.toLowerCase().includes(w));
+        li.hidden = !ok; if (ok) n++;
+      });
+      g.hidden = !n; shown += n;
+    });
+    none.hidden = shown > 0;
+  };
+  q.addEventListener('input', run);
+  chips.forEach((b) => b.addEventListener('click', () => { cat = b.dataset.wikiCat; chips.forEach((x) => x.setAttribute('aria-pressed', String(x === b))); run(); }));
+})();

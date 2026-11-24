@@ -180,7 +180,7 @@ ${published ? `<meta property="article:published_time" content="${published}">\n
   <div class="drawer" id="drawer" data-drawer hidden><div class="wrap drawer__inner">
     <label class="vh" for="dq">${esc(c.t('search'))}</label><input id="dq" type="search" placeholder="${esc(c.t('search'))}" data-search-input autocomplete="off">
     <ul class="results" data-results data-empty="${esc(c.t('noMatches'))}" hidden></ul>
-    <div class="drawer__grid">${secs.map(([k, s]) => `<a href="${c.P}/${k}/">${esc(s.name)}</a>`).join('')}<a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a></div>
+    <div class="drawer__grid">${secs.map(([k, s]) => `<a href="${c.P}/${k}/">${esc(s.name)}</a>`).join('')}<a href="${c.P}/wiki/">${esc(c.t('wikiNav'))}</a><a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a></div>
     ${CTX.length > 1 ? `<p class="drawer__h">${esc(c.t('language'))}</p><div class="drawer__grid drawer__langs">${langLinks}</div>` : ''}
   </div></div>
 </header>
@@ -191,7 +191,7 @@ ${body.replace('<!--CRUMBS-->', crumbsNav(c, crumbs))}
   <div class="wrap foot__grid">
     <div><p class="logo logo--small"><span class="logo__sun" aria-hidden="true"></span>${esc(site.name)}</p><p class="foot__about">${esc(c.t('tagline'))}</p></div>
     <nav aria-label="${esc(c.t('footGuides'))}"><p class="foot__h">${esc(c.t('footGuides'))}</p>${secs.map(([k, s]) => `<a href="${c.P}/${k}/">${esc(s.name)}</a>`).join('')}</nav>
-    <nav aria-label="${esc(c.t('footSite'))}"><p class="foot__h">${esc(c.t('footSite'))}</p><a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a>${LEGAL.map((s) => `<a href="${pageUrl(c, s)}">${esc(c.t(`legal_${s}`))}</a>`).join('')}<a href="${c.P}/rss.xml">RSS</a></nav>
+    <nav aria-label="${esc(c.t('footSite'))}"><p class="foot__h">${esc(c.t('footSite'))}</p><a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a><a href="${c.P}/wiki/">${esc(c.t('wikiNav'))}</a>${LEGAL.map((s) => `<a href="${pageUrl(c, s)}">${esc(c.t(`legal_${s}`))}</a>`).join('')}<a href="${c.P}/rss.xml">RSS</a></nav>
   </div>
   <div class="wrap"><p class="foot__copy">© ${new Date().getFullYear()} ${esc(site.name)}. ${esc(c.t('copyright'))}</p></div>
 </footer>
@@ -374,10 +374,84 @@ ${mapGuide ? `<section class="wrap mapt" aria-labelledby="map-h"><a class="mapt_
 ${posts.length ? `<section class="wrap more" aria-labelledby="blog-h"><div class="sec-head"><h2 id="blog-h">${esc(c.t('blogH'))}</h2><a href="${c.P}/blog/">${esc(c.sections.blog?.name || '')}</a></div><ul class="cards cards--4">${posts.slice(0, 4).map((g) => card(c, g)).join('')}</ul></section>` : ''}
 <section class="wrap sections" aria-labelledby="sec-h">
   <h2 id="sec-h">${esc(c.t('browse'))}</h2>
-  <ul class="topics">${Object.entries(c.sections).map(([k, s]) => `<li><a href="${c.P}/${k}/"><span>${esc(s.name)}</span><span class="topics__n">${c.guides.filter((g) => g.section === k).length}</span></a></li>`).join('')}</ul>
+  <ul class="topics">${Object.entries(c.sections).map(([k, s]) => `<li><a href="${c.P}/${k}/"><span>${esc(s.name)}</span><span class="topics__n">${c.guides.filter((g) => g.section === k).length}</span></a></li>`).join('')}<li><a class="topics--wiki" href="${c.P}/wiki/"><span>${esc(c.t('wikiNav'))}</span><span class="topics__n">${wikiEntries(c).length}</span></a></li></ul>
 </section>
 <div class="wrap">${faqHtml(c, faq)}</div>`;
   return layout(c, { title: '', description: c.t('siteDescription'), rel: '/', body, jsonLd: [itemList(c, c.t('latest'), c.guides.slice(0, 20)), faqSchema(faq)] });
+}
+
+// ---------- Wiki: an A–Z index of missions, characters, places, vehicles, weapons and game systems ----------
+// Built only from pages that exist in the language, so every entry links to a verified guide.
+const WIKI_TOPICS = {
+  vehicles: ['gta-6-cars', 'gta-6-boats', 'gta-6-motorcycles', 'gta-6-planes-helicopters', 'gta-6-trucks', 'gta-6-train'],
+  weapons: ['gta-6-weapons', 'gta-6-weapon-wheel'],
+  gameplay: ['gta-6-wanted-level', 'gta-6-fast-travel', 'gta-6-how-to-save', 'gta-6-first-person-mode', 'gta-6-safehouses', 'gta-6-replay-missions', 'gta-6-change-clothes-and-hair', 'gta-6-jasons-house-projects', 'gta-6-controller', 'gta-6-difficulty-settings', 'how-to-switch-characters-in-gta-6', 'gta-6-radio-stations', 'gta-6-animals', 'how-to-make-money-in-gta-6', 'gta-6-heists', 'gta-6-romance', 'gta-6-strangers-and-freaks', 'gta-6-challenges'],
+  secrets: ['gta-6-cheats', 'gta-6-safe-codes', 'gta-6-collectibles', 'gta-6-trophies', 'gta-6-100-completion', 'gta-6-easter-eggs', 'gta-6-bigfoot'],
+};
+// Short English names for guides whose titles are questions or how-tos; other languages use their own title.
+const WIKI_EN_NAMES = { 'gta-6-replay-missions': 'Replaying missions', 'gta-6-difficulty-settings': 'Difficulty settings', 'gta-6-change-clothes-and-hair': 'Clothes and hair', 'how-to-make-money-in-gta-6': 'Making money', 'gta-6-how-to-save': 'Saving the game', 'how-to-switch-characters-in-gta-6': 'Switching characters', 'gta-6-wanted-level': 'Wanted level', 'gta-6-trophies': 'Trophies', 'gta-6-jasons-house-projects': "Jason's house projects", 'gta-6-weapons': 'Weapons', 'gta-6-100-completion': '100% completion' };
+const WIKI_CATS = ['missions', 'characters', 'places', 'vehicles', 'weapons', 'gameplay', 'secrets'];
+const strip = (h) => h.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').trim();
+const topicName = (t) => t.replace(/\b(GTA ?(6|VI)|Grand Theft Auto VI)\b/gi, '').split(/[:：]/)[0].replace(/\s+/g, ' ').replace(/^[\s\-–—,]+|[\s\-–—,?]+$/g, '').replace(/^(in|в|en|na|di|de|im|w)\s+/i, '').replace(/\s+(in|в|у|en|em|no|na|di|dans|im|w|de)$/i, '').trim();
+const tableRows = (html) => [...html.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((m) => [...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((x) => x[1]));
+
+// Guide descriptions often open with "GTA 6 <name> walkthrough:"; the wiki already shows the name, so drop that lead-in.
+const wikiText = (t) => { const m = String(t).match(/^[^:：.!?。]{0,90}\b(GTA ?6|GTA VI)\b[^:：.!?。]{0,90}[:：]\s*(.+)$/); const x = m ? m[2] : t; return x.charAt(0).toUpperCase() + x.slice(1); };
+function wikiEntries(c) {
+  const by = new Map(c.guides.map((g) => [g.slug, g]));
+  const url = (g) => `${c.P}/${g.section}/${g.slug}/`;
+  const out = []; const seenName = new Set();
+  const push = (e) => { e.text = wikiText(e.text); const k = e.cat + '|' + e.name.toLowerCase(); if (!e.name || seenName.has(k)) return; seenName.add(k); out.push(e); };
+  // Missions: names from the mission list table (game names stay in English), text from each walkthrough.
+  const list = enGuides.find((g) => g.slug === 'gta-6-mission-list'); // English list: newest and complete; mission names are game names
+  for (const cells of tableRows(list?.html || '')) {
+    const link = cells.map((x) => x.match(/href="(?:\/[a-z]{2})?\/missions\/([a-z0-9-]+)\/"/)).find(Boolean);
+    if (!link || !by.has(link[1])) continue;
+    const name = cells.map(strip).find((x) => x && !/^\d+$/.test(x) && !/walkthrough|прохожд|guía|soluce|lösung|poradnik|detonado|guida/i.test(x));
+    const g = by.get(link[1]);
+    push({ name: name || topicName(g.title), cat: 'missions', text: g.description, href: url(g) });
+  }
+  // Characters and places: the tables on the characters and map hubs, in this language.
+  const fromTable = (slug, cat, own) => {
+    const hub = by.get(slug); if (!hub) return;
+    for (const cells of tableRows(hub.html)) {
+      if (cells.length < 2 || !/<strong>/.test(cells[0])) continue;
+      const name = strip(cells[0]); const linked = cells[0].match(/href="(?:\/[a-z]{2})?\/[a-z]+\/([a-z0-9-]+)\/"/);
+      const target = (linked && by.get(linked[1])) || (own[name] && by.get(own[name])) || hub;
+      push({ name, cat, text: strip(cells[1]), href: url(target) });
+    }
+  };
+  fromTable('gta-6-characters', 'characters', { 'Boobie Ike': 'gta-6-boobie-ike' });
+  fromTable('gta-6-map', 'places', { 'Vice City': 'gta-6-vice-city', 'Port Gellhorn': 'port-gellhorn' });
+  for (const [cat, slugs] of Object.entries(WIKI_TOPICS)) for (const s of slugs) { const g = by.get(s); if (g) push({ name: (c.ui.wikiNames || {})[s] || (c.en && WIKI_EN_NAMES[s]) || topicName(g.title), cat, text: g.description, href: url(g) }); }
+  return out.sort((a, b) => a.name.localeCompare(b.name, c.L, { sensitivity: 'base' }));
+}
+
+function wikiPage(c) {
+  const items = wikiEntries(c);
+  const letter = (n) => { const ch = n.normalize('NFD').replace(/[̀-ͯ]/g, '').charAt(0).toUpperCase(); return /[0-9]/.test(ch) ? '#' : ch; };
+  const groups = [];
+  for (const e of items) { const L = letter(e.name); const last = groups[groups.length - 1]; if (last && last.L === L) last.items.push(e); else groups.push({ L, items: [e] }); }
+  const cats = WIKI_CATS.filter((k) => items.some((e) => e.cat === k));
+  const body = `
+<section class="wrap hero hero--small">
+  <!--CRUMBS-->
+  <h1>${esc(c.t('wikiH1'))}</h1>
+  <p class="lede">${esc(c.t('wikiLede'))}</p>
+</section>
+<section class="wrap wiki" data-wiki>
+  <div class="wiki__tools">
+    <label class="vh" for="wq">${esc(c.t('wikiFilter'))}</label>
+    <input id="wq" type="search" placeholder="${esc(c.t('wikiFilter'))}" data-wiki-q autocomplete="off">
+    <div class="wiki__cats" role="group" aria-label="${esc(c.t('sectionsLabel'))}"><button type="button" class="chip" aria-pressed="true" data-wiki-cat="">${esc(c.t('wikiAll'))} <span>${items.length}</span></button>${cats.map((k) => `<button type="button" class="chip" aria-pressed="false" data-wiki-cat="${k}">${esc(c.t('wikiCat_' + k))} <span>${items.filter((e) => e.cat === k).length}</span></button>`).join('')}</div>
+    <nav class="wiki__az" aria-label="A–Z">${groups.map((g) => `<a href="#w-${encodeURIComponent(g.L)}">${esc(g.L)}</a>`).join('')}</nav>
+  </div>
+  ${groups.map((g) => `<div class="wiki__group" data-wiki-group><h2 id="w-${encodeURIComponent(g.L)}" class="wiki__letter">${esc(g.L)}</h2><ul class="wiki__list">${g.items.map((e) => `<li data-cat="${e.cat}"><a href="${e.href}"><span class="wiki__name">${esc(e.name)}</span><span class="wiki__cat">${esc(c.t('wikiCat_' + e.cat))}</span><span class="wiki__text">${esc(e.text)}</span></a></li>`).join('')}</ul></div>`).join('')}
+  <p class="wiki__none" data-wiki-none hidden>${esc(c.t('noMatches'))}</p>
+</section>`;
+  return layout(c, { title: c.t('wikiTitle'), description: c.t('wikiDesc'), rel: '/wiki/', crumbs: [[c.t('wikiNav'), `${c.P}/wiki/`]], body,
+    jsonLd: [{ '@type': 'CollectionPage', '@id': `${SITE_URL}${c.P}/wiki/#page`, name: c.t('wikiH1'), description: c.t('wikiDesc'), url: `${SITE_URL}${c.P}/wiki/`, inLanguage: c.L, isPartOf: { '@id': WEB_ID }, about: GAME,
+      mainEntity: { '@type': 'DefinedTermSet', name: c.t('wikiH1'), hasDefinedTerm: items.map((e) => ({ '@type': 'DefinedTerm', name: e.name, description: e.text, url: SITE_URL + e.href })) } }] });
 }
 
 function staticPage(c, pg) {
@@ -390,6 +464,7 @@ function staticPage(c, pg) {
 for (const c of CTX) {
   const newest = c.guides[0]?.updated || T0;
   add(c, '/', newest, () => home(c));
+  add(c, '/wiki/', newest, () => wikiPage(c));
   for (const g of c.guides) add(c, `/${g.section}/${g.slug}/`, g.updated, () => guidePage(c, g));
   for (const [k, s] of Object.entries(c.sections)) {
     const list = c.guides.filter((g) => g.section === k);
