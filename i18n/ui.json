@@ -85,7 +85,26 @@
         "line": "Fresh out of prison and set on a better life with Jason."
       }
     ],
-    "playVideo": "Play video"
+    "playVideo": "Play video",
+    "heroPill": "Out now on PS5 and Xbox Series X|S. Updated daily.",
+    "searchHome": "Search missions, cheats, cars, locations…",
+    "statWalk": "mission walkthroughs",
+    "statGuides": "guides",
+    "statPosts": "blog posts",
+    "statLangs": "languages",
+    "chaptersH": "Walkthroughs by chapter",
+    "chaptersLede": "Pick the chapter you are on and jump to its first mission. Every walkthrough links to the next one.",
+    "prologue": "Prologue",
+    "chapter": "Chapter {n}",
+    "countWalk": "Walkthroughs: {n}",
+    "startsWith": "Starts with",
+    "fullList": "Full mission list",
+    "newestWalk": "Newest walkthrough",
+    "latestWalk": "Latest walkthroughs",
+    "mapH": "Interactive map of Leonida",
+    "mapText": "Click a region to see what is there and open the guides for that part of the state.",
+    "mapBtn": "Open the map",
+    "blogH": "From the blog"
   },
   "es": {
     "skip": "Saltar al contenido",
@@ -230,7 +249,26 @@
         "line": "Recién salida de la cárcel y decidida a tener una vida mejor con Jason."
       }
     ],
-    "playVideo": "Reproducir vídeo"
+    "playVideo": "Reproducir vídeo",
+    "heroPill": "Ya disponible en PS5 y Xbox Series X|S. Actualizado a diario.",
+    "searchHome": "Busca misiones, trucos, coches, lugares…",
+    "statWalk": "guías de misiones",
+    "statGuides": "guías",
+    "statPosts": "artículos",
+    "statLangs": "idiomas",
+    "chaptersH": "Guías por capítulo",
+    "chaptersLede": "Elige el capítulo en el que estás y salta a su primera misión. Cada guía enlaza con la siguiente.",
+    "prologue": "Prólogo",
+    "chapter": "Capítulo {n}",
+    "countWalk": "Guías: {n}",
+    "startsWith": "Empieza con",
+    "fullList": "Lista completa de misiones",
+    "newestWalk": "Guía más reciente",
+    "latestWalk": "Últimas guías de misiones",
+    "mapH": "Mapa interactivo de Leonida",
+    "mapText": "Haz clic en una región para ver qué hay y abrir las guías de esa parte del estado.",
+    "mapBtn": "Abrir el mapa",
+    "blogH": "Del blog"
   },
   "pt": {
     "skip": "Ir para o conteúdo",
@@ -375,7 +413,26 @@
         "line": "Recém-saída da prisão e decidida a ter uma vida melhor com Jason."
       }
     ],
-    "playVideo": "Reproduzir vídeo"
+    "playVideo": "Reproduzir vídeo",
+    "heroPill": "Já disponível no PS5 e Xbox Series X|S. Atualizado diariamente.",
+    "searchHome": "Pesquise missões, cheats, carros, locais…",
+    "statWalk": "detonados de missões",
+    "statGuides": "guias",
+    "statPosts": "artigos",
+    "statLangs": "idiomas",
+    "chaptersH": "Detonados por capítulo",
+    "chaptersLede": "Escolha o capítulo em que você está e vá direto para a primeira missão. Cada detonado leva ao próximo.",
+    "prologue": "Prólogo",
+    "chapter": "Capítulo {n}",
+    "countWalk": "Detonados: {n}",
+    "startsWith": "Começa com",
+    "fullList": "Lista completa de missões",
+    "newestWalk": "Detonado mais recente",
+    "latestWalk": "Últimos detonados",
+    "mapH": "Mapa interativo de Leonida",
+    "mapText": "Clique em uma região para ver o que existe lá e abrir os guias dessa parte do estado.",
+    "mapBtn": "Abrir o mapa",
+    "blogH": "Do blog"
   },
   "ru": {
     "skip": "Перейти к содержанию",
@@ -520,7 +577,26 @@
         "line": "Только что вышла из тюрьмы и хочет новой жизни с Джейсоном."
       }
     ],
-    "playVideo": "Смотреть видео"
+    "playVideo": "Смотреть видео",
+    "heroPill": "Уже вышла на PS5 и Xbox Series X|S. Обновляем каждый день.",
+    "searchHome": "Поиск миссий, читов, машин, мест…",
+    "statWalk": "прохождений миссий",
+    "statGuides": "гайдов",
+    "statPosts": "статей",
+    "statLangs": "языков",
+    "chaptersH": "Прохождения по главам",
+    "chaptersLede": "Выберите главу, на которой вы сейчас, и сразу переходите к её первой миссии. Каждое прохождение ведёт к следующему.",
+    "prologue": "Пролог",
+    "chapter": "Глава {n}",
+    "countWalk": "Прохождений: {n}",
+    "startsWith": "Начало:",
+    "fullList": "Полный список миссий",
+    "newestWalk": "Новое прохождение",
+    "latestWalk": "Последние прохождения",
+    "mapH": "Интерактивная карта Leonida",
+    "mapText": "Нажмите на регион, чтобы узнать, что там, и открыть гайды по этой части штата.",
+    "mapBtn": "Открыть карту",
+    "blogH": "Из блога"
   },
   "fr": {
     "skip": "Aller au contenu",
@@ -665,7 +741,26 @@
         "line": "Tout juste sortie de prison, décidée à vivre mieux avec Jason."
       }
     ],
-    "playVideo": "Lire la vidéo"
+    "playVideo": "Lire la vidéo",
+    "heroPill": "Disponible sur PS5 et Xbox Series X|S. Mis à jour chaque jour.",
+    "searchHome": "Cherchez missions, codes, voitures, lieux…",
+    "statWalk": "soluces de missions",
+    "statGuides": "guides",
+    "statPosts": "articles",
+    "statLangs": "langues",
+    "chaptersH": "Soluces par chapitre",
+    "chaptersLede": "Choisissez le chapitre où vous en êtes et allez directement à sa première mission. Chaque soluce mène à la suivante.",
+    "prologue": "Prologue",
+    "chapter": "Chapitre {n}",
+    "countWalk": "Soluces : {n}",
+    "startsWith": "Commence par",
+    "fullList": "Liste complète des missions",
+    "newestWalk": "Soluce la plus récente",
+    "latestWalk": "Dernières soluces",
+    "mapH": "Carte interactive de Leonida",
+    "mapText": "Cliquez sur une région pour voir ce qu'elle contient et ouvrir les guides de cette partie de l'État.",
+    "mapBtn": "Ouvrir la carte",
+    "blogH": "Sur le blog"
   },
   "de": {
     "skip": "Zum Inhalt springen",
@@ -810,7 +905,26 @@
         "line": "Gerade aus dem Gefängnis und entschlossen, mit Jason neu anzufangen."
       }
     ],
-    "playVideo": "Video abspielen"
+    "playVideo": "Video abspielen",
+    "heroPill": "Jetzt erhältlich für PS5 und Xbox Series X|S. Täglich aktualisiert.",
+    "searchHome": "Missionen, Cheats, Autos, Orte suchen…",
+    "statWalk": "Missions-Komplettlösungen",
+    "statGuides": "Guides",
+    "statPosts": "Artikel",
+    "statLangs": "Sprachen",
+    "chaptersH": "Komplettlösungen nach Kapitel",
+    "chaptersLede": "Wähle das Kapitel, in dem du gerade bist, und spring direkt zur ersten Mission. Jede Lösung verlinkt auf die nächste.",
+    "prologue": "Prolog",
+    "chapter": "Kapitel {n}",
+    "countWalk": "Lösungen: {n}",
+    "startsWith": "Beginnt mit",
+    "fullList": "Komplette Missionsliste",
+    "newestWalk": "Neueste Komplettlösung",
+    "latestWalk": "Neueste Komplettlösungen",
+    "mapH": "Interaktive Karte von Leonida",
+    "mapText": "Klicke auf eine Region, um zu sehen, was es dort gibt, und öffne die Guides für diesen Teil des Staates.",
+    "mapBtn": "Karte öffnen",
+    "blogH": "Aus dem Blog"
   },
   "pl": {
     "skip": "Przejdź do treści",
@@ -955,7 +1069,26 @@
         "line": "Właśnie wyszła z więzienia i chce lepszego życia z Jasonem."
       }
     ],
-    "playVideo": "Odtwórz wideo"
+    "playVideo": "Odtwórz wideo",
+    "heroPill": "Już dostępna na PS5 i Xbox Series X|S. Aktualizowane codziennie.",
+    "searchHome": "Szukaj misji, kodów, aut, miejsc…",
+    "statWalk": "poradników do misji",
+    "statGuides": "poradników",
+    "statPosts": "artykułów",
+    "statLangs": "języków",
+    "chaptersH": "Poradniki według rozdziałów",
+    "chaptersLede": "Wybierz rozdział, w którym jesteś, i przejdź prosto do jego pierwszej misji. Każdy poradnik prowadzi do następnego.",
+    "prologue": "Prolog",
+    "chapter": "Rozdział {n}",
+    "countWalk": "Poradniki: {n}",
+    "startsWith": "Zaczyna się od",
+    "fullList": "Pełna lista misji",
+    "newestWalk": "Najnowszy poradnik",
+    "latestWalk": "Najnowsze poradniki do misji",
+    "mapH": "Interaktywna mapa Leonidy",
+    "mapText": "Kliknij region, aby zobaczyć, co tam jest, i otworzyć poradniki do tej części stanu.",
+    "mapBtn": "Otwórz mapę",
+    "blogH": "Z bloga"
   },
   "it": {
     "skip": "Vai al contenuto",
@@ -1100,7 +1233,26 @@
         "line": "Appena uscita di prigione, decisa a costruire una vita migliore con Jason."
       }
     ],
-    "playVideo": "Riproduci video"
+    "playVideo": "Riproduci video",
+    "heroPill": "Disponibile su PS5 e Xbox Series X|S. Aggiornato ogni giorno.",
+    "searchHome": "Cerca missioni, trucchi, auto, luoghi…",
+    "statWalk": "guide alle missioni",
+    "statGuides": "guide",
+    "statPosts": "articoli",
+    "statLangs": "lingue",
+    "chaptersH": "Guide per capitolo",
+    "chaptersLede": "Scegli il capitolo a cui sei arrivato e vai subito alla sua prima missione. Ogni guida rimanda alla successiva.",
+    "prologue": "Prologo",
+    "chapter": "Capitolo {n}",
+    "countWalk": "Guide: {n}",
+    "startsWith": "Inizia con",
+    "fullList": "Elenco completo delle missioni",
+    "newestWalk": "Guida più recente",
+    "latestWalk": "Ultime guide alle missioni",
+    "mapH": "Mappa interattiva di Leonida",
+    "mapText": "Clicca su una regione per vedere cosa c'è e aprire le guide di quella parte dello stato.",
+    "mapBtn": "Apri la mappa",
+    "blogH": "Dal blog"
   },
   "ja": {
     "skip": "本文へスキップ",
@@ -1245,7 +1397,26 @@
         "title": "GTA 6 ブログ：ニュース、疑問への回答、解説",
         "description": "プレイヤーがよく検索する GTA 6 の疑問に出典付きで答える記事：発売時間、ダウンロード容量、対応機種、お金の稼ぎ方、今週の変更点などを分かりやすく解説します。"
       }
-    }
+    },
+    "heroPill": "PS5 と Xbox Series X|S で発売中。毎日更新。",
+    "searchHome": "ミッション、チート、車、場所を検索…",
+    "statWalk": "ミッション攻略",
+    "statGuides": "ガイド",
+    "statPosts": "ブログ記事",
+    "statLangs": "言語",
+    "chaptersH": "チャプター別の攻略",
+    "chaptersLede": "今プレイしているチャプターを選んで、最初のミッションへ。各攻略から次のミッションへ進めます。",
+    "prologue": "プロローグ",
+    "chapter": "チャプター {n}",
+    "countWalk": "攻略：{n}",
+    "startsWith": "最初のミッション：",
+    "fullList": "全ミッション一覧",
+    "newestWalk": "最新の攻略",
+    "latestWalk": "最新のミッション攻略",
+    "mapH": "Leonida のインタラクティブマップ",
+    "mapText": "地域をクリックすると、その場所の説明と関連ガイドが開きます。",
+    "mapBtn": "マップを開く",
+    "blogH": "ブログから"
   },
   "ko": {
     "skip": "본문으로 건너뛰기",
@@ -1390,7 +1561,26 @@
         "title": "GTA 6 블로그: 뉴스, 답변, 해설",
         "description": "플레이어가 자주 검색하는 GTA 6 질문에 출처와 함께 답하는 글: 출시 시간, 다운로드 용량, 플랫폼, 돈 버는 법, 이번 주 변경 사항을 쉽게 설명합니다."
       }
-    }
+    },
+    "heroPill": "PS5와 Xbox Series X|S로 출시. 매일 업데이트.",
+    "searchHome": "미션, 치트, 자동차, 장소 검색…",
+    "statWalk": "미션 공략",
+    "statGuides": "가이드",
+    "statPosts": "블로그 글",
+    "statLangs": "언어",
+    "chaptersH": "챕터별 공략",
+    "chaptersLede": "지금 플레이 중인 챕터를 골라 첫 미션으로 바로 이동하세요. 각 공략은 다음 미션으로 이어집니다.",
+    "prologue": "프롤로그",
+    "chapter": "챕터 {n}",
+    "countWalk": "공략: {n}",
+    "startsWith": "첫 미션:",
+    "fullList": "전체 미션 목록",
+    "newestWalk": "최신 공략",
+    "latestWalk": "최신 미션 공략",
+    "mapH": "Leonida 인터랙티브 지도",
+    "mapText": "지역을 클릭하면 그곳에 무엇이 있는지 보고 해당 지역 가이드를 열 수 있습니다.",
+    "mapBtn": "지도 열기",
+    "blogH": "블로그 소식"
   },
   "zh": {
     "skip": "跳到正文",
@@ -1535,7 +1725,26 @@
         "title": "GTA 6 博客：新闻、解答与解析",
         "description": "用附带来源的短文回答玩家常搜的 GTA 6 问题：发售时间、下载容量、支持平台、赚钱方法和本周的变化，讲得清楚、直接、好查。内容持续更新，所有信息都经过核实。"
       }
-    }
+    },
+    "heroPill": "已在 PS5 和 Xbox Series X|S 发售，每日更新。",
+    "searchHome": "搜索任务、作弊码、载具、地点…",
+    "statWalk": "任务攻略",
+    "statGuides": "攻略",
+    "statPosts": "博客文章",
+    "statLangs": "种语言",
+    "chaptersH": "按章节查看攻略",
+    "chaptersLede": "选择你正在玩的章节，直接跳到该章的第一个任务。每篇攻略都链接到下一个任务。",
+    "prologue": "序章",
+    "chapter": "第 {n} 章",
+    "countWalk": "攻略：{n}",
+    "startsWith": "首个任务：",
+    "fullList": "完整任务列表",
+    "newestWalk": "最新攻略",
+    "latestWalk": "最新任务攻略",
+    "mapH": "Leonida 互动地图",
+    "mapText": "点击一个地区，查看那里有什么，并打开该地区的攻略。",
+    "mapBtn": "打开地图",
+    "blogH": "博客文章"
   },
   "tr": {
     "skip": "İçeriğe geç",
@@ -1680,7 +1889,26 @@
         "title": "GTA 6 Blog: Haberler, Cevaplar ve Açıklamalar",
         "description": "Oyuncuların aradığı sorulara kaynaklı kısa yazılar: çıkış saatleri, dosya boyutu, platformlar, para ve bu haftanın değişiklikleri."
       }
-    }
+    },
+    "heroPill": "PS5 ve Xbox Series X|S'te çıktı. Her gün güncelleniyor.",
+    "searchHome": "Görev, hile, araba, konum ara…",
+    "statWalk": "görev çözümü",
+    "statGuides": "rehber",
+    "statPosts": "blog yazısı",
+    "statLangs": "dil",
+    "chaptersH": "Bölümlere göre çözümler",
+    "chaptersLede": "Bulunduğunuz bölümü seçin ve ilk görevine geçin. Her çözüm bir sonrakine bağlanır.",
+    "prologue": "Giriş",
+    "chapter": "Bölüm {n}",
+    "countWalk": "Çözümler: {n}",
+    "startsWith": "İlk görev:",
+    "fullList": "Tam görev listesi",
+    "newestWalk": "En yeni çözüm",
+    "latestWalk": "Son görev çözümleri",
+    "mapH": "Etkileşimli Leonida haritası",
+    "mapText": "Bir bölgeye tıklayın, orada ne olduğunu görün ve eyaletin o kısmının rehberlerini açın.",
+    "mapBtn": "Haritayı aç",
+    "blogH": "Blogdan"
   },
   "nl": {
     "skip": "Naar de inhoud",
@@ -1825,7 +2053,26 @@
         "title": "GTA 6-blog: nieuws, antwoorden en uitleg",
         "description": "Korte artikelen met bronnen die antwoord geven op vragen van spelers: releasetijden, bestandsgrootte, platforms, geld en wat er deze week veranderde."
       }
-    }
+    },
+    "heroPill": "Nu uit op PS5 en Xbox Series X|S. Dagelijks bijgewerkt.",
+    "searchHome": "Zoek missies, cheats, auto's, locaties…",
+    "statWalk": "missiewalkthroughs",
+    "statGuides": "gidsen",
+    "statPosts": "blogberichten",
+    "statLangs": "talen",
+    "chaptersH": "Walkthroughs per hoofdstuk",
+    "chaptersLede": "Kies het hoofdstuk waar je bent en ga direct naar de eerste missie. Elke walkthrough linkt naar de volgende.",
+    "prologue": "Proloog",
+    "chapter": "Hoofdstuk {n}",
+    "countWalk": "Walkthroughs: {n}",
+    "startsWith": "Begint met",
+    "fullList": "Volledige missielijst",
+    "newestWalk": "Nieuwste walkthrough",
+    "latestWalk": "Nieuwste walkthroughs",
+    "mapH": "Interactieve kaart van Leonida",
+    "mapText": "Klik op een regio om te zien wat er is en open de gidsen voor dat deel van de staat.",
+    "mapBtn": "Open de kaart",
+    "blogH": "Van de blog"
   },
   "uk": {
     "skip": "Перейти до вмісту",
@@ -1970,7 +2217,26 @@
         "title": "Блог GTA 6: новини, відповіді й пояснення",
         "description": "Короткі статті з джерелами про те, що шукають гравці: час виходу, розмір файлів, платформи, гроші й зміни цього тижня."
       }
-    }
+    },
+    "heroPill": "Уже вийшла на PS5 і Xbox Series X|S. Оновлюємо щодня.",
+    "searchHome": "Пошук місій, читів, авто, місць…",
+    "statWalk": "проходжень місій",
+    "statGuides": "гайдів",
+    "statPosts": "статей",
+    "statLangs": "мов",
+    "chaptersH": "Проходження за розділами",
+    "chaptersLede": "Оберіть розділ, на якому ви зараз, і переходьте до його першої місії. Кожне проходження веде до наступного.",
+    "prologue": "Пролог",
+    "chapter": "Розділ {n}",
+    "countWalk": "Проходжень: {n}",
+    "startsWith": "Початок:",
+    "fullList": "Повний список місій",
+    "newestWalk": "Нове проходження",
+    "latestWalk": "Останні проходження",
+    "mapH": "Інтерактивна мапа Leonida",
+    "mapText": "Натисніть на регіон, щоб побачити, що там є, і відкрити гайди про цю частину штату.",
+    "mapBtn": "Відкрити мапу",
+    "blogH": "З блогу"
   },
   "cs": {
     "skip": "Přeskočit na obsah",
@@ -2115,7 +2381,26 @@
         "title": "Blog GTA 6: novinky, odpovědi a vysvětlení",
         "description": "Krátké články se zdroji na otázky hráčů: časy vydání, velikost hry, platformy, peníze a změny tohoto týdne."
       }
-    }
+    },
+    "heroPill": "Už vyšlo na PS5 a Xbox Series X|S. Aktualizujeme denně.",
+    "searchHome": "Hledat mise, cheaty, auta, místa…",
+    "statWalk": "návodů na mise",
+    "statGuides": "průvodců",
+    "statPosts": "článků",
+    "statLangs": "jazyků",
+    "chaptersH": "Návody podle kapitol",
+    "chaptersLede": "Vyberte kapitolu, ve které jste, a přejděte rovnou na její první misi. Každý návod vede na další.",
+    "prologue": "Prolog",
+    "chapter": "Kapitola {n}",
+    "countWalk": "Návody: {n}",
+    "startsWith": "Začíná misí",
+    "fullList": "Úplný seznam misí",
+    "newestWalk": "Nejnovější návod",
+    "latestWalk": "Nejnovější návody na mise",
+    "mapH": "Interaktivní mapa Leonidy",
+    "mapText": "Klikněte na oblast, uvidíte, co tam je, a otevřete návody k té části státu.",
+    "mapBtn": "Otevřít mapu",
+    "blogH": "Z blogu"
   },
   "id": {
     "skip": "Langsung ke konten",
@@ -2260,7 +2545,26 @@
         "title": "Blog GTA 6: Berita, Jawaban, dan Penjelasan",
         "description": "Artikel singkat bersumber yang menjawab pertanyaan pemain: jam rilis, ukuran file, platform, uang, dan perubahan minggu ini."
       }
-    }
+    },
+    "heroPill": "Sudah rilis di PS5 dan Xbox Series X|S. Diperbarui setiap hari.",
+    "searchHome": "Cari misi, cheat, mobil, lokasi…",
+    "statWalk": "walkthrough misi",
+    "statGuides": "panduan",
+    "statPosts": "artikel blog",
+    "statLangs": "bahasa",
+    "chaptersH": "Walkthrough per bab",
+    "chaptersLede": "Pilih bab yang sedang Anda mainkan dan langsung ke misi pertamanya. Setiap walkthrough terhubung ke misi berikutnya.",
+    "prologue": "Prolog",
+    "chapter": "Bab {n}",
+    "countWalk": "Walkthrough: {n}",
+    "startsWith": "Dimulai dengan",
+    "fullList": "Daftar misi lengkap",
+    "newestWalk": "Walkthrough terbaru",
+    "latestWalk": "Walkthrough misi terbaru",
+    "mapH": "Peta interaktif Leonida",
+    "mapText": "Klik sebuah wilayah untuk melihat isinya dan membuka panduan bagian negara bagian itu.",
+    "mapBtn": "Buka peta",
+    "blogH": "Dari blog"
   },
   "vi": {
     "skip": "Chuyển đến nội dung",
@@ -2405,6 +2709,25 @@
         "title": "Blog GTA 6: tin tức, giải đáp và phân tích",
         "description": "Bài ngắn có nguồn trả lời câu hỏi người chơi hay tìm: giờ ra mắt, dung lượng, nền tảng, tiền và thay đổi trong tuần."
       }
-    }
+    },
+    "heroPill": "Đã phát hành trên PS5 và Xbox Series X|S. Cập nhật hằng ngày.",
+    "searchHome": "Tìm nhiệm vụ, cheat, xe, địa điểm…",
+    "statWalk": "hướng dẫn nhiệm vụ",
+    "statGuides": "hướng dẫn",
+    "statPosts": "bài blog",
+    "statLangs": "ngôn ngữ",
+    "chaptersH": "Hướng dẫn theo chương",
+    "chaptersLede": "Chọn chương bạn đang chơi và đi thẳng tới nhiệm vụ đầu tiên. Mỗi bài hướng dẫn đều dẫn sang nhiệm vụ tiếp theo.",
+    "prologue": "Mở đầu",
+    "chapter": "Chương {n}",
+    "countWalk": "Hướng dẫn: {n}",
+    "startsWith": "Bắt đầu với",
+    "fullList": "Danh sách nhiệm vụ đầy đủ",
+    "newestWalk": "Hướng dẫn mới nhất",
+    "latestWalk": "Hướng dẫn nhiệm vụ mới nhất",
+    "mapH": "Bản đồ tương tác Leonida",
+    "mapText": "Nhấn vào một khu vực để xem có gì ở đó và mở các hướng dẫn về phần đó của bang.",
+    "mapBtn": "Mở bản đồ",
+    "blogH": "Từ blog"
   }
 }

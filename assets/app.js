@@ -4,20 +4,24 @@
   const drawer = document.querySelector('[data-drawer]');
   if (!btn || !drawer) return;
   const input = drawer.querySelector('[data-search-input]');
-  const results = drawer.querySelector('[data-results]');
   const set = (open) => { drawer.hidden = !open; btn.setAttribute('aria-expanded', String(open)); if (open) input.focus({ preventScroll: true }); };
   btn.addEventListener('click', () => set(drawer.hidden));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !drawer.hidden) { set(false); btn.focus(); } });
   let index = null;
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-  input.addEventListener('input', async () => {
-    const q = input.value.trim().toLowerCase();
-    if (q.length < 2) { results.hidden = true; return; }
-    if (!index) index = await fetch((document.documentElement.dataset.p || '') + '/search-index.json').then((r) => r.json()).catch(() => []);
-    const words = q.split(/\s+/);
-    const found = index.filter((g) => words.every((w) => (g.t + ' ' + g.d + ' ' + g.s).toLowerCase().includes(w))).slice(0, 12);
-    results.innerHTML = found.length ? found.map((g) => `<li><a href="${g.u}">${esc(g.t)}<span>${esc(g.s)}</span></a></li>`).join('') : `<li><a href="${document.documentElement.dataset.p || ''}/guides/">${esc(results.dataset.empty || 'No matches')}</a></li>`;
-    results.hidden = false;
+  // Every search box (menu drawer and home page) uses the same index of the current language.
+  document.querySelectorAll('[data-search-input]').forEach((box) => {
+    const results = box.parentElement.querySelector('[data-results]');
+    box.addEventListener('input', async () => {
+      const q = box.value.trim().toLowerCase();
+      if (q.length < 2) { results.hidden = true; return; }
+      if (!index) index = await fetch((document.documentElement.dataset.p || '') + '/search-index.json').then((r) => r.json()).catch(() => []);
+      const words = q.split(/\s+/);
+      const found = index.filter((g) => words.every((w) => (g.t + ' ' + g.d + ' ' + g.s).toLowerCase().includes(w))).slice(0, 12);
+      results.innerHTML = found.length ? found.map((g) => `<li><a href="${g.u}">${esc(g.t)}<span>${esc(g.s)}</span></a></li>`).join('') : `<li><a href="${document.documentElement.dataset.p || ''}/guides/">${esc(results.dataset.empty || 'No matches')}</a></li>`;
+      results.hidden = false;
+    });
+    box.addEventListener('keydown', (e) => { if (e.key === 'Enter') { const a = results.querySelector('a'); if (a && !results.hidden) location.href = a.href; } });
   });
 })();
 // Tables become cards on phones

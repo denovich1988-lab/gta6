@@ -313,30 +313,69 @@ const leads = (c) => {
   return `<section class="wrap leads" aria-labelledby="leads-h"><h2 id="leads-h">${esc(c.t('leadsH'))}</h2><div class="leads__grid">${pick.map((g, i) => `<a class="lead lead--${i ? 'b' : 'a'}" href="${c.P}/${g.section}/${g.slug}/">${hasImg(g.image) ? img(g.image, 'lead__img') : ''}<span class="lead__body"><span class="lead__name">${esc(who[i].name)}</span><span class="lead__line">${esc(who[i].line)}</span><span class="lead__more">${esc(c.t('leadsMore'))}</span></span></a>`).join('')}</div></section>`;
 };
 
+// Story chapters for the home page, read from the English mission list (### Prologue / ### Chapter N headings).
+const CHAPTERS = (() => {
+  const f = fs.readdirSync(path.join(ROOT, 'content', 'guides')).find((x) => x.endsWith('gta-6-mission-list.md'));
+  if (!f) return [];
+  const out = [];
+  for (const line of matter(fs.readFileSync(path.join(ROOT, 'content', 'guides', f), 'utf8')).content.split('\n')) {
+    const h = line.match(/^###\s+(Prologue|Chapter\s+(\d+))/i);
+    if (h) { out.push({ n: h[2] ? +h[2] : 0, slugs: [] }); continue; }
+    if (/^##\s/.test(line) && !/^###/.test(line)) { if (out.length) out.push(null); continue; }
+    const cur = out[out.length - 1];
+    if (!cur) continue;
+    for (const m of line.matchAll(/\/missions\/([a-z0-9-]+)\//g)) if (!cur.slugs.includes(m[1])) cur.slugs.push(m[1]);
+  }
+  return out.filter((x) => x && x.slugs.length);
+})();
+
 function home(c) {
   const featured = (site.featured || []).map((slug) => c.guides.find((g) => g.slug === slug)).filter(Boolean);
   const faq = (Array.isArray(c.ui.homeFaq) ? c.ui.homeFaq : UI.en.homeFaq).map((f) => ({ q: fill(f.q), a: fill(f.a) }));
-  const keys = Object.keys(c.sections);
-  const cta1 = c.sections.missions ? 'missions' : keys[0];
-  const cta2 = c.sections.map ? 'map' : keys.find((k) => k !== cta1);
+  const walks = c.guides.filter((g) => g.section === 'missions' && /-walkthrough$/.test(g.slug));
+  const posts = c.guides.filter((g) => g.isBlog);
+  const guidesOnly = c.guides.filter((g) => !g.isBlog);
+  const bySlug = new Map(c.guides.map((g) => [g.slug, g]));
+  const enTitle = new Map(enGuides.map((g) => [g.slug, g.title]));
+  const missionName = (slug) => (enTitle.get(slug) || slug).replace(/^GTA 6\s+/i, '').replace(/\s+Walkthrough.*$/i, '').replace(/:.*$/, '');
+  const chapters = CHAPTERS.map((ch) => ({ ...ch, have: ch.slugs.filter((s) => bySlug.has(s)) })).filter((ch) => ch.have.length);
+  const list = bySlug.get('gta-6-mission-list');
+  const mapGuide = bySlug.get('gta-6-map');
+  const top = walks[0];
+  const stats = [[walks.length, c.t('statWalk')], [guidesOnly.length, c.t('statGuides')], [posts.length, c.t('statPosts')], [LANGS.length, c.t('statLangs')]].filter(([n]) => n > 0);
   const body = `
 <section class="hero hero--home${hasImg('hero') ? ' hero--img' : ''}">
   ${img('hero', 'hero__bg', true)}
   <div class="wrap hero__content">
-    <p class="hero__kicker">${esc(c.t('kicker'))}</p>
+    <p class="hero__kicker"><span class="live" aria-hidden="true"></span>${esc(c.t('heroPill'))}</p>
     <h1>${esc(c.t('homeH1'))}</h1>
     <p class="lede">${esc(c.t('siteDescription'))}</p>
-    <div class="hero__cta"><a class="btn" href="${c.P}/${cta1}/">${esc(c.sections[cta1].name)}</a>${cta2 && cta2 !== cta1 ? `<a class="btn btn--ghost" href="${c.P}/${cta2}/">${esc(c.sections[cta2].name)}</a>` : ''}</div>
+    <form class="hsearch" role="search" action="${c.P}/guides/" onsubmit="return false">
+      <label class="vh" for="hq">${esc(c.t('search'))}</label>
+      <input id="hq" type="search" placeholder="${esc(c.t('searchHome'))}" data-search-input autocomplete="off">
+      <ul class="results" data-results data-empty="${esc(c.t('noMatches'))}" hidden></ul>
+    </form>
+    <dl class="stats">${stats.map(([n, l]) => `<div><dt>${esc(l)}</dt><dd>${n}</dd></div>`).join('')}</dl>
   </div>
   ${hasImg('hero') ? '' : '<div class="horizon" aria-hidden="true"></div>'}
 </section>
+${chapters.length ? `<section class="wrap chapters" aria-labelledby="ch-h">
+  <div class="sec-head"><h2 id="ch-h">${esc(c.t('chaptersH'))}</h2>${list ? `<a href="${c.P}/missions/${list.slug}/">${esc(c.t('fullList'))}</a>` : ''}</div>
+  <p class="sec-lede">${esc(c.t('chaptersLede'))}</p>
+  <ol class="chap">${chapters.map((ch) => { const first = bySlug.get(ch.have[0]); return `<li><a href="${c.P}/missions/${first.slug}/"><span class="chap__no">${ch.n ? ch.n : 'P'}</span><span class="chap__name">${esc(ch.n ? c.t('chapter', { n: ch.n }) : c.t('prologue'))}</span><span class="chap__count">${esc(c.t('countWalk', { n: ch.have.length }))}</span>${ch.n ? `<span class="chap__first">${esc(c.t('startsWith'))} <b>${esc(missionName(ch.have[0]))}</b></span>` : ''}</a></li>`; }).join('')}</ol>
+</section>` : ''}
+${top ? `<section class="wrap feature" aria-labelledby="ft-h">
+  <a class="feature__card" href="${c.P}/missions/${top.slug}/">${hasImg(top.image) ? img(top.image, 'feature__img') : ph(c, top)}<span class="feature__body"><span class="card__sec">${esc(c.t('newestWalk'))}</span><span class="feature__title" id="ft-h">${esc(top.title)}</span><span class="feature__desc">${esc(top.description)}</span><span class="card__meta">${esc(c.t('updated'))} ${c.fmtDate(top.updated)}</span></span></a>
+</section>` : ''}
+${walks.length > 1 ? `<section class="wrap more" aria-labelledby="walk-h"><div class="sec-head"><h2 id="walk-h">${esc(c.t('latestWalk'))}</h2><a href="${c.P}/missions/">${esc(c.sections.missions?.name || '')}</a></div><ul class="cards">${walks.slice(1, 7).map((g) => card(c, g)).join('')}</ul></section>` : ''}
+${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">${esc(c.t('startHere'))}</h2><ul class="cards cards--4">${featured.map((g) => card(c, g)).join('')}</ul></section>` : ''}
+${leads(c)}
+${mapGuide ? `<section class="wrap mapt" aria-labelledby="map-h"><a class="mapt__card" href="${c.P}/map/${mapGuide.slug}/#interactive-map">${hasImg(mapGuide.image) ? img(mapGuide.image, 'mapt__img') : ''}<span class="mapt__body"><span class="mapt__h" id="map-h">${esc(c.t('mapH'))}</span><span class="mapt__text">${esc(c.t('mapText'))}</span><span class="btn">${esc(c.t('mapBtn'))}</span></span></a></section>` : ''}
+${posts.length ? `<section class="wrap more" aria-labelledby="blog-h"><div class="sec-head"><h2 id="blog-h">${esc(c.t('blogH'))}</h2><a href="${c.P}/blog/">${esc(c.sections.blog?.name || '')}</a></div><ul class="cards cards--4">${posts.slice(0, 4).map((g) => card(c, g)).join('')}</ul></section>` : ''}
 <section class="wrap sections" aria-labelledby="sec-h">
   <h2 id="sec-h">${esc(c.t('browse'))}</h2>
-  <ul class="tiles">${Object.entries(c.sections).map(([k, s]) => `<li><a class="tile" href="${c.P}/${k}/">${img(secImg(k), 'tile__img')}<span class="tile__name">${esc(s.name)}</span><span class="tile__count">${esc(c.count(k, c.guides.filter((g) => g.section === k).length))}</span><span class="tile__desc">${esc(s.description)}</span></a></li>`).join('')}</ul>
+  <ul class="topics">${Object.entries(c.sections).map(([k, s]) => `<li><a href="${c.P}/${k}/"><span>${esc(s.name)}</span><span class="topics__n">${c.guides.filter((g) => g.section === k).length}</span></a></li>`).join('')}</ul>
 </section>
-${leads(c)}
-${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">${esc(c.t('startHere'))}</h2><ul class="cards">${featured.map((g) => card(c, g)).join('')}</ul></section>` : ''}
-<section class="wrap more" aria-labelledby="new-h"><h2 id="new-h">${esc(c.t('latest'))}</h2><ul class="cards">${c.guides.slice(0, 12).map((g) => card(c, g)).join('')}</ul><p class="all"><a class="btn btn--ghost" href="${c.P}/guides/">${esc(c.t('allGuides'))}</a></p></section>
 <div class="wrap">${faqHtml(c, faq)}</div>`;
   return layout(c, { title: '', description: c.t('siteDescription'), rel: '/', body, jsonLd: [itemList(c, c.t('latest'), c.guides.slice(0, 20)), faqSchema(faq)] });
 }
