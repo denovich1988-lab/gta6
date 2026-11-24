@@ -5,7 +5,7 @@ description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-23
+updated: 2026-11-24
 status: live
 hub: true
 summary:
@@ -185,7 +185,7 @@ Still without a walkthrough here: South Leonida Real Estate, a Lucia-only missio
 
 ### Chapter 4
 
-Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and GTABase agree on these opening missions and their order.
+Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and GTABase agree on these missions; the first four are in the same order in both lists.
 
 | Mission | You play as | What it is | Walkthrough |
 |---|---|---|---|
@@ -193,8 +193,20 @@ Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and
 | Another Life | Lucia | Short flashback; unlocks the BuckMe Black account | [Another Life walkthrough](/missions/gta-6-another-life-walkthrough/) |
 | Pool Day | Jason | Afternoon at the pool; Eddie Acosta's invitation | [Pool Day walkthrough](/missions/gta-6-pool-day-walkthrough/) |
 | Company Cars | Both | Pick a free car each at Status Auto Imports | [Company Cars walkthrough](/missions/gta-6-company-cars-walkthrough/) |
+| Attend Eddie Acosta's Party | Either, alone | Optional: a rooftop "investment" pitch for $50,000; refuse and jump the solar panels | [Attend Eddie Acosta's Party walkthrough](/missions/gta-6-attend-eddie-acostas-party-walkthrough/) |
+| Lawyer Up | Both | Meet the lawyer Abe Gonzalez at his Downtown office | [Lawyer Up walkthrough](/missions/gta-6-lawyer-up-walkthrough/) |
+| Heavy Lifting | Both | Bring Raul the hard drive; undercover at Ajax Gym; tail Kordell's crew | [Heavy Lifting walkthrough](/missions/gta-6-heavy-lifting-walkthrough/) |
+| It's a Date! | Both, together | Optional: a drink at the Courtyard Bar in Stockyard | [It's a Date! walkthrough](/missions/gta-6-its-a-date-walkthrough/) |
+| Party Hard | Both | Security for Andrés de León at the Megamundo opening; helicopter finale | [Party Hard walkthrough](/missions/gta-6-party-hard-walkthrough/) |
+| Photo/Shoot | Both | Promo shoot for the Dimez; rescue Dre'Quan from Cash City; $6,000 | [Photo/Shoot walkthrough](/missions/gta-6-photo-shoot-walkthrough/) |
+| Bad Driver! | Either | Optional and missable: find Felipe in Millport; $20,000 or his gift vehicle | [Bad Driver! walkthrough](/missions/gta-6-bad-driver-walkthrough/) |
+| Making Gainz | Lucia | Train with Nate at Ajax Gym; steroids choice; couple restriction begins | [Making Gainz walkthrough](/missions/gta-6-making-gainz-walkthrough/) |
 
-Next in both lists are Lawyer Up, Heavy Lifting and Party Hard, followed by the long setup for the chapter's airport job, the VCIA Takedown. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+The rows from Lawyer Up onward are in PowerPyx's order. GTABase places Eddie Acosta's party before Company Cars and Party Hard before Heavy Lifting; both of those missions only need Lawyer Up, so either order works. PowerPyx also lists a short entry, Pay Abe's Fee, after Party Hard, which GTABase does not have.
+
+**Missable:** Bad Driver! disappears once you start Power Play. **Plan ahead:** after Making Gainz, Jason and Lucia cannot be seen together in public until the VCIA Takedown, so do It's a Date! and other couple activities first.
+
+Next in both lists are the Jason-only missions Too Much Baggage and Watch It, then the rest of the long setup for the chapter's airport job, the VCIA Takedown: Amateur Hour, Cash Injections, Dirty Work, Adventures in Babysitting, Fresh Evidence, Child's Play, Power Play, Close Surveillance, Delivery Method, Team Building, Fully Catered and Headliners. After the heist come Tie Up Loose Ends, Sunset and Starting From Zero. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 

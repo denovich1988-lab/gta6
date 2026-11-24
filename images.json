@@ -633,6 +633,54 @@
     "g-motorcycles": {
       "id": "2b1018cd-1e5a-44ca-8d5d-8d41bb64a247",
       "alt": "Illustration of a sport bike, a muddy dirt bike and a chrome cruiser parked beside a swamp road at dusk"
+    },
+    "g-lawyer-up": {
+      "id": "57734a3f-563a-44c9-b1f8-afe2cf0172a7",
+      "alt": "Illustration of an empty law office reception with a marble desk and a staircase at sunset"
+    },
+    "g-heavy-lifting": {
+      "id": "2008b4df-137d-4fe6-9fe0-f2651c524be6",
+      "alt": "Illustration of a waterfront gym with open doors and weight racks seen from a boat nearing its dock"
+    },
+    "g-party-hard": {
+      "id": "b0486d9b-dd23-4a2b-979e-cf2acd612e85",
+      "alt": "Illustration of a helicopter lifting off from a skyscraper helipad above a neon downtown at night"
+    },
+    "g-eddie-acosta": {
+      "id": "0f81a375-c2dc-4dd0-8b7e-8ff812c44094",
+      "alt": "Illustration of a high-rise rooftop with tilted solar panels and a lone bicycle at sunset"
+    },
+    "g-its-a-date": {
+      "id": "edcf529c-9e8c-431e-8a05-99cece9784a0",
+      "alt": "Illustration of an open-air courtyard bar with string lights and two cocktails on a small table"
+    },
+    "g-photo-shoot": {
+      "id": "d13080bb-5454-45c1-a496-4259865a4911",
+      "alt": "Illustration of a motorbike racing under a highway overpass with a helicopter following overhead"
+    },
+    "g-bad-driver": {
+      "id": "56fc51b9-83ea-48fa-94e0-c1c20a45ca85",
+      "alt": "Illustration of a rural roadside bar beside dark pine woods with an old pickup in the gravel lot"
+    },
+    "g-making-gainz": {
+      "id": "dc6ee848-f215-413d-8d93-f4bcdbebfb92",
+      "alt": "Illustration of an outdoor gym terrace with a bench press and squat rack beside a swimming pool"
+    },
+    "g-safehouses": {
+      "id": "1e83926e-d27b-441f-a656-6a56d81d332e",
+      "alt": "Illustration of four different door keys hanging on wall hooks beside an open front door at dusk"
+    },
+    "g-boobie-ike": {
+      "id": "17c92714-8271-47bb-b16b-0a70f3ce67fe",
+      "alt": "Illustration of an empty office above a nightclub with a ledger on the desk and gold records on the wall"
+    },
+    "g-real-money": {
+      "id": "3fb9f4e8-9dbc-47d5-bc3a-408350ace749",
+      "alt": "Illustration of a coffee table with a game controller, a blank phone and a leather wallet with coins"
+    },
+    "g-what-is-gta-6": {
+      "id": "ea24dc46-0fc9-4052-b5dd-1cc63dd9aa2e",
+      "alt": "Illustration of a long highway bridge from mangrove islands toward a distant neon coastal city"
     }
   },
   "sections": {
