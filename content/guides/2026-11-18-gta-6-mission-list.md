@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 74 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 83 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-24
+updated: 2026-11-25
 status: live
 hub: true
 summary:
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 74 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 83 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -201,12 +201,23 @@ Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and
 | Photo/Shoot | Both | Promo shoot for the Dimez; rescue Dre'Quan from Cash City; $6,000 | [Photo/Shoot walkthrough](/missions/gta-6-photo-shoot-walkthrough/) |
 | Bad Driver! | Either | Optional and missable: find Felipe in Millport; $20,000 or his gift vehicle | [Bad Driver! walkthrough](/missions/gta-6-bad-driver-walkthrough/) |
 | Making Gainz | Lucia | Train with Nate at Ajax Gym; steroids choice; couple restriction begins | [Making Gainz walkthrough](/missions/gta-6-making-gainz-walkthrough/) |
+| Too Much Baggage | Jason | Undercover baggage shift at VCIA; scan crates, load bags, plant a bug | [Too Much Baggage walkthrough](/missions/gta-6-too-much-baggage-walkthrough/) |
+| Watch It | Jason | Dre'Quan's fake-watch dispute; parking-lot shootout; meet Royce Jones | [Watch It walkthrough](/missions/gta-6-watch-it-walkthrough/) |
+| Amateur Hour | Lucia | Help Cisco stop the Coochie Camper and collect a debt; $1,000 | [Amateur Hour walkthrough](/missions/gta-6-amateur-hour-walkthrough/) |
+| Cash Injections | Lucia | Nate's Synthol deal goes wrong; chase his stolen car to a motel | [Cash Injections walkthrough](/missions/gta-6-cash-injections-walkthrough/) |
+| Dirty Work | Both | Jason poses as Raina's client at a motel while Lucia takes photos | [Dirty Work walkthrough](/missions/gta-6-dirty-work-walkthrough/) |
+| Adventures in Babysitting | Jason | Guard Andrés at The Vault nightclub; helicopter escape | [Adventures in Babysitting walkthrough](/missions/gta-6-adventures-in-babysitting-walkthrough/) |
+| Fresh Evidence | Jason | Sneak into a Starfish Island mansion with Dre'Quan to copy files; $10,000 | [Fresh Evidence walkthrough](/missions/gta-6-fresh-evidence-walkthrough/) |
+| Child's Play | Both | Rescue Andrés's son Rafa at a quarry, then chase Gustavo; $30,000 | [Child's Play walkthrough](/missions/gta-6-childs-play-walkthrough/) |
+| Power Play | Both | Jason photographs Kordell's real heist plans; Lucia covers an armored truck robbery; $40,000 | [Power Play walkthrough](/missions/gta-6-power-play-walkthrough/) |
 
 The rows from Lawyer Up onward are in PowerPyx's order. GTABase places Eddie Acosta's party before Company Cars and Party Hard before Heavy Lifting; both of those missions only need Lawyer Up, so either order works. PowerPyx also lists a short entry, Pay Abe's Fee, after Party Hard, which GTABase does not have.
 
 **Missable:** Bad Driver! disappears once you start Power Play. **Plan ahead:** after Making Gainz, Jason and Lucia cannot be seen together in public until the VCIA Takedown, so do It's a Date! and other couple activities first.
 
-Next in both lists are the Jason-only missions Too Much Baggage and Watch It, then the rest of the long setup for the chapter's airport job, the VCIA Takedown: Amateur Hour, Cash Injections, Dirty Work, Adventures in Babysitting, Fresh Evidence, Child's Play, Power Play, Close Surveillance, Delivery Method, Team Building, Fully Catered and Headliners. After the heist come Tie Up Loose Ends, Sunset and Starting From Zero. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+The rows from Too Much Baggage to Power Play are in PowerPyx's order, and each mission's requirements match on GTABase. Too Much Baggage, Watch It and Adventures in Babysitting only need Making Gainz, so the game can offer them earlier. PowerPyx also counts several short entries that GTABase folds into the missions around them or does not list: Blood Sweat and Gear, Call Nate, Nate Will Be in Touch, Rafa's Kidnapping and the optional, missable This is a Free Call From…
+
+Next in both lists is the rest of the setup for the chapter's airport job, the VCIA Takedown: Close Surveillance, Delivery Method, Team Building, Fully Catered and Headliners. After the heist come Tie Up Loose Ends, Sunset and Starting From Zero. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
 
 ## Side missions and basics
 
