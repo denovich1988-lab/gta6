@@ -2,6 +2,8 @@
 
 Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` and `content/pages/*.md` into `dist/`; then run `python3 scripts/check-seo.py` (both must pass). Push to `main` deploys.
 
+
+- **Competitor check (owner, 2026-11-25): before creating or changing any page type, template or article, check the top-10 SERP for its main keyword with Ahrefs (`serp-overview`) and read 2–3 top competitor pages: length, sections, FAQ count, tables. Match or beat them on completeness (never by padding). Do this every time without asking the owner.**
 ## Guides
 - File: `content/guides/YYYY-MM-DD-slug.md`. Front matter: `title`, `seoTitle` (≤60 chars, contains the target keyword), `description` (70–160 chars, unique), `section` (missions | map | characters | vehicles | weapons | cheats | buying | pc | online | news), `date`, `updated` (when revised), `status` (confirmed | partly | unconfirmed | live), `summary` (3 short facts), `faq` (3–4 q/a), `sources` (name + url), optional `related` slugs.
 - Mission walkthrough structure: Before you start → Objectives → Step-by-step → Where players fail → Optional goals and rewards. Add each new mission to the list in `gta-6-mission-list` (story order) and bump its `updated`.
