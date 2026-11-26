@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 Mission List and Walkthrough Hub"
 seoTitle: "GTA 6 Missions: Full Mission List and Walkthroughs"
-description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 83 walkthroughs so far and more added as each mission is verified."
+description: "The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 93 walkthroughs so far and more added as each mission is verified."
 image: g-mission-list
 section: missions
 date: 2026-11-18
-updated: 2026-11-25
+updated: 2026-11-26
 status: live
 hub: true
 summary:
@@ -26,7 +26,7 @@ sources:
   - { name: "VGC: Grand Theft Auto 6 complete walkthrough hub", url: "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/" }
 ---
 
-This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 83 are listed below, each with a walkthrough.
+This page is the home of our **GTA 6 mission list**. Rockstar Games has not published a list of missions, so we add missions here in story order as each one is verified in at least two independent walkthroughs. The first 93 are listed below, each with a walkthrough.
 
 ## How the mission list works
 
@@ -210,6 +210,16 @@ Chapter 4 begins at the Y Hotel on the Vice Beach side of the city. PowerPyx and
 | Fresh Evidence | Jason | Sneak into a Starfish Island mansion with Dre'Quan to copy files; $10,000 | [Fresh Evidence walkthrough](/missions/gta-6-fresh-evidence-walkthrough/) |
 | Child's Play | Both | Rescue Andrés's son Rafa at a quarry, then chase Gustavo; $30,000 | [Child's Play walkthrough](/missions/gta-6-childs-play-walkthrough/) |
 | Power Play | Both | Jason photographs Kordell's real heist plans; Lucia covers an armored truck robbery; $40,000 | [Power Play walkthrough](/missions/gta-6-power-play-walkthrough/) |
+| Close Surveillance | Jason | Fly a drone to tail Nate and Cisco; hide six cameras in an apartment | [Close Surveillance walkthrough](/missions/gta-6-close-surveillance-walkthrough/) |
+| Delivery Method | Jason | Courier disguise; hack two TSS computers at the airport; fire alarm | [Delivery Method walkthrough](/missions/gta-6-delivery-method-walkthrough/) |
+| Team Building | Lucia | Cage fight at a warehouse with Kordell; Riverbank Waterside Bar | [Team Building walkthrough](/missions/gta-6-team-building-walkthrough/) |
+| Fully Catered | Either | Steal a catering truck at the airport with the Slim Jim; deliver to Rockridge | [Fully Catered walkthrough](/missions/gta-6-fully-catered-walkthrough/) |
+| Headliners | Both | The Dimez' launch party at Club VYB; VIP table choices; up to about $50,000 | [Headliners walkthrough](/missions/gta-6-headliners-walkthrough/) |
+| VCIA Takedown | Both | Chapter 4 heist at the airport; $250,000 | [VCIA Takedown walkthrough](/missions/gta-6-vcia-takedown-walkthrough/) |
+| Tie Up Loose Ends | Both | Waiting period; call Valentina back to shorten it | [Tie Up Loose Ends walkthrough](/missions/gta-6-tie-up-loose-ends-walkthrough/) |
+| That's Where the Money Is… | Either | Optional: Yasmani's bank vault job; about $80,000 | [That's Where the Money Is… walkthrough](/missions/gta-6-thats-where-the-money-is-walkthrough/) |
+| Sunset | Both | Chapter 4 point of no return: Raul's houseboat, dock shootout, boat escape | [Sunset walkthrough](/missions/gta-6-sunset-walkthrough/) |
+| Starting From Zero | Both | Chapter 4 finale: Aqua Stadium, Big House Storage, the penthouse | [Starting From Zero walkthrough](/missions/gta-6-starting-from-zero-walkthrough/) |
 
 The rows from Lawyer Up onward are in PowerPyx's order. GTABase places Eddie Acosta's party before Company Cars and Party Hard before Heavy Lifting; both of those missions only need Lawyer Up, so either order works. PowerPyx also lists a short entry, Pay Abe's Fee, after Party Hard, which GTABase does not have.
 
@@ -217,7 +227,27 @@ The rows from Lawyer Up onward are in PowerPyx's order. GTABase places Eddie Aco
 
 The rows from Too Much Baggage to Power Play are in PowerPyx's order, and each mission's requirements match on GTABase. Too Much Baggage, Watch It and Adventures in Babysitting only need Making Gainz, so the game can offer them earlier. PowerPyx also counts several short entries that GTABase folds into the missions around them or does not list: Blood Sweat and Gear, Call Nate, Nate Will Be in Touch, Rafa's Kidnapping and the optional, missable This is a Free Call From…
 
-Next in both lists is the rest of the setup for the chapter's airport job, the VCIA Takedown: Close Surveillance, Delivery Method, Team Building, Fully Catered and Headliners. After the heist come Tie Up Loose Ends, Sunset and Starting From Zero. Both lists end the story with Chapter 5, from Bird in the Hand to The End of the Road. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/).
+The rows from Close Surveillance to Starting From Zero are in PowerPyx's order. Close Surveillance, Delivery Method, Team Building and Fully Catered all open after Power Play and can be done in any order; GTABase lists Headliners before them, but both guides require it before the heist. PowerPyx also counts two waiting entries that GTABase does not list, Heist Plans in Place and Call Valentina Back; they are explained in the Fully Catered and Tie Up Loose Ends walkthroughs.
+
+**Point of no return:** collecting the note at the Y Hotel starts Sunset, and both guides say that moves the story into Chapter 5. PowerPyx adds that most of Chapter 5 must be finished before free roam returns. Do That's Where the Money Is… and any side activities first.
+
+### Chapter 5
+
+Both lists end the story with Chapter 5. We have not published walkthroughs for these yet; the names and order below match on PowerPyx and GTABase.
+
+| # in chapter | Mission |
+|---|---|
+| 1 | Bird in the Hand |
+| 2 | Taking Liberties |
+| 3 | Doggie Bag |
+| 4 | VC Baby |
+| 5 | Operation Savage Glory |
+| 6 | Honest Abe |
+| 7 | Unfinished Business |
+| 8 | Protective Custody |
+| 9 | The End of the Road |
+
+GTABase marks Unfinished Business as the Chapter 5 point of no return. PowerPyx also lists a short entry, Pay Abe's Fee, before Protective Custody. For how the five chapters fit together, see [how many chapters are in GTA 6](/blog/how-many-chapters-in-gta-6/), and for what happens at the end, [GTA 6 ending explained](/blog/gta-6-ending/).
 
 ## Side missions and basics
 

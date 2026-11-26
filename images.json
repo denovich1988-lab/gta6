@@ -729,6 +729,54 @@
     "g-hacker": {
       "id": "cc12594b-8860-409d-a122-28c4504e2ca7",
       "alt": "Illustration of an empty budget hotel room lit by a television and neon through the blinds"
+    },
+    "g-close-surveillance": {
+      "id": "245e3e8e-15c9-4386-8e64-61a03fed5d72",
+      "alt": "Illustration of a camera drone hovering over a rooftop bar with white canopies above a beach district at dusk"
+    },
+    "g-delivery-method": {
+      "id": "6d8bca49-3caf-43ea-8008-3e67c5080908",
+      "alt": "Illustration of a delivery bicycle with an insulated box parked at an airport security gate"
+    },
+    "g-team-building": {
+      "id": "7356115a-f4a4-4cf8-968a-f77407440b70",
+      "alt": "Illustration of an empty chain-link fighting cage inside a warehouse lit by hanging lamps"
+    },
+    "g-fully-catered": {
+      "id": "5da9e034-a212-4ff9-b952-9081e927cc96",
+      "alt": "Illustration of three white catering trucks parked beside an airport service building, seen from its roof"
+    },
+    "g-headliners": {
+      "id": "b3e4a976-9201-4918-8263-b956333014cf",
+      "alt": "Illustration of an empty nightclub with a DJ booth, laser beams and velvet VIP booths"
+    },
+    "g-vcia-takedown": {
+      "id": "066cbd97-14a2-40e8-9faa-799d8582d79d",
+      "alt": "Illustration of a white cargo jet on an airport apron at dusk with a belt loader and baggage carts"
+    },
+    "g-tie-up-loose-ends": {
+      "id": "64904907-cab1-445d-b23f-943dd6d9ff5b",
+      "alt": "Illustration of a phone lying on a hotel balcony table above a beach at golden hour"
+    },
+    "g-thats-where-the-money-is": {
+      "id": "ea68bf06-af35-4ffb-bc92-bc128c5ddb37",
+      "alt": "Illustration of two coffee cups at a café window with an armored security van passing outside"
+    },
+    "g-sunset": {
+      "id": "c98d9601-f710-4fca-b0de-79e8058f4b9e",
+      "alt": "Illustration of a houseboat moored at the end of a marina dock under an orange sunset"
+    },
+    "g-starting-from-zero": {
+      "id": "3316c8f6-a685-4887-b632-240f7fa0d945",
+      "alt": "Illustration of empty teal seats in the upper stands of a stadium in late afternoon sun"
+    },
+    "g-pre-order-sales": {
+      "id": "0a58920d-93a9-43fb-9b82-c024aecab938",
+      "alt": "Illustration of stacked blank game cases and shipping boxes on a shop counter lit by neon"
+    },
+    "g-dlc": {
+      "id": "c16755cb-41be-48b3-a782-259eff3d1b50",
+      "alt": "Illustration of an unfinished causeway bridge with cranes reaching toward a small island at dusk"
     }
   },
   "sections": {

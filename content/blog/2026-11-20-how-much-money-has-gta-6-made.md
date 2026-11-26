@@ -1,22 +1,25 @@
 ---
 title: "How Much Money Has GTA 6 Made? Copies Sold and Revenue So Far"
 seoTitle: "How Much Money Has GTA 6 Made? Sales So Far"
-description: "How much money GTA 6 has made so far: no official figure yet, but Sensor Tower estimates 24.6 million copies and $2.36 billion through launch day."
+description: "How much money GTA 6 has made so far: Take-Two reports $3.79 billion in day-one retail sales and 32.5 million units sold before launch."
 image: g-copies-sold
 date: 2026-11-20
+updated: 2026-11-26
 status: partly
 summary:
-  - "Take-Two has not published a GTA 6 sales figure as of November 20, 2026."
-  - "Sensor Tower estimates about 24.6 million copies and $2.36 billion through launch day, pre-orders included, with roughly three in four on PlayStation."
+  - "Take-Two announced on November 20, 2026 that GTA 6 made $3.79 billion in day-one retail sales and sold 32.5 million units pre-release."
+  - "Sensor Tower's earlier estimate, about 24.6 million copies and $2.36 billion through launch day, covered digital console sales, with roughly three in four on PlayStation."
   - "GTA 5's official first-day record was 11.21 million copies and $815.7 million in 2013."
 faq:
   - q: "How much money has GTA 6 made?"
-    a: "There is no official number yet. The analytics firm Sensor Tower estimates about $2.36 billion through launch day, November 19, 2026, including months of pre-orders. Take-Two has not confirmed it."
+    a: "Take-Two reports $3.79 billion in day-one retail sales worldwide, a company estimate through the end of November 19, 2026. It has not published a total since. Sensor Tower separately estimated about $2.36 billion from digital console sales through launch day."
   - q: "How many copies of GTA 6 have sold?"
-    a: "About 24.6 million through launch day according to Sensor Tower's estimate: roughly 18.4 million on PS5 and 6.2 million on Xbox Series X|S. It is an estimate, not a publisher figure."
+    a: "Take-Two says 32.5 million units were sold before launch and has not given a total since. Sensor Tower estimates about 24.6 million digital console copies through launch day: roughly 18.4 million on PS5 and 6.2 million on Xbox Series X|S."
   - q: "Did GTA 6 beat GTA 5's first-day sales record?"
-    a: "On the estimates, easily. GTA 5 sold 11.21 million copies worth $815.7 million in its first 24 hours. The comparison is not like for like, because the GTA 6 figure is a third-party estimate that includes pre-orders."
+    a: "Yes. GTA 5 sold 11.21 million copies worth $815.7 million in its first 24 hours. Take-Two reports $3.79 billion in day-one retail sales for GTA 6 and 32.5 million units sold before launch."
 sources:
+  - { name: "Take-Two Interactive: Grand Theft Auto VI shatters entertainment box office records (press release, November 20, 2026)", url: "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records" }
+  - { name: "The Next Web: GTA VI made $3.79B on launch day, Take-Two says", url: "https://thenextweb.com/news/gta-vi-3-79b-day-one-sales-biggest-launch" }
   - { name: "Make Tech Easier: GTA 6 first-day sales estimate from Sensor Tower", url: "https://maketecheasier.com/gta-6-first-day-sales-estimate/" }
   - { name: "TweakTown: GTA 6 day one sales estimates break 24.5 million with $2.36 billion earned", url: "https://www.tweaktown.com/news/114795/gta-6-day-one-sales-estimates-break-24-5-million-with-dollars2-36-billion-earned/index.html" }
   - { name: "Men's Journal: GTA 6 sold an estimated 19 million copies by launch day", url: "https://www.mensjournal.com/news/gta-6-sales-19-million-copies-gta-v-record" }
@@ -26,7 +29,9 @@ sources:
 related: [gta-6-budget, gta-6-price-editions, gta-6-reviews, gta-6-platforms]
 ---
 
-**How much money has GTA 6 made? Officially, nobody outside Take-Two knows yet: the publisher has not released a sales figure as of November 20, 2026.** The best available number is an estimate from the analytics firm Sensor Tower: about **24.6 million copies and $2.36 billion** through launch day, with pre-orders counted in. Below is what that number covers, how it grew over 48 hours, how it compares with GTA 5's record, and when a real figure is likely.
+**How much money has GTA 6 made? Take-Two's official answer is $3.79 billion in day-one retail sales worldwide, with 32.5 million units sold before launch.** The publisher announced both figures on November 20, 2026 and called it the biggest entertainment launch in history. Before that announcement the best number was an estimate from the analytics firm Sensor Tower: about **24.6 million copies and $2.36 billion** through launch day. Below is what each number covers, how the estimate grew over 48 hours, how it all compares with GTA 5's record, and what is still unknown.
+
+**Update, November 26:** this page was first written hours before Take-Two published its figures. The official numbers are now at the top of the table and in the next section; the sections on the Sensor Tower estimate are kept because they explain the platform split and the day-by-day growth, which Take-Two has not published. Our [GTA 6 pre-order sales page](/blog/gta-6-pre-order-sales/) covers the 32.5 million figure in detail.
 
 How we checked: every figure here appears in at least two independent reports, or is marked with the single outlet that reported it. Estimates are labelled as estimates throughout.
 
@@ -34,7 +39,9 @@ How we checked: every figure here appears in at least two independent reports, o
 
 | Measure | Figure | Who says so |
 |---|---|---|
-| Official copies sold | Not published | Take-Two |
+| Official day-one retail sales | $3.79 billion worldwide (company estimate through November 19) | Take-Two |
+| Official units sold pre-release | 32.5 million | Take-Two |
+| Official copies sold since launch | Not published | Take-Two |
 | Estimated copies through launch day | About 24.6 million | Sensor Tower |
 | Estimated revenue through launch day | About $2.36 billion | Sensor Tower |
 | PlayStation share | About 75% | Sensor Tower |
@@ -42,11 +49,13 @@ How we checked: every figure here appears in at least two independent reports, o
 | GTA 5 first 24 hours (2013) | 11.21 million copies, $815.7 million | Guinness World Records |
 | GTA 6 launch date | November 19, 2026 | Rockstar |
 
-## There is no official number yet
+## The official numbers: $3.79 billion and 32.5 million
 
-Take-Two Interactive, Rockstar's parent company, has not said how many copies GTA 6 has sold. Before launch its statements were deliberately vague. On its earnings call on November 9, chief executive Strauss Zelnick said pre-orders were far in excess of the company's expectations and, in the line most outlets quoted, that "we still aren't ready to declare victory."
+Take-Two Interactive, Rockstar's parent company, published its first figures in a press release dated November 20, 2026. It says day-one retail sales reached $3.79 billion, based on company estimates through the end of November 19 worldwide, and that the game sold 32.5 million units pre-release, a record across all platforms. It names no platform, edition or digital-versus-physical split, and The Next Web noted that the company did not say how the unit figure was calculated.
 
-**Why it matters:** every number in a headline this week is someone else's estimate. In 2013 it was the other way round: Take-Two announced GTA 5's first-day sales itself, one day after launch.
+Before launch its statements were deliberately vague. On its earnings call on November 9, chief executive Strauss Zelnick said pre-orders were far in excess of the company's expectations and, in the line most outlets quoted, that "we still aren't ready to declare victory."
+
+**Why it matters:** the two official numbers measure different things. The units are sales before release; the dollars run to the end of launch day. Take-Two has not yet said how many copies have been sold in total.
 
 ## The Sensor Tower estimate: 24.6 million copies, $2.36 billion
 
