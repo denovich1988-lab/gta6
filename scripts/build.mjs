@@ -109,12 +109,12 @@ const googleTag = () => (site.gtmId ? `<script>
   gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', region: ${JSON.stringify(EEA)}});
   try { var c = localStorage.getItem('consent'); if (c) gtag('consent', 'update', {analytics_storage: c === 'yes' ? 'granted' : 'denied'}); } catch (e) {}
 </script>
-<script async src="https://www.googletagmanager.com/gtm.js?id=${site.gtmId}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>` : '');
+  // Standard GTM start event: the container's Page View / All Pages
+  // triggers fire on 'gtm.js', which only this push provides.
+  window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=${site.gtmId}"></script>` : '');
 
 const adsenseTag = () => (site.adsenseClient ? `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsenseClient}" crossorigin="anonymous"></script>` : '');
 
