@@ -1,5 +1,7 @@
 # GTA6Touch (gta6touch.com) — rules from 2026-11-27 (owner)
 
+- **Blog publishing PAUSED (owner, 2026-11-27): do not write or publish blog posts until the owner says so.**
+
 This branch (`gta6touch`) is the new site. `main` still builds the old gta6box.com; do not publish there.
 - Brand GTA6Touch, English only (no translations until the owner asks), no ads or GTM until the owner gives new IDs.
 - Dark game design (approved mockup v2): full-image heroes, Anton + Manrope, sunset gradient, mission tracker saved in the browser.
