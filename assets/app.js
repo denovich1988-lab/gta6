@@ -151,3 +151,16 @@ document.addEventListener('click', (e) => {
     });
   }
 })();
+
+// Home page tabs and the search button.
+document.querySelectorAll('[data-tabs]').forEach((box) => {
+  const tabs = box.querySelectorAll('[data-tab]');
+  tabs.forEach((t) => t.addEventListener('click', () => {
+    tabs.forEach((x) => x.setAttribute('aria-selected', String(x === t)));
+    box.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== t.dataset.tab; });
+  }));
+});
+document.querySelectorAll('[data-search-go]').forEach((b) => b.addEventListener('click', () => {
+  const a = b.parentElement.querySelector('[data-results] a');
+  if (a) location.href = a.href; else b.parentElement.querySelector('input').focus();
+}));

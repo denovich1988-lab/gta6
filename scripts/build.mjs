@@ -159,7 +159,7 @@ ${published ? `<meta property="article:published_time" content="${published}">\n
 <meta name="twitter:title" content="${esc(title || full)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${OG}">
-<meta name="theme-color" content="#0b0a0f">
+<meta name="theme-color" content="#120d2b">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -173,7 +173,7 @@ ${published ? `<meta property="article:published_time" content="${published}">\n
 <a class="skip" href="#main">${esc(c.t('skip'))}</a>
 <header class="top">
   <div class="wrap top__row">
-    <a class="logo" href="${c.P}/" aria-label="${esc(site.name)}"><span class="logo__sun" aria-hidden="true"></span>${esc(site.name)}</a>
+    <a class="logo" href="${c.P}/" aria-label="${esc(site.name)}"><span class="logo__a">GTA6</span><span class="logo__b">Touch</span></a>
     <nav class="top__nav" aria-label="${esc(c.t('sectionsLabel'))}">${nav}</nav>
     ${CTX.length > 1 ? `<details class="lang"><summary aria-label="${esc(c.t('language'))}: ${esc(c.lang.name)}">${c.L.toUpperCase()}</summary><div class="lang__list">${langLinks}</div></details>` : ''}
     <button class="menu-btn" type="button" data-menu-btn aria-expanded="false" aria-controls="drawer"><span class="menu-btn__icon" aria-hidden="true"></span><span class="vh">${esc(c.t('menu'))}</span></button>
@@ -190,7 +190,7 @@ ${body.replace('<!--CRUMBS-->', crumbsNav(c, crumbs))}
 </main>
 <footer class="foot">
   <div class="wrap foot__grid">
-    <div><p class="logo logo--small"><span class="logo__sun" aria-hidden="true"></span>${esc(site.name)}</p><p class="foot__about">${esc(c.t('tagline'))}</p></div>
+    <div><p class="logo logo--small"><span class="logo__a">GTA6</span><span class="logo__b">Touch</span></p><p class="foot__about">${esc(c.t('tagline'))}</p></div>
     <nav aria-label="${esc(c.t('footGuides'))}"><p class="foot__h">${esc(c.t('footGuides'))}</p>${secs.map(([k, s]) => `<a href="${c.P}/${k}/">${esc(s.name)}</a>`).join('')}</nav>
     <nav aria-label="${esc(c.t('footSite'))}"><p class="foot__h">${esc(c.t('footSite'))}</p><a href="${c.P}/guides/">${esc(c.t('allGuides'))}</a><a href="${c.P}/wiki/">${esc(c.t('wikiNav'))}</a>${LEGAL.map((s) => `<a href="${pageUrl(c, s)}">${esc(c.t(`legal_${s}`))}</a>`).join('')}<a href="${c.P}/rss.xml">RSS</a></nav>
   </div>
@@ -339,52 +339,83 @@ const CHAPTERS = (() => {
 function home(c) {
   const faq = (Array.isArray(c.ui.homeFaq) ? c.ui.homeFaq : UI.en.homeFaq).map((f) => ({ q: fill(f.q), a: fill(f.a) }));
   const bySlug = new Map(c.guides.map((g) => [g.slug, g]));
-  const enTitle = new Map(enGuides.map((g) => [g.slug, g.title]));
-  const missionName = (slug) => (enTitle.get(slug) || slug).replace(/^GTA 6\s+/i, '').replace(/\s+Walkthrough.*$/i, '').replace(/:.*$/, '');
-  const chapters = CHAPTERS.map((ch) => ({ ...ch, have: ch.slugs.filter((s) => bySlug.has(s)) })).filter((ch) => ch.have.length);
-  const first = chapters.slice(0, 2).flatMap((ch) => ch.have).slice(0, 7);
-  const list = bySlug.get('gta-6-mission-list');
+  const href = (g) => `/${g.section}/${g.slug}/`;
+  const short = (g) => topicName(g.title).replace(/\s+Walkthrough$/i, '');
+  const bg = (n, big) => hasImg(n) ? ` style="background-image:url(/assets/img/${n}${big ? '' : '-800'}.webp)"` : '';
+  const pick = (...slugs) => slugs.map((s) => bySlug.get(s)).filter(Boolean);
+  // Hero mosaic: tiles are real guides, labelled with their topic.
+  const tiles = pick('gta-6-cars', 'gta-6-map', 'gta-6-wanted-level', 'gta-6-vice-city', 'port-gellhorn-gta-6', 'gta-6-collectibles', 'gta-6-characters');
+  const tile = (g, cls) => g ? `<a class="mz__t ${cls}" href="${href(g)}"${bg(g.image)}><span>${esc(short(g))}</span></a>` : `<span class="mz__t ${cls}"></span>`;
+  const chips = pick('how-to-make-money-in-gta-6', 'gta-6-100-completion', 'gta-6-cars', 'gta-6-cheats', 'gta-6-mission-list');
+  // Tabs: each lists live guides of one kind; the first one is featured with its key facts.
+  const groups = [
+    ['Start here', c.guides.filter((g) => !g.isBlog).slice(0, 7)],
+    ['Story missions', c.guides.filter((g) => g.section === 'missions')],
+    ['Money', c.guides.filter((g) => /money|cheat/.test(g.slug))],
+    ['Vehicles', c.guides.filter((g) => g.section === 'vehicles')],
+    ['Collectibles', c.guides.filter((g) => /collectible|100-completion|trophies/.test(g.slug))],
+    ['Characters', c.guides.filter((g) => g.section === 'characters')],
+  ].filter(([, l]) => l.length);
+  const feat = (g) => `<a class="job__feat" href="${href(g)}"><span class="job__im"${bg(g.image)}></span><span class="job__body"><b>${esc(g.title)}</b><span class="job__desc">${esc(g.description)}</span>${g.summary.length ? `<ol>${g.summary.slice(0, 3).map((s) => `<li>${esc(s)}</li>`).join('')}</ol>` : ''}<span class="btn">Open the guide</span></span></a>`;
+  const jobs = `<div class="job" data-tabs>
+    <div class="job__tabs" role="tablist">${groups.map(([n], i) => `<button type="button" role="tab" aria-selected="${i ? 'false' : 'true'}" data-tab="${i}">${esc(n)}</button>`).join('')}</div>
+    ${groups.map(([, l], i) => `<div class="job__panel" role="tabpanel" data-panel="${i}"${i ? ' hidden' : ''}><ul class="job__list">${l.slice(0, 7).map((g, j) => `<li><a href="${href(g)}"${j ? '' : ' aria-current="true"'}><span>${esc(g.title)}</span><small>${g.minutes} min</small></a></li>`).join('')}</ul>${feat(l[0])}</div>`).join('')}
+  </div>`;
+  // Map teaser: our own schematic, region names as Rockstar gives them, positions approximate.
+  const regionLinks = [['Mount Kalaga', ''], ['Port Gellhorn', 'port-gellhorn-gta-6'], ['Ambrosia', ''], ['Grassrivers', ''], ['Vice City', 'gta-6-vice-city'], ['Leonida Keys', '']];
   const mapGuide = bySlug.get('gta-6-map');
-  const bg = (n) => hasImg(n) ? ` style="background-image:url(/assets/img/${n}-800.webp)"` : '';
-  const cats = [['missions', 'Story order and walkthroughs'], ['map', 'Regions and locations'], ['vehicles', 'Vehicles and where to find them'], ['cheats', 'Cheats, secrets and money']].filter(([k]) => c.sections[k]);
-  const catImg = (k) => ({ missions: 'g-mission-list', map: 'g-map', vehicles: 'cars', cheats: 'g-how-to-make-money' })[k] || secImg(k);
-  const regions = [['gta-6-vice-city', 'vice-city'], ['port-gellhorn-gta-6', 'port']].map(([s, i]) => bySlug.get(s) && { g: bySlug.get(s), i }).filter(Boolean);
-  const latest = c.guides.slice(0, 5);
+  const latest = c.guides.slice(0, 3);
+  const newest = c.guides[0]?.updated || T0;
   const body = `
-<section class="xhero"${hasImg('hero') ? ` style="background-image:url(/assets/img/hero.webp)"` : ''}>
-  <div class="wrap xhero__in">
-    <div>
-      <h1>Every mission.<br>Every secret.<br><em>All of Leonida.</em></h1>
+<section class="mz" aria-label="Featured">
+  <div class="mz__grid">
+    <div class="mz__col">${tile(tiles[0], 'mz__t--a')}${tile(tiles[5], 'mz__t--b')}</div>
+    <div class="mz__col">${tile(tiles[1], 'mz__t--tall')}</div>
+    <div class="mz__hero">
+      <h1>Leonida is open.<br><em>Find anything.</em></h1>
       <p class="lede">${esc(c.t('siteDescription'))}</p>
-      <p class="xhero__cta">${list ? `<a class="btn" href="/missions/${list.slug}/">Open the mission list</a>` : ''}${mapGuide ? `<a class="btn btn--ghost" href="/map/${mapGuide.slug}/#interactive-map">Open the map</a>` : ''}</p>
+      <form class="mz__search" role="search" action="/guides/" onsubmit="return false">
+        <label class="vh" for="hq">${esc(c.t('search'))}</label>
+        <input id="hq" type="search" placeholder="Search missions, cars, places…" data-search-input autocomplete="off">
+        <button type="button" class="btn" data-search-go>Search</button>
+        <ul class="results" data-results data-empty="${esc(c.t('noMatches'))}" hidden></ul>
+      </form>
+      <p class="chips2">${chips.map((g) => `<a href="${href(g)}">${esc(short(g))}</a>`).join('')}</p>
     </div>
-    ${first.length ? `<div class="hud" data-tracker>
-      <div class="hud__top"><h2>Your story progress</h2><span data-tracker-count></span></div>
-      <div class="bar"><i data-tracker-bar></i></div>
-      <ul class="hud__list">${first.map((s) => `<li><label><input type="checkbox" data-done="${s}"><span>${esc(missionName(s))}</span></label><a href="/missions/${s}/">Guide</a></li>`).join('')}</ul>
-      <p class="hud__note">Ticks are saved in this browser only.</p>
-    </div>` : ''}
+    <div class="mz__col">${tile(tiles[2], 'mz__t--a')}${tile(tiles[3], 'mz__t--b')}</div>
   </div>
 </section>
-<section class="wrap block" aria-labelledby="cat-h">
-  <div class="sec-head"><h2 id="cat-h">Pick your path</h2></div>
-  <div class="cats">${cats.map(([k, t]) => `<a class="cat" href="/${k}/"${bg(catImg(k))}><span><b>${esc(c.secName(k))}</b><small>${esc(t)}</small></span></a>`).join('')}</div>
+<section class="strip" aria-label="Status">
+  <div class="wrap strip__in">
+    <div><b class="ok">Out now</b><span>PS5 and Xbox Series X|S since November 19, 2026</span></div>
+    <div><b class="wait">PC: no date</b><span>Rockstar has not announced a PC release</span></div>
+    <div><b>Checked facts</b><span>Rockstar or two independent sources agree</span></div>
+    <div><b>Updated</b><span>${c.fmtDate(newest)}</span></div>
+  </div>
 </section>
-${chapters.length ? `<section class="wrap block" aria-labelledby="ch-h">
-  <div class="sec-head"><h2 id="ch-h">${esc(c.t('chaptersH'))}</h2>${list ? `<a href="/missions/${list.slug}/">${esc(c.t('fullList'))}</a>` : ''}</div>
-  <ol class="chap">${chapters.map((ch) => `<li><a href="/missions/${ch.have[0]}/"><span class="chap__no">${ch.n ? ch.n : 'P'}</span><span class="chap__name">${esc(ch.n ? c.t('chapter', { n: ch.n }) : c.t('prologue'))}</span><span class="chap__count">${esc(c.t('countWalk', { n: ch.have.length }))}</span></a></li>`).join('')}</ol>
+<section class="wrap block" aria-labelledby="job-h">
+  <div class="sec-head"><h2 id="job-h">Pick your next job</h2><a href="/guides/">All guides</a></div>
+  ${jobs}
+</section>
+<section class="wrap block" aria-labelledby="map-h">
+  <div class="sec-head"><h2 id="map-h">The Leonida map</h2>${mapGuide ? `<a href="${href(mapGuide)}#interactive-map">Full map</a>` : ''}</div>
+  <div class="lmap">
+    <div class="lmap__art" aria-hidden="true">
+      <svg viewBox="0 0 400 300"><path d="M70 20 L250 20 L262 70 L300 110 L318 180 L300 230 L250 262 L210 290 L180 250 L150 200 L100 170 L60 120 Z" fill="#2f6b4f" stroke="#3f8a66" stroke-width="3"/><path d="M110 40 C150 90 170 140 200 190 S 240 250 250 262" fill="none" stroke="#ffd23f" stroke-width="4"/><g fill="#ff3d7f"><circle cx="160" cy="60" r="6"/><circle cx="270" cy="170" r="7"/><circle cx="120" cy="140" r="6"/></g><g fill="#ffd23f"><rect x="96" y="96" width="10" height="10"/><rect x="282" y="196" width="10" height="10"/></g><g fill="#2ee59d"><path d="M215 120 l7 12 h-14z"/><path d="M190 230 l7 12 h-14z"/></g><g fill="#fff" font-family="Barlow Condensed, sans-serif" font-style="italic" font-weight="800" font-size="13"><text x="140" y="40">MOUNT KALAGA</text><text x="68" y="128">AMBROSIA</text><text x="140" y="170">GRASSRIVERS</text><text x="248" y="158">VICE CITY</text><text x="70" y="212">PORT GELLHORN</text><text x="222" y="290">LEONIDA KEYS</text></g></svg>
+      <small>Illustration. Region names as Rockstar gives them; positions approximate.</small>
+    </div>
+    <div class="lmap__side">
+      <h3>Regions</h3>
+      <p>Six regions of Leonida. Tap one to read what is there.</p>
+      <ul>${regionLinks.map(([n, s]) => { const g = s && bySlug.get(s); return `<li>${g ? `<a href="${href(g)}">${esc(n)}</a>` : `<span>${esc(n)}</span>`}<small>${g ? 'Guide' : 'Soon'}</small></li>`; }).join('')}</ul>
+      ${mapGuide ? `<a class="btn btn--block" href="${href(mapGuide)}#interactive-map">Open the map</a>` : ''}
+    </div>
+  </div>
+</section>
+${latest.length ? `<section class="wrap block" aria-labelledby="new-h">
+  <div class="sec-head"><h2 id="new-h">Newswire</h2><a href="/guides/">${esc(c.t('allGuides'))}</a></div>
+  <div class="wire">${latest.map((g, i) => `<a class="wire__c${i ? '' : ' wire__c--big'}" href="${href(g)}"><span class="wire__im"${bg(g.image)}></span><span class="wire__t"><b>${esc(g.title)}</b><span>${esc(g.description)}</span><small>${c.fmtDate(g.updated)} · ${g.minutes} min read</small></span></a>`).join('')}</div>
 </section>` : ''}
-${regions.length ? `<section class="wrap block" aria-labelledby="reg-h"><div class="sec-head"><h2 id="reg-h">Explore Leonida</h2>${mapGuide ? `<a href="/map/${mapGuide.slug}/">Full map</a>` : ''}</div>
-  <div class="regions">${regions.map(({ g, i }) => `<a class="reg" href="/${g.section}/${g.slug}/"><span class="reg__im"${bg(g.image || i)}></span><span class="reg__t"><b>${esc(topicName(g.title))}</b><small>${esc(g.description)}</small></span></a>`).join('')}</div></section>` : ''}
-<section class="wrap block" aria-labelledby="new-h">
-  <div class="sec-head"><h2 id="new-h">Latest guides</h2><a href="/guides/">${esc(c.t('allGuides'))}</a></div>
-  <div class="latest">${latest.map((g, i) => `<a class="lt${i ? '' : ' lt--big'}" href="/${g.section}/${g.slug}/"><span class="lt__im"${bg(g.image || secImg(g.section))}></span><span class="lt__t"><span class="card__sec">${esc(c.secName(g.section))}</span><b>${esc(g.title)}</b>${i ? '' : `<small>${esc(g.description)}</small>`}</span></a>`).join('')}</div>
-</section>
-<section class="wrap block trust" aria-label="How we check facts">
-  <div><b>Rockstar or two sources</b><span>A fact goes on the site only when Rockstar says it or two independent guides agree.</span></div>
-  <div><b>Dated updates</b><span>Every page shows when it was last checked.</span></div>
-  <div><b>No guesses</b><span>If something is not confirmed, the page says so.</span></div>
-</section>
 <div class="wrap">${faqHtml(c, faq)}</div>`;
   return layout(c, { title: '', description: c.t('siteDescription'), rel: '/', body, jsonLd: [itemList(c, c.t('latest'), c.guides.slice(0, 20)), faqSchema(faq)] });
 }
