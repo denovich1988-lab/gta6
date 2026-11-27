@@ -1,0 +1,35 @@
+# GTA6Touch
+
+> An independent GTA 6 guide: mission walkthroughs, the Leonida map and checklists you can tick off while you play. Facts confirmed by Rockstar or two sources.
+
+GTA6Touch is an independent, unofficial fan guide to Grand Theft Auto VI (GTA 6). Each page states whether its information is confirmed by Rockstar Games, lists its sources and shows the date it was last updated. Content may be quoted with a link to the page.
+
+Languages: [English](https://gta6touch.com/).
+
+## GTA 6 Missions: Walkthroughs and Mission List
+- [GTA 6 Mission List and Walkthrough Hub](https://gta6touch.com/missions/gta-6-mission-list/): The GTA 6 mission list in story order: the Prologue and Chapter 1 missions, with 93 walkthroughs so far and more added as each mission is verified.
+- [GTA 6 100% Completion: Full Checklist and Reward](https://gta6touch.com/missions/gta-6-100-completion/): GTA 6 100 completion explained: the 35 checklist requirements with counts, what you can skip, what cannot be missed, and the reward for finishing it.
+- [GTA 6 Gone Fishing Walkthrough: Mission 2 Step by Step](https://gta6touch.com/missions/gta-6-gone-fishing-walkthrough/): GTA 6 Gone Fishing walkthrough: collect the packages by boat, get through the camp quietly, win the fist fight and fly the seaplane back to the marina.
+- [GTA 6 Prologue Walkthrough: The First Mission Step by Step](https://gta6touch.com/missions/gta-6-prologue-walkthrough/): GTA 6 Prologue walkthrough: every objective of the first mission, the controls it teaches, where guides disagree about the chase, and what comes next.
+- [GTA 6 Wanted Level Explained: Six Stars and Heat](https://gta6touch.com/missions/gta-6-wanted-level/): How the GTA 6 wanted level works: six stars, red heat icons that show what the police know, hot areas, and how to lose the cops in Leonida.
+
+## GTA 6 Map and Locations
+- [GTA 6 Map: All Confirmed Regions of Leonida](https://gta6touch.com/map/gta-6-map/): Where GTA 6 is set and every region Rockstar has confirmed: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga.
+- [GTA 6 Collectibles: Every Type, How Many, and What They Unlock](https://gta6touch.com/map/gta-6-collectibles/): All GTA 6 collectibles in one place: 480 collectible cards, 125 cocaine flamingos, 34 watches, WAiNK scans and more, with counts and what each unlocks.
+- [Vice City in GTA 6: Districts and What to Expect](https://gta6touch.com/map/gta-6-vice-city/): Vice City returns in GTA 6 as the main city of Leonida. What Rockstar has confirmed about its beaches, nightlife, businesses and place on the map.
+- [Port Gellhorn in GTA 6: Location Guide](https://gta6touch.com/map/port-gellhorn-gta-6/): Port Gellhorn in GTA 6 is a faded coastal town on Leonida's forgotten coast. Where it is, what Rockstar has shown and what to do there.
+
+## GTA 6 Characters
+- [GTA 6 Characters: Every Confirmed Name](https://gta6touch.com/characters/gta-6-characters/): All GTA 6 characters confirmed by Rockstar: protagonists Jason Duval and Lucia Caminos, plus Cal Hampton, Boobie Ike, Raul Bautista and more.
+- [Jason Duval in GTA 6: Everything Confirmed](https://gta6touch.com/characters/gta-6-jason-duval/): Who Jason Duval is in GTA 6: his Army past, his work for drug runners in the Leonida Keys, his friends and his relationship with Lucia.
+- [Lucia Caminos in GTA 6: Everything Confirmed](https://gta6touch.com/characters/gta-6-lucia-caminos/): Who Lucia Caminos is in GTA 6: her backstory, her relationship with Jason, why she was in prison and what Rockstar has confirmed about her.
+
+## GTA 6 Cars and Vehicles
+- [GTA 6 Cars: Full Vehicle List and How to Keep a Car](https://gta6touch.com/vehicles/gta-6-cars/): Every GTA 6 car named by launch guides, sorted by class, plus the bikes, boats and aircraft, the edition vehicles and how to steal, register and keep a car.
+
+## GTA 6 Cheats and Secrets
+- [GTA 6 Cheats: All 61 Cheats, Codes and How to Unlock Them](https://gta6touch.com/cheats/gta-6-cheats/): Every GTA 6 cheat: all 61 cheats with their unlock tasks, the 21 button codes confirmed so far for PS5 and Xbox, and how to enter them.
+- [How to Make Money in GTA 6: Best Methods by Chapter](https://gta6touch.com/cheats/how-to-make-money-in-gta-6/): How to make money in GTA 6 without cheats: selling stolen cars, store and jewelry robberies, bank vaults and side activities, and when each one unlocks.
+
+## Full text
+- [All guides in one file](https://gta6touch.com/llms-full.txt)
