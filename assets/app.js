@@ -117,3 +117,37 @@ document.addEventListener('click', (e) => {
   q.addEventListener('input', run);
   chips.forEach((b) => b.addEventListener('click', () => { cat = b.dataset.wikiCat; chips.forEach((x) => x.setAttribute('aria-pressed', String(x === b))); run(); }));
 })();
+
+// Progress tracker: missions ticked off on the home page and on walkthroughs,
+// and walkthrough objectives, are saved in this browser only.
+(() => {
+  const KEY = 'gta6touch-done';
+  let done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} };
+  const boxes = () => document.querySelectorAll('input[data-done]');
+  const paint = () => {
+    boxes().forEach((b) => { b.checked = !!done[b.dataset.done]; });
+    document.querySelectorAll('[data-tracker]').forEach((t) => {
+      const all = t.querySelectorAll('input[data-done]');
+      const n = [...all].filter((b) => b.checked).length;
+      const cnt = t.querySelector('[data-tracker-count]'); if (cnt) cnt.textContent = `${n} / ${all.length} done`;
+      const bar = t.querySelector('[data-tracker-bar]'); if (bar) bar.style.width = (all.length ? n / all.length * 100 : 0) + '%';
+    });
+  };
+  boxes().forEach((b) => b.addEventListener('change', () => { if (b.checked) done[b.dataset.done] = 1; else delete done[b.dataset.done]; save(); paint(); }));
+  paint();
+  // Objectives on walkthroughs become a checklist.
+  const h = document.getElementById('objectives');
+  let ol = null;
+  for (let el = h && h.nextElementSibling; el && el.tagName !== 'H2'; el = el.nextElementSibling) if (el.tagName === 'OL') { ol = el; break; }
+  if (ol) {
+    const page = location.pathname;
+    ol.classList.add('objs');
+    [...ol.children].forEach((li, i) => {
+      const k = `obj:${page}:${i}`;
+      li.innerHTML = `<label><input type="checkbox"${done[k] ? ' checked' : ''}><span>${li.innerHTML}</span></label>`;
+      li.querySelector('input').addEventListener('change', (e) => { if (e.target.checked) done[k] = 1; else delete done[k]; save(); });
+    });
+  }
+})();

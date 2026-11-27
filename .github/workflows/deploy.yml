@@ -1,16 +1,13 @@
-name: Build site
+name: Build gta6touch.com
 
-# Builds the site and publishes the finished files to the "site" branch.
+# Builds gta6touch.com from the gta6touch branch and publishes it to the "site-touch" branch.
 # The server pulls that branch every few minutes (see server/cloud-config.yaml),
 # so no SSH keys or passwords are needed anywhere.
 
 on:
   push:
-    branches: [main]
+    branches: [gta6touch]
   workflow_dispatch:
-  # Rebuild every morning so prompts dated "today" appear even without a new push.
-  schedule:
-    - cron: "10 1 * * *" # 06:10 Tashkent
 
 permissions:
   contents: write
@@ -19,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     concurrency:
-      group: build
+      group: build-touch
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -40,7 +37,7 @@ jobs:
             git config user.email "github-actions@users.noreply.github.com"
             git add assets/img
             git commit -q -m "Add illustrations [skip ci]"
-            for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
+            for i in 1 2 3; do git pull -q --rebase origin gta6touch && git push -q && break; sleep 5; done
           fi
 
       - name: Build
@@ -52,13 +49,13 @@ jobs:
       - name: Publish to the "site" branch
         run: |
           cd dist
-          git init -q -b site
+          git init -q -b site-touch
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add -A
           git commit -q -m "Site build from ${GITHUB_SHA::7}"
-          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" site
-          echo "Published $(find . -name index.html | wc -l) pages to the site branch"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" site-touch
+          echo "Published $(find . -name index.html | wc -l) pages to the site-touch branch"
 
 
   indexnow:
@@ -66,12 +63,12 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     concurrency:
-      group: indexnow
+      group: indexnow-touch
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: site
+          ref: site-touch
       - uses: actions/checkout@v4
         with:
           path: main

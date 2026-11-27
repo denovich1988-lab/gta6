@@ -1,3 +1,16 @@
+# GTA6Touch (gta6touch.com) — rules from 2026-11-27 (owner)
+
+This branch (`gta6touch`) is the new site. `main` still builds the old gta6box.com; do not publish there.
+- Brand GTA6Touch, English only (no translations until the owner asks), no ads or GTM until the owner gives new IDs.
+- Dark game design (approved mockup v2): full-image heroes, Anton + Manrope, sunset gradient, mission tracker saved in the browser.
+- **Pace: at most 5 pages a day.** Each day: rework pages from `archive/` (old gta6box texts) or write new ones from `keywords.md`, top to bottom. Never publish more than 5 in a day, never bulk-publish.
+- **Rework rules:** write in our own words for players; no retelling of other guides and no "X says / X reports / X lists" in the text (sources go only into `sources`). Start with the answer, keep only steps two sources agree on, add a "Where players get stuck" section on walkthroughs. Cut padding; shorter and correct beats long.
+- A reworked page moves from `archive/` to `content/` with today's date in the file name and `date`. Links to pages still in the archive render as plain text automatically.
+- New illustrations for every published page (different scenes from gta6box); until then the page uses the old picture.
+- Old gta6box.com: when gta6touch goes live, set it to noindex (no 301 redirect to the new domain).
+
+---
+
 # GTA 6 guide site — content rules
 
 Static site. `npm run build` builds `content/guides/*.md`, `content/blog/*.md` and `content/pages/*.md` into `dist/`; then run `python3 scripts/check-seo.py` (both must pass). Push to `main` deploys.

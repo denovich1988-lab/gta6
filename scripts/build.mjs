@@ -159,11 +159,12 @@ ${published ? `<meta property="article:published_time" content="${published}">\n
 <meta name="twitter:title" content="${esc(title || full)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${OG}">
-<meta name="theme-color" content="#140f26">
+<meta name="theme-color" content="#0b0a0f">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/body-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="${c.P}/rss.xml">
 <link rel="stylesheet" href="/assets/style.css?v=${BUILD_ID}">
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c')}</script>
@@ -244,6 +245,15 @@ function withVideo(c, g, html) {
 const videoSchema = (g, url) => g.video ? { '@type': 'VideoObject', name: g.video.title, description: g.video.description || g.video.title, thumbnailUrl: `https://i.ytimg.com/vi/${g.video.id}/hqdefault.jpg`, uploadDate: videoDate(g.video), embedUrl: `https://www.youtube-nocookie.com/embed/${g.video.id}`, contentUrl: `https://www.youtube.com/watch?v=${g.video.id}`, publisher: { '@type': 'Organization', name: g.video.channel }, isPartOf: { '@id': `${url}#article` } } : null;
 const tocHtml = (c, items) => items.length >= 3 ? `<details class="toc"><summary>${esc(c.t('toc'))} <span class="toc__n">${items.length}</span></summary><ol>${items.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('')}</ol></details>` : '';
 
+// Walkthrough pages end with a "mark as done" switch and the next mission in story order.
+function nextMission(c, g) {
+  if (!/-walkthrough$/.test(g.slug)) return '';
+  const order = CHAPTERS.flatMap((ch) => ch.slugs).filter((s) => c.guides.some((x) => x.slug === s));
+  const i = order.indexOf(g.slug);
+  const nx = i >= 0 ? c.guides.find((x) => x.slug === order[i + 1]) : null;
+  return `<div class="nextm"><label class="donebox"><input type="checkbox" data-done="${g.slug}"><span>I finished this mission</span></label>${nx ? `<a class="nextm__card" href="/missions/${nx.slug}/"${hasImg(nx.image) ? ` style="background-image:url(/assets/img/${nx.image}-800.webp)"` : ''}><small>Next mission</small><b>${esc(nx.title.replace(/^GTA 6\s+/i, '').replace(/\s+Walkthrough.*$/i, '').replace(/:.*$/, ''))}</b></a>` : ''}</div>`;
+}
+
 function guidePage(c, g) {
   const rel = `/${g.section}/${g.slug}/`;
   const url = SITE_URL + c.P + rel;
@@ -252,22 +262,19 @@ function guidePage(c, g) {
   const related = c.guides.filter((x) => x.slug !== g.slug && (x.section === g.section || (g.related || []).includes(x.slug))).slice(0, 4);
   const body = `
 <article class="guide" data-section="${g.section}">
-  <header class="wrap guide__head">
-    <!--CRUMBS-->
-    <h1>${esc(g.title)}</h1>
-    <p class="lede">${esc(g.description)}</p>
-    <dl class="facts">
-      ${g.status ? `<div><dt>${esc(c.t('status'))}</dt><dd class="status status--${g.status}">${esc(c.t(`status_${g.status}`))}</dd></div>` : ''}
-      <div><dt>${esc(c.t('updated'))}</dt><dd><time datetime="${g.updated}">${c.fmtDate(g.updated)}</time></dd></div>
-      <div><dt>${esc(c.t('read'))}</dt><dd>${g.minutes} ${esc(c.t('min'))}</dd></div>
-      <div><dt>${esc(c.t('by'))}</dt><dd><a href="${pageUrl(c, 'about')}">${esc(c.t('team'))}</a></dd></div>
-    </dl>
+  <header class="ghero"${hasImg(g.image) ? ` style="background-image:url(/assets/img/${g.image}.webp)"` : ''}>
+    <div class="wrap">
+      <!--CRUMBS-->
+      <h1>${esc(g.title)}</h1>
+      <p class="chips">${g.status ? `<span class="status--${g.status}">${esc(c.t(`status_${g.status}`))}</span>` : ''}<span>${esc(c.t('updated'))} <time datetime="${g.updated}">${c.fmtDate(g.updated)}</time></span><span>${g.minutes} ${esc(c.t('min'))} ${esc(c.t('read')).toLowerCase()}</span><span>${g.sources.length ? `Checked against ${g.sources.length} source${g.sources.length === 1 ? '' : 's'}` : `<a href="/about/">${esc(c.t('team'))}</a>`}</span></p>
+    </div>
   </header>
-  ${hasImg(g.image) ? `<div class="wrap"><figure class="banner">${img(g.image, 'banner__img', true)}<figcaption>${esc(c.t('caption'))}</figcaption></figure></div>` : ''}
   <div class="wrap guide__body">
+    <p class="answer"><b>Short answer:</b> ${esc(g.description)}</p>
     ${g.summary.length ? `<aside class="summary" aria-labelledby="sum-h"><h2 id="sum-h">${esc(c.t('quick'))}</h2><ul>${g.summary.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></aside>` : ''}
     ${tocHtml(c, T.items)}
     <div class="prose">${localize(c, T.html)}</div>
+    ${nextMission(c, g)}
     ${faqHtml(c, g.faq)}
   </div>
 </article>
@@ -330,51 +337,53 @@ const CHAPTERS = (() => {
 })();
 
 function home(c) {
-  const featured = (site.featured || []).map((slug) => c.guides.find((g) => g.slug === slug)).filter(Boolean);
   const faq = (Array.isArray(c.ui.homeFaq) ? c.ui.homeFaq : UI.en.homeFaq).map((f) => ({ q: fill(f.q), a: fill(f.a) }));
-  const walks = c.guides.filter((g) => g.section === 'missions' && /-walkthrough$/.test(g.slug));
-  const posts = c.guides.filter((g) => g.isBlog);
-  const guidesOnly = c.guides.filter((g) => !g.isBlog);
   const bySlug = new Map(c.guides.map((g) => [g.slug, g]));
   const enTitle = new Map(enGuides.map((g) => [g.slug, g.title]));
   const missionName = (slug) => (enTitle.get(slug) || slug).replace(/^GTA 6\s+/i, '').replace(/\s+Walkthrough.*$/i, '').replace(/:.*$/, '');
   const chapters = CHAPTERS.map((ch) => ({ ...ch, have: ch.slugs.filter((s) => bySlug.has(s)) })).filter((ch) => ch.have.length);
+  const first = chapters.slice(0, 2).flatMap((ch) => ch.have).slice(0, 7);
   const list = bySlug.get('gta-6-mission-list');
   const mapGuide = bySlug.get('gta-6-map');
-  const top = walks[0];
-  const stats = [[walks.length, c.t('statWalk')], [guidesOnly.length, c.t('statGuides')], [posts.length, c.t('statPosts')], [LANGS.length, c.t('statLangs')]].filter(([n]) => n > 0);
+  const bg = (n) => hasImg(n) ? ` style="background-image:url(/assets/img/${n}-800.webp)"` : '';
+  const cats = [['missions', 'Story order and walkthroughs'], ['map', 'Regions and locations'], ['vehicles', 'Vehicles and where to find them'], ['cheats', 'Cheats, secrets and money']].filter(([k]) => c.sections[k]);
+  const catImg = (k) => ({ missions: 'g-mission-list', map: 'g-map', vehicles: 'cars', cheats: 'g-how-to-make-money' })[k] || secImg(k);
+  const regions = [['gta-6-vice-city', 'vice-city'], ['port-gellhorn-gta-6', 'port']].map(([s, i]) => bySlug.get(s) && { g: bySlug.get(s), i }).filter(Boolean);
+  const latest = c.guides.slice(0, 5);
   const body = `
-<section class="hero hero--home${hasImg('hero') ? ' hero--img' : ''}">
-  ${img('hero', 'hero__bg', true)}
-  <div class="wrap hero__content">
-    <p class="hero__kicker"><span class="live" aria-hidden="true"></span>${esc(c.t('heroPill'))}</p>
-    <h1>${esc(c.t('homeH1'))}</h1>
-    <p class="lede">${esc(c.t('siteDescription'))}</p>
-    <form class="hsearch" role="search" action="${c.P}/guides/" onsubmit="return false">
-      <label class="vh" for="hq">${esc(c.t('search'))}</label>
-      <input id="hq" type="search" placeholder="${esc(c.t('searchHome'))}" data-search-input autocomplete="off">
-      <ul class="results" data-results data-empty="${esc(c.t('noMatches'))}" hidden></ul>
-    </form>
-    <dl class="stats">${stats.map(([n, l]) => `<div><dt>${esc(l)}</dt><dd>${n}</dd></div>`).join('')}</dl>
+<section class="xhero"${hasImg('hero') ? ` style="background-image:url(/assets/img/hero.webp)"` : ''}>
+  <div class="wrap xhero__in">
+    <div>
+      <h1>Every mission.<br>Every secret.<br><em>All of Leonida.</em></h1>
+      <p class="lede">${esc(c.t('siteDescription'))}</p>
+      <p class="xhero__cta">${list ? `<a class="btn" href="/missions/${list.slug}/">Open the mission list</a>` : ''}${mapGuide ? `<a class="btn btn--ghost" href="/map/${mapGuide.slug}/#interactive-map">Open the map</a>` : ''}</p>
+    </div>
+    ${first.length ? `<div class="hud" data-tracker>
+      <div class="hud__top"><h2>Your story progress</h2><span data-tracker-count></span></div>
+      <div class="bar"><i data-tracker-bar></i></div>
+      <ul class="hud__list">${first.map((s) => `<li><label><input type="checkbox" data-done="${s}"><span>${esc(missionName(s))}</span></label><a href="/missions/${s}/">Guide</a></li>`).join('')}</ul>
+      <p class="hud__note">Ticks are saved in this browser only.</p>
+    </div>` : ''}
   </div>
-  ${hasImg('hero') ? '' : '<div class="horizon" aria-hidden="true"></div>'}
 </section>
-${chapters.length ? `<section class="wrap chapters" aria-labelledby="ch-h">
-  <div class="sec-head"><h2 id="ch-h">${esc(c.t('chaptersH'))}</h2>${list ? `<a href="${c.P}/missions/${list.slug}/">${esc(c.t('fullList'))}</a>` : ''}</div>
-  <p class="sec-lede">${esc(c.t('chaptersLede'))}</p>
-  <ol class="chap">${chapters.map((ch) => { const first = bySlug.get(ch.have[0]); return `<li><a href="${c.P}/missions/${first.slug}/"><span class="chap__no">${ch.n ? ch.n : 'P'}</span><span class="chap__name">${esc(ch.n ? c.t('chapter', { n: ch.n }) : c.t('prologue'))}</span><span class="chap__count">${esc(c.t('countWalk', { n: ch.have.length }))}</span>${ch.n ? `<span class="chap__first">${esc(c.t('startsWith'))} <b>${esc(missionName(ch.have[0]))}</b></span>` : ''}</a></li>`; }).join('')}</ol>
+<section class="wrap block" aria-labelledby="cat-h">
+  <div class="sec-head"><h2 id="cat-h">Pick your path</h2></div>
+  <div class="cats">${cats.map(([k, t]) => `<a class="cat" href="/${k}/"${bg(catImg(k))}><span><b>${esc(c.secName(k))}</b><small>${esc(t)}</small></span></a>`).join('')}</div>
+</section>
+${chapters.length ? `<section class="wrap block" aria-labelledby="ch-h">
+  <div class="sec-head"><h2 id="ch-h">${esc(c.t('chaptersH'))}</h2>${list ? `<a href="/missions/${list.slug}/">${esc(c.t('fullList'))}</a>` : ''}</div>
+  <ol class="chap">${chapters.map((ch) => `<li><a href="/missions/${ch.have[0]}/"><span class="chap__no">${ch.n ? ch.n : 'P'}</span><span class="chap__name">${esc(ch.n ? c.t('chapter', { n: ch.n }) : c.t('prologue'))}</span><span class="chap__count">${esc(c.t('countWalk', { n: ch.have.length }))}</span></a></li>`).join('')}</ol>
 </section>` : ''}
-${top ? `<section class="wrap feature" aria-labelledby="ft-h">
-  <a class="feature__card" href="${c.P}/missions/${top.slug}/">${hasImg(top.image) ? img(top.image, 'feature__img') : ph(c, top)}<span class="feature__body"><span class="card__sec">${esc(c.t('newestWalk'))}</span><span class="feature__title" id="ft-h">${esc(top.title)}</span><span class="feature__desc">${esc(top.description)}</span><span class="card__meta">${esc(c.t('updated'))} ${c.fmtDate(top.updated)}</span></span></a>
-</section>` : ''}
-${walks.length > 1 ? `<section class="wrap more" aria-labelledby="walk-h"><div class="sec-head"><h2 id="walk-h">${esc(c.t('latestWalk'))}</h2><a href="${c.P}/missions/">${esc(c.sections.missions?.name || '')}</a></div><ul class="cards">${walks.slice(1, 7).map((g) => card(c, g)).join('')}</ul></section>` : ''}
-${featured.length ? `<section class="wrap more" aria-labelledby="feat-h"><h2 id="feat-h">${esc(c.t('startHere'))}</h2><ul class="cards cards--4">${featured.map((g) => card(c, g)).join('')}</ul></section>` : ''}
-${leads(c)}
-${mapGuide ? `<section class="wrap mapt" aria-labelledby="map-h"><a class="mapt__card" href="${c.P}/map/${mapGuide.slug}/#interactive-map">${hasImg(mapGuide.image) ? img(mapGuide.image, 'mapt__img') : ''}<span class="mapt__body"><span class="mapt__h" id="map-h">${esc(c.t('mapH'))}</span><span class="mapt__text">${esc(c.t('mapText'))}</span><span class="btn">${esc(c.t('mapBtn'))}</span></span></a></section>` : ''}
-${posts.length ? `<section class="wrap more" aria-labelledby="blog-h"><div class="sec-head"><h2 id="blog-h">${esc(c.t('blogH'))}</h2><a href="${c.P}/blog/">${esc(c.sections.blog?.name || '')}</a></div><ul class="cards cards--4">${posts.slice(0, 4).map((g) => card(c, g)).join('')}</ul></section>` : ''}
-<section class="wrap sections" aria-labelledby="sec-h">
-  <h2 id="sec-h">${esc(c.t('browse'))}</h2>
-  <ul class="topics">${Object.entries(c.sections).map(([k, s]) => `<li><a href="${c.P}/${k}/"><span>${esc(s.name)}</span><span class="topics__n">${c.guides.filter((g) => g.section === k).length}</span></a></li>`).join('')}<li><a class="topics--wiki" href="${c.P}/wiki/"><span>${esc(c.t('wikiNav'))}</span><span class="topics__n">${wikiEntries(c).length}</span></a></li></ul>
+${regions.length ? `<section class="wrap block" aria-labelledby="reg-h"><div class="sec-head"><h2 id="reg-h">Explore Leonida</h2>${mapGuide ? `<a href="/map/${mapGuide.slug}/">Full map</a>` : ''}</div>
+  <div class="regions">${regions.map(({ g, i }) => `<a class="reg" href="/${g.section}/${g.slug}/"><span class="reg__im"${bg(g.image || i)}></span><span class="reg__t"><b>${esc(topicName(g.title))}</b><small>${esc(g.description)}</small></span></a>`).join('')}</div></section>` : ''}
+<section class="wrap block" aria-labelledby="new-h">
+  <div class="sec-head"><h2 id="new-h">Latest guides</h2><a href="/guides/">${esc(c.t('allGuides'))}</a></div>
+  <div class="latest">${latest.map((g, i) => `<a class="lt${i ? '' : ' lt--big'}" href="/${g.section}/${g.slug}/"><span class="lt__im"${bg(g.image || secImg(g.section))}></span><span class="lt__t"><span class="card__sec">${esc(c.secName(g.section))}</span><b>${esc(g.title)}</b>${i ? '' : `<small>${esc(g.description)}</small>`}</span></a>`).join('')}</div>
+</section>
+<section class="wrap block trust" aria-label="How we check facts">
+  <div><b>Rockstar or two sources</b><span>A fact goes on the site only when Rockstar says it or two independent guides agree.</span></div>
+  <div><b>Dated updates</b><span>Every page shows when it was last checked.</span></div>
+  <div><b>No guesses</b><span>If something is not confirmed, the page says so.</span></div>
 </section>
 <div class="wrap">${faqHtml(c, faq)}</div>`;
   return layout(c, { title: '', description: c.t('siteDescription'), rel: '/', body, jsonLd: [itemList(c, c.t('latest'), c.guides.slice(0, 20)), faqSchema(faq)] });
@@ -481,7 +490,10 @@ fs.mkdirSync(DIST, { recursive: true });
 fs.cpSync(path.join(ROOT, 'assets'), path.join(DIST, 'assets'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'static'))) fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
 
-for (const r of REG) write(`${r.c.P}${r.rel}index.html`.slice(1), r.render());
+// Pages still in the archive are not published yet: links to them become plain text until they go live.
+const LIVE = new Set(REG.map((r) => r.c.P + r.rel));
+const unlinkMissing = (html) => html.replace(/<a href="(\/[^"#?]*\/)(#[^"]*)?"([^>]*)>([\s\S]*?)<\/a>/g, (m, p, h, rest, text) => (LIVE.has(p) || p.startsWith('/assets/') ? m : text));
+for (const r of REG) write(`${r.c.P}${r.rel}index.html`.slice(1), unlinkMissing(r.render()));
 const EN = CTX[0];
 write('404.html', layout(EN, { title: 'Page not found', description: 'This page does not exist.', rel: '/404.html', noindex: true, body: `<section class="wrap hero hero--small"><h1>Wasted. Page not found.</h1><p class="lede">The link may be old or mistyped.</p><p><a class="btn" href="/">Back to the guide</a></p></section>` }));
 
